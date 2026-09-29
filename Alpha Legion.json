@@ -1793,25 +1793,6 @@
                   {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
                   {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
                 ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [
-                      {
-                        "childId": "dcde-f920-b83e-9ccc",
-                        "childName": "Faction: Alpha Legion",
-                        "field": "selections",
-                        "includeChildSelections": true,
-                        "scope": "parent",
-                        "shared": true,
-                        "type": "notInstanceOf",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ],
                 "rules": [
                   {"name": "Headhunters", "id": "6c10-711f-3b34-38d6", "description": "**Headhunter Kill Teams** gain the **battleline** keyword and have +1 OC", "hidden": false},
                   {
