@@ -15,7 +15,8 @@
       {"name": "Headhunter Kill Team", "id": "60d5-3294-9e7a-f2ee", "hidden": false},
       {"name": "Lernaean Terminator Squad", "id": "b688-0efa-ca20-30cb", "hidden": false},
       {"name": "Effrit Disruption Cadre", "id": "5003-c06f-1a34-9aac", "hidden": false},
-      {"name": "Armillus Dynat", "id": "eb3c-a65a-f09b-9d88", "hidden": false}
+      {"name": "Armillus Dynat", "id": "eb3c-a65a-f09b-9d88", "hidden": false},
+      {"name": "Rewards of Trechery", "id": "a0b0-092b-bec2-ebab", "hidden": false}
     ],
     "entryLinks": [
       {"name": "Detachments", "id": "13d9-3116-9db6-4b70", "hidden": false, "import": true, "targetId": "520f-1f42-376d-e671", "type": "selectionEntry"},
@@ -360,7 +361,7 @@
             "conditions": [
               {
                 "childId": "aee8-0803-1986-868e",
-                "childName": "Headhunters Strike Force",
+                "childName": "aee8-0803-1986-868e",
                 "field": "selections",
                 "includeChildForces": true,
                 "includeChildSelections": true,
@@ -420,7 +421,7 @@
                 "conditions": [
                   {
                     "childId": "aee8-0803-1986-868e",
-                    "childName": "Headhunters Strike Force",
+                    "childName": "aee8-0803-1986-868e",
                     "field": "selections",
                     "includeChildForces": true,
                     "includeChildSelections": true,
@@ -1736,7 +1737,7 @@
             "id": "76c1-50ac-0fb4-ec0f",
             "defaultSelectionEntryId": "none",
             "hidden": false,
-            "constraints": [{"id": "b63c-329a-549e-6270", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": -1}],
+            "constraints": [{"id": "b63c-329a-549e-6270", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "modifiers": [
               {
                 "field": "b63c-329a-549e-6270",

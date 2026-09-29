@@ -875,6 +875,27 @@
               {"id": "0d7d-aa51-8a9f-6dad", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "28af-604a-e307-cfbb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
+            "modifiers": [
+              {
+                "affects": "profiles.Unit",
+                "field": "bef7-942a-1a23-59f8",
+                "type": "set",
+                "value": "2",
+                "conditions": [
+                  {
+                    "childId": "d268-ff67-3f5b-b053",
+                    "childName": "Terror Assault",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
             "profiles": [
               {
                 "name": "Headsman",
@@ -888,7 +909,7 @@
                   {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
                   {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
                 ]
               }
@@ -1081,6 +1102,27 @@
                   {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                   {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
+                ],
+                "modifiers": [
+                  {
+                    "affects": "profiles.Unit",
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "set",
+                    "value": "2",
+                    "conditions": [
+                      {
+                        "childId": "d268-ff67-3f5b-b053",
+                        "childName": "Terror Assault",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -1318,8 +1360,29 @@
                   {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
                   {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
+                ],
+                "modifiers": [
+                  {
+                    "affects": "profiles.Unit",
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "set",
+                    "value": "2",
+                    "conditions": [
+                      {
+                        "childId": "d268-ff67-3f5b-b053",
+                        "childName": "Terror Assault",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -1501,6 +1564,27 @@
                   {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                   {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
+                ],
+                "modifiers": [
+                  {
+                    "affects": "profiles.Unit",
+                    "field": "bef7-942a-1a23-59f8",
+                    "type": "set",
+                    "value": "2",
+                    "conditions": [
+                      {
+                        "childId": "d268-ff67-3f5b-b053",
+                        "childName": "Terror Assault",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -2045,7 +2129,7 @@
                   {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
                   {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
                 ]
               }
@@ -2374,7 +2458,7 @@
                   {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
                   {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
                 ]
               }
@@ -2619,6 +2703,42 @@
                 "name": "Description",
                 "$text": "When this unit **charges** an **enemy** unit already in **combat** with another **friendly** unit add 1 to the charge roll and if this roll is succsesful add 1 to the hit roll for all melee attacks for this unit till the end of the turn",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Atramentar Sqaud",
+            "id": "8b3f-5158-c5fb-6d92",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ],
+            "modifiers": [
+              {
+                "field": "bef7-942a-1a23-59f8",
+                "type": "set",
+                "value": "2",
+                "conditions": [
+                  {
+                    "childId": "0ff3-33c4-4130-3241",
+                    "childName": "Warlord",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -3300,10 +3420,7 @@
             "id": "d5f3-98c3-b4cf-d8ff",
             "defaultSelectionEntryId": "none",
             "hidden": false,
-            "constraints": [
-              {"id": "7441-7f8e-115c-7ff6", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "9627-0a83-8840-86da", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": -1}
-            ],
+            "constraints": [{"id": "7441-7f8e-115c-7ff6", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}],
             "modifiers": [
               {
                 "field": "9627-0a83-8840-86da",
@@ -3370,6 +3487,14 @@
                   {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
                   {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
                   {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "rules": [
+                  {
+                    "name": "Bringers of Fear",
+                    "id": "2fcb-dd25-e856-444e",
+                    "description": "**Terror Squad** and **Night Raptor Squad** become **Battleline** and have +1OC",
+                    "hidden": false
+                  }
                 ]
               }
             ]
