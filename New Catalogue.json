@@ -13,7 +13,7 @@
       {"name": "Sergeant", "id": "f1a8-571b-d911-a27e", "hidden": false},
       {"name": "Faction: Night Lord", "id": "c0af-3523-840b-f9cb", "hidden": false},
       {"name": "Faction: Alpha Legion", "id": "dcde-f920-b83e-9ccc", "hidden": false},
-      {"name": "Space Marine", "id": "4239-35c8-54b8-1a2a", "hidden": false}
+      {"name": "Faction: Raven Gaurd", "id": "ea64-2a3a-fde7-1719", "hidden": false}
     ],
     "entryLinks": [
       {"name": "Centurion", "id": "eb5a-8dfb-515c-9685", "hidden": false, "import": true, "targetId": "65ba-5904-7336-a2f6", "type": "selectionEntry"},
@@ -59,6 +59,50 @@
             "typeId": "9b8f-694b-e5e-b573"
           }
         ]
+      },
+      {
+        "name": "Primarchs Will",
+        "id": "6ee0-7137-d786-0782",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "This model has a **[Feel No Pain 3+]** against **[Psychic]** and **Mortal Wounds**", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Talon",
+        "id": "c05b-55c5-77f2-04d2",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "Models with this keyword gain **[Infiltrators]** keyword and have a **[Feel No Pain 6+]** against shooting attacks that are from more then 9\" away.",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "Falcons",
+        "id": "fa9a-5992-7c7e-d29d",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "Models with this keyword can re-roll **wound** rolls of 1 in the turn the charge", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Hawks",
+        "id": "e1d4-987c-467b-3434",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "Models with this keyword gain **[Feel No Pain 6+]** when they make an **advance** or if they already have a **[Feel No Pain]** add 1 to the roll to a minimum of 4+",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
       }
     ],
     "sharedRules": [
@@ -86,6 +130,12 @@
         "name": "A talent for Murder",
         "id": "32ae-df4e-2e60-4664",
         "description": "When making an attack in the **fight** or **shooting** phase if the target is battle-shocked or this unit outnumbers them add 1 to the wound roll. **Terminators** and **Jump Pack** units count as 1 more to determine if a unit is outnumbered. **Vehicles** count as their maximum wounds ",
+        "hidden": false
+      },
+      {
+        "name": "Shadow and Fury",
+        "id": "c74c-682e-0895-b02c",
+        "description": "Units gain a keyword based on certian keywords they have\n- **Talons**: **Infantry** units that do not have **Terminator**, **Jump Pack** gain this keyword\n- **Falcons**: **Infnatry** units that do not qualifiy for the **Talons** keyword or **dreadnought** units\n- **Hawks**: **Mounted** or **vehicles** with the **Fly** and **Flyer** keyword or **Monsters** with the **Fly** and **Jump Pack** keyword",
         "hidden": false
       }
     ],
@@ -442,6 +492,34 @@
                 "targetId": "5cd5-8e6f-b602-b5c4",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "increment", "value": 10}]
+              },
+              {
+                "name": "Banstrike Shotgun",
+                "id": "78d7-5b14-5a49-c2c4",
+                "hidden": false,
+                "import": true,
+                "targetId": "e796-5b73-9422-1986",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "dcde-f920-b83e-9ccc",
+                        "childName": "Faction: Alpha Legion",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {"field": "51b2-306e-1021-d207", "type": "set", "value": 7}
+                ]
               }
             ]
           }
@@ -2641,6 +2719,103 @@
               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Devastating Wounds, Rapid Fire 2", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "id": "9945-6b41-a815-e154",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Close-quarters", "id": "534f-1199-6856-4ed5", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Bolt Pistol",
+            "id": "6805-fc81-faee-d6e0",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Close-Quarters", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Missile Laucher",
+        "id": "4281-d0d4-5c09-7c5c",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Blast", "id": "1c76-d070-e934-89f0", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "➤ Missile Laucher - Krak",
+            "id": "0144-cf79-bc30-200a",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "➤ Missile Laucher - Frag",
+            "id": "054b-74cc-32a6-1437",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 1", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Twin Raven's Talons",
+        "id": "b172-12d3-84cc-9b5d",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Lethal Hits", "id": "b45f-7519-0900-99a0", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
+          {"name": "Twin-linked", "id": "27c0-4721-ff24-6a81", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Twin Raven's Talons",
+            "id": "50c0-11ba-9e9c-d09f",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "4", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "Lethal Hits, Twin-Linked", "typeId": "893f-9000-ccf7-648e"}
             ]
           }
         ]

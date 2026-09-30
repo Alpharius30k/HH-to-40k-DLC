@@ -165,7 +165,7 @@
         ],
         "infoLinks": [
           {"name": "Lies and Obfuscation", "id": "a4bf-2ac2-80b3-f9fd", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"},
-          {"name": "Primarchs Will", "id": "fbb7-df39-0c15-cf75", "hidden": false, "targetId": "9040-343e-e240-c3ac", "type": "rule"}
+          {"name": "Primarchs Will", "id": "bf6a-eb92-26b0-27d0", "hidden": false, "targetId": "6ee0-7137-d786-0782", "type": "profile"}
         ],
         "profiles": [
           {
