@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 22,
+    "revision": 23,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [{"name": "Unaligned Forces", "id": "2660-21-2feb-f1c5", "importRootEntries": true, "targetId": "581a-46b9-5b86-44b7", "type": "catalogue"}],
@@ -1806,7 +1806,7 @@
       {
         "name": "Relentless Onslaught",
         "id": "1dfc-5377-99ac-a700",
-        "description": "Each time a NECRONS model from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability.",
+        "description": "Each time a NECRONS model (excluding MONSTER models) from your army makes an attack that targets a unit within range of one or more objective markers, add 1 to the Hit roll. In addition, ranged weapons equipped by NECRONS VEHICLE and NECRONS MOUNTED models (excluding TITANIC models) from your army have the [ASSAULT] ability.",
         "hidden": false
       },
       {
@@ -4490,6 +4490,33 @@
               {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "2229-f494-25db-c5d3", "type": "increment", "value": 2},
               {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "type": "increment", "value": 2}
             ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
+            ]
           }
         ],
         "profiles": [
@@ -5392,6 +5419,33 @@
             "modifiers": [
               {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "2229-f494-25db-c5d3", "type": "increment", "value": 2},
               {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "type": "increment", "value": 2}
+            ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
             ]
           }
         ],
@@ -9370,6 +9424,33 @@
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
             ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
+            ]
           }
         ],
         "profiles": [
@@ -11859,6 +11940,33 @@
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
             ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
+            ]
           }
         ],
         "modifiers": [
@@ -13495,6 +13603,33 @@
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
             ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
+            ]
           }
         ],
         "modifiers": [
@@ -14598,6 +14733,33 @@
                 "value": "(Legendary)",
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
+            ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
             ]
           }
         ],
@@ -16117,6 +16279,33 @@
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
             ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
+            ]
           }
         ],
         "profiles": [
@@ -16482,6 +16671,33 @@
                 "value": "(Legendary)",
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
+            ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
             ]
           }
         ],
@@ -16930,6 +17146,33 @@
               {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "2229-f494-25db-c5d3", "type": "increment", "value": 2},
               {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "type": "increment", "value": 2}
             ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
+            ]
           }
         ],
         "modifiers": [
@@ -17374,6 +17617,33 @@
             "modifiers": [
               {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "2229-f494-25db-c5d3", "type": "increment", "value": 2},
               {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "type": "increment", "value": 2}
+            ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
             ]
           }
         ],
@@ -17832,6 +18102,33 @@
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
             ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
+            ]
           }
         ],
         "profiles": [
@@ -18190,6 +18487,33 @@
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
             ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
+            ]
           }
         ],
         "profiles": [
@@ -18483,6 +18807,33 @@
                 "value": "(Legendary)",
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
+            ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
             ]
           }
         ],
@@ -18797,6 +19148,33 @@
                 "value": "(Legendary)",
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
+            ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
             ]
           }
         ],
@@ -20382,6 +20760,35 @@
         "infoLinks": [
           {"name": "Detachment Rules", "id": "dc4e-dd7a-33cf-a1c2", "hidden": false, "targetId": "4ee-d749-4ddc-323d", "type": "infoGroup"},
           {"name": "Reanimation Protocols", "id": "fbd0-1de0-3066-5d83", "hidden": false, "targetId": "a511-d9ca-17d0-42c5", "type": "rule"}
+        ],
+        "modifierGroups": [
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
+            ]
+          }
         ],
         "profiles": [
           {
@@ -21978,6 +22385,33 @@
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
             ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
+            ]
           }
         ],
         "modifiers": [
@@ -23296,6 +23730,33 @@
                 "value": "(Legendary)",
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
+            ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
             ]
           }
         ],
@@ -26737,6 +27198,33 @@
                 "value": "(Legendary)",
                 "conditions": [{"childId": "2dbf-4d49-5d74-85c9", "field": "selections", "includeChildSelections": true, "scope": "self", "shared": true, "type": "greaterThan", "value": 50}]
               }
+            ]
+          },
+          {
+            "comment": "Starshatter Arsenal Assault",
+            "type": "and",
+            "conditions": [
+              {
+                "childId": "e0fd-c955-4822-6dba",
+                "childName": "Starshatter Arsenal",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "skipIfPresent": "Assault",
+                "type": "append",
+                "value": "Assault"
+              },
+              {"field": "add-info", "type": "add", "value": "fc8a-8c24-bae9-cc1c"}
             ]
           }
         ],
