@@ -9,7 +9,11 @@
     "library": false,
     "revision": 1,
     "type": "catalogue",
-    "catalogueLinks": [{"name": "Space Marines - Heresy", "id": "8e94-c7c8-0760-33e0", "importRootEntries": false, "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"}],
+    "catalogueLinks": [
+      {"name": "Space Marines - Heresy", "id": "8e94-c7c8-0760-33e0", "importRootEntries": false, "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
+      {"name": "Space Marines - Armoury", "id": "9b75-9b23-19f1-92dc", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
+      {"name": "Space Marines - Wargear", "id": "374c-4e72-6358-a3a8", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"}
+    ],
     "categoryEntries": [
       {"name": "Alpharius", "id": "4733-78ca-9202-8927", "hidden": false},
       {"name": "Headhunter Kill Team", "id": "60d5-3294-9e7a-f2ee", "hidden": false},
@@ -19,7 +23,7 @@
       {"name": "Rewards of Trechery", "id": "a0b0-092b-bec2-ebab", "hidden": false}
     ],
     "entryLinks": [
-      {"name": "Detachments", "id": "13d9-3116-9db6-4b70", "hidden": false, "import": true, "targetId": "520f-1f42-376d-e671", "type": "selectionEntry"},
+      {"name": "Detachment", "id": "13d9-3116-9db6-4b70", "hidden": false, "import": true, "targetId": "520f-1f42-376d-e671", "type": "selectionEntry"},
       {"name": "Alpharius", "id": "3b38-c348-7135-0be5", "hidden": false, "import": true, "targetId": "8799-1d37-5def-3609", "type": "selectionEntry"},
       {"name": "Headhunter Kill Team", "id": "d0cf-46c0-801b-74a4", "hidden": false, "import": true, "targetId": "3a6b-33ad-7cbc-6cdb", "type": "selectionEntry"},
       {"name": "Lernaean Terminator Squad", "id": "cd49-3893-5a4a-d6d1", "hidden": false, "import": true, "targetId": "2e75-f94b-3bc8-e85d", "type": "selectionEntry"},
@@ -27,7 +31,7 @@
       {"name": "Exodus", "id": "2fcc-50f7-cd13-925e", "hidden": false, "import": true, "targetId": "aa30-8ab6-7738-55a1", "type": "selectionEntry"},
       {"name": "Armillus Dynat", "id": "a5fe-a551-3212-c3ab", "hidden": false, "import": true, "targetId": "654d-a2d6-548d-c466", "type": "selectionEntry"},
       {
-        "name": "Centurion",
+        "name": "Legion Centurion",
         "id": "fd2c-9da5-43cc-42ad",
         "hidden": false,
         "import": true,
@@ -65,7 +69,7 @@
         ]
       },
       {
-        "name": "Preator",
+        "name": "Legion Preator",
         "id": "e16b-d700-dc0f-4e0e",
         "hidden": false,
         "import": true,
@@ -102,7 +106,6 @@
           }
         ]
       },
-      {"name": "Damocles Command Rhino", "id": "686f-c83e-da0d-8d36", "hidden": false, "import": true, "targetId": "9147-0f1b-b248-9539", "type": "selectionEntry"},
       {
         "name": "Legion Command Squad",
         "id": "d0ec-9a50-1764-3f98",
@@ -111,8 +114,69 @@
         "targetId": "b386-7174-570a-a6b6",
         "type": "selectionEntry",
         "infoLinks": [{"name": "Lies and Obfuscation", "id": "a3e4-fa7c-740c-133e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      }
+      },
+      {"name": "Loyalty", "id": "acda-d026-881a-948a", "hidden": false, "import": true, "targetId": "dd2b-a708-c711-7087", "type": "selectionEntry"},
+      {"name": "Legion Saturnine Preator", "id": "31ee-9f30-c853-dd13", "hidden": false, "import": true, "targetId": "9d32-1ad2-3301-76cd", "type": "selectionEntry"},
+      {
+        "name": "Legion Saturnine Centurion",
+        "id": "55e7-0297-74e7-321c",
+        "hidden": false,
+        "import": true,
+        "targetId": "c239-abbb-48ff-e8e2",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Saturnine Command Squad",
+        "id": "ad98-527f-ce8a-d4ed",
+        "hidden": false,
+        "import": true,
+        "targetId": "499e-c79e-011e-6115",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "0510-0e1a-12e8-f1b6",
+        "hidden": false,
+        "import": true,
+        "targetId": "9903-8b2d-6814-7a93",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphracii Command Squad",
+        "id": "db97-a79a-7c01-65d1",
+        "hidden": false,
+        "import": true,
+        "targetId": "9588-ea3b-4571-5acb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Praetor",
+        "id": "10a6-25c5-69b9-84fb",
+        "hidden": false,
+        "import": true,
+        "targetId": "d247-8655-32ae-7b69",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Damocles Command Rhino",
+        "id": "07eb-de26-a15b-d59c",
+        "hidden": false,
+        "import": true,
+        "targetId": "8e69-e87f-ba11-bdbe",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Tartaros Centurion", "id": "78b1-45d1-3bbf-92ca", "hidden": false, "import": true, "targetId": "b15e-5478-d08d-62de", "type": "selectionEntry"},
+      {
+        "name": "Legion Tartaros Command Squad",
+        "id": "eaae-7176-7dbd-a99d",
+        "hidden": false,
+        "import": true,
+        "targetId": "ff31-ab04-18ca-ab55",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Tartaros Praetor", "id": "10e9-3a9f-a5ec-810d", "hidden": false, "import": true, "targetId": "553e-e286-f83a-bd7b", "type": "selectionEntry"}
     ],
+    "sharedRules": [{"name": "Lies and Obfuscation", "id": "dd7d-c41a-6793-cbc4", "hidden": false}],
     "sharedSelectionEntries": [
       {
         "name": "Alpharius",
@@ -1701,7 +1765,7 @@
         ]
       },
       {
-        "name": "Detachments",
+        "name": "Detachment",
         "id": "520f-1f42-376d-e671",
         "hidden": false,
         "import": true,

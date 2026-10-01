@@ -1,0 +1,151 @@
+{
+  "catalogue": {
+    "name": "Space Marines - Wargear",
+    "id": "d0df-845e-0dd2-a443",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 14,
+    "library": true,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "New Catalogue (link)", "id": "876d-05a8-5bfa-eba9", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"}],
+    "sharedProfiles": [
+      {
+        "name": "Legion Standard",
+        "id": "370f-cc9d-95f8-8975",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "Improve this units OC by 1 while a **Name** is in the unit", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Hammer of Wraith",
+        "id": "facf-8502-db26-947c",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "After this unit has charged select 1 enemy unit withing engagment range of this unit. Roll a dice for each model in this unit with this ability. On each 4+ the selected unit suffers 1 mortal wound",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Dozer Blade",
+        "id": "90e2-40b5-db20-d88b",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Dozer Blade",
+            "id": "82ae-672a-93b5-f99f",
+            "hidden": true,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "Improve the number, WS, strength and AP of the attack by 2,1,2,1,1", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Vox disruptor array",
+        "id": "d1e2-9296-ff0b-f148",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Vox disruptor array",
+            "id": "6395-0330-3dad-e454",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "No enemy unit can **deep strike** withing 12\" of this unit", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Saturnine Teleportaion Synchroniser",
+        "id": "40bb-3d84-0c35-02ca",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Deep Strike", "id": "08c0-e6a4-f103-cd7c", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}]
+      },
+      {
+        "name": "Legion Standard",
+        "id": "1fbe-6e81-f477-afdb",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Legion Standard",
+            "id": "1a39-0ad8-aed7-a400",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "Improve this units OC by 1", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Geo-locator beacon",
+        "id": "342e-2cbe-cd7f-2c28",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Geo-locator beacon",
+            "id": "e4b9-b7d5-5379-e9ae",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "Models can **deep strike** withing 5\" of enemy unit if its withing 6\" of this model.", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Command vox relay",
+        "id": "2846-7087-3388-69c2",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Command vox relay",
+            "id": "fffe-a084-3a05-5331",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Models withing 12\" and line of sight of this model can use this models leadership for any leadership rolls.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warhawk Jump-Pack",
+        "id": "e0f5-e803-9df7-0ae7",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Hammer of Wraith", "id": "51a5-304d-328d-0fc4", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}],
+        "modifiers": [
+          {"affects": "profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "12\""},
+          {"field": "category", "scope": "parent", "type": "add", "value": "dda2-bb0a-215e-ad9c"},
+          {"field": "category", "scope": "parent", "type": "add", "value": "c619-2086-bbcf-69c9"}
+        ]
+      }
+    ]
+  }
+}
