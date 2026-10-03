@@ -75376,10 +75376,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "Covens", "id": "cee8-5cbb-d214-7d64", "hidden": false, "primary": false, "targetId": "521c-d2f5-c741-8b85"},
-              {"name": "Take and Hold", "id": "3de9-bb94-bdfa-a941", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}
-            ],
+            "categoryLinks": [{"name": "Take and Hold", "id": "3de9-bb94-bdfa-a941", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}],
             "constraints": [{"id": "86d7-cb42-d494-2c50", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -75415,10 +75412,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "Disruption", "id": "096b-6950-a82e-4eb4", "hidden": false, "primary": false, "targetId": "ecf8-cf72-7d5b-1b5b"},
-              {"name": "Kabal", "id": "6137-ef5b-c2c3-3f16", "hidden": false, "primary": false, "targetId": "c763-27e6-ad18-7bfd"}
-            ],
+            "categoryLinks": [{"name": "Disruption", "id": "096b-6950-a82e-4eb4", "hidden": false, "primary": false, "targetId": "ecf8-cf72-7d5b-1b5b"}],
             "constraints": [{"id": "2465-6d9d-2b60-ccdc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -75454,10 +75448,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "Wych Cult", "id": "e573-4546-fa68-c6ec", "hidden": false, "primary": false, "targetId": "470c-4bee-f2f5-5e66"},
-              {"name": "Purge the Foe", "id": "6216-db64-41ce-26af", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"}
-            ],
+            "categoryLinks": [{"name": "Purge the Foe", "id": "6216-db64-41ce-26af", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"}],
             "constraints": [{"id": "a515-e3bf-70e8-febd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -75722,10 +75713,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "Wych Cult", "id": "e44f-a7e1-018d-4599", "hidden": false, "primary": false, "targetId": "470c-4bee-f2f5-5e66"},
-              {"name": "Reconnaissance", "id": "6112-96cb-deca-3df3", "hidden": false, "primary": false, "targetId": "b4a7-5083-fe94-4d24"}
-            ],
+            "categoryLinks": [{"name": "Reconnaissance", "id": "6112-96cb-deca-3df3", "hidden": false, "primary": false, "targetId": "b4a7-5083-fe94-4d24"}],
             "constraints": [{"id": "40cb-25d9-1b12-69e3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -75761,10 +75749,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "Kabal", "id": "bb3c-e270-e309-a97b", "hidden": false, "primary": false, "targetId": "c763-27e6-ad18-7bfd"},
-              {"name": "Disruption", "id": "25b4-704e-7ca4-0c62", "hidden": false, "primary": false, "targetId": "ecf8-cf72-7d5b-1b5b"}
-            ],
+            "categoryLinks": [{"name": "Disruption", "id": "25b4-704e-7ca4-0c62", "hidden": false, "primary": false, "targetId": "ecf8-cf72-7d5b-1b5b"}],
             "constraints": [{"id": "91a8-3a9e-0c19-7db6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -75800,10 +75785,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "Covens", "id": "98af-2c06-4557-73c1", "hidden": false, "primary": false, "targetId": "521c-d2f5-c741-8b85"},
-              {"name": "Take and Hold", "id": "c3c7-2a3d-cdc8-6dff", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}
-            ],
+            "categoryLinks": [{"name": "Take and Hold", "id": "c3c7-2a3d-cdc8-6dff", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}],
             "constraints": [{"id": "8be4-8f38-7863-df12", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
