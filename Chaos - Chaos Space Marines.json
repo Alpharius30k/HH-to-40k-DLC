@@ -7527,7 +7527,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "472c-a29d-a487-e02a", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
             "constraints": [
               {
                 "id": "42bb-c79-2737-ba0e",
@@ -9680,7 +9679,6 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "4caa-9942-63ce-bf28", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
                 "constraints": [
                   {
                     "id": "cdc8-fbbf-f599-7255",
@@ -10074,7 +10072,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "10de-4e7c-b41c-2931", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
             "constraints": [
               {
                 "id": "6bdc-2280-1306-2a8d",
@@ -14222,10 +14219,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Melee Weapon", "id": "d408-736c-0596-2ef2", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-                  {"name": "Extra Attacks Weapon", "id": "a095-f5a4-9ff9-4c53", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-                ],
+                "categoryLinks": [{"name": "Melee Weapon", "id": "d408-736c-0596-2ef2", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                 "constraints": [
                   {
                     "id": "8e1d-2327-2d6b-7875",
@@ -14535,10 +14529,7 @@
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
-                    "categoryLinks": [
-                      {"name": "Melee Weapon", "id": "cc39-462e-d62f-c667", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-                      {"name": "Extra Attacks Weapon", "id": "5394-e8c8-5688-73e0", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-                    ],
+                    "categoryLinks": [{"name": "Melee Weapon", "id": "cc39-462e-d62f-c667", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                     "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
                     "infoLinks": [
                       {"name": "Extra Attacks", "id": "4585-7090-90aa-6f87", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"},
@@ -45511,10 +45502,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Melee Weapon", "id": "7a80-8ffe-089f-ab1c", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-                  {"name": "Extra Attacks Weapon", "id": "d036-c87a-0ff1-58b7", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-                ],
+                "categoryLinks": [{"name": "Melee Weapon", "id": "7a80-8ffe-089f-ab1c", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                 "constraints": [
                   {"id": "a9e6-1b7a-2d36-f42b", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "a04e-d151-d589-ca57", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -46276,10 +46264,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Melee Weapon", "id": "a289-bde4-f07f-98d0", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-                  {"name": "Extra Attacks Weapon", "id": "bb52-7d0f-105e-690b", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-                ],
+                "categoryLinks": [{"name": "Melee Weapon", "id": "a289-bde4-f07f-98d0", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                 "constraints": [
                   {"id": "9621-6b30-7197-6ee8", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "352d-eaeb-8e47-44ff", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -48101,10 +48086,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Melee Weapon", "id": "728c-f68d-ca50-5992", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-                  {"name": "Extra Attacks Weapon", "id": "8a0d-cc50-aaa4-86b8", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-                ],
+                "categoryLinks": [{"name": "Melee Weapon", "id": "728c-f68d-ca50-5992", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                 "constraints": [
                   {"id": "8848-a662-a7eb-89ca", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "a531-50ea-1af6-aa51", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -49103,10 +49085,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Melee Weapon", "id": "d591-f106-04d1-0a59", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-                  {"name": "Extra Attacks Weapon", "id": "7252-2e66-06a5-c3d2", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-                ],
+                "categoryLinks": [{"name": "Melee Weapon", "id": "d591-f106-04d1-0a59", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                 "constraints": [
                   {"id": "737b-77fb-825e-e6e5", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "c29f-f386-1838-3362", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -50155,10 +50134,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Melee Weapon", "id": "a42d-aa81-d507-e609", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-                  {"name": "Extra Attacks Weapon", "id": "8022-a5d0-0e1a-dfe1", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-                ],
+                "categoryLinks": [{"name": "Melee Weapon", "id": "a42d-aa81-d507-e609", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                 "constraints": [
                   {"id": "33ec-d1cc-52cc-573b", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "1663-8eb3-1d78-5b17", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -67357,7 +67333,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "049e-4dc3-071d-a680", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
         "constraints": [
           {"id": "e316-80a9-c27f-5a5f", "field": "selections", "includeChildSelections": true, "scope": "29f9-fc47-787e-d9d3", "shared": true, "type": "max", "value": 1}
         ],
@@ -78271,10 +78246,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Extra Attacks Weapon", "id": "0a5e-f546-2a32-f37e", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"},
-                  {"name": "Melee Weapon", "id": "1d4d-b758-76a2-d603", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}
-                ],
+                "categoryLinks": [{"name": "Melee Weapon", "id": "1d4d-b758-76a2-d603", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                 "constraints": [{"id": "16aa-1ed0-4329-b40c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
                 "infoLinks": [{"name": "Extra Attacks", "id": "49a8-ccec-24fc-fcdb", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}],
                 "modifiers": [
@@ -78732,10 +78704,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Extra Attacks Weapon", "id": "6b7f-5a0a-2a7e-8348", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"},
-                  {"name": "Melee Weapon", "id": "0fa3-f806-6289-8e49", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}
-                ],
+                "categoryLinks": [{"name": "Melee Weapon", "id": "0fa3-f806-6289-8e49", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                 "constraints": [{"id": "223f-ae82-6b85-d839", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
                 "infoLinks": [
                   {"name": "Extra Attacks", "id": "718a-527e-7756-66b3", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"},

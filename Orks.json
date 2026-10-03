@@ -10491,7 +10491,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "89f1-a199-9b22-df3a", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
         "profiles": [
           {
             "name": "Butcha Boyz",
@@ -10517,7 +10516,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "768d-578d-0305-98e8", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
         "profiles": [
           {
             "name": "Savage Horns and Hooves",
@@ -17559,10 +17557,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Melee Weapon", "id": "1c96-d2ca-3f98-d698", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-                  {"name": "Extra Attacks Weapon", "id": "f691-63ce-8b66-fad2", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-                ],
+                "categoryLinks": [{"name": "Melee Weapon", "id": "1c96-d2ca-3f98-d698", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                 "constraints": [
                   {"id": "4c82-e811-aa57-9363", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "85e5-8edd-13fb-4e6e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -26585,10 +26580,7 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {"name": "Melee Weapon", "id": "f234-79a9-fb76-d01c", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-          {"name": "Extra Attacks Weapon", "id": "3ed7-69a8-bf25-f70f", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-        ],
+        "categoryLinks": [{"name": "Melee Weapon", "id": "f234-79a9-fb76-d01c", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
         "profiles": [
           {
             "name": "’Urty syringe",
@@ -27945,10 +27937,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Extra Attacks Weapon", "id": "a9d8-e1a4-48c9-6ecc", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"},
-                  {"name": "Damage Dx Weapon", "id": "0d12-d7f9-727f-535c", "hidden": false, "primary": false, "targetId": "4986-bf86-beb4-13ac"}
-                ],
+                "categoryLinks": [{"name": "Damage Dx Weapon", "id": "0d12-d7f9-727f-535c", "hidden": false, "primary": false, "targetId": "4986-bf86-beb4-13ac"}],
                 "constraints": [{"id": "3020-2ff-5ea2-83f4", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "entryLinks": [
                   {"name": "Weapon Modifications", "id": "fb76-c6a3-2130-8f8d", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
@@ -29317,7 +29306,6 @@
                     "type": "lessThan",
                     "value": 1
                   },
-                  {"childId": "84c4-6d1e-e724-bd6e", "field": "selections", "scope": "upgrade", "shared": true, "type": "instanceOf", "value": 1},
                   {"childId": "ccdd-3987-11ed-90cd", "field": "selections", "scope": "upgrade", "shared": true, "type": "notInstanceOf", "value": 1},
                   {"childId": "71a3-fa79-fc49-ad9e", "field": "selections", "scope": "upgrade", "shared": true, "type": "atLeast", "value": 1},
                   {"childId": "f9da-852a-d7f0-92e9", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
@@ -31862,10 +31850,7 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {"name": "Melee Weapon", "id": "0992-31c6-c176-8b8b", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-          {"name": "Extra Attacks Weapon", "id": "2e0f-8841-c7f7-4c1d", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-        ],
+        "categoryLinks": [{"name": "Melee Weapon", "id": "0992-31c6-c176-8b8b", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
         "infoLinks": [{"name": "Extra Attacks", "id": "273c-3e5f-2685-a74f", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}],
         "profiles": [
           {
@@ -31893,10 +31878,7 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {"name": "Extra Attacks Weapon", "id": "ade1-f1ba-1327-3c09", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"},
-          {"name": "Melee Weapon", "id": "0317-8c81-2f11-acbe", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}
-        ],
+        "categoryLinks": [{"name": "Melee Weapon", "id": "0317-8c81-2f11-acbe", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
         "profiles": [
           {
             "name": "Squig Jaws",
@@ -36506,7 +36488,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "b029-e3c9-4d8e-2216", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
         "profiles": [
           {
             "name": "Grabbin' Klaw",
@@ -36532,10 +36513,7 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {"name": "Extra Attacks Weapon", "id": "eb05-d9c8-843a-b4d1", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"},
-          {"name": "Damage Dx Weapon", "id": "bdf5-0207-f987-fec8", "hidden": false, "primary": false, "targetId": "4986-bf86-beb4-13ac"}
-        ],
+        "categoryLinks": [{"name": "Damage Dx Weapon", "id": "bdf5-0207-f987-fec8", "hidden": false, "primary": false, "targetId": "4986-bf86-beb4-13ac"}],
         "profiles": [
           {
             "name": "Wreckin' Ball",
@@ -43511,10 +43489,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Extra Attacks Weapon", "id": "dd1b-1cb9-47f7-1db3", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"},
-                  {"name": "Melee Weapon", "id": "0ae6-b0a9-f415-e6d3", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}
-                ],
+                "categoryLinks": [{"name": "Melee Weapon", "id": "0ae6-b0a9-f415-e6d3", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                 "constraints": [
                   {"id": "3b2b-1b6c-5e4a-26eb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "6af7-a8d8-8e26-7499", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
