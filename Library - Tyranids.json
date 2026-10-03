@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 77,
     "library": true,
-    "revision": 4,
+    "revision": 5,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "categoryEntries": [
@@ -17602,10 +17602,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "Purestrain", "id": "4bf1-c5d2-9fb1-bc85", "hidden": false, "primary": false, "targetId": "a552-36b4-181a-b833"},
-              {"name": "Take and Hold", "id": "b8c7-3a79-436f-706e", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}
-            ],
+            "categoryLinks": [{"name": "Take and Hold", "id": "b8c7-3a79-436f-706e", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}],
             "constraints": [{"id": "f8fc-3a62-a642-e77c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -17878,10 +17875,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "Purestrain", "id": "871e-63d8-6f0e-b979", "hidden": false, "primary": false, "targetId": "a552-36b4-181a-b833"},
-              {"name": "Priority Assets", "id": "cb56-67ed-9933-6a80", "hidden": false, "primary": false, "targetId": "0936-9767-1cc7-52ae"}
-            ],
+            "categoryLinks": [{"name": "Priority Assets", "id": "cb56-67ed-9933-6a80", "hidden": false, "primary": false, "targetId": "0936-9767-1cc7-52ae"}],
             "constraints": [{"id": "8f9b-2111-6a83-6744", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
