@@ -180,6 +180,34 @@
           {"field": "category", "type": "add", "value": "dda2-bb0a-215e-ad9c"},
           {"field": "category", "type": "add", "value": "c619-2086-bbcf-69c9"}
         ]
+      },
+      {
+        "name": "Cortex Contoller",
+        "id": "03dc-7b6a-a279-b913",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Cortex Contoller",
+            "id": "6ae7-13d7-59b6-255e",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "**Walker** units withing 12\" ignore modifiers to their leadership rolls.", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Cyber-Familiar",
+        "id": "2fc4-d1ba-6753-9dc5",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "modifiers": [
+          {"affects": "profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "decrement", "value": 1},
+          {"affects": "profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "floor", "value": "3"}
+        ]
       }
     ]
   }

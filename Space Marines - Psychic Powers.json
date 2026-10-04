@@ -55,12 +55,18 @@
             ]
           },
           {
-            "name": "Breach in the Veil",
+            "name": "Breach in the Veil (Psychic Level 1)",
             "id": "b7ad-a516-acab-efb7",
             "hidden": false,
             "typeId": "7e03-38c2-7fea-e955",
             "typeName": "Psychic Abilities",
-            "characteristics": [{"name": "Descriptions", "$text": "In your command phase if this model is not **battle-shocked**", "typeId": "1917-301f-5d49-2f76"}],
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your command phase if this model is not **battle-shocked** you can make a **psychic roll* on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else select 1 location withing 18\" of this model but 3\" from all enemy units then roll 1D6+1D3:\n  - 2: This model suffers D3 **Psychic Mortal Wounds**\n  - 3: Summon a unit of 3 **Nurgling Swarms**\n  - 4: Summon a unit of 5 **fleshhounds**\n  - 5: Summon a unit of 10 **Pink Horrors**\n  - 6: Summon a unit of 10 **Deamonetts**\n  - 7: Summon a unit of 10 **Plaugebearers**\n  - 8: Summon a unit of 10 **Bloodletters**\n  - 9: Summon a unit of 3 **Flamers of Tzeench**\n  The all **summoned** models must be 3\" away from all enemy units. In addition they suffer 1 mortal wound at the start of each turn starting at the start of your next turn.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ],
             "modifiers": [
               {
                 "field": "hidden",
@@ -83,12 +89,18 @@
             ]
           },
           {
-            "name": "Veil",
+            "name": "Seil the Veil (Psychic Level 1)",
             "id": "b682-cbe5-8b92-6464",
             "hidden": false,
             "typeId": "7e03-38c2-7fea-e955",
             "typeName": "Psychic Abilities",
-            "characteristics": [{"name": "Descriptions", "$text": "In your command phase if this model is not **battle-shocked**", "typeId": "1917-301f-5d49-2f76"}],
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your command phase if this model is not **battle-shocked** you can select 1 **enemy** unit with the **Daemonic** and/or **corrupt** keywords. You can reduce the **selected** units **toughness** and **strength** on its **melee** weapons by 1 or take a **psychic roll** on 1D6.\n:\n- On a 1: This unit is **battle-shocked**\n- Else: The **selected** unit is **battle-shocked** and has -1 to its **toughness** and **strength** on its **melee** weapons",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ],
             "modifiers": [
               {
                 "field": "hidden",
