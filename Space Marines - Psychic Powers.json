@@ -1,0 +1,117 @@
+{
+  "catalogue": {
+    "name": "Space Marines - Psychic Powers",
+    "id": "3466-8bfe-9885-435d",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 15,
+    "library": true,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "New Catalogue (link)", "id": "39e9-9c80-3630-708b", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}],
+    "sharedSelectionEntries": [
+      {
+        "name": "Anathemata",
+        "id": "d149-29ec-ae67-11a1",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Psychic", "id": "b08e-c60a-e5df-b8df", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+          {"name": "Anti", "id": "94fa-e107-e073-c150", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
+          {"name": "Devastating Wounds", "id": "1ccb-0fd2-b159-e461", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Aetheric lightning",
+            "id": "45b0-ba55-3c50-5b99",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "Void Dart",
+            "id": "87bf-2b8f-5918-2682",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "12", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Anti-Daemonic 2+, Devastating Wounds, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "Breach in the Veil",
+            "id": "b7ad-a516-acab-efb7",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [{"name": "Descriptions", "$text": "In your command phase if this model is not **battle-shocked**", "typeId": "1917-301f-5d49-2f76"}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "6385-b04f-2e5f-56dc",
+                    "childName": "Loyalist",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veil",
+            "id": "b682-cbe5-8b92-6464",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [{"name": "Descriptions", "$text": "In your command phase if this model is not **battle-shocked**", "typeId": "1917-301f-5d49-2f76"}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "ab5d-ae96-512e-2748",
+                    "childName": "Traitor",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

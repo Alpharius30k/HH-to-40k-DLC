@@ -1,0 +1,136 @@
+{
+  "catalogue": {
+    "name": "Space Marines - Alpha Legion",
+    "id": "1473-7cc2-1972-1aa9",
+    "authorName": "Alpharius30k",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 14,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [
+      {"name": "Space Marines - Heresy", "id": "8e94-c7c8-0760-33e0", "importRootEntries": false, "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
+      {"name": "Space Marines - Armoury", "id": "9b75-9b23-19f1-92dc", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
+      {"name": "Space Marines - Wargear", "id": "374c-4e72-6358-a3a8", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"}
+    ],
+    "categoryEntries": [{"name": "Faction: Alpha Legion", "id": "3583-4c5d-bf42-1f69", "hidden": false}],
+    "entryLinks": [
+      {"name": "Loyalty", "id": "625c-3846-b2ca-5602", "hidden": false, "import": true, "targetId": "0397-ebbd-9609-b338", "type": "selectionEntry"},
+      {"name": "Detachment", "id": "67bf-32e8-d2de-d31b", "hidden": false, "import": true, "targetId": "378c-a751-bdbe-2c34", "type": "selectionEntry"},
+      {
+        "name": "Legion Esoterist",
+        "id": "6e1f-872a-3804-8cf8",
+        "hidden": false,
+        "import": true,
+        "targetId": "68c1-fc4a-296a-c658",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "fe00-9787-9526-dc4b", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "32cc-f6b2-3f4d-edb3", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Centurion",
+        "id": "ebcb-d276-f312-25c7",
+        "hidden": false,
+        "import": true,
+        "targetId": "89d9-05e4-07bb-4cdf",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "94bb-d03d-d9fb-5fac", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "a51f-89bd-86e3-07be", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Armistos",
+        "id": "73ca-bb6a-56d8-f263",
+        "hidden": false,
+        "import": true,
+        "targetId": "623e-1034-b4cc-8b96",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "67d2-6094-f085-cef6", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "7137-7cdd-7761-0677", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Champion",
+        "id": "4156-5ed1-94df-18da",
+        "hidden": false,
+        "import": true,
+        "targetId": "8114-d185-a4ee-07cb",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "acce-400a-7961-98bd", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "4717-f385-3d5a-c3f2", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Delegatus",
+        "id": "6a61-dfac-8da4-7a84",
+        "hidden": false,
+        "import": true,
+        "targetId": "1713-0c7f-75d6-8cd6",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "92e5-44a0-850d-8cd4", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d071-c3fe-d106-d7b4", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Chaplin",
+        "id": "20f2-1008-b1b0-8334",
+        "hidden": false,
+        "import": true,
+        "targetId": "3ce3-e3c9-a85b-0e53",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "2fea-0530-b41e-2c90", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5125-30f6-d852-7f9c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      }
+    ],
+    "sharedRules": [{"name": "Lies and Obfuscation", "id": "dd7d-c41a-6793-cbc4", "hidden": false}],
+    "sharedSelectionEntries": [
+      {
+        "name": "Detachment",
+        "id": "378c-a751-bdbe-2c34",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Configuration", "id": "7e4b-45a6-bf79-78fb", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249"}],
+        "constraints": [
+          {
+            "id": "c14b-7a4e-4468-d65c",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "11d4-2828-7c05-765c",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [{"name": "Common Detachments", "id": "f3a2-7814-3faa-ef69", "hidden": false, "import": true, "targetId": "1a9b-dc90-4bb8-6fee", "type": "selectionEntryGroup"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "cac3-71d1-ea4b-795d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -8,7 +8,10 @@
     "library": true,
     "revision": 1,
     "type": "catalogue",
-    "catalogueLinks": [{"name": "New Catalogue (link)", "id": "876d-05a8-5bfa-eba9", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"}],
+    "catalogueLinks": [
+      {"name": "New Catalogue (link)", "id": "876d-05a8-5bfa-eba9", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
+      {"name": "New Catalogue (link)", "id": "4471-ee67-9465-bf7b", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}
+    ],
     "sharedProfiles": [
       {
         "name": "Legion Standard",
@@ -35,98 +38,22 @@
     ],
     "sharedSelectionEntries": [
       {
-        "name": "Dozer Blade",
-        "id": "90e2-40b5-db20-d88b",
+        "name": "Augury Scanner",
+        "id": "7cb7-3d63-8b4d-a730",
         "hidden": false,
         "import": true,
         "type": "upgrade",
         "profiles": [
           {
-            "name": "Dozer Blade",
-            "id": "82ae-672a-93b5-f99f",
-            "hidden": true,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "Improve the number, WS, strength and AP of the attack by 2,1,2,1,1", "typeId": "9b8f-694b-e5e-b573"}]
-          }
-        ]
-      },
-      {
-        "name": "Vox disruptor array",
-        "id": "d1e2-9296-ff0b-f148",
-        "hidden": false,
-        "import": true,
-        "type": "upgrade",
-        "profiles": [
-          {
-            "name": "Vox disruptor array",
-            "id": "6395-0330-3dad-e454",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "No enemy unit can **deep strike** withing 12\" of this unit", "typeId": "9b8f-694b-e5e-b573"}]
-          }
-        ]
-      },
-      {
-        "name": "Saturnine Teleportaion Synchroniser",
-        "id": "40bb-3d84-0c35-02ca",
-        "hidden": false,
-        "import": true,
-        "type": "upgrade",
-        "infoLinks": [{"name": "Deep Strike", "id": "08c0-e6a4-f103-cd7c", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}]
-      },
-      {
-        "name": "Legion Standard",
-        "id": "1fbe-6e81-f477-afdb",
-        "hidden": false,
-        "import": true,
-        "type": "upgrade",
-        "profiles": [
-          {
-            "name": "Legion Standard",
-            "id": "1a39-0ad8-aed7-a400",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "Improve this units OC by 1", "typeId": "9b8f-694b-e5e-b573"}]
-          }
-        ]
-      },
-      {
-        "name": "Geo-locator beacon",
-        "id": "342e-2cbe-cd7f-2c28",
-        "hidden": false,
-        "import": true,
-        "type": "upgrade",
-        "profiles": [
-          {
-            "name": "Geo-locator beacon",
-            "id": "e4b9-b7d5-5379-e9ae",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "Models can **deep strike** withing 5\" of enemy unit if its withing 6\" of this model.", "typeId": "9b8f-694b-e5e-b573"}]
-          }
-        ]
-      },
-      {
-        "name": "Command vox relay",
-        "id": "2846-7087-3388-69c2",
-        "hidden": false,
-        "import": true,
-        "type": "upgrade",
-        "profiles": [
-          {
-            "name": "Command vox relay",
-            "id": "fffe-a084-3a05-5331",
+            "name": "Augury Scanner",
+            "id": "a54a-8ea6-8254-cfe2",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Models withing 12\" and line of sight of this model can use this models leadership for any leadership rolls.",
+                "$text": "Models can not be **deployed** withing 18\" of a unit with this equipment in the **deployment** phase and when making a **shooting** attack **detection range** is increased by 6\"",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -134,16 +61,124 @@
         ]
       },
       {
-        "name": "Warhawk Jump-Pack",
-        "id": "e0f5-e803-9df7-0ae7",
+        "name": "Cognis-Signum",
+        "id": "91b4-53dc-3a64-9da5",
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "infoLinks": [{"name": "Hammer of Wraith", "id": "51a5-304d-328d-0fc4", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}],
+        "modifiers": [
+          {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "parent", "type": "decrement", "value": 1},
+          {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "parent", "type": "floor", "value": "2"}
+        ],
+        "profiles": [
+          {
+            "name": "Cognis-Signum",
+            "id": "898c-b30e-29b5-5beb",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model and its unit gain +1 BS", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Scimitar Jetbike",
+        "id": "acd7-3c50-de68-4752",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "entryLinks": [
+          {
+            "name": "Heavy Bolter",
+            "id": "15ec-34c8-4583-02cc",
+            "hidden": false,
+            "import": true,
+            "targetId": "4d18-0d33-83ef-d294",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "418b-b14a-76a3-0573", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "8be8-7b22-988d-469f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Hammer of Wraith", "id": "82d4-28de-cba3-b690", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}],
+        "modifiers": [
+          {"affects": "self.entries.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "16\""},
+          {"field": "category", "scope": "parent", "type": "add", "value": "c619-2086-bbcf-69c9"},
+          {"field": "category", "scope": "parent", "type": "add", "value": "14a0-40c9-2748-ae6e"},
+          {"field": "category", "scope": "parent", "type": "remove", "value": "cf47-a0d7-7207-29dc"}
+        ],
+        "profiles": [
+          {
+            "name": "Smoke Screen",
+            "id": "3e6e-03da-009f-5b38",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When this **unit advances** all **models** with this ability gain a **[Feel No Pain 5+]** against ranged attacks",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spatha Combat Bike",
+        "id": "9a97-cfc7-7f01-bcb2",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "entryLinks": [
+          {
+            "name": "Twin-Linked Bolter",
+            "id": "be22-a4e5-251e-5360",
+            "hidden": false,
+            "import": true,
+            "targetId": "28f6-5fc2-0ad1-c9ac",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "12ec-3d84-96ab-901c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "538f-a4be-6616-2716", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Hammer of Wraith", "id": "0718-2524-02bf-4276", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}],
+        "modifiers": [
+          {"affects": "self.entries.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "14\""},
+          {"field": "category", "scope": "parent", "type": "add", "value": "14a0-40c9-2748-ae6e"},
+          {"field": "category", "scope": "parent", "type": "remove", "value": "cf47-a0d7-7207-29dc"}
+        ],
+        "profiles": [
+          {
+            "name": "Smoke Screen",
+            "id": "c7bb-5fc8-3dd2-a50c",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When this **unit advances** all **models** with this ability gain a **[Feel No Pain 5+]** against ranged attacks",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warhawk Jump Pack",
+        "id": "6636-c0d5-53a8-36b5",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Hammer of Wraith", "id": "c264-af52-75fa-1b7e", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}],
         "modifiers": [
           {"affects": "profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "12\""},
-          {"field": "category", "scope": "parent", "type": "add", "value": "dda2-bb0a-215e-ad9c"},
-          {"field": "category", "scope": "parent", "type": "add", "value": "c619-2086-bbcf-69c9"}
+          {"field": "category", "type": "add", "value": "dda2-bb0a-215e-ad9c"},
+          {"field": "category", "type": "add", "value": "c619-2086-bbcf-69c9"}
         ]
       }
     ]

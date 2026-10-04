@@ -1,0 +1,27 @@
+{
+  "catalogue": {
+    "name": "Space Marines - Config/Keywords",
+    "id": "8fa7-7cb9-aaf9-2e48",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 15,
+    "library": true,
+    "revision": 1,
+    "type": "catalogue",
+    "categoryEntries": [{"name": "Loyalist", "id": "6385-b04f-2e5f-56dc", "hidden": false}, {"name": "Traitor", "id": "ab5d-ae96-512e-2748", "hidden": false}],
+    "sharedRules": [
+      {
+        "name": "Pinned",
+        "id": "412b-0358-c6d1-ed7e",
+        "description": "A **unit** that is **pinned** has -2\" to its movment and advance and charge roll till the start of the controls next turn.",
+        "hidden": false
+      },
+      {
+        "name": "Pinning",
+        "id": "a4b9-9c88-086f-205e",
+        "description": "A unit that receives 1 or more damage from a weapon with this become **pinned**",
+        "hidden": false
+      }
+    ]
+  }
+}
