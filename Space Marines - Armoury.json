@@ -10,6 +10,16 @@
     "revision": 1,
     "type": "catalogue",
     "catalogueLinks": [{"name": "New Catalogue (link)", "id": "b22f-aa80-8c3a-8221", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}],
+    "sharedProfiles": [
+      {
+        "name": "Legion Standard",
+        "id": "7699-7743-1ee2-bf59",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "While this model is alive this unit has +1OC", "typeId": "9b8f-694b-e5e-b573"}]
+      }
+    ],
     "sharedSelectionEntries": [
       {
         "name": "Boarding Sheild",
@@ -1146,6 +1156,32 @@
               {"name": "AP", "$text": "-4", "typeId": "41a0-1301-112a-e2f2"},
               {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
               {"name": "Keywords", "$text": "Anti-Vehicle 4+, Twin-Linked", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Standard",
+        "id": "fd03-b922-c4e8-7e37",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Legion Standard", "id": "b41a-c0bc-4ed0-9408", "hidden": false, "targetId": "7699-7743-1ee2-bf59", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Legion Standard",
+            "id": "3424-19b9-6d5d-101a",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "4", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
             ]
           }
         ]

@@ -77,7 +77,10 @@
         "type": "selectionEntry",
         "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "2fea-0530-b41e-2c90", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
         "infoLinks": [{"name": "Lies and Obfuscation", "id": "5125-30f6-d852-7f9c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      }
+      },
+      {"name": "Legion Forge Lord", "id": "713e-c8fe-60fc-0b35", "hidden": false, "import": true, "targetId": "531c-d5af-2f78-f4ca", "type": "selectionEntry"},
+      {"name": "Legion Herald", "id": "dd9f-92eb-9203-5693", "hidden": false, "import": true, "targetId": "0cda-4f5c-8167-21e6", "type": "selectionEntry"},
+      {"name": "Legion Librarian", "id": "5c5b-f306-e54c-a001", "hidden": false, "import": true, "targetId": "2501-499b-4f8e-69ea", "type": "selectionEntry"}
     ],
     "sharedRules": [{"name": "Lies and Obfuscation", "id": "dd7d-c41a-6793-cbc4", "hidden": false}],
     "sharedSelectionEntries": [

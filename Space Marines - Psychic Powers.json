@@ -9,6 +9,24 @@
     "revision": 1,
     "type": "catalogue",
     "catalogueLinks": [{"name": "New Catalogue (link)", "id": "39e9-9c80-3630-708b", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}],
+    "sharedProfiles": [
+      {
+        "name": "Legion Librarian (Psyker Level 1)",
+        "id": "dbde-40b9-c617-ddae",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "This model has the **psychic abilities** listed in the **psychic abilities** section", "typeId": "9b8f-694b-e5e-b573"}]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Psyker",
+        "id": "6a9c-e24b-15cc-1f44",
+        "description": "**Psyker** units with this ability have a **psyker level** of 1 or higher, specified in that unit's abilities. Each **psychic level** of 1 or higher in its specified ability's name. \nIn a battle round, a friendly **Psyker** unit can only use a number of **psychic abilities** whose total **psychic level** does not exceed that **PSYKER** unit's **psychic level**",
+        "hidden": false
+      }
+    ],
     "sharedSelectionEntries": [
       {
         "name": "Anathemata",
@@ -122,6 +140,142 @@
               }
             ]
           }
+        ]
+      },
+      {
+        "name": "Biomancy",
+        "id": "048b-d64e-17a3-d830",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "modifiers": [
+          {"field": "name", "scope": "parent", "type": "append", "value": "- Biomancer"},
+          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Biomancer"}
+        ],
+        "profiles": [
+          {
+            "name": "Biomancer's Rage",
+            "id": "e113-6b2f-91ea-97d2",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "2", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "10", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "Lethal Hits, Psychic", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          },
+          {
+            "name": "Aetheric lightning",
+            "id": "7fab-4bb6-57c9-51b0",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "Biomantic Augmintation (Psychic Level 1)",
+            "id": "bdaf-ba2d-43b1-1e17",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **shooting** phase this model can use this ability instead of shooting if this unit is not **battle-shocked**.\nYou can select 1 unit withing 9\" of this model and improve it **toughness** by 1 or this model can make a **psychic** roll on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: The **selected** unit gains +1 **toughness** and **melee strength**\nThis lasts till the start of your next **shooting** phase",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Divination",
+        "id": "3569-6ff6-e4cd-e775",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Indirect Fire", "id": "a3bf-5528-7c9e-c287", "hidden": false, "targetId": "4ddd-4e29-acdd-5e6d", "type": "rule"},
+          {"name": "Psychic", "id": "3d96-739b-efa4-e679", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+          {"name": "Precision", "id": "1290-0152-63b9-1120", "hidden": false, "targetId": "9143-31ae-e0a6-6007", "type": "rule"}
+        ],
+        "modifiers": [
+          {"field": "name", "scope": "parent", "type": "append", "value": "- Diviner"},
+          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Diviner"}
+        ],
+        "profiles": [
+          {
+            "name": "Diviner's Dart (Psychic Level 1)",
+            "id": "b588-866b-4a06-ff27",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Precision, Psychic, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "Aetheric lightning",
+            "id": "0bd5-997d-073c-b8b7",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "Divinatory Aegis",
+            "id": "409d-de24-34ee-7e89",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **shooting** phase this model can use this ability instead of shooting if this unit is not **battle-shocked**.\nYou can select 1 unit withing 9\" of this model and give it **[Precision]** on **Critical Hits** or this model can make a **psychic** roll on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: The **selected** unit gains **[Precision]** on **Critical Hits** and **Critical Hits** on 5+\nThis lasts till the end of the phase it was used",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Core Psychic Diciplines",
+        "id": "8d26-8331-5add-a48a",
+        "defaultSelectionEntryId": "none",
+        "hidden": false,
+        "constraints": [{"id": "ee4c-dee4-3545-73b1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "entryLinks": [
+          {"name": "Biomancy", "id": "5213-36fe-e464-92a2", "hidden": false, "import": true, "targetId": "048b-d64e-17a3-d830", "type": "selectionEntry"},
+          {"name": "Divination", "id": "e2fc-1f43-f116-0496", "hidden": false, "import": true, "targetId": "3569-6ff6-e4cd-e775", "type": "selectionEntry"}
         ]
       }
     ]
