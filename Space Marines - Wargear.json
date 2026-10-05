@@ -266,6 +266,24 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Narthecium",
+        "id": "7469-116b-7848-f057",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Feel No Pain 5+", "id": "14ea-d43c-1322-4924", "hidden": false, "targetId": "5e10-6d62-2624-80a8", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Narthecium",
+            "id": "2434-24d3-97a3-1891",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This unit gains a **[Feel No Pain 5+]**", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
       }
     ]
   }

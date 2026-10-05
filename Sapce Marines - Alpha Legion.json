@@ -167,6 +167,158 @@
         "type": "selectionEntry",
         "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f812-a2fe-d1e3-e8e2", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
         "infoLinks": [{"name": "Lies and Obfuscation", "id": "e0a5-30dc-5209-315d", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Primus Medicae",
+        "id": "515c-1dbb-21d7-b65a",
+        "hidden": false,
+        "import": true,
+        "targetId": "a33a-de11-6e28-dd63",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "b55f-2cf6-3175-3aba", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "caa9-68ee-2393-a464", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Siege Breaker",
+        "id": "21d2-53fd-4e59-d6cc",
+        "hidden": false,
+        "import": true,
+        "targetId": "db44-cb35-a60d-a6f6",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "97d5-afa5-fcc4-d9df", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e62a-1fa7-8e6b-d1c0", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {"name": "Legion Vigilator", "id": "3128-2202-7a28-f1c3", "hidden": false, "import": true, "targetId": "adf8-32df-e4a3-be75", "type": "selectionEntry"},
+      {"name": "Legion Warmonger", "id": "e978-c2c6-5511-b0fc", "hidden": false, "import": true, "targetId": "c490-dbef-188a-dcb1", "type": "selectionEntry"},
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "1796-e9ad-ff1b-0cbc",
+        "hidden": false,
+        "import": true,
+        "targetId": "28bf-8fe9-1cec-30ac",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f8a1-0364-fd93-f9e6", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1ebe-efc6-e63d-286d", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Champion",
+        "id": "d8cb-5a78-8643-3ba0",
+        "hidden": false,
+        "import": true,
+        "targetId": "ce57-3967-c54e-fdf9",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "df74-deed-59d0-4b42", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "181f-6cb7-6a83-9701", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Chaplin",
+        "id": "84c1-2319-4920-5bb2",
+        "hidden": false,
+        "import": true,
+        "targetId": "9c84-4621-d522-c8d5",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f178-d962-9bd8-0db9", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "4f4a-f806-58eb-23c6", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Delegetus",
+        "id": "e9f2-868d-b6fe-b02e",
+        "hidden": false,
+        "import": true,
+        "targetId": "19c1-242d-f921-949e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c47f-8dff-b2ee-c4b6", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "f223-5406-833a-7bbc", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Esoterist",
+        "id": "bee0-cc0e-e4a7-5a2a",
+        "hidden": false,
+        "import": true,
+        "targetId": "dd6a-027c-5acd-4779",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "69ed-c8b6-a032-bfaf", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b8e9-fc9d-2c39-0253", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Forge Lord",
+        "id": "b0da-e1cd-f03f-6348",
+        "hidden": false,
+        "import": true,
+        "targetId": "d7bc-ba47-227a-ca16",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "27b3-1342-bae9-03a3", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "6977-92a7-7bea-0102", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Herald",
+        "id": "b9be-ae9e-3964-2225",
+        "hidden": false,
+        "import": true,
+        "targetId": "a00b-e416-84ab-4700",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a109-8bee-00af-1cfa", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "082a-9148-8ddb-d9a9", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Librarian",
+        "id": "69a6-791d-5ec1-3c40",
+        "hidden": false,
+        "import": true,
+        "targetId": "3187-3d1d-c6a5-6dab",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "eb61-5ef6-93f8-3d74", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "518a-4ab0-15b6-0072", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Mortifactor",
+        "id": "efb5-e1e8-a381-debe",
+        "hidden": false,
+        "import": true,
+        "targetId": "00b3-cab0-3ed0-46e7",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "aa9c-63b6-1083-ce47", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5bdd-5317-406a-7fd2", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Primus Medicae",
+        "id": "8ab4-6760-5d2e-24d1",
+        "hidden": false,
+        "import": true,
+        "targetId": "56c0-45e5-91ca-5b8a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "217a-4052-296d-3c8b", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "584c-9de8-1ce1-4549", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Primus Nullificator",
+        "id": "0a56-05a1-9bac-8e3c",
+        "hidden": false,
+        "import": true,
+        "targetId": "326d-a698-02b6-8e8d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "b7f5-3624-92b4-2b17", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "73fa-f933-6d85-05a4", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Siege Breaker",
+        "id": "84aa-ca60-05d6-0a06",
+        "hidden": false,
+        "import": true,
+        "targetId": "eaff-53c9-a602-2479",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e1fd-b3f8-ad2d-e2af", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d6a1-b72b-8b67-46d2", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Warmonger",
+        "id": "f090-8f98-335d-e3c2",
+        "hidden": false,
+        "import": true,
+        "targetId": "34e9-c499-a5b2-66a9",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "ac90-f389-c9f8-258a", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "53d4-14da-251f-ccdd", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
       }
     ],
     "sharedRules": [{"name": "Lies and Obfuscation", "id": "dd7d-c41a-6793-cbc4", "hidden": false}],

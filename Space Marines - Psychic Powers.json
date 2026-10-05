@@ -519,6 +519,36 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Aetherbane",
+        "id": "0661-71c7-0ac7-3ce0",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Psychic", "id": "7ca9-e369-ad25-4c16", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+          {"name": "Anti", "id": "32f2-cf98-a874-e3b0", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
+          {"name": "Blast", "id": "8598-a80d-49e4-43aa", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Aetherblast",
+            "id": "1b4b-3d1b-f925-6fac",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 1, Anti-Daemonic 2+, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [

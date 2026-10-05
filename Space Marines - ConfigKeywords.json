@@ -45,6 +45,20 @@
             "typeId": "9b8f-694b-e5e-b573"
           }
         ]
+      },
+      {
+        "name": "Marked for Death",
+        "id": "a436-a1a2-392a-dffb",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "You can give a Mark of Death to a number of **enemy** units equal to the amount of **friendly** units with this ability. **Friendly** models with this ability can re-roll failed **wound** rolls of 1 against **enemy** units with **Mark of Death**.",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
       }
     ],
     "sharedRules": [
