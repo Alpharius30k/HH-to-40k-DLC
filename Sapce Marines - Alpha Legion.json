@@ -78,9 +78,96 @@
         "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "2fea-0530-b41e-2c90", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
         "infoLinks": [{"name": "Lies and Obfuscation", "id": "5125-30f6-d852-7f9c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
       },
-      {"name": "Legion Forge Lord", "id": "713e-c8fe-60fc-0b35", "hidden": false, "import": true, "targetId": "531c-d5af-2f78-f4ca", "type": "selectionEntry"},
-      {"name": "Legion Herald", "id": "dd9f-92eb-9203-5693", "hidden": false, "import": true, "targetId": "0cda-4f5c-8167-21e6", "type": "selectionEntry"},
-      {"name": "Legion Librarian", "id": "5c5b-f306-e54c-a001", "hidden": false, "import": true, "targetId": "2501-499b-4f8e-69ea", "type": "selectionEntry"}
+      {
+        "name": "Legion Forge Lord",
+        "id": "713e-c8fe-60fc-0b35",
+        "hidden": false,
+        "import": true,
+        "targetId": "531c-d5af-2f78-f4ca",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "741c-cf48-6e12-7d10", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d085-0b96-1729-b0f1", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Herald",
+        "id": "dd9f-92eb-9203-5693",
+        "hidden": false,
+        "import": true,
+        "targetId": "0cda-4f5c-8167-21e6",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a96f-4bd8-d45f-ada5", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5ad6-efbb-5208-7e51", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Librarian",
+        "id": "5c5b-f306-e54c-a001",
+        "hidden": false,
+        "import": true,
+        "targetId": "2501-499b-4f8e-69ea",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f78e-0667-362f-e66b", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3cc9-c4c3-362d-1551", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Master of Signals",
+        "id": "683a-ccf3-b5bd-e5c9",
+        "hidden": false,
+        "import": true,
+        "targetId": "32d7-9e1e-45bb-f13e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e046-05f3-a161-c5a0", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "298f-efa6-3435-9c61", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Moritat",
+        "id": "ccb6-c8f9-406d-4e7a",
+        "hidden": false,
+        "import": true,
+        "targetId": "24ee-9f1e-ff3b-50f7",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "1061-d4b8-222e-ae74", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e678-7feb-9371-449f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Mortifactor",
+        "id": "b7f6-25cb-73a8-f10f",
+        "hidden": false,
+        "import": true,
+        "targetId": "12fa-b8c1-64ca-eab5",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "535a-e9b6-65af-11fb", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c9c5-97fb-c1ea-e517", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Overseer",
+        "id": "b47e-e49e-379e-8836",
+        "hidden": false,
+        "import": true,
+        "targetId": "4726-b22c-efb0-cc88",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e678-357c-75ec-e7bf", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "f604-1a2b-18ee-7e78", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Pathfinder",
+        "id": "42d8-4faf-3bd5-7f68",
+        "hidden": false,
+        "import": true,
+        "targetId": "e43d-8e9e-7bad-3a4f",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "1a9c-9f22-0c0c-77ab", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d89f-d741-bc76-4c43", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Praevian",
+        "id": "ef80-5b47-82ba-6d7c",
+        "hidden": false,
+        "import": true,
+        "targetId": "6eeb-a277-d3db-8d47",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f812-a2fe-d1e3-e8e2", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e0a5-30dc-5209-315d", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      }
     ],
     "sharedRules": [{"name": "Lies and Obfuscation", "id": "dd7d-c41a-6793-cbc4", "hidden": false}],
     "sharedSelectionEntries": [

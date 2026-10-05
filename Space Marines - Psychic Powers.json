@@ -264,6 +264,261 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Pyromancy",
+        "id": "da86-3f6a-6a35-1ec0",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Psychic", "id": "7c59-c480-fce8-12ee", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+          {"name": "Cleave", "id": "8107-e613-6b09-ef1b", "hidden": false, "targetId": "bf16-5d16-4725-f912", "type": "rule"},
+          {"name": "Blast", "id": "4d56-7c52-1463-2f27", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
+        ],
+        "modifiers": [
+          {"field": "name", "scope": "parent", "type": "append", "value": "- Pyromancer"},
+          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Pyromancer"}
+        ],
+        "profiles": [
+          {
+            "name": "Aetheric lightning",
+            "id": "da62-4dbe-a82b-d409",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "Pyromantic Desolation",
+            "id": "e612-2ad0-655a-f049",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "Cleave 1, Psychic", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          },
+          {
+            "name": "Pyromantic Combustion",
+            "id": "e2a4-7ee4-b151-1043",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "5", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 2, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Telekinesis",
+        "id": "2998-c194-b2aa-ebb7",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Psychic", "id": "f52e-738c-5913-83f4", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+          {"name": "Blast", "id": "ec55-6ec6-d1bf-502c", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+          {"name": "Anti", "id": "beb9-07e2-18a2-18d4", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}
+        ],
+        "modifiers": [
+          {"field": "name", "scope": "parent", "type": "append", "value": "- Telekinetic"},
+          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Telekinetic"}
+        ],
+        "profiles": [
+          {
+            "name": "Aetheric lightning",
+            "id": "d695-3fbf-c0e1-c6e2",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "Telekine Dome",
+            "id": "f3b3-6c94-49fa-115f",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **Movement** phase this model can use this ability instead of moving if this unit is not **battle-shocked**.\nThis models unit gains a **Invulnerable Save 6+** if it doesn't already have one or this model can make a **psychic roll** on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: This unit gains a **Invulnerable Save 6+** or if it already has one **improve** it by 1 to a **minimum** of a 4+",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Telekinesis",
+            "id": "288e-f47c-5dfc-5619",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Heavy, Anti-Vehicle 4+, Blast 1, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Telepathy",
+        "id": "7c6b-b13b-4c0f-3894",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Psychic", "id": "8cad-09bc-4de3-9548", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+          {"name": "Pinned", "id": "0bff-4c43-a23d-21e8", "hidden": false, "targetId": "412b-0358-c6d1-ed7e", "type": "rule"}
+        ],
+        "modifiers": [
+          {"field": "name", "scope": "parent", "type": "append", "value": "- Telepath"},
+          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Telepath"}
+        ],
+        "profiles": [
+          {
+            "name": "Aetheric lightning",
+            "id": "be06-915a-ff21-92a3",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "Telepathic Fugue",
+            "id": "412d-5070-5ada-85e7",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "Once per turn at the start of any phase as long as this model is not **battle-shocked** you can select 1 **enemy** unit withing 24\" and **line of sight** of this model. Then make a **psychic roll** on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: The **selected** unit can not be targeted by **enemy stratigems** for the rest of the turn",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Hallucin",
+            "id": "6a4b-5500-c4eb-3978",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **shooting** phase this model can use this ability instead of shooting if this unit is not **battle-shocked**.\nYou can target 1 **enemy** unit withing 36\" and withing **line of sight** of this model then roll 6D6. Then count up each 4+. The **targeted** unit then must take a **leadership test** minus the number of 4+ you made. If the **targeted** unit fails it becomes **pinned**.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thaumaturgy",
+        "id": "9984-d286-3ec2-e4fc",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Torrent", "id": "fb37-c632-5633-b39b", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+          {"name": "Psychic", "id": "559c-8ee3-69ee-99c9", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+          {"name": "Anti", "id": "8ecb-9240-6fca-3e72", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}
+        ],
+        "modifiers": [
+          {"field": "name", "scope": "parent", "type": "append", "value": "- Thaumaturger"},
+          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Thaumaturger"}
+        ],
+        "profiles": [
+          {
+            "name": "Aetheric lightning",
+            "id": "dce6-8075-95ce-6b4c",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "Thaumaturg's Cleansing",
+            "id": "f2d3-502c-3929-a819",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Torrent, Anti-Deamonic 2+, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "Thaumaturgy",
+            "id": "55ec-7083-3f66-b539",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **shooting** phase this model can use this ability instead of shooting if this unit is not **battle-shocked**.\nYou can select 1 unit withing 9\" of this model and make a **psychic roll** on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: Roll 1D6 for each missing model and on each 5+ **heal(1)**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -275,7 +530,11 @@
         "constraints": [{"id": "ee4c-dee4-3545-73b1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
         "entryLinks": [
           {"name": "Biomancy", "id": "5213-36fe-e464-92a2", "hidden": false, "import": true, "targetId": "048b-d64e-17a3-d830", "type": "selectionEntry"},
-          {"name": "Divination", "id": "e2fc-1f43-f116-0496", "hidden": false, "import": true, "targetId": "3569-6ff6-e4cd-e775", "type": "selectionEntry"}
+          {"name": "Divination", "id": "e2fc-1f43-f116-0496", "hidden": false, "import": true, "targetId": "3569-6ff6-e4cd-e775", "type": "selectionEntry"},
+          {"name": "Pyromancy", "id": "9adb-76c1-7432-29d2", "hidden": false, "import": true, "targetId": "da86-3f6a-6a35-1ec0", "type": "selectionEntry"},
+          {"name": "Telekinesis", "id": "4720-3f5f-6d2b-4567", "hidden": false, "import": true, "targetId": "2998-c194-b2aa-ebb7", "type": "selectionEntry"},
+          {"name": "Telepathy", "id": "0067-027a-be9e-f00a", "hidden": false, "import": true, "targetId": "7c6b-b13b-4c0f-3894", "type": "selectionEntry"},
+          {"name": "Thaumaturgy", "id": "7f0d-87ab-f2a2-3d3c", "hidden": false, "import": true, "targetId": "9984-d286-3ec2-e4fc", "type": "selectionEntry"}
         ]
       }
     ]

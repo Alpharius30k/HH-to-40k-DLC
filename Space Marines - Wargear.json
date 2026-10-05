@@ -208,6 +208,64 @@
           {"affects": "profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "decrement", "value": 1},
           {"affects": "profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "floor", "value": "3"}
         ]
+      },
+      {
+        "name": "Psychic Hood (Psychic)",
+        "id": "af5b-df57-edc3-71d5",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Feel No Pain 4+*", "id": "b6c2-63e6-7c98-79e6", "hidden": false, "targetId": "699c-55ed-7fee-65ab", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Psychic Hood (Psychic)",
+            "id": "f6cd-6b89-0b6a-cdc0",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This unit has a **[Feel No Pain 4+]** against **psychic attacks**", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Vox Disruption Array",
+        "id": "a38d-5b52-a0cc-4534",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Vox Disruption Array",
+            "id": "aced-56e0-53a9-51c2",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "**Enemy** units can not **deep strike** withing 12\" of a unit with this", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Nunci-Vox",
+        "id": "84bd-6fea-dcc2-9b37",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Nunci-Vox",
+            "id": "75dd-26cf-85ce-9274",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When a unit with 1 of these is effected by a negative modifier to **leadership roll** add 1 to the roll.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
       }
     ]
   }

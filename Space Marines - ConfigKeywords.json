@@ -31,13 +31,27 @@
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "characteristics": [{"name": "Description", "$text": "This model can join **Infantry Walker** units as well as its regular leader options.", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Bitter Defence",
+        "id": "a2f6-5a57-3e2c-f832",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "When a model with this ability is **charged** for the rest of the turn increase the number of **melee** attacks by 1",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
       }
     ],
     "sharedRules": [
       {
         "name": "Pinned",
         "id": "412b-0358-c6d1-ed7e",
-        "description": "A **unit** that is **pinned** has -2\" to its movment and advance and charge roll till the start of the controls next turn.",
+        "description": "A **unit** that is **pinned** has -2\" to its movment and advance and charge roll. This lasts for 1 **battle round**",
         "hidden": false
       },
       {
@@ -49,9 +63,10 @@
       {
         "name": "Heal(x)",
         "id": "dcba-26c2-51f4-f429",
-        "description": "When this unit is effected by this ability you can spend the amount inside the bracket as **heal points**:\n- If any models have missing wounds restore as many wounds as are missing or as many **heal points** whatever is smallest. After doing this subtract the number of wounds restored from the number of **heal points**\n- If all models are at full wounds you can bring back a model at 1 wound and subtract 1 from the number of **heal points**\nIf **heal point** ends at 0 you can no longer heal and the ability ends.",
+        "description": "When a unit is affected by this ability resolve the following X times\n- If a model is below full wounds, restore 1 wound to it\n- If every model is at full wounds and this unit has destroyed models, return 1 destroyed model to this unit with 1 wound remaining.",
         "hidden": false
-      }
+      },
+      {"name": "Overcharge", "id": "bbaf-981c-4f63-44d0", "description": "If a weapon with this ability makes a **hazardous** test -1 to the roll", "hidden": false}
     ],
     "sharedSelectionEntries": [
       {
