@@ -37,7 +37,9 @@
       {"name": "Cataphracii", "id": "163e-4731-8e1a-b26b", "hidden": false},
       {"name": "Librarian", "id": "5e3e-5df0-cb13-57e7", "hidden": false},
       {"name": "Primus Nullificator", "id": "f00c-671e-7ab9-4a33", "hidden": false},
-      {"name": "Siege Breaker", "id": "24c4-c630-0f83-1dfc", "hidden": false}
+      {"name": "Siege Breaker", "id": "24c4-c630-0f83-1dfc", "hidden": false},
+      {"name": "Tartaros", "id": "eef7-aee4-8991-1688", "hidden": false},
+      {"name": "Exponditionary Navigator", "id": "819f-db34-cd2b-397a", "hidden": false}
     ],
     "entryLinks": [
       {"name": "Legion Centurion", "id": "b93e-ed94-addf-78eb", "hidden": false, "import": true, "targetId": "89d9-05e4-07bb-4cdf", "type": "selectionEntry"},
@@ -161,6 +163,62 @@
         "hidden": false,
         "import": true,
         "targetId": "34e9-c499-a5b2-66a9",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Tartaros Herald", "id": "b8c4-6794-14d8-839f", "hidden": false, "import": true, "targetId": "a1a0-a39e-c9d8-885a", "type": "selectionEntry"},
+      {"name": "Legion Tartaros Champion", "id": "87b7-5509-4f2c-76a7", "hidden": false, "import": true, "targetId": "5a8c-8f7e-c8f3-458e", "type": "selectionEntry"},
+      {"name": "Legion Tartaros Chaplin", "id": "b5e0-f133-7253-24a9", "hidden": false, "import": true, "targetId": "46e1-af9e-302a-b2ff", "type": "selectionEntry"},
+      {"name": "Legion Tartaros Delegatus", "id": "3161-e078-bd4c-65e9", "hidden": false, "import": true, "targetId": "f6a8-8205-06c8-8e49", "type": "selectionEntry"},
+      {"name": "Legion Tartaros Esoterist", "id": "b394-41f8-5bbf-9688", "hidden": false, "import": true, "targetId": "d6db-a7b1-09df-5034", "type": "selectionEntry"},
+      {
+        "name": "Legion Tartaros Forge Lord",
+        "id": "1dcb-35b2-9a74-e64c",
+        "hidden": false,
+        "import": true,
+        "targetId": "8e62-aa3b-9a26-b151",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Tartaros Librarian", "id": "078b-cc20-16a5-5193", "hidden": false, "import": true, "targetId": "70c6-b440-89df-6881", "type": "selectionEntry"},
+      {
+        "name": "Legion Tartaros Mortifactor",
+        "id": "3881-2ce8-62d4-4fb4",
+        "hidden": false,
+        "import": true,
+        "targetId": "c678-20b5-8b21-4fbb",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Tartaros Primus Medicae",
+        "id": "8917-d1dd-edeb-0ab8",
+        "hidden": false,
+        "import": true,
+        "targetId": "328a-c702-2f0a-6444",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Tartaros Siege Breaker",
+        "id": "6cc3-9036-8de5-d818",
+        "hidden": false,
+        "import": true,
+        "targetId": "3976-982f-34dc-06f8",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Tartaros Warmonger", "id": "bc8b-5a02-1f03-ca05", "hidden": false, "import": true, "targetId": "4065-c653-1b0c-4f8f", "type": "selectionEntry"},
+      {"name": "Legion Tartaros Centurion", "id": "c066-c385-4c81-5e27", "hidden": false, "import": true, "targetId": "4e15-f59f-a942-c829", "type": "selectionEntry"},
+      {
+        "name": "Legion Damocles Command Rhino",
+        "id": "1119-7b09-c786-4f65",
+        "hidden": false,
+        "import": true,
+        "targetId": "7a1b-9d51-180e-a16b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Exponditionary Navigator",
+        "id": "19ed-6002-66cc-a634",
+        "hidden": false,
+        "import": true,
+        "targetId": "5765-8056-9276-b9e8",
         "type": "selectionEntry"
       }
     ],
@@ -6476,7 +6534,7 @@
                 "targetId": "1a29-4775-b902-e932",
                 "type": "selectionEntry",
                 "constraints": [{"id": "d70f-792b-dc9b-83a1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 6}]
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
               }
             ]
           }
@@ -7705,7 +7763,7 @@
         "id": "ce57-3967-c54e-fdf9",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "6cc9-bc68-a912-29d6", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "e3fe-6a29-b618-05a1", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -7780,7 +7838,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Champion",
+            "name": "Cataphractii Champion",
             "id": "d18a-5a30-e3a3-d879",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -7936,7 +7994,7 @@
         "id": "19c1-242d-f921-949e",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "0b71-a8be-e1a5-5045", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "7685-bf52-e816-ed23", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -8015,7 +8073,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Delegatus",
+            "name": "Cataphractii Delegatus",
             "id": "3d80-b715-48b1-9b3b",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -8177,7 +8235,7 @@
         "id": "9c84-4621-d522-c8d5",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "5af1-1d7d-509d-5d40", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "8fef-7f19-b23e-d698", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -8238,7 +8296,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Chaplin",
+            "name": "Cataphractii Chaplin",
             "id": "e37b-2607-1af0-351f",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -8422,7 +8480,7 @@
         "id": "a00b-e416-84ab-4700",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "f37b-e02a-125c-e8b2", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "a807-b361-b1a7-d147", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -8483,7 +8541,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Herald",
+            "name": "Cataphractii Herald",
             "id": "df6d-31fd-ce72-5cb0",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -8603,7 +8661,7 @@
         "id": "dd6a-027c-5acd-4779",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "20ad-7150-399a-07ad", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "b09c-0374-1ae9-3b7d", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -8693,7 +8751,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Esoterist",
+            "name": "Cataphractii Esoterist",
             "id": "d33d-d1dd-fa32-310b",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -8841,7 +8899,7 @@
         "id": "d7bc-ba47-227a-ca16",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "0b91-97b0-5bc9-e3e3", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "9d8e-a0a6-739c-0ac8", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -8927,7 +8985,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Forge lord",
+            "name": "Cataphractii Forge lord",
             "id": "fda3-4f67-4ece-45fb",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -9067,6 +9125,34 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Wargear",
+            "id": "c14e-b68f-60f9-e61e",
+            "defaultSelectionEntryId": "none",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Cyber-Familiar",
+                "id": "8d49-b547-0fbc-7a75",
+                "hidden": false,
+                "import": true,
+                "targetId": "2fc4-d1ba-6753-9dc5",
+                "type": "selectionEntry",
+                "constraints": [{"id": "8fb5-15ae-3d59-fb21", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Cortex Contoller",
+                "id": "5432-a4d2-803e-06a2",
+                "hidden": false,
+                "import": true,
+                "targetId": "03dc-7b6a-a279-b913",
+                "type": "selectionEntry",
+                "constraints": [{"id": "4c71-b390-f3c6-c08e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              }
+            ]
           }
         ]
       },
@@ -9155,7 +9241,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Centurion",
+            "name": "Cataphractii Primus Nullificator",
             "id": "5eff-83d9-7b9f-2243",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -9271,7 +9357,7 @@
         "id": "3187-3d1d-c6a5-6dab",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "5791-55a1-db93-6f33", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "28a8-e267-7698-de6d", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -9378,7 +9464,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Librarian",
+            "name": "Cataphractii Librarian",
             "id": "65ef-c493-fa3e-9440",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -9526,7 +9612,7 @@
         "id": "00b3-cab0-3ed0-46e7",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "e16a-8ce8-24c1-d536", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "400f-0b14-e1dd-a35f", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -9623,7 +9709,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Mortifactor",
+            "name": "Cataphractii Mortifactor",
             "id": "700b-beeb-e73d-4871",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -9793,7 +9879,7 @@
         "id": "56c0-45e5-91ca-5b8a",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "5ee2-1e02-25d1-0407", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "312b-f594-eda3-3da6", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -9868,7 +9954,7 @@
         ],
         "profiles": [
           {
-            "name": "Cataphractii Primus Medicae",
+            "name": "Primus Medicae",
             "id": "1aeb-ae40-3678-7886",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -10039,7 +10125,7 @@
         "id": "28bf-8fe9-1cec-30ac",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "a27b-913c-6245-a37d", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "e17f-0382-5911-710b", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -10099,7 +10185,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Centurion",
+            "name": "Cataphractii Centurion",
             "id": "d214-5363-39e1-b0c0",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -10247,7 +10333,7 @@
         "id": "eaff-53c9-a602-2479",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "984f-e2e3-be99-3dde", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "c470-d161-d291-d6f1", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -10334,7 +10420,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Centurion",
+            "name": "Cataphractii Siege Breaker",
             "id": "4313-615a-a6fe-d2eb",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -10496,7 +10582,7 @@
         "id": "34e9-c499-a5b2-66a9",
         "hidden": false,
         "import": true,
-        "type": "upgrade",
+        "type": "model",
         "categoryLinks": [
           {"name": "Character", "id": "a278-e4e0-883f-fdc0", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "7022-b2d8-4d7b-1d53", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -10560,7 +10646,7 @@
         ],
         "profiles": [
           {
-            "name": "Legion Cataphractii Centurion",
+            "name": "Cataphractii Warmonger",
             "id": "2658-0b0a-63c2-fed4",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -10721,6 +10807,3177 @@
                   }
                 ]
               }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Centurion",
+        "id": "4e15-f59f-a942-c829",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "29a1-5690-46c0-adf7", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "313c-72c0-c364-0d9b", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "0c2f-918f-0ec0-3a6d", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "8e45-1e61-fd13-456a", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "9036-c37f-b4d3-dbd3", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "2c10-79d2-c40b-3452", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"}
+        ],
+        "constraints": [{"id": "dd20-1b4c-17e7-ffa0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 75},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [{"name": "Leader", "id": "9b00-858b-45a1-19d1", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Centurion",
+            "id": "9321-a69f-1ba4-076b",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "7f47-5147-1408-6565",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "dcee-09e1-0862-8cb4", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "b555-2d7c-783d-b1b7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "c487-4d5a-603e-d4c2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "a6fa-0f06-7bcd-632f",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Twin-Lightning Claws",
+                "id": "9fdb-c664-ebc0-375d",
+                "hidden": false,
+                "import": true,
+                "targetId": "6138-cb05-c38a-d295",
+                "type": "selectionEntry",
+                "constraints": [{"id": "a520-d6d5-5e2f-21cd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "beaf-3146-7f45-8280",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "8372-4ea8-5f67-c6a9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "5a32-2883-8371-aec8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "5336-718e-ae5f-85d4", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "c21a-23d7-6315-33e9",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "3844-841b-ec7a-b43a", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "d14c-8ab4-f2ca-cfe7",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "5e0c-3bca-5992-3727",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "9fdb-c664-ebc0-375d", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "79a4-9c30-eee6-e0cd",
+                "defaultSelectionEntryId": "e520-6395-48e3-791d",
+                "hidden": false,
+                "constraints": [
+                  {"id": "b1af-6d57-d717-a834", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "919a-9905-56d5-65c5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Comb-Weapon",
+                    "id": "d0a6-2bfa-598a-4dff",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6838-a43e-1af3-cfdd",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Volkite Charger",
+                    "id": "561a-b386-3d90-845c",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                  },
+                  {"name": "Combi-Bolter", "id": "7645-ba7a-f3a2-2f30", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "9fdb-c664-ebc0-375d", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Champion",
+        "id": "5a8c-8f7e-c8f3-458e",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "4102-7a63-92ef-93c8", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "c74e-dcd5-10f5-2851", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "1d66-eff3-45a5-8885", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "5326-0769-4234-6d51", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "4e7c-b9f3-ee39-2508", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "d41d-aa55-9684-9b44", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
+          {"name": "Champion", "id": "5639-503e-d81e-a594", "hidden": false, "primary": false, "targetId": "5853-67d9-d9d4-4203"}
+        ],
+        "constraints": [{"id": "c7b7-6e37-c161-dfb9", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 110},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Paragon Blade",
+            "id": "1285-dcfe-e53b-9b41",
+            "hidden": false,
+            "import": true,
+            "targetId": "bedc-2ee9-5636-27e5",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "e6d1-7ff0-0b73-b573", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "a9d6-5977-31bb-eb0c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Leader", "id": "be63-4da2-b23c-28cd", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Champion",
+            "id": "f254-5fc0-437b-4d13",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          },
+          {
+            "name": " Never Back Down",
+            "id": "3bd6-a9e9-0d5d-c66b",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model can ignore 1 negative modifier to its WS or hit roll in melee", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "9804-baff-52df-77e7",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "20e0-d421-4ea9-81ff", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "0680-6cb0-be72-2a88", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "c20e-f654-7670-f86f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "ca4e-89e7-c351-ab7e",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Twin-Lightning Claws",
+                "id": "18ca-7903-3dc6-b509",
+                "hidden": false,
+                "import": true,
+                "targetId": "6138-cb05-c38a-d295",
+                "type": "selectionEntry",
+                "constraints": [{"id": "cd44-c03a-d17f-260d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "88c0-1d7f-c8db-75c4",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "4630-1b82-79aa-c8be", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "95af-b27f-81f1-a619", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "231b-5e89-8cde-73fe", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "0155-1f16-a1d0-b791",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "f6bc-0f52-7de6-ad23", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "bbc6-dc91-66e7-88be",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "0866-92fe-8bcf-92a6",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "18ca-7903-3dc6-b509", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "5110-3733-7434-cf51",
+                "defaultSelectionEntryId": "e520-6395-48e3-791d",
+                "hidden": false,
+                "constraints": [
+                  {"id": "8460-2d22-bdaa-aa60", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "27be-9170-d684-2e72", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Comb-Weapon",
+                    "id": "2d6e-e133-bd4c-7693",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6838-a43e-1af3-cfdd",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Volkite Charger",
+                    "id": "a649-b4bd-d71d-21ae",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                  },
+                  {"name": "Combi-Bolter", "id": "18e8-66d6-d57d-8cad", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "18ca-7903-3dc6-b509", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Chaplin",
+        "id": "46e1-af9e-302a-b2ff",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "5463-5c19-e22b-6d2c", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "9845-9e7c-f256-ef3e", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "819c-5c8f-195a-61d7", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "f973-bf6f-873e-5afa", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "59a3-9a2b-1b55-e23b", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "1065-48bd-4a93-22a3", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
+          {"name": "Chaplin", "id": "b4bb-e4b0-c471-f64a", "hidden": false, "primary": false, "targetId": "b629-d058-55d0-36e7"}
+        ],
+        "constraints": [{"id": "57bb-4eb7-3953-f3bd", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 110},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [{"name": "Leader", "id": "ed3c-f507-24c9-52b4", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Chaplin",
+            "id": "cd7e-6149-f403-faf3",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          },
+          {
+            "name": "Emperor's Wraith incarnet",
+            "id": "6dfb-f374-504c-ba59",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "Enemy models withing 9\" have -1 to leadership rolls", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "ceb6-ddb3-39fa-8cc7",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "6689-c1bc-0a07-ce0c", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "1db5-9aa3-e918-7c48", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "9324-7f74-142e-555c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Master-Crafted ",
+            "id": "b874-c609-96ed-9597",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "bde1-e13a-3190-40c4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "modifiers": [
+              {"affects": "self.entries.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 1},
+              {"affects": "self.entries.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1},
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "3e76-8280-4841-075d", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "lessThan", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "5de9-d084-c3bb-e910",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Twin-Lightning Claws",
+                "id": "bf5b-0e77-518e-9d75",
+                "hidden": false,
+                "import": true,
+                "targetId": "6138-cb05-c38a-d295",
+                "type": "selectionEntry",
+                "constraints": [{"id": "1f35-6a17-7756-0594", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "dd73-4b77-2e2e-0545",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "722b-c760-a517-f0af", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "c571-8435-eb29-222c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "7f21-5463-edaa-2bc2", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "5048-69ec-f5cc-e27d",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "3117-53bc-5402-d06c", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "82f1-1869-6a5e-ad63",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "c1e8-e54d-3a81-5e95",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "bf5b-0e77-518e-9d75", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "338f-9fda-47cd-b534",
+                "defaultSelectionEntryId": "e520-6395-48e3-791d",
+                "hidden": false,
+                "constraints": [
+                  {"id": "a9df-1a73-d778-a8af", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "4cc6-91cc-25f2-13d4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Comb-Weapon",
+                    "id": "98f7-d807-1f29-484e",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6838-a43e-1af3-cfdd",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Volkite Charger",
+                    "id": "6a2f-903e-dd5a-f4a2",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                  },
+                  {"name": "Combi-Bolter", "id": "77e8-33bd-5fc8-6959", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "bf5b-0e77-518e-9d75", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Delegatus",
+        "id": "f6a8-8205-06c8-8e49",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "af80-ae8d-7bed-fc86", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "a073-aa24-9554-643f", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "3f61-0083-e589-0bbd", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "79cb-52c8-b391-5915", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "2584-a67f-c47a-6c08", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "dc39-558f-4c08-2196", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
+          {"name": "Delegatus", "id": "f6e6-2010-6d5c-e70e", "hidden": false, "primary": false, "targetId": "e70b-c364-0b18-f6fc"}
+        ],
+        "constraints": [{"id": "a060-cb21-400f-dd4c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 100},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [{"name": "Leader", "id": "1b75-4ff2-eec0-a74c", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "2d7f-1892-2fd0-e29c",
+                "childName": "Captain",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Centurion",
+            "id": "15ef-037f-a33a-a681",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          },
+          {
+            "name": "Rally the Legion",
+            "id": "7db1-a587-af23-647c",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Once per Battle per Unit: You can use this ability in any command phase at the start of it. All **friendly** units are no longer **battle-shocked** and/or **pinned**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "256b-7786-f2cd-d3c7",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "f2bc-6bb0-f100-4807", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "574c-5e30-b8f2-1a07", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "c3ea-ccef-6fa9-bffa", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "dc00-9b0c-5a32-cb33",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Twin-Lightning Claws",
+                "id": "0ba4-f3aa-2108-e825",
+                "hidden": false,
+                "import": true,
+                "targetId": "6138-cb05-c38a-d295",
+                "type": "selectionEntry",
+                "constraints": [{"id": "ff08-1a02-6776-3dfb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "4a5f-5471-e357-e159",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "add6-4c56-519b-4558", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "033a-3f58-8f9b-5930", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "bd59-0b44-8c71-ebfa", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "f1de-1e62-7fca-7fb0",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "9b0d-7959-971f-3a3f", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "7f2a-0c85-4256-4d16",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "181e-03d1-7755-ca65",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "0ba4-f3aa-2108-e825", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "20b7-7e1a-5165-92ac",
+                "defaultSelectionEntryId": "e520-6395-48e3-791d",
+                "hidden": false,
+                "constraints": [
+                  {"id": "d669-edad-167a-3718", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "8b84-42cc-e66c-2b3a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Comb-Weapon",
+                    "id": "8c32-7a94-1b58-fd1a",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6838-a43e-1af3-cfdd",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Volkite Charger",
+                    "id": "af0a-0917-8b02-0284",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                  },
+                  {"name": "Combi-Bolter", "id": "2096-4b0f-2b7b-d872", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "0ba4-f3aa-2108-e825", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Esoterist",
+        "id": "d6db-a7b1-09df-5034",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "8121-c61a-077c-82dd", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "a930-6ba8-5361-a838", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "b477-0fa7-bec4-cd1b", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "f23c-282b-5b3a-1213", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "b950-d643-8668-4a99", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "b0a1-6d05-72e0-8d21", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
+          {"name": "Psyker", "id": "3cbf-353a-c19f-4f22", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
+          {"name": "Esoterist", "id": "d5bc-49d6-4a97-db65", "hidden": false, "primary": false, "targetId": "c063-0c67-d977-a4c7"}
+        ],
+        "constraints": [{"id": "859f-6b06-2b56-1168", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 110},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Psychic Hood (Psychic)",
+            "id": "23b7-a6c9-44fe-5a0b",
+            "hidden": false,
+            "import": true,
+            "targetId": "af5b-df57-edc3-71d5",
+            "type": "selectionEntry",
+            "constraints": [{"id": "2066-45ec-0b26-09a6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 20}]
+          },
+          {
+            "name": "Anathemata",
+            "id": "52eb-57b5-b9fb-cc0f",
+            "hidden": false,
+            "import": true,
+            "targetId": "d149-29ec-ae67-11a1",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "c2a6-1bf4-9384-52ab", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {"id": "13f3-10f9-6c83-f509", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Leader", "id": "da58-c3ed-e11f-c822", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
+          {"name": "Legion Librarian (Psyker Level 1)", "id": "2d67-6d2f-195c-2bcd", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
+          {"name": "Psyker", "id": "ca21-8d86-24d2-8bcd", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Esoterist",
+            "id": "7012-f83a-0509-ecf5",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "3e3d-1a27-0320-dc69",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "8743-f26a-4a25-c1d9", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "29fe-497d-27e8-44c1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "4ce7-d48f-ee1a-1644", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "4951-958f-419f-a8ca",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Twin-Lightning Claws",
+                "id": "e56f-3759-0731-9397",
+                "hidden": false,
+                "import": true,
+                "targetId": "6138-cb05-c38a-d295",
+                "type": "selectionEntry",
+                "constraints": [{"id": "dc0f-56a1-b232-6feb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "5e68-8b6f-ac0f-90fa",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "6422-641f-7c3a-cd72", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "9d72-072a-2439-6266", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "9556-50fb-ab65-b01e", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "825b-8efd-3c55-c887",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "0a7f-2d10-afcc-caff", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "5807-a7cb-8280-dd79",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "8086-a88a-536d-444a",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Force Weapon",
+                    "id": "d660-3b41-d91e-44ce",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6cae-1eb0-e2bf-9ff0",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "f877-cd8a-44b5-e2e1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "e56f-3759-0731-9397", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "3bcf-8d28-b1b7-85eb",
+                "defaultSelectionEntryId": "e520-6395-48e3-791d",
+                "hidden": false,
+                "constraints": [
+                  {"id": "bd3f-7e08-90d7-44fb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "8e44-a060-67da-be17", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Comb-Weapon",
+                    "id": "5d7d-b855-f2f9-83ee",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6838-a43e-1af3-cfdd",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Volkite Charger",
+                    "id": "8c9a-125a-fa83-0476",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                  },
+                  {"name": "Combi-Bolter", "id": "fa09-6438-5e24-6753", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "e56f-3759-0731-9397", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Herald",
+        "id": "a1a0-a39e-c9d8-885a",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "88e4-20dd-555f-7904", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "a787-111f-b99c-d96b", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "b31b-3484-70cd-c85c", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "860a-3ca3-fa67-ad7c", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "710e-a11f-9dcf-02b0", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "b85b-a1d2-975a-ab82", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
+          {"name": "Herald", "id": "70e1-6504-9156-3030", "hidden": false, "primary": false, "targetId": "fac2-83b8-bc34-30b1"}
+        ],
+        "constraints": [{"id": "7fc3-c3b6-6b33-23cb", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 95},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [{"name": "Leader", "id": "1732-d8e2-3060-c40e", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Herald",
+            "id": "ace1-c0af-fd44-3a06",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ],
+            "modifiers": [
+              {
+                "affects": "profiles.Unit",
+                "field": "bef7-942a-1a23-59f8",
+                "type": "increment",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "fd03-b922-c4e8-7e37",
+                    "childName": "Legion Standard",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "06ea-1846-34ec-3107",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "82a6-8f79-85a8-1903", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "e201-4ea0-e071-9405", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "a590-6ace-ac56-874f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "922d-1fc2-2bf4-9d98",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Legion Standard",
+                "id": "28c3-ec07-99d8-8fe0",
+                "hidden": false,
+                "import": true,
+                "targetId": "fd03-b922-c4e8-7e37",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "5716-67c9-68c2-578f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "fc39-dcf3-a756-eb32", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "3a09-6136-95ee-bca1",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "fd41-61b3-3117-5769", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "b540-fc02-6de2-1a57", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "4a0a-4a54-5ad2-cae0", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "f4bc-fcd8-9031-6921",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "ac6d-59f6-2165-8ff6", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "4bac-854d-a1d2-c2ae",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "2422-3aed-db73-ca0b",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Mortifactor",
+        "id": "c678-20b5-8b21-4fbb",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Character", "id": "e3c5-20c2-e186-1904", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "7b06-ab6f-a7cb-e1d0", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "bb4b-2016-e770-d75b", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "8a8e-2a2e-c669-c32d", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "8c0a-f575-e0df-0bd8", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "53e3-fb3e-3bb5-8b4f", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
+          {"name": "Mortifactor", "id": "4b93-db0e-c5dd-539e", "hidden": false, "primary": false, "targetId": "8107-2c3f-7f05-4a69"}
+        ],
+        "constraints": [{"id": "e026-cef2-9d40-1791", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 100},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Corosant Stave",
+            "id": "e23e-34df-4038-66b3",
+            "hidden": false,
+            "import": true,
+            "targetId": "fce5-43eb-8073-9572",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "aa2d-e6af-7624-fc04", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "8dbf-0b85-6af3-d803", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Servo-arm",
+            "id": "2630-6200-85a4-cacf",
+            "hidden": false,
+            "import": true,
+            "targetId": "3863-425f-361e-ea84",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "fc9a-08f1-0046-fe17", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "faef-26ac-3d27-a96e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Leader", "id": "3fd1-d2ce-096e-d5c2", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
+          {
+            "name": "Battlesmith x+",
+            "id": "c88a-54ca-5011-28cc",
+            "hidden": false,
+            "targetId": "6b28-e707-4237-e961",
+            "type": "profile",
+            "modifiers": [{"arg": "x", "field": "name", "type": "replace", "value": "6"}, {"arg": "x", "field": "9b8f-694b-e5e-b573", "type": "replace", "value": "6"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Mortifactor",
+            "id": "a0c9-112f-dda1-8140",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          },
+          {
+            "name": "Ancient Devotion",
+            "id": "80a3-8f8c-9d98-4e98",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the start of the command phase roll a D6 for each **dreadnought** model in this unit. On each 5+ the unit gets **Heal(1)**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Keeper of the Dead",
+            "id": "da9f-0505-ef8b-c383",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model can join **Dreadnought** units", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "cd1f-2e15-c79b-b011",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "7d86-815c-adeb-65a9", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "2efe-7ecf-6e3a-c2e5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "37c5-09d6-5849-0d8f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "7def-053a-5a58-a7ef",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Twin-Lightning Claws",
+                "id": "39bd-4e71-54c6-bccd",
+                "hidden": false,
+                "import": true,
+                "targetId": "6138-cb05-c38a-d295",
+                "type": "selectionEntry",
+                "constraints": [{"id": "e183-bb0e-98bf-7f74", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "2292-ad59-2b0b-5ba4",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "e601-55b5-4ed8-db1e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "2827-047f-813d-14dd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "c385-2d8d-522d-cf46", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "9456-ea8a-764d-b799",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "fce3-8b05-7219-2ea4", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "7bcb-c9b0-525e-54a0",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "9391-a378-7710-416c",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "39bd-4e71-54c6-bccd", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "a6dc-6f01-cee2-801b",
+                "defaultSelectionEntryId": "e520-6395-48e3-791d",
+                "hidden": false,
+                "constraints": [
+                  {"id": "eb90-2600-661d-72d0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "6b95-85b1-e5b4-d1dd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Comb-Weapon",
+                    "id": "e5f6-e6db-4ea7-dabf",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6838-a43e-1af3-cfdd",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Volkite Charger",
+                    "id": "ecdb-2ec2-cc4d-07cf",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                  },
+                  {"name": "Combi-Bolter", "id": "7991-8ede-b7ee-0302", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "39bd-4e71-54c6-bccd", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Forge Lord",
+        "id": "8e62-aa3b-9a26-b151",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "15be-bca8-0ce2-daaf", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "a4ce-1899-79ed-2574", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "18f2-df46-4ae9-474f", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "6815-bf0e-2507-f730", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "a6d5-4961-dbd1-1eb8", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "b968-3842-ef75-3200", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
+          {"name": "Forge Lord", "id": "af77-894e-b672-32ac", "hidden": false, "primary": false, "targetId": "15a1-bf08-e007-f63f"}
+        ],
+        "constraints": [{"id": "d33d-4a86-e306-2670", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 115},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Machinator array",
+            "id": "a89b-98fe-4250-f2ff",
+            "hidden": false,
+            "import": true,
+            "targetId": "491c-9bb5-6eeb-3818",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "2a2b-51e1-9f38-bcd9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "54c5-7a62-0455-76e5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Leader", "id": "db45-6c35-e13d-1af2", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
+          {
+            "name": "Battlesmith x+",
+            "id": "fa74-b591-f5f9-1de0",
+            "hidden": false,
+            "targetId": "6b28-e707-4237-e961",
+            "type": "profile",
+            "modifiers": [{"arg": "x", "field": "name", "type": "replace", "value": "4"}, {"arg": "x", "field": "9b8f-694b-e5e-b573", "type": "replace", "value": "4"}]
+          },
+          {"name": "Master of Automata", "id": "49cf-9905-9c92-87bc", "hidden": false, "targetId": "ef4d-8ac0-dafa-6942", "type": "profile"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Forge Lord",
+            "id": "aec9-62aa-2719-bae1",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "0ece-f34b-0b4e-aa62",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "fc79-8a5e-3056-f1be", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "2683-51e2-b2ad-021e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "8ee4-9daf-83a7-a1ec", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "4f0e-80c1-1693-764e",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Twin-Lightning Claws",
+                "id": "502d-32d3-4e1f-f0a9",
+                "hidden": false,
+                "import": true,
+                "targetId": "6138-cb05-c38a-d295",
+                "type": "selectionEntry",
+                "constraints": [{"id": "2142-aae4-eddd-aad6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "f05d-e9f8-d13e-f9e7",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "4c7a-b5fe-1513-129b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "9216-f637-d75a-6408", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "affd-0173-c0e6-5c34", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "0a64-1312-c44d-80df",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "6c8c-5536-3a13-ecae", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "235b-a4b8-825d-fecc",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "d750-ccde-b328-0596",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "502d-32d3-4e1f-f0a9", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "f36f-ba3f-93a1-d050",
+                "defaultSelectionEntryId": "e520-6395-48e3-791d",
+                "hidden": false,
+                "constraints": [
+                  {"id": "184d-7b46-4f6c-05c2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "d29f-325b-a84d-a48c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Comb-Weapon",
+                    "id": "a652-d555-3f17-4c15",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6838-a43e-1af3-cfdd",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Volkite Charger",
+                    "id": "d694-eb22-a460-63f5",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                  },
+                  {"name": "Combi-Bolter", "id": "c060-da96-6f8a-e5a5", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "502d-32d3-4e1f-f0a9", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Wargear",
+            "id": "299e-ba0f-d94a-6553",
+            "defaultSelectionEntryId": "none",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Cyber-Familiar",
+                "id": "dc57-4144-bc07-b399",
+                "hidden": false,
+                "import": true,
+                "targetId": "2fc4-d1ba-6753-9dc5",
+                "type": "selectionEntry",
+                "constraints": [{"id": "7d23-0c07-571d-8442", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Cortex Contoller",
+                "id": "bddd-bd8f-a14b-3850",
+                "hidden": false,
+                "import": true,
+                "targetId": "03dc-7b6a-a279-b913",
+                "type": "selectionEntry",
+                "constraints": [{"id": "16d4-5565-6d16-002b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Librarian",
+        "id": "70c6-b440-89df-6881",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "160f-7ba1-ff89-e59c", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "79e2-30e9-bbd8-113d", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "dbaf-22af-e64a-cafa", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "5703-4142-056a-2c70", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "bb60-dd58-b509-0337", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "6bbb-57d3-e281-2d9c", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
+          {"name": "Psyker", "id": "2538-a654-9058-54cb", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
+          {"name": "Librarian", "id": "ad8d-7111-fc7e-d671", "hidden": false, "primary": false, "targetId": "5e3e-5df0-cb13-57e7"}
+        ],
+        "constraints": [{"id": "0d9e-863c-409b-6a90", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 120},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Psychic Hood (Psychic)",
+            "id": "98db-4318-96d1-3e43",
+            "hidden": false,
+            "import": true,
+            "targetId": "af5b-df57-edc3-71d5",
+            "type": "selectionEntry",
+            "constraints": [{"id": "0fa8-7bae-317e-71ec", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+          },
+          {
+            "name": "Core Psychic Diciplines",
+            "id": "7ecd-78cf-ae3f-261f",
+            "hidden": false,
+            "import": true,
+            "targetId": "8d26-8331-5add-a48a",
+            "type": "selectionEntryGroup",
+            "constraints": [{"id": "d6ad-d04a-aa5e-5e3e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}],
+            "modifiers": [
+              {
+                "affects": "profiles.Melee Weapons",
+                "field": "95d1-95f-45b4-11d6",
+                "type": "increment",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "9adb-76c1-7432-29d2",
+                    "childName": "Pyromancy",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Leader", "id": "4ad8-ae8b-5d9c-c7d5", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
+          {"name": "Legion Librarian (Psyker Level 1)", "id": "f346-5c0f-233d-5f41", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
+          {"name": "Psyker", "id": "f5ba-1965-ce20-0982", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Librarian",
+            "id": "94de-a651-ec12-8b3b",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "34c1-74b3-f2ab-bdd0",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "de1d-4fee-3b26-461e", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "3d81-7494-3f9a-59c8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "5780-2c7e-2861-c1b2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "5d6a-e933-8326-45f9",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Twin-Lightning Claws",
+                "id": "07f0-3b92-a353-ec8b",
+                "hidden": false,
+                "import": true,
+                "targetId": "6138-cb05-c38a-d295",
+                "type": "selectionEntry",
+                "constraints": [{"id": "1433-3f39-ed8b-ccdf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "58bd-c098-0265-1ff9",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "bcbc-a896-08dc-c216", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "59c0-c12c-7c53-101b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "91ec-a843-91c1-7fae", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "41b4-2e3c-1a9d-7abf",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "af8c-2645-fb7a-2384", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "e1a7-3da0-3353-83f0",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "1ae4-82fd-89d6-3906",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "07f0-3b92-a353-ec8b", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "f938-6169-9b48-e498",
+                "defaultSelectionEntryId": "e520-6395-48e3-791d",
+                "hidden": false,
+                "constraints": [
+                  {"id": "bd74-74f4-bb6e-5a61", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "f4db-e9bd-6fcc-9029", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Comb-Weapon",
+                    "id": "24ac-016b-6c80-a890",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6838-a43e-1af3-cfdd",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Volkite Charger",
+                    "id": "34c8-f03b-daa3-4491",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                  },
+                  {"name": "Combi-Bolter", "id": "9f65-56a6-5a3d-0b78", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "07f0-3b92-a353-ec8b", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Primus Medicae",
+        "id": "328a-c702-2f0a-6444",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "5e26-e7bc-19b8-7378", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "de21-825e-e6ff-6d66", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "a0df-9be9-85d2-ed16", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "eaa0-c357-9ef6-4c3b", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "c768-8a0f-7907-93bd", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "e2da-45c5-0eaa-5967", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
+          {"name": "Primus Medicae", "id": "ad72-6f3e-5673-3b1a", "hidden": false, "primary": false, "targetId": "b48c-017e-5ba1-7194"}
+        ],
+        "constraints": [{"id": "b77c-9984-b396-b8ff", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 120},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Narthecium",
+            "id": "f99e-7597-0725-a634",
+            "hidden": false,
+            "import": true,
+            "targetId": "7469-116b-7848-f057",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "3622-2904-802f-6a33", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "e914-a3a9-e264-2e9c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Leader", "id": "b1a7-28e2-9dd9-96f4", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Centurion",
+            "id": "9198-b7f5-ddfa-1810",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          },
+          {
+            "name": "Burden of trust",
+            "id": "d8b1-a6c1-cde1-80ca",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Whenever this unit is effected by an ability that causes **heal** if it requires a dice roll to activate (for example: on a 4+ **heal (1)**) you can re-roll the dice and/or if its a dice roll for x (for example **heal(D3)**) You can re-roll it aswell.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "b7f2-926a-29b9-a9c9",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "f5f1-39b2-8b05-eef4", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "81e4-8077-2630-9b98", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "bdd5-bdcc-34f5-8483", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "e2d4-6c1b-ab5c-c741",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Twin-Lightning Claws",
+                "id": "cd5f-0fd5-8ae3-9089",
+                "hidden": false,
+                "import": true,
+                "targetId": "6138-cb05-c38a-d295",
+                "type": "selectionEntry",
+                "constraints": [{"id": "121a-ef18-55c9-cf7e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "4380-a7cc-1d6b-ee32",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "48be-a937-cc37-91fc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "d0eb-b3d5-ab33-59cf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "2b99-ed42-eeb1-4126", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "6c92-1c33-5a81-380f",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "80eb-878e-d871-89ea", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "89a6-8504-6664-3f59",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "9ccd-39ec-a60e-7774",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "cd5f-0fd5-8ae3-9089", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "8c70-0683-1c03-36d5",
+                "defaultSelectionEntryId": "e520-6395-48e3-791d",
+                "hidden": false,
+                "constraints": [
+                  {"id": "22df-4566-aff4-7499", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "9fcf-a788-efaa-2952", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Comb-Weapon",
+                    "id": "5f85-2e6d-11a6-cdc9",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6838-a43e-1af3-cfdd",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Volkite Charger",
+                    "id": "16da-165d-8e87-46aa",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                  },
+                  {"name": "Combi-Bolter", "id": "afac-2df5-f2fa-f5f0", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"},
+                  {
+                    "name": "Needle Pistol",
+                    "id": "00cf-5c8b-505e-c099",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1a29-4775-b902-e932",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "34d5-5962-0bcd-745c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "cd5f-0fd5-8ae3-9089", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Siege Breaker",
+        "id": "3976-982f-34dc-06f8",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "a255-c90a-550f-caf0", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "852b-517f-23cb-b046", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "2eb9-e70b-5657-07d7", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "2891-1a4e-e344-d69d", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "9043-ad82-5a41-23a4", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "8a49-2829-9dd2-090f", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
+          {"name": "Siege Breaker", "id": "d28b-2502-3a88-e014", "hidden": false, "primary": false, "targetId": "24c4-c630-0f83-1dfc"}
+        ],
+        "constraints": [{"id": "1c5a-0f9a-0365-216b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 120},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Nunci-Vox",
+            "id": "c93b-c738-6891-97f7",
+            "hidden": false,
+            "import": true,
+            "targetId": "84bd-6fea-dcc2-9b37",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "23a2-8bf8-b871-dfb3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "cc72-c11e-7fc8-f3fd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Phosphex Bomb",
+            "id": "3863-a090-f661-1e98",
+            "hidden": false,
+            "import": true,
+            "targetId": "4b16-ade7-533d-159d",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "c0ac-5314-5b79-85a0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "48bd-3060-09b5-1021", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Leader", "id": "0ee6-1508-2fc4-edab", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Centurion",
+            "id": "949e-611f-67f8-3888",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          },
+          {
+            "name": "Art of Destruction",
+            "id": "5688-24ca-b711-7800",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the start of the your **shooting** phase you can select 1 **friendly** unit withing 6\". All **ranged** weapons gain **[Anti-Vehicle 4+]** for the rest of the phase",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "c234-4394-4222-c940",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "6340-396b-97b6-5373", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "1d66-d19e-8dc1-d7c2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "9186-198f-a778-871b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "1c5a-0885-e0b1-dac8",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Twin-Lightning Claws",
+                "id": "554f-6649-5339-3227",
+                "hidden": false,
+                "import": true,
+                "targetId": "6138-cb05-c38a-d295",
+                "type": "selectionEntry",
+                "constraints": [{"id": "07ed-af0a-f136-2804", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "96fd-d147-fda1-c5de",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "bc64-1b38-a4d3-f3ea", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "eae6-a9b1-7dd1-19f7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "af94-3996-e60e-1a0c", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "1180-af89-40b7-c0fb",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "ca40-c185-b3ac-9440", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "8943-c576-000f-7401",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "532f-985e-6b4f-6aad",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "554f-6649-5339-3227", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "ae29-a0d5-96fa-6625",
+                "defaultSelectionEntryId": "e520-6395-48e3-791d",
+                "hidden": false,
+                "constraints": [
+                  {"id": "927d-6a24-389f-022f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "ebaa-cf57-1a0f-64c1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Comb-Weapon",
+                    "id": "b25d-bd25-1936-531f",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6838-a43e-1af3-cfdd",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Volkite Charger",
+                    "id": "1230-fee4-572b-0f15",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                  },
+                  {"name": "Combi-Bolter", "id": "9f88-6262-c421-322e", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "554f-6649-5339-3227", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Tartaros Warmonger",
+        "id": "4065-c653-1b0c-4f8f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Character", "id": "a0cc-7ab1-2dab-f737", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "0c91-03c6-c27b-7ea9", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "f8ed-9be9-5962-70e7", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "9845-ec15-2016-079c", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "74db-77f1-c162-7a70", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Tartaros", "id": "5b21-2bca-94a1-1b35", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"}
+        ],
+        "constraints": [{"id": "f4f9-4e52-5200-6d70", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 120},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Leader", "id": "1a0a-5d8d-e03c-5be3", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
+          {"name": "Deep Strike", "id": "e65d-475e-ed93-cb0d", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tartaros Warmonger",
+            "id": "7560-30b7-0d62-1e48",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          },
+          {
+            "name": "Aetheric Juncture Splicer",
+            "id": "0cb8-3857-fe94-126a",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "The all models in a unit this model joins gains **Deep Strike** rule", "typeId": "9b8f-694b-e5e-b573"}]
+          },
+          {
+            "name": "Tip of the spear",
+            "id": "11e5-9354-40e9-e095",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If there is at least 1 unit withing 12\" of this unit you must make attempt a **charge** with this unit",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "a298-4346-27f2-b3d2",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "1cd4-523c-5a4f-cd7b", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "fa5c-3b5f-3645-b833", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "6db7-7f48-70cd-8c25", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "f704-020d-40fc-3035",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Twin-Lightning Claws",
+                "id": "5afa-ffc0-bbca-5fd3",
+                "hidden": false,
+                "import": true,
+                "targetId": "6138-cb05-c38a-d295",
+                "type": "selectionEntry",
+                "constraints": [{"id": "4535-2d36-9b75-a1d2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Melee Weapon",
+                "id": "121b-5cfc-03d3-e781",
+                "defaultSelectionEntryId": "dbb8-bcad-fec7-697b",
+                "hidden": false,
+                "constraints": [
+                  {"id": "aa05-ad11-2e85-162d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "9a5a-ddcd-7fa0-280a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {"name": "Lightning Claw", "id": "371d-eaf0-2c89-890e", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {
+                    "name": "Power Fist",
+                    "id": "908b-2f3f-c1e3-646f",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {"name": "Power Weapon", "id": "3f79-a51a-6412-a74f", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "46ea-a951-b57e-ef13",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Chainfist",
+                    "id": "e915-1470-d86e-2d61",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d78-58ee-9119-b2e0",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "5afa-ffc0-bbca-5fd3", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "8df0-3762-6b7c-7ba1",
+                "defaultSelectionEntryId": "e520-6395-48e3-791d",
+                "hidden": false,
+                "constraints": [
+                  {"id": "5790-2560-c386-84b7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "371d-2b71-23a6-ba67", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Comb-Weapon",
+                    "id": "c397-fcde-eaab-9ee1",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6838-a43e-1af3-cfdd",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Volkite Charger",
+                    "id": "ddfc-d83f-60da-7c14",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                  },
+                  {"name": "Combi-Bolter", "id": "daf7-1cd7-82c2-1500", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {"childId": "5afa-ffc0-bbca-5fd3", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Damocles Command Rhino",
+        "id": "7a1b-9d51-180e-a16b",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Character", "id": "71da-8d5b-a949-724e", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Vehicle", "id": "8fa7-8532-c715-b1e0", "hidden": false, "primary": false, "targetId": "dbd4-63-af05-998"},
+          {"name": "Rhino", "id": "8798-44a1-18a5-eff3", "hidden": false, "primary": false, "targetId": "50a2-5557-84bb-ca4d"}
+        ],
+        "constraints": [{"id": "5301-5d53-d754-31be", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 150},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Pintle Mounted Twin-Linked Bolter",
+            "id": "def6-0d0d-cfd5-7d59",
+            "hidden": false,
+            "import": true,
+            "targetId": "7fc0-41c0-7c1b-7c67",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "60de-13f7-793e-9418", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "e921-fc2c-3c02-c872", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "modifiers": [{"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}]
+          },
+          {
+            "name": "Command Vox Relay",
+            "id": "3711-4992-d8a6-a176",
+            "hidden": false,
+            "import": true,
+            "targetId": "abc4-5d6a-0ec8-94b2",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "7438-dfb1-0cb2-b7ba", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "a4db-0fac-a9e1-59fa", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Geo-locator Beacon",
+            "id": "7808-2c49-a5cb-5ad8",
+            "hidden": false,
+            "import": true,
+            "targetId": "5c92-efb5-8c54-e72c",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "866d-025c-1077-57b0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "2949-5fd2-cdc1-62da", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Rhino Treads",
+            "id": "4cf2-e9dc-4b5e-66ea",
+            "hidden": false,
+            "import": true,
+            "targetId": "99ef-8f6d-2e98-b9f9",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "6f3d-9cd2-4f2f-1aa0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "f31b-627d-40f9-452d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Legion Damocles Command Rhino",
+            "id": "b0fc-f068-d62c-fb37",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "12\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "9", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "10", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Warlord",
+            "id": "2859-99a6-d050-0c43",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Warlord", "id": "6a19-ae7f-e743-693a", "hidden": false, "primary": true, "targetId": "5c0e-4c31-d51b-e470"}],
+            "constraints": [
+              {"id": "e0e3-5396-e2cb-82a7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "23d6-2712-0eea-c977", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Wargear",
+            "id": "f690-a6cc-a503-e0fe",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Dozer Blades",
+                "id": "1e6a-d130-3ea4-f861",
+                "hidden": false,
+                "import": true,
+                "targetId": "7960-b09c-d854-4987",
+                "type": "selectionEntry",
+                "constraints": [{"id": "07de-1b58-f1eb-353a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+              },
+              {
+                "name": "Hunter Killer Missile",
+                "id": "d52f-38fb-7584-33dc",
+                "hidden": false,
+                "import": true,
+                "targetId": "f0aa-a2cd-2db0-f972",
+                "type": "selectionEntry",
+                "constraints": [{"id": "0f55-d536-e48a-52b5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+              },
+              {
+                "name": "Vox Disruption Array",
+                "id": "8c1e-eef7-67c3-43f5",
+                "hidden": false,
+                "import": true,
+                "targetId": "a38d-5b52-a0cc-4534",
+                "type": "selectionEntry",
+                "constraints": [{"id": "b7da-9da5-7342-8d96", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 25}]
+              }
+            ]
+          },
+          {
+            "name": "2nd Pintle Weapon",
+            "id": "d1b5-7ebc-d9f1-060a",
+            "defaultSelectionEntryId": "none",
+            "hidden": false,
+            "constraints": [{"id": "c9a7-86a8-9ed3-ae6f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "entryLinks": [
+              {
+                "name": "Heavy Bolter",
+                "id": "3a25-b0a0-cfa1-901a",
+                "hidden": false,
+                "import": true,
+                "targetId": "4d18-0d33-83ef-d294",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+              },
+              {
+                "name": "Heavy Flamer",
+                "id": "42b1-5146-637b-1ecd",
+                "hidden": false,
+                "import": true,
+                "targetId": "9d3e-c90c-6a12-a86f",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+              },
+              {
+                "name": "Comb-Weapon",
+                "id": "d9b1-70aa-a09a-6642",
+                "hidden": false,
+                "import": true,
+                "targetId": "6838-a43e-1af3-cfdd",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+              },
+              {
+                "name": "Multi-Melta",
+                "id": "417f-a541-e90b-e075",
+                "hidden": false,
+                "import": true,
+                "targetId": "ae61-afa4-4410-ecc9",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 30}]
+              },
+              {
+                "name": "Twin-Linked Bolter",
+                "id": "83e5-9a0b-327e-b105",
+                "hidden": false,
+                "import": true,
+                "targetId": "28f6-5fc2-0ad1-c9ac",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+              },
+              {
+                "name": "Havoc laucher",
+                "id": "4bcc-c204-78cc-5a0a",
+                "hidden": false,
+                "import": true,
+                "targetId": "d663-efb5-3837-07fe",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              }
+            ],
+            "modifiers": [{"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Legion Exponditionary Navigator",
+        "id": "5765-8056-9276-b9e8",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Character", "id": "e511-57ae-35c0-3485", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "f3af-cc3c-f886-fabd", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Support", "id": "6324-93c0-70c5-ac7b", "hidden": false, "primary": false, "targetId": "7dcd-7f61-69a7-0294"},
+          {"name": "Psyker", "id": "7f7b-36fa-d5a5-cff1", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
+          {"name": "Exponditionary Navigator", "id": "b878-7cd8-1707-7655", "hidden": false, "primary": false, "targetId": "819f-db34-cd2b-397a"}
+        ],
+        "constraints": [{"id": "1f0e-1740-8274-1595", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 50},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Ætherlabe Staff",
+            "id": "52f8-27f0-6f4a-7ccb",
+            "hidden": false,
+            "import": true,
+            "targetId": "736f-e139-fcfd-a640",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "9d8d-f64c-349e-cf10", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "efec-0bd2-2953-32f7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "modifiers": [{"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 3}]
+          },
+          {
+            "name": "Las Pistol",
+            "id": "bf5b-cb10-7894-ce9f",
+            "hidden": false,
+            "import": true,
+            "targetId": "5971-6fd0-90a1-249a",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "a5cd-c6a6-bdc3-2078", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "9d76-07e7-99e0-aae3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "modifiers": [{"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 3}]
+          },
+          {
+            "name": "Navis Astrologis",
+            "id": "00c8-d049-a5a0-9891",
+            "hidden": false,
+            "import": true,
+            "targetId": "bf5a-0c8a-deb0-b810",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "1b19-3442-f93b-19a9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "161f-f9b6-9148-1558", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Support", "id": "54a1-7b6e-2d32-cfcb", "hidden": false, "targetId": "3342-2180-9c5d-925f", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Legion Exponditionary Navigator",
+            "id": "6fec-9df6-e7fc-575a",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "3", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "6+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"}
             ]
           }
         ]

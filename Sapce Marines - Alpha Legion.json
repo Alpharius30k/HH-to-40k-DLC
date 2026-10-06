@@ -319,6 +319,144 @@
         "type": "selectionEntry",
         "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "ac90-f389-c9f8-258a", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
         "infoLinks": [{"name": "Lies and Obfuscation", "id": "53d4-14da-251f-ccdd", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Centurion",
+        "id": "feb4-28cc-d983-3186",
+        "hidden": false,
+        "import": true,
+        "targetId": "4e15-f59f-a942-c829",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "0879-ce4a-3e7b-5be0", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "8bd7-4340-a971-a4d6", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Champion",
+        "id": "5a44-a32d-73b6-91ed",
+        "hidden": false,
+        "import": true,
+        "targetId": "5a8c-8f7e-c8f3-458e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "6486-23c2-0bea-9238", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "da17-d850-cdc5-d9eb", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Chaplin",
+        "id": "47d9-4211-4ba0-607d",
+        "hidden": false,
+        "import": true,
+        "targetId": "46e1-af9e-302a-b2ff",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "43aa-c79c-e83c-99ad", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "73ac-4b12-4f1a-5cf8", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Delegatus",
+        "id": "c227-f7d8-6357-4706",
+        "hidden": false,
+        "import": true,
+        "targetId": "f6a8-8205-06c8-8e49",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "5274-dceb-fd4f-0fd7", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e725-e82f-bd2b-d7cf", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Esoterist",
+        "id": "861d-8965-0320-60eb",
+        "hidden": false,
+        "import": true,
+        "targetId": "d6db-a7b1-09df-5034",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "9b5e-774c-ecf9-5d36", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "9901-66a1-3764-22bb", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Forge Lord",
+        "id": "b7e5-a4db-1120-b64c",
+        "hidden": false,
+        "import": true,
+        "targetId": "8e62-aa3b-9a26-b151",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "1eec-358d-45b8-9343", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c7b2-e7aa-6dd9-314b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Herald",
+        "id": "1705-d566-94c4-3969",
+        "hidden": false,
+        "import": true,
+        "targetId": "a1a0-a39e-c9d8-885a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "1da9-a893-1898-75bf", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "f4d1-e153-3197-7f7a", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Librarian",
+        "id": "5a8e-1ec5-1a1c-4d4a",
+        "hidden": false,
+        "import": true,
+        "targetId": "70c6-b440-89df-6881",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a234-196f-29b3-46e0", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "dc6c-6e49-8852-7532", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Mortifactor",
+        "id": "b412-907c-617d-676c",
+        "hidden": false,
+        "import": true,
+        "targetId": "c678-20b5-8b21-4fbb",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "da49-20ff-973c-fed4", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "60ce-418f-1ce6-cb4f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Primus Medicae",
+        "id": "783e-f744-3164-c8c2",
+        "hidden": false,
+        "import": true,
+        "targetId": "328a-c702-2f0a-6444",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "b9e2-a296-e78e-c0a1", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c99b-5a53-b411-baf8", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Siege Breaker",
+        "id": "fe17-04ef-24a8-6ce9",
+        "hidden": false,
+        "import": true,
+        "targetId": "3976-982f-34dc-06f8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a5f7-b222-243f-aee6", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "ed97-fb31-6b63-1a8f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tartaros Warmonger",
+        "id": "5a96-e16e-cfc3-dbe0",
+        "hidden": false,
+        "import": true,
+        "targetId": "4065-c653-1b0c-4f8f",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "5009-4eb2-ffdf-8ba7", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "a234-5a91-d9d9-72a2", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Damocles Command Rhino",
+        "id": "206d-f108-5299-dbae",
+        "hidden": false,
+        "import": true,
+        "targetId": "7a1b-9d51-180e-a16b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "bfcb-5019-9ad1-139f", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "rules": [{"name": "Lies and Obfuscation", "id": "5847-5288-df6c-0961", "hidden": false}]
+      },
+      {
+        "name": "Legion Exponditionary Navigator",
+        "id": "8076-9496-729e-511a",
+        "hidden": false,
+        "import": true,
+        "targetId": "5765-8056-9276-b9e8",
+        "type": "selectionEntry"
       }
     ],
     "sharedRules": [{"name": "Lies and Obfuscation", "id": "dd7d-c41a-6793-cbc4", "hidden": false}],

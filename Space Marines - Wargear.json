@@ -284,6 +284,66 @@
             "characteristics": [{"name": "Description", "$text": "This unit gains a **[Feel No Pain 5+]**", "typeId": "9b8f-694b-e5e-b573"}]
           }
         ]
+      },
+      {
+        "name": "Geo-locator Beacon",
+        "id": "5c92-efb5-8c54-e72c",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Geo-locator Beacon",
+            "id": "5ae3-3d61-e1be-1c49",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If a unit **deep strikes** it can do so withing 6\" **enemy** models as long as its with 6\" of a model with this **ability**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vox Relay",
+        "id": "abc4-5d6a-0ec8-94b2",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Command Vox Relay",
+            "id": "a9c8-53fc-637e-fbd1",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Friendly** units withing 9\" of this model can use the leadership of any unit **embarked** withing this model",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dozer Blades",
+        "id": "7960-b09c-d854-4987",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "modifiers": [
+          {"affects": "self.entries.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "scope": "parent", "type": "increment", "value": 2},
+          {"affects": "self.entries.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "scope": "parent", "type": "decrement", "value": 1},
+          {"affects": "self.entries.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 2},
+          {"affects": "self.entries.profiles.Melee Weapons", "field": "41a0-1301-112a-e2f2", "scope": "parent", "type": "increment", "value": 1},
+          {"affects": "self.entries.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1}
+        ]
       }
     ]
   }

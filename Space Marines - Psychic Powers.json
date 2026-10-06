@@ -549,6 +549,36 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Navis Astrologis",
+        "id": "bf5a-0c8a-deb0-b810",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Torrent", "id": "c263-699d-ed1c-689b", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+          {"name": "Pinning", "id": "3b83-3d4b-38ea-0ac9", "hidden": false, "targetId": "a4b9-9c88-086f-205e", "type": "rule"},
+          {"name": "Psychic", "id": "6d54-0aa1-1ff6-f72c", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Navis Astrologis",
+            "id": "1d96-fed4-c5cf-d55e",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "2", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Torrent, Pinning, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
