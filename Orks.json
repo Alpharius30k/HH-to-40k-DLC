@@ -25029,11 +25029,14 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "Wargear Options",
+                "name": "Kannon",
                 "id": "c125-6ace-cee2-1f54",
-                "defaultSelectionEntryId": "95b4-4fb1-62e8-ed4a",
+                "defaultSelectionEntryId": "b770-d969-e667-3e1a",
                 "hidden": false,
-                "constraints": [{"id": "ddfe-8ac4-e046-7eeb", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "constraints": [
+                  {"id": "ddfe-8ac4-e046-7eeb", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "82b2-5222-e231-34ca", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}
+                ],
                 "selectionEntries": [
                   {
                     "name": "Supa-kannon",
@@ -25042,10 +25045,10 @@
                     "import": true,
                     "type": "upgrade",
                     "categoryLinks": [{"name": "Attacks Dx Weapon", "id": "fed5-7f9c-2c94-6b88", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"}],
+                    "constraints": [{"id": "dc85-87b9-5874-08c0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "c77d-2c93-81cf-6bfa", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                     ],
-                    "infoLinks": [{"name": "Blast", "id": "2745-c21c-e312-9dde", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}],
                     "profiles": [
                       {
                         "name": "Supa-kannon",
@@ -25068,16 +25071,12 @@
                   {
                     "name": "Kannon",
                     "id": "b770-d969-e667-3e1a",
-                    "comment": "A6",
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
+                    "constraints": [{"id": "e15c-fb98-aa7e-7db1", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "9793-8889-bb58-1061", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ],
-                    "infoLinks": [
-                      {"name": "Blast", "id": "35bd-7f9e-3516-24c6", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
-                      {"name": "Rapid Fire", "id": "4324-1135-8dae-f6cf", "hidden": false, "targetId": "c5c8-8b58-b8b6-7786", "type": "rule"}
                     ],
                     "profiles": [
                       {
