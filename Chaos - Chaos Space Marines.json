@@ -20208,7 +20208,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+                "$text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's level of Control over that objective marker is greater than yours at the start or end of any phase.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -59112,7 +59112,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the end of your Command phase, if this unit is within range of an objective marker  you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+                "$text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's level of Control over that objective marker is greater than yours at the start or end of any phase.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
