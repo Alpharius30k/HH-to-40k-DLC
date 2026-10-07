@@ -8,7 +8,11 @@
     "library": true,
     "revision": 1,
     "type": "catalogue",
-    "categoryEntries": [{"name": "Loyalist", "id": "6385-b04f-2e5f-56dc", "hidden": false}, {"name": "Traitor", "id": "ab5d-ae96-512e-2748", "hidden": false}],
+    "categoryEntries": [
+      {"name": "Loyalist", "id": "6385-b04f-2e5f-56dc", "hidden": false},
+      {"name": "Traitor", "id": "ab5d-ae96-512e-2748", "hidden": false},
+      {"name": "Bitter Duty", "id": "2078-fcee-2eba-3af8", "hidden": false}
+    ],
     "sharedProfiles": [
       {
         "name": "Battlesmith x+",
@@ -80,7 +84,19 @@
         "description": "When a unit is affected by this ability resolve the following X times\n- If a model is below full wounds, restore 1 wound to it\n- If every model is at full wounds and this unit has destroyed models, return 1 destroyed model to this unit with 1 wound remaining.",
         "hidden": false
       },
-      {"name": "Overcharge", "id": "bbaf-981c-4f63-44d0", "description": "If a weapon with this ability makes a **hazardous** test -1 to the roll", "hidden": false}
+      {"name": "Overcharge", "id": "bbaf-981c-4f63-44d0", "description": "If a weapon with this ability makes a **hazardous** test -1 to the roll", "hidden": false},
+      {
+        "name": "Conversion",
+        "id": "e4f3-ccfc-842e-0cce",
+        "description": "ach time an attack made with this weapon targets a unit more than half the weapons range from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit.",
+        "hidden": false
+      },
+      {
+        "name": "Rad-Phage",
+        "id": "eb66-1fe7-18ff-3369",
+        "description": "A unit that has taken 1 or more wounds from a weapon with this ability have -1 toughness till the end of the phase but does not stack with itself but does with all other modifers.",
+        "hidden": false
+      }
     ],
     "sharedSelectionEntries": [
       {

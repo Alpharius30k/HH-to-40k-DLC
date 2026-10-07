@@ -36,7 +36,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "constraints": [{"id": "6c0d-fba7-4a1e-9dd0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
         "infoLinks": [{"name": "Close-quarters", "id": "3071-f91b-4da3-90f7", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"}],
         "profiles": [
           {
@@ -162,7 +161,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "constraints": [{"id": "23f6-5c6b-80cd-f90d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
         "infoLinks": [
           {"name": "Close-quarters", "id": "d98a-1f26-b34a-779a", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
           {"name": "Torrent", "id": "b32d-0524-ff0f-8802", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
@@ -400,7 +398,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "constraints": [{"id": "4654-a4e0-41a2-f9e1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
         "infoLinks": [{"name": "Devastating Wounds", "id": "6e89-bb55-aa6a-0029", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"}],
         "profiles": [
           {
@@ -448,7 +445,7 @@
         ]
       },
       {
-        "name": "Comb-Weapon",
+        "name": "Combi-Weapon",
         "id": "6838-a43e-1af3-cfdd",
         "hidden": false,
         "import": true,
@@ -1848,6 +1845,677 @@
               {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Close-Quarters", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Davinite Blade",
+        "id": "f283-0677-11b5-1c82",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Anti", "id": "eac4-54ba-53cb-16f3", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Davinite Blade",
+            "id": "1652-3424-b912-555b",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "1", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "3", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "Anti-Infantry 3+", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Excoricare",
+        "id": "6531-2236-2168-7d1a",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Devastating Wounds", "id": "6b2d-5065-b925-7f0d", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+          {"name": "Close-quarters", "id": "ab4e-873f-9a93-ba00", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Excoricare",
+            "id": "12dd-f3e7-de6c-fb5c",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Close-Quarters, Devastating Wounds ", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Archaeotech Pistol",
+        "id": "7c50-c1f2-7706-d904",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Lethal Hits", "id": "92e2-fb58-7781-315f", "exportable": false, "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
+          {"name": "Close-quarters", "id": "06ba-fdb6-00b3-2a8a", "exportable": false, "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Archaeotech Pistol",
+            "id": "5cf0-77c7-9313-c692",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Close-Quarters, Lethal Hits", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Flamestorm Cannon",
+        "id": "f59d-7d9e-f63d-bdaa",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Torrent", "id": "f5fb-3364-0b03-1413", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+          {"name": "Blast", "id": "2a89-7812-fa86-9efb", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Flamestorm Cannonn",
+            "id": "77c2-5544-f877-33ef",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "30\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Torrent, Blast 1", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gravis Autocannon",
+        "id": "88aa-d0e8-0e27-e061",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Lethal Hits", "id": "67a9-4789-9fe0-2ff3", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
+          {"name": "Twin-linked", "id": "97ae-adc9-150b-aed8", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Gravis Autocannon",
+            "id": "5180-fcf9-2538-fbeb",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Lethal Hits, Twin-Linked", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gravis Bolt Cannon",
+        "id": "cda8-af14-4660-c697",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Twin-linked", "id": "b568-4836-b4c2-1a07", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Gravis Bolt Cannon",
+            "id": "da3d-db89-37ce-3500",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Twin-Linked", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gravis Chainfist",
+        "id": "f69c-6861-25d6-e73b",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Devastating Wounds", "id": "86f7-9ff9-3277-1e83", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "➤  Gravis Chainfist - Standard",
+            "id": "90c7-c895-dce7-4159",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "2", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "10", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-4", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          },
+          {
+            "name": "➤  Gravis Chainfist - Hunter [HUNTER MONSTER/VEHICLE]",
+            "id": "0e7c-d68a-7f57-2391",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "10", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-4", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "In built weapons",
+            "id": "bf30-2b0a-14bd-76e2",
+            "defaultSelectionEntryId": "8574-7027-20b0-2264",
+            "hidden": false,
+            "constraints": [
+              {"id": "178d-4a9c-8ffa-338b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {"id": "0274-dc03-98aa-9bbc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+            ],
+            "entryLinks": [
+              {"name": "Combi-Bolter", "id": "8574-7027-20b0-2264", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"},
+              {
+                "name": "Heavy Flamer",
+                "id": "dbe3-ef9b-a338-1e6e",
+                "hidden": false,
+                "import": true,
+                "targetId": "9d3e-c90c-6a12-a86f",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+              },
+              {
+                "name": "Meltagun",
+                "id": "705d-47f8-9e7b-09e2",
+                "hidden": false,
+                "import": true,
+                "targetId": "d523-8b64-6ba8-d34b",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gravis Lascannon",
+        "id": "9b4c-16d7-6919-eaa4",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Gravis Lascannon",
+            "id": "7b28-88bf-4c71-a22f",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "12", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gravis Missile Laucher",
+        "id": "e964-e92b-c6c1-edc5",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Blast", "id": "9f6e-776d-5fd9-04fb", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "➤ Gravis Missile Laucher - Krak",
+            "id": "a9c3-387b-67a4-5a0e",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "➤ Gravis Missile Laucher - Frag",
+            "id": "2096-dc14-ac18-8fdd",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "5", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 2", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gravis Plasma Cannon",
+        "id": "49dd-30f7-1627-06fd",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Hazardous", "id": "9abe-c09e-b34b-4f63", "hidden": false, "targetId": "8367-374c-f87-c627", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "➤ Plasma Cannon - Standard",
+            "id": "02d6-e493-930c-aff1",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "➤ Plasma Cannon - Supercharged",
+            "id": "bacb-0150-6e45-3ebd",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Hazardous", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gravis Power Fist",
+        "id": "ceab-b866-1d54-5d41",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Gravis Power Fist",
+            "id": "c933-d321-7208-8138",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "9", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-4", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "In built weapons",
+            "id": "1bc0-de24-e953-e544",
+            "defaultSelectionEntryId": "8574-7027-20b0-2264",
+            "hidden": false,
+            "constraints": [
+              {"id": "2713-dec3-7e6c-414f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {"id": "b017-f7a3-2823-5e29", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+            ],
+            "entryLinks": [
+              {"name": "Combi-Bolter", "id": "54a8-2444-752e-cd16", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"},
+              {
+                "name": "Heavy Flamer",
+                "id": "6d37-79fa-1aaf-6eae",
+                "hidden": false,
+                "import": true,
+                "targetId": "9d3e-c90c-6a12-a86f",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+              },
+              {
+                "name": "Meltagun",
+                "id": "0914-4edd-233a-3ee7",
+                "hidden": false,
+                "import": true,
+                "targetId": "d523-8b64-6ba8-d34b",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Castra Ferrum Smash",
+        "id": "a3b3-3937-44b0-a092",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Castra Ferrum Smash",
+            "id": "b356-2d38-8188-de85",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Conversion Beam Cannon",
+        "id": "ec5f-6d59-c18d-100a",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Conversion", "id": "6631-9956-cc5f-075e", "hidden": false, "targetId": "e4f3-ccfc-842e-0cce", "type": "rule"},
+          {"name": "Sustained Hits", "id": "a464-668b-9bf5-f1a3", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Conversion Beam Cannon",
+            "id": "407b-9d31-7092-4980",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Conversion, Sustained Hits D3", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gravis Melta Cannon",
+        "id": "dec3-16b6-176b-c213",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Melta", "id": "72b1-fa40-375a-9096", "hidden": false, "targetId": "7cdb-fb99-44a9-8849", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "➤ Gravis Melta Cannon - Standard",
+            "id": "3349-27a1-8b8a-885c",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "D3+2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Melta 2", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "➤ Gravis Melta Cannon - Hunter [HUNTER:MONSTER/VEHICLE]",
+            "id": "cbb2-bf88-3328-66dc",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "12", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "D3+2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Melta 2", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kheres Assault Cannon",
+        "id": "7126-b02f-b0cd-1514",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Devastating Wounds", "id": "23b1-bd54-0e6e-aeb4", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Kheres Assault Cannon",
+            "id": "a8a7-1ff7-96ff-7441",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Volkite Dual-Culverin",
+        "id": "db38-8aa5-0536-8627",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Devastating Wounds", "id": "3e32-4309-c9c1-91f9", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+          {"name": "Twin-linked", "id": "ea49-7389-9542-6118", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Volkite Dual-Culverin",
+            "id": "329d-e01b-ab4e-0670",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Devastating Wounds, Twin-Linked", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Contempter Smash",
+        "id": "1ffa-91e8-2646-aa66",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Castra Ferrum Smash",
+            "id": "d913-0b5e-9ac5-de0a",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "7", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Missile Laucher w/rad only",
+        "id": "e3d5-dd09-85e6-a7f5",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Blast", "id": "f8f9-b8f8-eafe-08fa", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+          {"name": "Anti", "id": "421e-369d-8b6c-0f68", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
+          {"name": "Rad-Phage", "id": "9e60-b586-bad4-b352", "hidden": false, "targetId": "eb66-1fe7-18ff-3369", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Missile Laucher - Rad",
+            "id": "ab25-a2d5-e6d0-0b18",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 1, Anti-Infantry 2+, Anti-Monster 2+ , Rad-phage", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy Chainsword",
+        "id": "54ed-c997-6cf7-30f0",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "22bc-b8ca-ab9b-ff43", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Heavy Chainsword",
+            "id": "2949-e7dc-017c-27a3",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-1", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Graviton Gun",
+        "id": "de22-9ca6-ae06-9c8e",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Anti", "id": "de88-ede8-6dfc-4bde", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
+          {"name": "Blast", "id": "f392-9756-061d-4414", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Graviton Gun",
+            "id": "7a49-e3cc-a1ce-0bdb",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 1, Anti-Vehicle 3+", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           }
         ]

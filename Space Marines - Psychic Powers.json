@@ -579,6 +579,30 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Delphos Serpentis",
+        "id": "ca12-b90a-d17c-98d1",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Heal(x)", "id": "fd9e-8e66-3c7a-4078", "hidden": false, "targetId": "dcba-26c2-51f4-f429", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Delphos Serpentis",
+            "id": "834b-82ca-a4f3-90e6",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "If this model is not **battle-shocked**you can use this instead of shooting. This model can mae a **psychic roll** on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: Select 1 unit withing 6\". That unit gets **heal(1)**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [

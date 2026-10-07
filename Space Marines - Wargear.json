@@ -344,6 +344,37 @@
           {"affects": "self.entries.profiles.Melee Weapons", "field": "41a0-1301-112a-e2f2", "scope": "parent", "type": "increment", "value": 1},
           {"affects": "self.entries.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1}
         ]
+      },
+      {
+        "name": "Artificer Armour",
+        "id": "3c74-1631-7133-90a0",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "modifiers": [{"affects": "self.entries.profiles.Unit", "field": "450-a17e-9d5e-29da", "scope": "parent", "type": "set", "value": "2+"}]
+      },
+      {
+        "name": "Helical Targeting Array",
+        "id": "3034-b476-91e4-8e09",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Helical Targeting Array",
+            "id": "5436-acd3-1533-ec49",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When firing ranged attacks with this models weapons if an ability would give the target a **feel no pain** due to being hit by a ranged attack it does not trigger.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
