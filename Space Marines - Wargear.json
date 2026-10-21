@@ -82,7 +82,7 @@
         ]
       },
       {
-        "name": "Scimitar Jetbike",
+        "name": "HQ Scimitar Jetbike",
         "id": "acd7-3c50-de68-4752",
         "hidden": false,
         "import": true,
@@ -103,10 +103,11 @@
         ],
         "infoLinks": [{"name": "Hammer of Wraith", "id": "82d4-28de-cba3-b690", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}],
         "modifiers": [
-          {"affects": "self.entries.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "16\""},
+          {"affects": "self.entries.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "14\""},
           {"field": "category", "scope": "parent", "type": "add", "value": "c619-2086-bbcf-69c9"},
           {"field": "category", "scope": "parent", "type": "add", "value": "14a0-40c9-2748-ae6e"},
-          {"field": "category", "scope": "parent", "type": "remove", "value": "cf47-a0d7-7207-29dc"}
+          {"field": "category", "scope": "parent", "type": "remove", "value": "cf47-a0d7-7207-29dc"},
+          {"affects": "self.entries.profiles.Unit", "field": "d29d-cf75-fc2d-34a4", "scope": "parent", "type": "increment", "value": 1}
         ],
         "profiles": [
           {
@@ -126,7 +127,7 @@
         ]
       },
       {
-        "name": "Spatha Combat Bike",
+        "name": "HQ Spatha Combat Bike",
         "id": "9a97-cfc7-7f01-bcb2",
         "hidden": false,
         "import": true,
@@ -147,9 +148,10 @@
         ],
         "infoLinks": [{"name": "Hammer of Wraith", "id": "0718-2524-02bf-4276", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}],
         "modifiers": [
-          {"affects": "self.entries.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "14\""},
+          {"affects": "self.entries.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "12\""},
           {"field": "category", "scope": "parent", "type": "add", "value": "14a0-40c9-2748-ae6e"},
-          {"field": "category", "scope": "parent", "type": "remove", "value": "cf47-a0d7-7207-29dc"}
+          {"field": "category", "scope": "parent", "type": "remove", "value": "cf47-a0d7-7207-29dc"},
+          {"affects": "self.entries.profiles.Unit", "field": "d29d-cf75-fc2d-34a4", "scope": "parent", "type": "increment", "value": 1}
         ],
         "profiles": [
           {
@@ -370,6 +372,180 @@
               {
                 "name": "Description",
                 "$text": "When firing ranged attacks with this models weapons if an ability would give the target a **feel no pain** due to being hit by a ranged attack it does not trigger.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ramjet Diffraction Grid",
+        "id": "ec65-f79c-0ac7-3506",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Ramjet Diffraction Grid",
+            "id": "028b-be3a-0ee6-ef01",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Reduce all incoming ranged weapons strength by 1 or 2 if that weapon has the **blast** ability",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spatha Combat Bike",
+        "id": "7c2b-dfc6-65a7-545f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Hammer of Wraith", "id": "8f90-57ff-2f51-c2a3", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}],
+        "modifiers": [
+          {"affects": "self.entries.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "12\""},
+          {"field": "category", "scope": "parent", "type": "add", "value": "14a0-40c9-2748-ae6e"},
+          {"field": "category", "scope": "parent", "type": "remove", "value": "cf47-a0d7-7207-29dc"},
+          {"affects": "self.entries.profiles.Unit", "field": "d29d-cf75-fc2d-34a4", "scope": "parent", "type": "increment", "value": 1}
+        ],
+        "profiles": [
+          {
+            "name": "Smoke Screen",
+            "id": "2ed9-0879-69c6-1551",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When this **unit advances** all **models** with this ability gain a **[Feel No Pain 5+]** against ranged attacks",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scimitar Jetbike",
+        "id": "6f56-d047-8b04-8965",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Hammer of Wraith", "id": "2c8e-edcf-25bb-99d1", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}],
+        "modifiers": [
+          {"affects": "self.entries.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "14\""},
+          {"field": "category", "scope": "parent", "type": "add", "value": "c619-2086-bbcf-69c9"},
+          {"field": "category", "scope": "parent", "type": "add", "value": "14a0-40c9-2748-ae6e"},
+          {"field": "category", "scope": "parent", "type": "remove", "value": "cf47-a0d7-7207-29dc"},
+          {"affects": "self.entries.profiles.Unit", "field": "d29d-cf75-fc2d-34a4", "scope": "parent", "type": "increment", "value": 1}
+        ],
+        "profiles": [
+          {
+            "name": "Smoke Screen",
+            "id": "a6ee-939e-5b9e-f261",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When this **unit advances** all **models** with this ability gain a **[Feel No Pain 5+]** against ranged attacks",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spatha Attack Bike",
+        "id": "13f4-6cc1-328c-e5ab",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "entryLinks": [
+          {
+            "name": "Twin-Linked Bolter",
+            "id": "e9d7-7d2c-2f44-d5ec",
+            "hidden": false,
+            "import": true,
+            "targetId": "28f6-5fc2-0ad1-c9ac",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "0b52-db12-2494-e4d7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "aecf-6384-6af7-0038", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Hammer of Wraith", "id": "31bd-00a7-0447-bf76", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}],
+        "modifiers": [
+          {"affects": "self.entries.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "12\""},
+          {"field": "category", "scope": "parent", "type": "add", "value": "14a0-40c9-2748-ae6e"},
+          {"field": "category", "scope": "parent", "type": "remove", "value": "cf47-a0d7-7207-29dc"},
+          {"affects": "self.entries.profiles.Unit", "field": "d29d-cf75-fc2d-34a4", "scope": "parent", "type": "increment", "value": 1}
+        ],
+        "profiles": [
+          {
+            "name": "Smoke Screen",
+            "id": "cdf0-6163-9048-96a9",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When this **unit advances** all **models** with this ability gain a **[Feel No Pain 5+]** against ranged attacks",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Flare Sheild",
+        "id": "c9b6-859c-abaf-f437",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Flare Sheild",
+            "id": "3d98-bbaa-9f19-2ec4",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Reduce all incoming attacks to the front of this model strength by 1 or 2 if it has the **blast** keyword",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Misericord",
+        "id": "4d9f-195c-07ff-b4b5",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Misericord",
+            "id": "7926-c421-c3a9-cf82",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "All **terminator** and **Primarch** units can declare a charge in the same turn they **disembark** from this transport",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]

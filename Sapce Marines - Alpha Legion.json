@@ -600,6 +600,278 @@
         "type": "selectionEntry",
         "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a7d3-c8a8-6f4d-ddcb", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
         "infoLinks": [{"name": "Lies and Obfuscation", "id": "a046-01f8-c815-aabe", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Rapier Battery",
+        "id": "06c2-2778-77d1-290b",
+        "hidden": false,
+        "import": true,
+        "targetId": "8b64-1e68-a680-b744",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "3f7c-2db9-808e-5894", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b97d-efbc-72af-38d0", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Techmarine",
+        "id": "1e7c-1e2b-2e81-583d",
+        "hidden": false,
+        "import": true,
+        "targetId": "5906-c31b-60b0-6ea6",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a05b-1c52-a656-cb03", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c027-dcdf-e2c5-b960", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Cataphractii Squad",
+        "id": "070c-79eb-b7e3-456f",
+        "hidden": false,
+        "import": true,
+        "targetId": "86e9-7365-1fa1-e847",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c0e4-4a92-5bfc-7737", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "eb90-cf52-604d-54f7", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {"name": "Legion Tartaros Squad", "id": "3754-9522-920a-ff76", "hidden": false, "import": true, "targetId": "533b-2c5b-c5aa-7fac", "type": "selectionEntry"},
+      {"name": "Legion Veteran Squad", "id": "d3d0-bbcc-9fdf-6108", "hidden": false, "import": true, "targetId": "14ca-45b2-dca4-33f6", "type": "selectionEntry"},
+      {
+        "name": "Legion Assault Squad",
+        "id": "3343-55a8-867d-41c9",
+        "hidden": false,
+        "import": true,
+        "targetId": "ee1e-7c3c-d075-ccfb",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c11b-ec47-322e-90f0", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "a7d5-efe9-e7a1-84be", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Breacher Squad",
+        "id": "d1fa-58ea-dc63-187d",
+        "hidden": false,
+        "import": true,
+        "targetId": "e2bb-808a-d22a-b21c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "9d52-0576-da65-48d3", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "6308-42ea-e678-09c8", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tactical Squad",
+        "id": "ca51-8003-fbcf-657d",
+        "hidden": false,
+        "import": true,
+        "targetId": "d7d2-ed0b-87cb-f5bd",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "7246-a565-805c-31af", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3a4f-5bbc-1843-094d", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Despoiler Squad",
+        "id": "a2d3-5e2c-90d3-a88f",
+        "hidden": false,
+        "import": true,
+        "targetId": "6174-a4fd-ad46-ddfa",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c6de-607f-687b-d32f", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "2310-a232-c588-867f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Reconnaissance Squad",
+        "id": "a11f-5a14-9ade-8949",
+        "hidden": false,
+        "import": true,
+        "targetId": "87e9-4645-76e0-00e8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "54c4-a7b0-11a8-1d98", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "9383-c878-a3b2-6a8c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Scout Squad",
+        "id": "4119-97fc-f6ee-d75e",
+        "hidden": false,
+        "import": true,
+        "targetId": "769b-7644-1599-a579",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "014c-4855-68bf-d4cb", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b433-9cc4-a66b-7969", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tactical Support Squad",
+        "id": "1888-5b8c-f0f9-cae2",
+        "hidden": false,
+        "import": true,
+        "targetId": "3711-985b-f066-5d7b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e73d-6b92-08c7-9b91", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1c8c-adf4-5f82-2dd6", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Tarantula Sentry Gun Battery",
+        "id": "5753-fa9e-3020-7a0f",
+        "hidden": false,
+        "import": true,
+        "targetId": "e8da-18b9-7a85-f1ea",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a99e-f10b-064d-d10f", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d397-663e-adf4-7448", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Indomitus Terminator Squad",
+        "id": "adb9-44fa-37a1-b275",
+        "hidden": false,
+        "import": true,
+        "targetId": "b24a-af33-bbf8-8c21",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "86b2-776c-b9ec-19d7", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "23b6-03ba-78a7-7bfb", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Javelin Squadron",
+        "id": "db67-4252-c29c-9381",
+        "hidden": false,
+        "import": true,
+        "targetId": "2492-388c-9304-c2c8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "bf21-5bf7-b0a1-ef89", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "51ab-545c-fbff-f118", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Avenger Strike Fighter",
+        "id": "f6c8-ed5f-1dd2-ed63",
+        "hidden": false,
+        "import": true,
+        "targetId": "3cc5-a083-a336-885f",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e53d-1548-5faa-7424", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3a21-24e7-410f-5942", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Primaris-Lightning Strike Fighter",
+        "id": "f288-2faa-2fe1-cda5",
+        "hidden": false,
+        "import": true,
+        "targetId": "0b04-9f4d-a24f-a316",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "5b73-ce9e-aae4-a949", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3e90-61f6-17f7-d339", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Thunderbolt Fighter",
+        "id": "c54d-91c4-661f-def7",
+        "hidden": false,
+        "import": true,
+        "targetId": "1e31-32c6-8c4c-f357",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "b202-196b-4883-4dfc", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e15a-e000-ae8a-3d85", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Outrider Squadron",
+        "id": "b77e-abae-c533-78f5",
+        "hidden": false,
+        "import": true,
+        "targetId": "6d72-7039-2d3d-4f6a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "5cc3-f0e1-6b33-5367", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b97e-10f9-7fe0-d4fc", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Proteus Land Speeder Squadron",
+        "id": "fac5-d353-1f72-d45d",
+        "hidden": false,
+        "import": true,
+        "targetId": "2cd9-4c4a-22d4-2149",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f72c-551e-5a96-210e", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "9343-3578-6d12-5ad4", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Sabre Strike Squadron",
+        "id": "93bf-d0b3-b12f-d546",
+        "hidden": false,
+        "import": true,
+        "targetId": "f50e-2453-e395-c153",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "2037-9073-f429-dfe9", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "2b5c-3470-d409-b1c5", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Seeker Squad",
+        "id": "1ba3-7979-7a67-a555",
+        "hidden": false,
+        "import": true,
+        "targetId": "3789-2f71-8ac7-06f6",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "bbf0-efc1-8fe9-e373", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5c4b-f713-752f-7c7f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Sky-Hunter Squadron",
+        "id": "c4a2-e474-75c4-7f1c",
+        "hidden": false,
+        "import": true,
+        "targetId": "f417-278a-7c89-1231",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c9a1-d36b-289b-e02c", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "38c0-cbdb-1935-8e2c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Spatha Attack Bike Squadron",
+        "id": "d5d5-496c-5587-7725",
+        "hidden": false,
+        "import": true,
+        "targetId": "ffd4-fb23-ba98-73fc",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "bc34-04d7-3139-2e89", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "be8c-80a5-e142-eb02", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Storm Eagle Gunship",
+        "id": "92d6-7cd2-a416-4ada",
+        "hidden": false,
+        "import": true,
+        "targetId": "018f-2bcd-8f19-764a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "4328-279f-7616-e992", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "bb60-16d3-e46a-a186", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Xiphon Interceptor",
+        "id": "0dd3-474e-9034-c2ec",
+        "hidden": false,
+        "import": true,
+        "targetId": "1fc9-94cb-9b08-7f28",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "4947-e73a-f68d-ab74", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "40ca-f58d-fd98-ad79", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Arquitor Squadron",
+        "id": "868f-4bf4-7562-b167",
+        "hidden": false,
+        "import": true,
+        "targetId": "efbe-a324-fdc4-4f2e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "4800-3f77-e2fc-c73c", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "8d0a-ebf4-e1e2-bd3a", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Caestus Assault Ram",
+        "id": "4a65-75b0-aa1d-5e06",
+        "hidden": false,
+        "import": true,
+        "targetId": "c2ac-4740-5dac-46f6",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "b2b2-c5c9-f5ac-fe69", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c486-431b-01f2-2135", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Deredeo Dreadnought Talon",
+        "id": "c082-1914-32b1-d41b",
+        "hidden": false,
+        "import": true,
+        "targetId": "180d-3e88-b259-5d1d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a4cc-b8b5-4f49-3318", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5073-d509-bf95-4c43", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
       }
     ],
     "sharedRules": [{"name": "Lies and Obfuscation", "id": "dd7d-c41a-6793-cbc4", "hidden": false}],
