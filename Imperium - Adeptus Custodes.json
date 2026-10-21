@@ -13731,7 +13731,7 @@
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}]
       },
       {
-        "name": "Detachments",
+        "name": "Detachment",
         "id": "5218-339c-eb34-9ac0",
         "hidden": false,
         "import": true,
