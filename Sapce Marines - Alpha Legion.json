@@ -552,7 +552,7 @@
         "infoLinks": [{"name": "Lies and Obfuscation", "id": "d23b-35ed-fba9-4cdf", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
       },
       {
-        "name": "Castra Ferrum Dreadnought Talon",
+        "name": "Legion Castra Ferrum Dreadnought Talon",
         "id": "da9f-4734-c74e-e8d3",
         "hidden": false,
         "import": true,
@@ -562,7 +562,7 @@
         "infoLinks": [{"name": "Lies and Obfuscation", "id": "9e8c-616d-0d3e-4dcd", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
       },
       {
-        "name": "Contemptor Dreadnought Talon",
+        "name": "Legion Contemptor Dreadnought Talon",
         "id": "7913-4be4-3f9d-93f5",
         "hidden": false,
         "import": true,
@@ -872,6 +872,56 @@
         "type": "selectionEntry",
         "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a4cc-b8b5-4f49-3318", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
         "infoLinks": [{"name": "Lies and Obfuscation", "id": "5073-d509-bf95-4c43", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Fire Raptor Gunship",
+        "id": "6cfe-1549-a884-74c1",
+        "hidden": false,
+        "import": true,
+        "targetId": "8a76-6902-726c-b5e1",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "9eac-940e-7bfd-b2bf", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "7c5a-ce72-13d5-1d10", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Heavy Support Squad",
+        "id": "a18f-00ba-92e1-3140",
+        "hidden": false,
+        "import": true,
+        "targetId": "c68b-74aa-dc15-c950",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "af6a-fe3c-2138-c4fe", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "dcbf-85d2-f57f-722d", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Kratos Squadron",
+        "id": "ec96-fcf7-4db2-48ef",
+        "hidden": false,
+        "import": true,
+        "targetId": "c8f6-06dd-a85a-ee3e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e4c1-e4b9-790c-2c18", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "f7dd-a714-8887-1cb8", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Basalisk Squadron",
+        "id": "996d-dda9-80dd-7ad1",
+        "hidden": false,
+        "import": true,
+        "targetId": "5341-5378-0b4b-3df2",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "1e9c-8100-9d5d-c027", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d1e7-ff05-9e90-f948", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Sicaran Squadron",
+        "id": "d4bc-5177-bcba-1ab7",
+        "hidden": false,
+        "import": true,
+        "targetId": "a6f3-8850-8883-56c5",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "775f-ada4-2720-293f", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c3a2-d275-f56c-7206", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
       }
     ],
     "sharedRules": [{"name": "Lies and Obfuscation", "id": "dd7d-c41a-6793-cbc4", "hidden": false}],
