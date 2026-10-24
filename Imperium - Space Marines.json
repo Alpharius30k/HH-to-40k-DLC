@@ -7612,7 +7612,7 @@
             "typeName": "Unit",
             "characteristics": [
               {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
-              {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "T", "$text": "4", "typeId": "d29d-cf75-fc2d-34a4"},
               {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
               {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
               {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
@@ -8321,6 +8321,26 @@
               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Rapid Fire 2", "typeId": "7f1b-8591-2fcf-d01c"}
+            ],
+            "modifiers": [
+              {
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ",",
+                "type": "append",
+                "value": "Assault",
+                "conditions": [
+                  {
+                    "childId": "6305-2974-3890-6ba0",
+                    "childName": "Baal Predator",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
             ]
           }
         ]
@@ -19196,25 +19216,6 @@
             ]
           },
           {
-            "affects": "self.entries.recursive.profiles.Unit",
-            "field": "bef7-942a-1a23-59f8",
-            "type": "increment",
-            "value": 1,
-            "conditions": [
-              {
-                "childId": "f797-f718-df7d-8545",
-                "childName": "Darnath Lysander",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 40,
@@ -24020,6 +24021,26 @@
               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "One Shot", "typeId": "7f1b-8591-2fcf-d01c"}
+            ],
+            "modifiers": [
+              {
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ",",
+                "type": "append",
+                "value": "Assault",
+                "conditions": [
+                  {
+                    "childId": "6305-2974-3890-6ba0",
+                    "childName": "Baal Predator",
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
             ]
           }
         ]
@@ -56989,7 +57010,7 @@
           }
         ],
         "infoLinks": [
-          {"name": "Leader", "id": "ce13-3e00-844b-87b8", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
+          {"name": "Support", "id": "ce13-3e00-844b-87b8", "hidden": false, "targetId": "3342-2180-9c5d-925f", "type": "rule"},
           {"name": "Combat Doctrines", "id": "b091-e43c-45ac-ea46", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
           {"name": "Templar Vows", "id": "8466-f564-4918-e9d9", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
           {"name": "Fights First", "id": "561e-bf3d-68de-313a", "hidden": false, "targetId": "24-c886-e8ba-5a89", "type": "rule"}
@@ -58463,11 +58484,11 @@
             "sortIndex": 2,
             "entryLinks": [
               {
-                "name": "Armoured hull",
+                "name": "Armoured Hull",
                 "id": "6423-b48-7c89-ffd7",
                 "hidden": false,
                 "import": true,
-                "targetId": "3fc0-1753-fefb-89b5",
+                "targetId": "3b59-048c-5410-33fe",
                 "type": "selectionEntry",
                 "entryLinks": [
                   {"name": "Weapon Modifications", "id": "5eb5-06ec-f929-5bd6", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
@@ -58555,7 +58576,7 @@
                     "id": "ea7c-8a6f-3243-c2ae",
                     "hidden": false,
                     "import": true,
-                    "targetId": "f1a6-b394-5bc5-a3cb",
+                    "targetId": "d107-1e89-9d3f-c9c7",
                     "type": "selectionEntry",
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "2591-5a5f-78d9-d9c3", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
@@ -58566,7 +58587,7 @@
                     "id": "857e-b816-c55c-c19d",
                     "hidden": false,
                     "import": true,
-                    "targetId": "c36c-6247-f673-fe00",
+                    "targetId": "e008-470a-83cb-c5e6",
                     "type": "selectionEntry",
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "7c0e-0f5a-ecfe-eed2", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
@@ -58613,12 +58634,12 @@
                             "typeName": "Ranged Weapons",
                             "characteristics": [
                               {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
-                              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
                               {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                               {"name": "S", "$text": "12", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
-                              {"name": "D", "$text": "D6+1", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "typeId": "7f1b-8591-2fcf-d01c"}
+                              {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
+                              {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
                             ]
                           }
                         ]
@@ -58667,7 +58688,7 @@
                               {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "$text": "Blast", "typeId": "7f1b-8591-2fcf-d01c"}
+                              {"name": "Keywords", "$text": "Blast 2", "typeId": "7f1b-8591-2fcf-d01c"}
                             ]
                           },
                           {
@@ -58678,12 +58699,12 @@
                             "typeName": "Ranged Weapons",
                             "characteristics": [
                               {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
-                              {"name": "A", "$text": "D6", "typeId": "3bb-c35f-f54-fb08"},
+                              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
                               {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
                               {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
                               {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
                               {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
-                              {"name": "Keywords", "$text": "Blast, Hazardous", "typeId": "7f1b-8591-2fcf-d01c"}
+                              {"name": "Keywords", "$text": "Blast 2, Hazardous", "typeId": "7f1b-8591-2fcf-d01c"}
                             ]
                           }
                         ]
@@ -89847,13 +89868,7 @@
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "$text": "ADEPTUS ASTARTES INFANTRY model only. This unit can re‑roll advance rolls and countercharge rolls.",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
+                    "characteristics": [{"name": "Description", "$text": "ADEPTUS ASTARTES INFANTRY model only. This unit can re‑roll charge rolls", "typeId": "9b8f-694b-e5e-b573"}]
                   }
                 ]
               }
@@ -90021,7 +90036,7 @@
                 ]
               },
               {
-                "name": "Troubling Visions",
+                "name": "Unto Death",
                 "id": "9b02-0492-ab9f-c2cd",
                 "hidden": false,
                 "import": true,
@@ -90052,7 +90067,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Troubling Visions",
+                    "name": "Unto Death",
                     "id": "84df-770d-abd1-82fb",
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
@@ -94775,7 +94790,7 @@
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
-                    "characteristics": [{"name": "Description", "$text": "Gravis model only. This unit had Scouts 5\"", "typeId": "9b8f-694b-e5e-b573"}]
+                    "characteristics": [{"name": "Description", "$text": "Gravis model only. This unit has Scouts 5\"", "typeId": "9b8f-694b-e5e-b573"}]
                   }
                 ]
               }
