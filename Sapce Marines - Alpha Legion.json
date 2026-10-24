@@ -922,6 +922,36 @@
         "type": "selectionEntry",
         "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "775f-ada4-2720-293f", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
         "infoLinks": [{"name": "Lies and Obfuscation", "id": "c3a2-d275-f56c-7206", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Sicaran Master of Armour",
+        "id": "c47f-017b-eae4-0e23",
+        "hidden": false,
+        "import": true,
+        "targetId": "3376-ed95-4f28-b705",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "efe7-2222-2843-6f3b", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "38b9-ed00-e758-74f9", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Predator Master of Armour",
+        "id": "0c00-9ac6-539b-1a47",
+        "hidden": false,
+        "import": true,
+        "targetId": "34e4-f19f-e0dd-53b1",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "376a-a441-9b4d-6bfc", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b0c6-88b1-6ae4-b07b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+      },
+      {
+        "name": "Legion Venerable Ancient Contempter Dreadnought",
+        "id": "3893-9715-3bf5-2041",
+        "hidden": false,
+        "import": true,
+        "targetId": "c738-a003-c9fc-8450",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "6451-a4c2-eced-ee29", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5884-7fb8-b400-2c77", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
       }
     ],
     "sharedRules": [{"name": "Lies and Obfuscation", "id": "dd7d-c41a-6793-cbc4", "hidden": false}],

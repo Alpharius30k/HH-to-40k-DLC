@@ -551,6 +551,29 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Explorator Augury Web",
+        "id": "c35b-9c88-40f3-7bb2",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Explorator Augury Web",
+            "id": "d5a3-8c42-7dc6-cef3",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the start of each of your command phases you can pick one of these effects to last until the start of the next one.\n- Disruption mode: When any enemy unit **deep strikes** the controlling player of that unit must roll 1D6 and on a 1 or 2 it does not **deep strike**\n- Relay mode: If a unit **deep strikes** it can do so withing 6\" **enemy** models as long as its with 6\" of a model with this **ability**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
       }
     ]
   }

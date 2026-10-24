@@ -63,6 +63,20 @@
             "typeId": "9b8f-694b-e5e-b573"
           }
         ]
+      },
+      {
+        "name": "Power of the machine Spirit",
+        "id": "c4da-0da3-9742-8597",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "If you use a **strategem** on this model before its shooting attack that give it a benefit for targeting a specific unit it applies to every unit this model targets.\n\n\n[Example: If you used a **strategem** on this model that requires you to select 1 target and this model would gain +1 to hit against it instead all targets this model shoots act as if they where effected]",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
       }
     ],
     "sharedRules": [
@@ -261,6 +275,162 @@
               {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
               {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
               {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": "Recon Company",
+                "id": "1ae7-9074-7990-9b85",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "Reconnaissaince and Scout Squads gain the **battleline** keyword\nYou can re-roll your roll to see who goes first\nAll vehciles with a toughness of 10 or more must be placed into resereves at the start of the game\nYou can not take any **fortifications**",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Angel's Wrath",
+            "id": "3ad1-8c05-4e33-22b5",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Purge the Foe", "id": "0485-3caf-643f-1af4", "hidden": false, "primary": true, "targetId": "6fe0-3dbe-f7e0-10bb"}],
+            "constraints": [{"id": "d7d3-67aa-7d05-bf49", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": "Angel's Wrath",
+                "id": "7787-766f-9db6-6484",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "- **Storm Hawk Gunships** gain the dedicated transport keyword\n- You can use **Rapid Ingress** twice per battle round and it can be used in turn 1\n- You may put up to all your army in **deep strike**\n- All **Infantry** units must be withing a **transport** if they do not have the **jumpack** keyword\n- All **Jumpack** models must be in **deep strike** at the start of the game\n- You can not bring any non-**fly** vehicles or **fortifications**",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Armoured Spearhead",
+            "id": "0f07-d90e-7b0e-c7e2",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Take and Hold", "id": "78a3-e242-d824-fc0e", "hidden": false, "primary": true, "targetId": "1cc1-f11a-4e8f-1bcc"}],
+            "constraints": [{"id": "2833-244b-339e-ec64", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 2},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": "Armoured Spearhead",
+                "id": "f528-fa57-befb-6549",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "- **Land Raider Proteus Carriers** become **Dedicated Transports**\n- **Predators** become **Battleline**\n- You must take 1 **Sicarian Master of Armour** or **Predator Master of Armour** in your army and it must be your warlord\n- All **Infantry** units must enter battle **embarked** in a transport\n- You can not take **Fortifications**\n- You can not take this **detachment** as an allie force",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Fury of the Ancients",
+            "id": "84c0-b29e-e732-665f",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Purge the Foe", "id": "1169-d147-8487-bba4", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"}],
+            "constraints": [{"id": "1d57-eb14-c4bd-1a8a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 3},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": "Fury of the Ancients",
+                "id": "88f6-22f1-19cb-df3c",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "- **Contempter Dreadnoughts** gain **battleline** \n- You must take 1 **Venerable Ancient Contempter Dreadnought**\n- You can not take any Charecters other then **Forge Lords**, **Primarius Medicare**, **Mortifactors** or **Tech Marines** not including **Retinues**\n- You can not take any **fortifications**\n- You can not take an ally\n- You can not take this as an ally",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Pride of the Legion",
+            "id": "3028-a490-6c51-3d3c",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Take and Hold", "id": "1ccd-bc94-707b-4dc1", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}],
+            "constraints": [{"id": "0570-dbd1-7511-7951", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 2},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": "Pride of the Legion",
+                "id": "7a24-dd0e-5cd4-d980",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "- **Veteran** and **Terminator** units gain the **Battleline** keyword\n- This can not be taken in an ally\n- All **vehicle** and **mounted** units have now a max of 1 in your army\n- You can not take **fortifications**",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
             ]
           }
         ]

@@ -5402,6 +5402,97 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Achillus Quad Laucher",
+        "id": "d984-4528-3771-16ec",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "➤ Achillus Quad Laucher - Strike",
+            "id": "ad99-d91c-6fb8-c324",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Anti-Vehicle 4+", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "➤ Achillus Quad Laucher - Shred",
+            "id": "91bb-8659-4e57-6d13",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "5", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 2, Twin-Linked", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lascannon Array",
+        "id": "9789-8ce2-5b88-778d",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Lascannon Array",
+            "id": "098e-356a-1bb9-3e78",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "12", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Twin-Linked", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lascannon Destroyer",
+        "id": "2063-319b-79cc-1c1e",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Lascannon Destroyer",
+            "id": "2319-0ac0-f19c-60e8",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "12", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Heavy, Twin-Linked, Devastating wounds [Vehicle]", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
       }
     ]
   }
