@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 22,
+    "revision": 23,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -5666,6 +5666,16 @@
                     "shared": true,
                     "type": "lessThan",
                     "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -5706,6 +5716,16 @@
                     "scope": "force",
                     "shared": true,
                     "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
                     "value": 1
                   }
                 ]
@@ -5748,6 +5768,16 @@
                     "shared": true,
                     "type": "lessThan",
                     "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -5788,6 +5818,16 @@
                     "scope": "force",
                     "shared": true,
                     "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
                     "value": 1
                   }
                 ]
@@ -5830,6 +5870,16 @@
                     "shared": true,
                     "type": "lessThan",
                     "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -5870,6 +5920,16 @@
                     "scope": "force",
                     "shared": true,
                     "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
                     "value": 1
                   }
                 ]
@@ -5912,6 +5972,16 @@
                     "shared": true,
                     "type": "lessThan",
                     "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -5952,6 +6022,16 @@
                     "scope": "force",
                     "shared": true,
                     "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
                     "value": 1
                   }
                 ]
@@ -5994,6 +6074,16 @@
                     "shared": true,
                     "type": "lessThan",
                     "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -6034,6 +6124,16 @@
                     "scope": "force",
                     "shared": true,
                     "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
                     "value": 1
                   }
                 ]
@@ -22631,7 +22731,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 10,
+            "value": 15,
             "conditionGroups": [
               {
                 "type": "and",
@@ -93609,6 +93709,7 @@
                         "affects": "self.entries.recursive.profiles.Ranged Weapons",
                         "field": "a354-c1c8-a745-f9e3",
                         "join": ", ",
+                        "position": -1,
                         "scope": "parent",
                         "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
                         "type": "increment",
@@ -93650,6 +93751,7 @@
                         "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
                         "field": "a354-c1c8-a745-f9e3",
                         "join": ", ",
+                        "position": -1,
                         "scope": "parent",
                         "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
                         "type": "decrement",
@@ -93713,7 +93815,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1A, S, AP and D",
+                        "$text": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1A, S, AP and D.",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -113950,22 +114052,7 @@
                   {"id": "3f6e-149c-9dac-3764-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
                 "entryLinks": [
-                  {"name": "Weapon Modifications", "id": "d8d2-c091-e60c-8af8", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"},
-                  {
-                    "name": "Power weapon",
-                    "id": "6e0f-b32c-2a8d-afda",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "e1b5-a74f-b2ec-c7ed",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "e083-9f72-0e34-aa1a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "f084-3195-9ef7-7706", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "0685-671f-b04e-02e9", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ]
-                  }
+                  {"name": "Weapon Modifications", "id": "d8d2-c091-e60c-8af8", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                 ]
               }
             ]
@@ -114017,7 +114104,7 @@
                       {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
                       {"name": "S", "$text": "8", "typeId": "ab33-d393-96ce-ccba"},
                       {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
-                      {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
                       {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
                     ]
                   }
