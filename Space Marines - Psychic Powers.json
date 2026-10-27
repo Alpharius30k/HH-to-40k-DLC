@@ -11,8 +11,16 @@
     "catalogueLinks": [{"name": "New Catalogue (link)", "id": "39e9-9c80-3630-708b", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}],
     "sharedProfiles": [
       {
-        "name": "Legion Librarian (Psyker Level 1)",
+        "name": "Legion Librarian (Psyker Level 2)",
         "id": "dbde-40b9-c617-ddae",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "This model has the **psychic abilities** listed in the **psychic abilities** section", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Psychicly Gifted (Psyker Level 1)",
+        "id": "e35d-45ec-7844-d5c6",
         "hidden": false,
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",

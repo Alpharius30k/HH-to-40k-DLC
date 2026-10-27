@@ -12,6 +12,7 @@
       {"name": "New Catalogue (link)", "id": "876d-05a8-5bfa-eba9", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
       {"name": "New Catalogue (link)", "id": "4471-ee67-9465-bf7b", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}
     ],
+    "categoryEntries": [{"name": "Sergent", "id": "1920-5c73-27b4-b612", "hidden": false}],
     "sharedProfiles": [
       {
         "name": "Legion Standard",
@@ -31,6 +32,20 @@
           {
             "name": "Description",
             "$text": "After this unit has charged select 1 enemy unit withing engagment range of this unit. Roll a dice for each model in this unit with this ability. On each 4+ the selected unit suffers 1 mortal wound",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "Night Vision",
+        "id": "765d-8ce5-b90c-15a9",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "A unit's **ranged attacks** with this wargear do not trigger **[Feel No Pains]** if they would only trigger from **ranged attacks**",
             "typeId": "9b8f-694b-e5e-b573"
           }
         ]
@@ -570,6 +585,152 @@
                 "name": "Description",
                 "$text": "At the start of each of your command phases you can pick one of these effects to last until the start of the next one.\n- Disruption mode: When any enemy unit **deep strikes** the controlling player of that unit must roll 1D6 and on a 1 or 2 it does not **deep strike**\n- Relay mode: If a unit **deep strikes** it can do so withing 6\" **enemy** models as long as its with 6\" of a model with this **ability**",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lords of Murder",
+        "id": "bc0f-1c68-9bd4-baa7",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Bloody Murder", "id": "e6d5-ec83-6cbd-9eab", "hidden": false, "targetId": "7d26-7f68-a67c-63eb", "type": "profile"}]
+      },
+      {
+        "name": "Prey Sight",
+        "id": "ff51-b185-fa39-3d46",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Prey Sight",
+            "id": "bdbe-ea44-0c38-5e9e",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "A unit's **ranged attacks** with this wargear do not trigger **[Feel No Pains]** if they would only trigger from **ranged attacks**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Trophies of Judgement",
+        "id": "9ea6-8416-803f-5793",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Trophies of Judgement",
+            "id": "c2a7-af77-ebfc-8dc6",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Enemy models withing 9\" have +1 to leadership charectertistics  (so for example a 6+ would become a 7+)",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Night lord Wargear",
+        "id": "2a57-7802-729b-6d61",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "name": "Prey Sight",
+            "id": "bc95-63a8-b28c-5053",
+            "hidden": false,
+            "import": true,
+            "targetId": "ff51-b185-fa39-3d46",
+            "type": "selectionEntry",
+            "constraints": [{"id": "ff5d-366d-f07c-7dc1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+          },
+          {
+            "name": "Trophies of Judgement",
+            "id": "e88d-74ee-da23-41a8",
+            "hidden": false,
+            "import": true,
+            "targetId": "9ea6-8416-803f-5793",
+            "type": "selectionEntry",
+            "constraints": [{"id": "7c1f-5cc1-4f1d-f8df", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"field": "51b2-306e-1021-d207", "type": "set", "value": 10},
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "1920-5c73-27b4-b612", "childName": "Sergent", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lords of Murder",
+            "id": "0475-51ad-3fd7-bbf2",
+            "hidden": false,
+            "import": true,
+            "targetId": "bc0f-1c68-9bd4-baa7",
+            "type": "selectionEntry",
+            "constraints": [{"id": "839f-be98-beb4-7d91", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"field": "51b2-306e-1021-d207", "type": "set", "value": 5},
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "caf5-ef2d-bb96-dc65",
+                "childName": "Faction: Night Lords",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
               }
             ]
           }

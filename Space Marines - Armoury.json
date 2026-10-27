@@ -5940,6 +5940,78 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Escaton Power Claw",
+        "id": "9bb3-583a-399e-10d2",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Devastating Wounds", "id": "da3f-c60c-a38a-4a9e", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+          {"name": "Twin-linked", "id": "43d7-c441-f303-2aad", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "caf5-ef2d-bb96-dc65",
+                "childName": "Faction: Night Lords",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Escaton Power Claw",
+            "id": "3e64-6510-1fb4-5f04",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "8", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-4", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "Twin-Linked, Devastating wounds", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Volkite Cavitor",
+        "id": "863b-4853-797a-a1f1",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Volkite Cavitor",
+            "id": "046a-451e-8947-8076",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [

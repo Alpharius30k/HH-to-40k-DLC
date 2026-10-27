@@ -105,6 +105,20 @@
             "typeId": "9b8f-694b-e5e-b573"
           }
         ]
+      },
+      {
+        "name": "Bloody Murder",
+        "id": "7d26-7f68-a67c-63eb",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "When making a charge roll reduce the distance to **pinned** or **battleshocked** by 1\" and improve the number of attacks this unit has by 1 when targetting thouse units.",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
       }
     ],
     "sharedRules": [

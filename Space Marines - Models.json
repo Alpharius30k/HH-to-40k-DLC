@@ -55,7 +55,6 @@
       {"name": "Veteran Squad", "id": "a071-76f8-5142-d39c", "hidden": false},
       {"name": "Assault Squad", "id": "5f3a-54e6-a916-461e", "hidden": false},
       {"name": "Reconnaissance Squad", "id": "25e9-f064-2453-103c", "hidden": false},
-      {"name": "Sergent", "id": "1920-5c73-27b4-b612", "hidden": false},
       {"name": "Scout Squad", "id": "91be-9204-2c1a-c87d", "hidden": false},
       {"name": "Tactical Support Squad", "id": "facf-0081-6ade-0a28", "hidden": false},
       {"name": "Flamer", "id": "1f5e-0450-d329-1430", "hidden": false},
@@ -184,7 +183,8 @@
                 ]
               }
             ]
-          }
+          },
+          {"name": "Night lord Wargear", "id": "a36d-0149-3b70-d461", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}
         ],
         "infoLinks": [
           {
@@ -430,7 +430,11 @@
             ]
           }
         ],
-        "infoLinks": [{"name": "Support", "id": "c83c-8329-596a-b7e6", "hidden": false, "targetId": "3342-2180-9c5d-925f", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Support", "id": "c83c-8329-596a-b7e6", "hidden": false, "targetId": "3342-2180-9c5d-925f", "type": "rule"},
+          {"name": "Psyker", "id": "83c4-d58e-4dd3-23d3", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"},
+          {"name": "Psychicly Gifted (Psyker Level 1)", "id": "c8a0-afbb-76f1-79e5", "hidden": false, "targetId": "e35d-45ec-7844-d5c6", "type": "profile"}
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -591,7 +595,11 @@
             ]
           }
         ],
-        "infoLinks": [{"name": "Support", "id": "54a1-7b6e-2d32-cfcb", "hidden": false, "targetId": "3342-2180-9c5d-925f", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Support", "id": "54a1-7b6e-2d32-cfcb", "hidden": false, "targetId": "3342-2180-9c5d-925f", "type": "rule"},
+          {"name": "Psyker", "id": "b1c7-1339-51af-6baa", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"},
+          {"name": "Psychicly Gifted (Psyker Level 1)", "id": "2f00-e7d4-1afb-81b4", "hidden": false, "targetId": "e35d-45ec-7844-d5c6", "type": "profile"}
+        ],
         "modifiers": [
           {
             "field": "category",
@@ -720,6 +728,15 @@
             "import": true,
             "sortIndex": 1,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "565c-fda2-4603-eab8",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -950,6 +967,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "9919-4ef2-97a5-7676",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -1187,6 +1213,15 @@
                 "hidden": false,
                 "import": true,
                 "targetId": "ef47-9c99-c4ff-329b",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "2082-6a5f-e553-1796",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
@@ -1461,6 +1496,15 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "2ba6-18ba-509e-5f7b",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [{"name": "Deep Strike", "id": "de1f-ea40-192b-75aa", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}],
@@ -1634,7 +1678,8 @@
               {"id": "4c50-8be2-7491-7a1c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "27ec-4628-e35e-063f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
-          }
+          },
+          {"name": "Night lord Wargear", "id": "9ace-a636-86dd-4e99", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}
         ],
         "infoLinks": [
           {
@@ -1820,6 +1865,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "f154-5610-54c7-1bc7",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -2045,6 +2099,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "af61-bf7f-182e-c644",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -2107,6 +2170,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "dc00-3545-52b9-3479",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -2340,6 +2412,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "ee53-fb4c-7ee3-e65c",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -2390,6 +2471,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "6b01-0aeb-c660-a50e",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -2651,6 +2741,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "d997-8029-97ae-aa05",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -2701,6 +2800,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "d390-e48e-42b2-4f3a",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -2958,6 +3066,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "26c9-3bae-7e67-1b08",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -3031,6 +3148,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "d1e1-6e23-a72f-3cdb",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -3260,6 +3386,15 @@
                     "hidden": false,
                     "import": true,
                     "targetId": "ef47-9c99-c4ff-329b",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "d866-a139-811a-0e0b",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
@@ -3534,6 +3669,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "0546-2abc-1cef-3b18",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -3584,6 +3728,15 @@
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
                 "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Nightlord Wargear",
+                "id": "d705-6dd1-c538-8ebc",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
+                "type": "selectionEntryGroup"
               }
             ]
           }
@@ -3622,6 +3775,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "202f-2b23-0a33-e7cc",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -3820,6 +3982,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "33db-07e9-42f6-91e4",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ]
               }
@@ -3900,6 +4071,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "704a-911e-3444-7398",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -4114,6 +4294,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "5443-ea1c-de4f-8159",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -4197,6 +4386,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "b699-c926-3f19-2dbc",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -4437,6 +4635,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "a3e8-98b4-b6e5-a29d",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -4487,6 +4694,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "324a-a3cb-fa6a-8bf4",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -4721,6 +4937,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "1e0d-af83-bd59-805d",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -4783,6 +5008,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "ff74-87d4-bd60-cf20",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -5014,6 +5248,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "3d1d-6713-c7ea-2854",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -5088,6 +5331,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "fa5a-9aa6-1473-efb3",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -5327,6 +5579,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "4ac7-cee8-f108-dc2e",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -5377,6 +5638,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Nightlord Wargear",
+            "id": "34c3-a99d-802a-6a9c",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -5627,6 +5897,15 @@
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "9871-6a81-32fd-badf",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -5686,6 +5965,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "a57a-222b-19a8-be9e",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -6048,6 +6336,15 @@
                 "targetId": "ef47-9c99-c4ff-329b",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "8fd5-9a2d-de53-9e36",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -6114,6 +6411,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "c236-dca7-775f-9098",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -6484,6 +6790,15 @@
                 "targetId": "ef47-9c99-c4ff-329b",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "6606-28d8-6f7e-94dd",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -6550,6 +6865,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "9d7f-f2ea-f6e6-72f7",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -6948,6 +7272,15 @@
                 "targetId": "ef47-9c99-c4ff-329b",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "8d5b-3aa6-29b0-9ed0",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -7042,6 +7375,15 @@
               {"id": "6f3d-9cd2-4f2f-1aa0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "f31b-627d-40f9-452d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "1ba9-29ac-70a2-b74f",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "modifiers": [
@@ -7269,6 +7611,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "6909-2424-4630-6678",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -7663,6 +8014,15 @@
                 "targetId": "ef47-9c99-c4ff-329b",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "2def-81a4-b4e3-a0b1",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -7752,6 +8112,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "8efd-2390-061a-e01b",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -8127,6 +8496,15 @@
                 "targetId": "e2d8-76c0-3823-b776",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "29fe-b663-8707-cffd",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -8430,6 +8808,15 @@
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
                 "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "a868-7303-8b70-e879",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
+                "type": "selectionEntryGroup"
               }
             ]
           },
@@ -8578,6 +8965,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "9d6a-3fa8-de93-d1f8",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -8632,6 +9028,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "335f-9868-26d5-7007",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -9026,6 +9431,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "4362-3945-2c85-52f4",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -9095,7 +9509,8 @@
               {"id": "fd57-fe97-b02d-4d97", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "5206-8235-f982-6d0e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
-          }
+          },
+          {"name": "Night lord Wargear", "id": "a414-a097-e5d5-fdad", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}
         ],
         "infoLinks": [{"name": "Power of the machine Spirit", "id": "e9c9-ba8d-f74c-9d56", "hidden": false, "targetId": "c4da-0da3-9742-8597", "type": "profile"}],
         "modifiers": [
@@ -9408,6 +9823,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "b7b3-9443-75e0-e9df",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -9782,6 +10206,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "0861-e9e9-ced0-e3d2",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -9908,6 +10341,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "32ed-fccc-9214-43ae",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -10185,6 +10627,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "d9a0-848c-a3a9-a103",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ]
           }
@@ -10234,6 +10685,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "69d3-6112-956b-08b3",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -10620,6 +11080,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "f06a-9c26-b813-8adb",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -10819,6 +11288,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "35e9-f5ec-4da8-406c",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -11196,6 +11674,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "9514-6425-c31f-e3c7",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -11262,6 +11749,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "fb5a-5866-ec80-7877",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -11569,6 +12065,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "775d-7e94-e10a-a863",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -11647,6 +12152,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "aa20-81cc-5d94-6528",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -11958,6 +12472,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "cd34-165b-2f06-3f24",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -12024,6 +12547,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "b71a-69fb-b885-53de",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -12328,6 +12860,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "6c74-dce7-7d6c-5107",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -12538,6 +13079,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "e01e-8b08-e982-2c3b",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -12856,6 +13406,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "fc43-97e5-fa34-d2fa",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -12955,6 +13514,15 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "c7c4-7182-69d8-d797",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [{"name": "Deep Strike", "id": "4d3d-b255-7235-871c", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}],
@@ -13144,6 +13712,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "ee27-b902-1e7a-752d",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -13476,6 +14053,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "1cd1-9ff8-70c1-25ed",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ]
           }
@@ -13504,7 +14090,18 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
-        "entryLinks": [{"name": "Warlord", "id": "834c-3266-a578-6e7b", "hidden": false, "import": true, "sortIndex": 1, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"}],
+        "entryLinks": [
+          {"name": "Warlord", "id": "834c-3266-a578-6e7b", "hidden": false, "import": true, "sortIndex": 1, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"},
+          {
+            "name": "Night lord Wargear",
+            "id": "eab8-6d2c-36b6-7751",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -13936,6 +14533,15 @@
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "6e9f-3cdb-1386-d960",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [{"name": "Leader", "id": "2b88-8c1d-784e-0947", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
@@ -14311,6 +14917,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "0e1d-1fac-7117-aeb0",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -14367,6 +14982,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "99bf-d1b2-ba20-3c1b",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -14542,6 +15166,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "81b4-3df0-70d4-8201",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -14655,6 +15288,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "0f6a-ee82-9b4e-42b6",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -14838,6 +15480,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "9017-1b63-48db-f70b",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -14933,8 +15584,17 @@
         ],
         "entryLinks": [
           {
-            "name": "Alpha Legion Wargear",
+            "name": "Night lord Wargear",
             "id": "28be-2473-7063-22e5",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Alpha Legion Wargear",
+            "id": "a1b6-2691-397b-416c",
             "hidden": false,
             "import": true,
             "sortIndex": 2,
@@ -15150,6 +15810,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "7ec7-0a15-d642-66a2",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -15245,8 +15914,17 @@
         ],
         "entryLinks": [
           {
-            "name": "Alpha Legion Wargear",
+            "name": "Night lord Wargear",
             "id": "a7b9-bc2f-72e8-4597",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Alpha Legion Wargear",
+            "id": "790b-1407-2aad-59fa",
             "hidden": false,
             "import": true,
             "sortIndex": 2,
@@ -15458,6 +16136,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "8752-c680-97ed-a264",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -15582,6 +16269,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "ff19-1387-6170-d27f",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -15770,6 +16466,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "5e8c-32f5-f815-e020",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -16052,6 +16757,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "4b06-2eed-8d2f-e874",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -16152,6 +16866,15 @@
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
                 "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "2664-c2cf-af99-b60a",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
+                "type": "selectionEntryGroup"
               }
             ]
           }
@@ -16191,6 +16914,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "1b00-f240-1934-bd1b",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -16389,6 +17121,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "4369-7549-9369-45ec",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ]
               }
@@ -16463,7 +17204,24 @@
               }
             ]
           },
-          {"name": "Alpha Legion Wargear", "id": "4935-5c36-7dd9-331e", "hidden": false, "import": true, "targetId": "9c1c-e0a3-c856-77e1", "type": "selectionEntryGroup"}
+          {
+            "name": "Alpha Legion Wargear",
+            "id": "4935-5c36-7dd9-331e",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "0368-6481-9338-5aa5",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
+          }
         ],
         "infoLinks": [
           {"name": "Leader", "id": "4ad8-ae8b-5d9c-c7d5", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
@@ -16650,6 +17408,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "76fb-1d1c-a5d4-d5f5",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -16751,6 +17518,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "db8d-0cf4-d829-8982",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -16935,6 +17711,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "8f4d-35b8-241c-a9c6",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -17048,6 +17833,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "61ab-8b37-86f8-61a2",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -17220,6 +18014,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "cd3a-a713-b02d-00ed",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -17355,6 +18158,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "65ca-a7a5-dd46-fb5a",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -17544,6 +18356,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "5b3c-7aea-6e75-901e",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -17690,6 +18511,15 @@
             "targetId": "464b-cef6-1b60-4f88",
             "type": "selectionEntry",
             "modifiers": [{"field": "0b06-18e6-527e-ee43", "type": "set", "value": 1}]
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "6dc5-9606-7451-f409",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
@@ -17952,6 +18782,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "c529-34f6-e4bc-da94",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -18322,6 +19161,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "b00a-cbe0-57c3-e45f",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -18417,6 +19265,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "a28a-2ccc-1888-3108",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -18749,6 +19606,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "929d-189e-a06c-337b",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -18795,6 +19661,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "f1a2-51e6-1d47-bf94", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "hidden",
@@ -19330,6 +20197,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Nightlord Wargear",
+                "id": "9ec9-97fd-8c06-4822",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -19927,6 +20803,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "655d-caae-a851-0ecd", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -20297,6 +21174,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Nightlord Wargear",
+                "id": "35f4-56f3-bf61-83f7",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -20866,6 +21752,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "9b5e-caf0-0fa7-63d4", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "51b2-306e-1021-d207",
@@ -21341,6 +22228,7 @@
             "import": true,
             "sortIndex": 1,
             "type": "model",
+            "categoryLinks": [{"name": "Sergent", "id": "6750-4707-3cec-bacc", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
             "constraints": [
               {"id": "b95b-5deb-7999-ede2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
               {"id": "e116-84f9-84a0-65a9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
@@ -21365,6 +22253,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "499e-5af6-6b93-3681",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -21521,6 +22418,15 @@
             "import": true,
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "fe94-7e4f-790d-c6b7",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -21784,6 +22690,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "64b0-5900-ec71-d442",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -22338,6 +23253,15 @@
                 "sortIndex": 2,
                 "targetId": "9c1c-e0a3-c856-77e1",
                 "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "fa75-a52d-ab56-1673",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 2,
+                "targetId": "2a57-7802-729b-6d61",
+                "type": "selectionEntryGroup"
               }
             ],
             "modifiers": [
@@ -22736,6 +23660,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "c5ca-271d-86e2-e373", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "51b2-306e-1021-d207",
@@ -23115,16 +24040,6 @@
             ],
             "entryLinks": [
               {
-                "name": "Artificer Armour",
-                "id": "e446-5a28-199f-f2a7",
-                "hidden": false,
-                "import": true,
-                "targetId": "3c74-1631-7133-90a0",
-                "type": "selectionEntry",
-                "constraints": [{"id": "9b28-cc7c-87b2-48dd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
-              },
-              {
                 "name": "Warhawk Jump Pack",
                 "id": "3275-39e4-b3ab-34a8",
                 "hidden": false,
@@ -23383,6 +24298,25 @@
                     "sortIndex": 1,
                     "targetId": "9c1c-e0a3-c856-77e1",
                     "type": "selectionEntryGroup"
+                  },
+                  {
+                    "name": "Night lord Wargear",
+                    "id": "6487-6bdf-dde6-b90d",
+                    "hidden": false,
+                    "import": true,
+                    "sortIndex": 1,
+                    "targetId": "2a57-7802-729b-6d61",
+                    "type": "selectionEntryGroup"
+                  },
+                  {
+                    "name": "Artificer Armour",
+                    "id": "7d44-ca3d-427c-0276",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "3c74-1631-7133-90a0",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "1fa0-0cbe-08cc-1e73", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ]
               }
@@ -23930,6 +24864,7 @@
           {"name": "Javelin Squadron", "id": "b811-7525-b681-18ab", "hidden": false, "primary": false, "targetId": "5cfb-80d8-2c92-5fc3"}
         ],
         "constraints": [{"id": "36cb-1a64-0806-a63f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "a441-35b9-f559-2bf7", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -24170,6 +25105,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "3269-ce37-9dbb-4d07", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -24479,6 +25415,7 @@
         "type": "unit",
         "categoryLinks": [{"name": "Walker", "id": "891d-6ec0-55f5-09b5", "hidden": false, "primary": true, "targetId": "6dda-e157-334d-e93a"}],
         "constraints": [{"id": "fa4f-96da-6283-d125", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "b7f5-58d0-47cf-a32a", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -24718,6 +25655,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "f254-3a6e-6bb3-0b02", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -24990,6 +25928,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "291d-3fd4-1130-56b4", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -25234,18 +26173,6 @@
               {"id": "6f14-fbb0-c0f5-1148", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "66b7-92a6-006d-261f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
-            "entryLinks": [
-              {
-                "name": "Artificer Armour",
-                "id": "38c8-ca39-311f-7b1c",
-                "hidden": false,
-                "import": true,
-                "targetId": "3c74-1631-7133-90a0",
-                "type": "selectionEntry",
-                "constraints": [{"id": "d857-5497-0064-394b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
-              }
-            ],
             "modifiers": [{"affects": "self.entries.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "type": "increment", "value": 1}],
             "profiles": [
               {
@@ -25284,8 +26211,27 @@
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
                   {
-                    "name": "Alpha Legion Wargear",
+                    "name": "Night lord Wargear",
                     "id": "e793-587c-756d-ba51",
+                    "hidden": false,
+                    "import": true,
+                    "sortIndex": 1,
+                    "targetId": "2a57-7802-729b-6d61",
+                    "type": "selectionEntryGroup"
+                  },
+                  {
+                    "name": "Artificer Armour",
+                    "id": "38c8-ca39-311f-7b1c",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "3c74-1631-7133-90a0",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "d857-5497-0064-394b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Alpha Legion Wargear",
+                    "id": "7686-c967-e6d8-244c",
                     "hidden": false,
                     "import": true,
                     "sortIndex": 1,
@@ -25941,6 +26887,15 @@
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
                 "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "3b22-4d70-f2c9-6303",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
+                "type": "selectionEntryGroup"
               }
             ],
             "modifiers": [{"affects": "self.entries.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "type": "increment", "value": 1}],
@@ -26258,6 +27213,24 @@
                   {"id": "8208-c72c-91e2-8bf7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "b446-56bf-d52b-30a8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "dfb5-381d-0a2a-578c",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Alpha Legion Wargear",
+                "id": "53d5-6576-95d6-9a77",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
               }
             ],
             "modifiers": [
@@ -26923,6 +27896,26 @@
               {"id": "8b58-e1ba-8c63-d4a1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2},
               {"id": "3d48-acbb-4cca-a095", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}
             ],
+            "entryLinks": [
+              {
+                "name": "Alpha Legion Wargear",
+                "id": "3971-3f42-4876-bd30",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "b700-1114-9bfd-091d",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
+                "type": "selectionEntryGroup"
+              }
+            ],
             "modifiers": [
               {
                 "field": "8b58-e1ba-8c63-d4a1",
@@ -27126,6 +28119,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "d642-0508-2279-14f5",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -27609,6 +28611,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "36a1-24b7-5770-b671", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -27878,6 +28881,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "f315-db2e-a6fd-ec0a", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -28216,6 +29220,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "640e-b022-1fc7-bf99", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -28826,6 +29831,24 @@
                 "type": "selectionEntry",
                 "constraints": [{"id": "8f82-8c12-a898-9dc8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "f353-3cfc-5f63-6814",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Alpha Legion Wargear",
+                "id": "6e0a-b4b0-34a4-5878",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
               }
             ],
             "profiles": [
@@ -29228,6 +30251,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Nightlord Wargear",
+                "id": "fc20-3af5-1dfc-1ed2",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -29859,6 +30891,15 @@
                 "sortIndex": 2,
                 "targetId": "9c1c-e0a3-c856-77e1",
                 "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "174f-1e31-855f-b409",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 2,
+                "targetId": "2a57-7802-729b-6d61",
+                "type": "selectionEntryGroup"
               }
             ],
             "modifiers": [
@@ -30096,6 +31137,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "e5b4-1f43-1f85-57ee",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -30898,6 +31948,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "25d9-3e26-5ff5-ead4", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -31187,6 +32238,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "9922-4db6-1965-ec23", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -31620,6 +32672,7 @@
         "type": "upgrade",
         "categoryLinks": [{"name": "Walker", "id": "2e00-281c-2d01-3bbe", "hidden": false, "primary": true, "targetId": "6dda-e157-334d-e93a"}],
         "constraints": [{"id": "b372-f535-dacf-cf86", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "6349-ec69-e7e8-ba41", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -31942,6 +32995,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Nightlord Wargear",
+                "id": "1d42-1dda-b8e5-4f56",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -32490,6 +33552,15 @@
               {"id": "a8c9-1631-74b5-69cd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
             "modifiers": [{"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}]
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "6080-456c-45eb-79d2",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "modifiers": [
@@ -32808,6 +33879,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "96c2-31c9-a6a4-364f",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -33140,6 +34220,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "e9f3-74d2-5953-7f35",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -33686,6 +34775,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "e3be-d53d-85fa-667d", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -34135,6 +35225,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "79f5-b981-85af-3afc", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -34437,6 +35528,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "f985-5c3e-71eb-54f0", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -34764,6 +35856,7 @@
           {"name": "Smoke", "id": "9921-d2de-4100-6557", "hidden": false, "primary": false, "targetId": "6df-937-16bc-8c1a"}
         ],
         "constraints": [{"id": "1270-a610-ff1a-a562", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "b3dc-2602-6411-e333", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "infoLinks": [{"name": "Power of the machine Spirit", "id": "b0ab-36a0-d2ee-cfba", "hidden": false, "targetId": "c4da-0da3-9742-8597", "type": "profile"}],
         "modifiers": [
           {
@@ -35048,6 +36141,7 @@
           {"name": "Titanic", "id": "0433-8cdc-0407-2d86", "hidden": false, "primary": false, "targetId": "5929-ad51-d006-e008"}
         ],
         "constraints": [{"id": "8aa3-b767-8cea-36a5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "5a0b-1405-deb9-7a49", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -35511,6 +36605,15 @@
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "7602-bb92-ebb9-d5f7",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "modifiers": [
@@ -35763,6 +36866,15 @@
                 "targetId": "b356-f6cd-f56e-85aa",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Escaton Power Claw",
+                "id": "27ec-8431-1ac7-b803",
+                "hidden": false,
+                "import": true,
+                "targetId": "9bb3-583a-399e-10d2",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               }
             ],
             "modifiers": [
@@ -35931,7 +37043,18 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
-        "entryLinks": [{"name": "Warlord", "id": "ef94-3c89-d537-ce98", "hidden": false, "import": true, "sortIndex": 1, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"}],
+        "entryLinks": [
+          {"name": "Warlord", "id": "ef94-3c89-d537-ce98", "hidden": false, "import": true, "sortIndex": 1, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"},
+          {
+            "name": "Night lord Wargear",
+            "id": "dfe7-28ac-34e5-279d",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -36275,6 +37398,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "820f-e6ae-ef6f-59a6", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -36687,6 +37811,7 @@
           {"name": "Proteus Land Speeder Squadron", "id": "c534-9e9f-d257-4541", "hidden": false, "primary": false, "targetId": "b4ea-ea49-89b7-0ab9"}
         ],
         "constraints": [{"id": "99d1-6dbd-2e01-b592", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "ea24-4cdb-054b-1e36", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -37101,6 +38226,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "c7f5-d0ef-53e2-d856",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -37637,6 +38771,15 @@
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
                 "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "c579-b156-f039-fc5b",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
+                "type": "selectionEntryGroup"
               }
             ],
             "profiles": [
@@ -38127,6 +39270,7 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [{"name": "Night lord Wargear", "id": "4639-f27d-c2ba-fc93", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "category",
@@ -38302,6 +39446,15 @@
               {"id": "22c0-126f-f2d4-119c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "dbcc-d52b-327d-509a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "db32-f221-6549-0b64",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "modifiers": [
@@ -38592,6 +39745,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "66ea-0a3b-a1c4-d506",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -38967,6 +40129,17 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
+        "entryLinks": [
+          {
+            "name": "Night lord Wargear",
+            "id": "d3ab-e9c8-818a-c1e5",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
+          }
+        ],
         "modifiers": [
           {
             "field": "category",
@@ -39277,6 +40450,15 @@
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "c050-0247-4b15-6268",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
@@ -39466,6 +40648,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "4d31-0ae0-02a5-0392",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -39653,6 +40844,15 @@
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "9c1c-e0a3-c856-77e1",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Night lord Wargear",
+                "id": "40e8-bc49-0960-deb6",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
               }
             ],
@@ -40146,6 +41346,15 @@
             "sortIndex": 2,
             "targetId": "9c1c-e0a3-c856-77e1",
             "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "c26b-c8a6-9cca-9821",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
@@ -40328,6 +41537,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Escaton Power Claw",
+                    "id": "f7df-efc0-c225-af9e",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9bb3-583a-399e-10d2",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -40425,6 +41643,15 @@
             "import": true,
             "sortIndex": 1,
             "targetId": "9c1c-e0a3-c856-77e1",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "3ed0-1332-fb92-a79f",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
           }
         ],
@@ -40847,6 +42074,15 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "bcb5-578f-f96d-d462",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "modifiers": [
@@ -41048,6 +42284,15 @@
               {"id": "b225-0ac2-4d7c-d2b5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "d88b-fb0d-b41e-39bf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
+          },
+          {
+            "name": "Night lord Wargear",
+            "id": "367a-b5bc-df33-c959",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "2a57-7802-729b-6d61",
+            "type": "selectionEntryGroup"
           }
         ],
         "modifiers": [
