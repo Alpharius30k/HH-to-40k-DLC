@@ -1503,7 +1503,14 @@
               }
             ]
           },
-          {"name": "Battleline", "id": "b3ba-1e1a-a92d-60d2", "hidden": false, "primary": false, "targetId": "e338-111e-d0c6-b687"},
+          {
+            "name": "Battleline",
+            "id": "b3ba-1e1a-a92d-60d2",
+            "hidden": false,
+            "primary": false,
+            "targetId": "e338-111e-d0c6-b687",
+            "constraints": [{"id": "f4e2-d2d2-64d4-e1a1", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2}]
+          },
           {"name": "Infantry", "id": "6d77-b79d-3ccb-6bf6", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Swarm", "id": "f5d5-b603-69b3-411c", "hidden": false, "primary": false, "targetId": "b00b-5bae-444f-964e"},
           {"name": "Mounted", "id": "6503-057c-cb62-badb", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"},
@@ -1525,7 +1532,10 @@
           {"name": "Allies: Titanicus Traitoris", "id": "722c-1b43-cac8-8d7a", "hidden": false, "targetId": "24fa-8caf-cd68-31fb"},
           {"name": "Allies: Tyranids", "id": "2a70-f48a-2223-f633", "hidden": false, "targetId": "747a-c6a9-6f4f-7f09"},
           {"name": "Allies: Unaligned Forces", "id": "ea72-49d5-9b60-d6cf", "hidden": false, "targetId": "07d9-ab1c-cf28-0939"},
-          {"name": "Reference", "id": "3761-5a4e-79e0-3c18", "hidden": false, "targetId": "eef1-be80-500a-edfc"}
+          {"name": "Reference", "id": "3761-5a4e-79e0-3c18", "hidden": false, "targetId": "eef1-be80-500a-edfc"},
+          {"name": "Walker", "id": "d595-db12-050d-b449", "hidden": false, "primary": false, "targetId": "6dda-e157-334d-e93a"},
+          {"name": "Fly", "id": "3bec-3338-d43e-c50c", "hidden": false, "primary": false, "targetId": "c619-2086-bbcf-69c9"},
+          {"name": "Primarch", "id": "ebc3-2f0d-91fe-5163", "hidden": false, "primary": false, "targetId": "6474-0ce3-6b5a-120c"}
         ],
         "constraints": [
           {"id": "95c5-effd-74f1-c8f4", "field": "82ae-1066-5107-6ae0", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 2},

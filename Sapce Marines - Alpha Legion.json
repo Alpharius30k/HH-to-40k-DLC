@@ -14,947 +14,3090 @@
       {"name": "Space Marines - Armoury", "id": "9b75-9b23-19f1-92dc", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
       {"name": "Space Marines - Wargear", "id": "374c-4e72-6358-a3a8", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"}
     ],
-    "categoryEntries": [{"name": "Faction: Alpha Legion", "id": "3583-4c5d-bf42-1f69", "hidden": false}],
+    "categoryEntries": [
+      {"name": "Alpharius", "id": "69f9-9746-9bc3-71bb", "hidden": false},
+      {"name": "Armillus Dynaty", "id": "eef7-fa6f-007a-a93c", "hidden": false},
+      {"name": "Exodus", "id": "c4f7-61cf-dde0-dd21", "hidden": false},
+      {"name": "Lernaean Terminator Squad", "id": "4e57-846d-3acb-8f24", "hidden": false},
+      {"name": "Headhunter Kill Team", "id": "f7f8-8cf0-722a-cd3f", "hidden": false}
+    ],
     "entryLinks": [
       {"name": "Loyalty", "id": "625c-3846-b2ca-5602", "hidden": false, "import": true, "targetId": "0397-ebbd-9609-b338", "type": "selectionEntry"},
       {"name": "Detachment", "id": "67bf-32e8-d2de-d31b", "hidden": false, "import": true, "targetId": "378c-a751-bdbe-2c34", "type": "selectionEntry"},
       {
-        "name": "Legion Esoterist",
-        "id": "6e1f-872a-3804-8cf8",
-        "hidden": false,
-        "import": true,
-        "targetId": "68c1-fc4a-296a-c658",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "fe00-9787-9526-dc4b", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "32cc-f6b2-3f4d-edb3", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Centurion",
-        "id": "ebcb-d276-f312-25c7",
-        "hidden": false,
-        "import": true,
-        "targetId": "89d9-05e4-07bb-4cdf",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "94bb-d03d-d9fb-5fac", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "a51f-89bd-86e3-07be", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Armistos",
-        "id": "73ca-bb6a-56d8-f263",
-        "hidden": false,
-        "import": true,
-        "targetId": "623e-1034-b4cc-8b96",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "67d2-6094-f085-cef6", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "7137-7cdd-7761-0677", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Champion",
-        "id": "4156-5ed1-94df-18da",
-        "hidden": false,
-        "import": true,
-        "targetId": "8114-d185-a4ee-07cb",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "acce-400a-7961-98bd", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "4717-f385-3d5a-c3f2", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Delegatus",
-        "id": "6a61-dfac-8da4-7a84",
-        "hidden": false,
-        "import": true,
-        "targetId": "1713-0c7f-75d6-8cd6",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "92e5-44a0-850d-8cd4", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d071-c3fe-d106-d7b4", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Chaplin",
-        "id": "20f2-1008-b1b0-8334",
-        "hidden": false,
-        "import": true,
-        "targetId": "3ce3-e3c9-a85b-0e53",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "2fea-0530-b41e-2c90", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5125-30f6-d852-7f9c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Forge Lord",
-        "id": "713e-c8fe-60fc-0b35",
-        "hidden": false,
-        "import": true,
-        "targetId": "531c-d5af-2f78-f4ca",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "741c-cf48-6e12-7d10", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d085-0b96-1729-b0f1", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Herald",
-        "id": "dd9f-92eb-9203-5693",
-        "hidden": false,
-        "import": true,
-        "targetId": "0cda-4f5c-8167-21e6",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a96f-4bd8-d45f-ada5", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5ad6-efbb-5208-7e51", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Librarian",
-        "id": "5c5b-f306-e54c-a001",
-        "hidden": false,
-        "import": true,
-        "targetId": "2501-499b-4f8e-69ea",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f78e-0667-362f-e66b", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3cc9-c4c3-362d-1551", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Master of Signals",
-        "id": "683a-ccf3-b5bd-e5c9",
-        "hidden": false,
-        "import": true,
-        "targetId": "32d7-9e1e-45bb-f13e",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e046-05f3-a161-c5a0", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "298f-efa6-3435-9c61", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Moritat",
-        "id": "ccb6-c8f9-406d-4e7a",
-        "hidden": false,
-        "import": true,
-        "targetId": "24ee-9f1e-ff3b-50f7",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "1061-d4b8-222e-ae74", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e678-7feb-9371-449f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Mortifactor",
-        "id": "b7f6-25cb-73a8-f10f",
-        "hidden": false,
-        "import": true,
-        "targetId": "12fa-b8c1-64ca-eab5",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "535a-e9b6-65af-11fb", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c9c5-97fb-c1ea-e517", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Overseer",
-        "id": "b47e-e49e-379e-8836",
-        "hidden": false,
-        "import": true,
-        "targetId": "4726-b22c-efb0-cc88",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e678-357c-75ec-e7bf", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "f604-1a2b-18ee-7e78", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Pathfinder",
-        "id": "42d8-4faf-3bd5-7f68",
-        "hidden": false,
-        "import": true,
-        "targetId": "e43d-8e9e-7bad-3a4f",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "1a9c-9f22-0c0c-77ab", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d89f-d741-bc76-4c43", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Praevian",
-        "id": "ef80-5b47-82ba-6d7c",
-        "hidden": false,
-        "import": true,
-        "targetId": "6eeb-a277-d3db-8d47",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f812-a2fe-d1e3-e8e2", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e0a5-30dc-5209-315d", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Primus Medicae",
-        "id": "515c-1dbb-21d7-b65a",
-        "hidden": false,
-        "import": true,
-        "targetId": "a33a-de11-6e28-dd63",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "b55f-2cf6-3175-3aba", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "caa9-68ee-2393-a464", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Siege Breaker",
-        "id": "21d2-53fd-4e59-d6cc",
-        "hidden": false,
-        "import": true,
-        "targetId": "db44-cb35-a60d-a6f6",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "97d5-afa5-fcc4-d9df", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e62a-1fa7-8e6b-d1c0", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Vigilator",
-        "id": "3128-2202-7a28-f1c3",
-        "hidden": false,
-        "import": true,
-        "targetId": "adf8-32df-e4a3-be75",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "ac4a-2004-ec89-3409", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "341b-ba43-469f-3d1b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Warmonger",
-        "id": "e978-c2c6-5511-b0fc",
-        "hidden": false,
-        "import": true,
-        "targetId": "c490-dbef-188a-dcb1",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "d921-cd45-a8a2-db3b", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b319-e2b4-b542-88af", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Centurion",
-        "id": "1796-e9ad-ff1b-0cbc",
-        "hidden": false,
-        "import": true,
-        "targetId": "28bf-8fe9-1cec-30ac",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f8a1-0364-fd93-f9e6", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1ebe-efc6-e63d-286d", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Champion",
-        "id": "d8cb-5a78-8643-3ba0",
-        "hidden": false,
-        "import": true,
-        "targetId": "ce57-3967-c54e-fdf9",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "df74-deed-59d0-4b42", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "181f-6cb7-6a83-9701", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Chaplin",
-        "id": "84c1-2319-4920-5bb2",
-        "hidden": false,
-        "import": true,
-        "targetId": "9c84-4621-d522-c8d5",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f178-d962-9bd8-0db9", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "4f4a-f806-58eb-23c6", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Delegetus",
-        "id": "e9f2-868d-b6fe-b02e",
-        "hidden": false,
-        "import": true,
-        "targetId": "19c1-242d-f921-949e",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c47f-8dff-b2ee-c4b6", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "f223-5406-833a-7bbc", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Esoterist",
-        "id": "bee0-cc0e-e4a7-5a2a",
-        "hidden": false,
-        "import": true,
-        "targetId": "dd6a-027c-5acd-4779",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "69ed-c8b6-a032-bfaf", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b8e9-fc9d-2c39-0253", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Forge Lord",
-        "id": "b0da-e1cd-f03f-6348",
-        "hidden": false,
-        "import": true,
-        "targetId": "d7bc-ba47-227a-ca16",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "27b3-1342-bae9-03a3", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "6977-92a7-7bea-0102", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Herald",
-        "id": "b9be-ae9e-3964-2225",
-        "hidden": false,
-        "import": true,
-        "targetId": "a00b-e416-84ab-4700",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a109-8bee-00af-1cfa", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "082a-9148-8ddb-d9a9", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Librarian",
-        "id": "69a6-791d-5ec1-3c40",
-        "hidden": false,
-        "import": true,
-        "targetId": "3187-3d1d-c6a5-6dab",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "eb61-5ef6-93f8-3d74", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "518a-4ab0-15b6-0072", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Mortifactor",
-        "id": "efb5-e1e8-a381-debe",
-        "hidden": false,
-        "import": true,
-        "targetId": "00b3-cab0-3ed0-46e7",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "aa9c-63b6-1083-ce47", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5bdd-5317-406a-7fd2", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Primus Medicae",
-        "id": "8ab4-6760-5d2e-24d1",
-        "hidden": false,
-        "import": true,
-        "targetId": "56c0-45e5-91ca-5b8a",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "217a-4052-296d-3c8b", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "584c-9de8-1ce1-4549", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Primus Nullificator",
-        "id": "0a56-05a1-9bac-8e3c",
-        "hidden": false,
-        "import": true,
-        "targetId": "326d-a698-02b6-8e8d",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "b7f5-3624-92b4-2b17", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "73fa-f933-6d85-05a4", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Siege Breaker",
-        "id": "84aa-ca60-05d6-0a06",
-        "hidden": false,
-        "import": true,
-        "targetId": "eaff-53c9-a602-2479",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e1fd-b3f8-ad2d-e2af", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d6a1-b72b-8b67-46d2", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Warmonger",
-        "id": "f090-8f98-335d-e3c2",
-        "hidden": false,
-        "import": true,
-        "targetId": "34e9-c499-a5b2-66a9",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "ac90-f389-c9f8-258a", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "53d4-14da-251f-ccdd", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Command Squad",
-        "id": "feb4-28cc-d983-3186",
-        "hidden": false,
-        "import": true,
-        "targetId": "f543-f511-bd0d-8611",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "0879-ce4a-3e7b-5be0", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "8bd7-4340-a971-a4d6", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Champion",
-        "id": "5a44-a32d-73b6-91ed",
-        "hidden": false,
-        "import": true,
-        "targetId": "5a8c-8f7e-c8f3-458e",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "6486-23c2-0bea-9238", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "da17-d850-cdc5-d9eb", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Chaplin",
-        "id": "47d9-4211-4ba0-607d",
-        "hidden": false,
-        "import": true,
-        "targetId": "46e1-af9e-302a-b2ff",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "43aa-c79c-e83c-99ad", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "73ac-4b12-4f1a-5cf8", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Delegatus",
-        "id": "c227-f7d8-6357-4706",
-        "hidden": false,
-        "import": true,
-        "targetId": "f6a8-8205-06c8-8e49",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "5274-dceb-fd4f-0fd7", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e725-e82f-bd2b-d7cf", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Esoterist",
-        "id": "861d-8965-0320-60eb",
-        "hidden": false,
-        "import": true,
-        "targetId": "d6db-a7b1-09df-5034",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "9b5e-774c-ecf9-5d36", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "9901-66a1-3764-22bb", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Forge Lord",
-        "id": "b7e5-a4db-1120-b64c",
-        "hidden": false,
-        "import": true,
-        "targetId": "8e62-aa3b-9a26-b151",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "1eec-358d-45b8-9343", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c7b2-e7aa-6dd9-314b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Herald",
-        "id": "1705-d566-94c4-3969",
-        "hidden": false,
-        "import": true,
-        "targetId": "a1a0-a39e-c9d8-885a",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "1da9-a893-1898-75bf", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "f4d1-e153-3197-7f7a", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Librarian",
-        "id": "5a8e-1ec5-1a1c-4d4a",
-        "hidden": false,
-        "import": true,
-        "targetId": "70c6-b440-89df-6881",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a234-196f-29b3-46e0", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "dc6c-6e49-8852-7532", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Mortifactor",
-        "id": "b412-907c-617d-676c",
-        "hidden": false,
-        "import": true,
-        "targetId": "c678-20b5-8b21-4fbb",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "da49-20ff-973c-fed4", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "60ce-418f-1ce6-cb4f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Primus Medicae",
-        "id": "783e-f744-3164-c8c2",
-        "hidden": false,
-        "import": true,
-        "targetId": "328a-c702-2f0a-6444",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "b9e2-a296-e78e-c0a1", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c99b-5a53-b411-baf8", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Siege Breaker",
-        "id": "fe17-04ef-24a8-6ce9",
-        "hidden": false,
-        "import": true,
-        "targetId": "3976-982f-34dc-06f8",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a5f7-b222-243f-aee6", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "ed97-fb31-6b63-1a8f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Warmonger",
-        "id": "5a96-e16e-cfc3-dbe0",
-        "hidden": false,
-        "import": true,
-        "targetId": "4065-c653-1b0c-4f8f",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "5009-4eb2-ffdf-8ba7", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "a234-5a91-d9d9-72a2", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Damocles Command Rhino",
-        "id": "206d-f108-5299-dbae",
-        "hidden": false,
-        "import": true,
-        "targetId": "7a1b-9d51-180e-a16b",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "bfcb-5019-9ad1-139f", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "rules": [{"name": "Lies and Obfuscation", "id": "5847-5288-df6c-0961", "hidden": false}]
-      },
-      {"name": "Exponditionary Navigator", "id": "8076-9496-729e-511a", "hidden": false, "import": true, "targetId": "5765-8056-9276-b9e8", "type": "selectionEntry"},
-      {"name": "Cult Abominatio", "id": "5855-4714-2691-8377", "hidden": false, "import": true, "targetId": "23e5-63f2-00a0-e269", "type": "selectionEntry"},
-      {"name": "Davinite Lodge Priest", "id": "dd7f-904b-3084-1688", "hidden": false, "import": true, "targetId": "508b-3db2-00f4-01bb", "type": "selectionEntry"},
-      {
-        "name": "Legion Optae",
-        "id": "99cd-9d32-8a18-03c4",
-        "hidden": false,
-        "import": true,
-        "targetId": "011a-f45d-4771-9dfe",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "27b0-d47a-15e4-8e61", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "95c0-a013-74d8-4119", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Praetor",
-        "id": "d34e-ccf7-858a-d7b1",
-        "hidden": false,
-        "import": true,
-        "targetId": "998f-7eb2-26ee-2a84",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "828d-cf03-37cc-e5e3", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "2e31-8f91-be0e-e24b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Praetor",
-        "id": "be73-b3e1-720a-0555",
-        "hidden": false,
-        "import": true,
-        "targetId": "d21d-b83b-addc-90d1",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c33b-5470-4dbd-33bf", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3a22-fa5b-ff9f-a327", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Praetor",
-        "id": "a23e-2155-3580-43d2",
-        "hidden": false,
-        "import": true,
-        "targetId": "dd4d-8bc3-7d45-d3aa",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "0ac5-a495-957b-dffe", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e7f3-831e-d2a7-6169", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Command Squad",
-        "id": "d97e-576e-3a40-51d1",
-        "hidden": false,
-        "import": true,
-        "targetId": "eb44-0ba7-961f-c555",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "4c4f-a01f-fde7-d3f1", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "0af1-8b2e-b500-3769", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphracii Command Squad",
-        "id": "bb86-6258-4b7c-86b9",
-        "hidden": false,
-        "import": true,
-        "targetId": "260d-fcdb-bce6-adc6",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "447f-e28f-573a-f9bc", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "895a-d451-7b11-8cf5", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Tartaros Centurion",
-        "id": "41ac-70cc-c757-71be",
-        "hidden": false,
-        "import": true,
-        "targetId": "4e15-f59f-a942-c829",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c395-ccbd-01b3-4b61", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1438-dba3-e925-7fc2", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Apothecary",
-        "id": "0da4-46a8-320d-a3fe",
-        "hidden": false,
-        "import": true,
-        "targetId": "5597-c7f9-c3ee-290a",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "b79a-a969-725f-9cfb", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d23b-35ed-fba9-4cdf", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Castra Ferrum Dreadnought Talon",
-        "id": "da9f-4734-c74e-e8d3",
-        "hidden": false,
-        "import": true,
-        "targetId": "f63b-d601-fe21-e221",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "eba6-3e3d-41bb-8c91", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "9e8c-616d-0d3e-4dcd", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Contemptor Dreadnought Talon",
-        "id": "7913-4be4-3f9d-93f5",
-        "hidden": false,
-        "import": true,
-        "targetId": "0253-b6f0-97a0-4437",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "de5f-5689-be24-ed69", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "0c82-b0c3-1a8b-7f34", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Destroyer Assault Squad",
-        "id": "c182-47fd-d22e-b305",
-        "hidden": false,
-        "import": true,
-        "targetId": "9a22-1750-3581-f5e9",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f16f-6efa-8583-6180", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "2105-1de2-e2e2-0655", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Mortalis Destroyer Squad",
-        "id": "2731-2e9d-96c0-e5c8",
-        "hidden": false,
-        "import": true,
-        "targetId": "b5f2-8ddb-57bd-1583",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "5530-4eb0-530c-a359", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "2851-60c4-1a28-123e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Nullificator Squad",
-        "id": "f008-a472-e000-6341",
-        "hidden": false,
-        "import": true,
-        "targetId": "41de-856c-a041-1f74",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a7d3-c8a8-6f4d-ddcb", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "a046-01f8-c815-aabe", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Rapier Battery",
-        "id": "06c2-2778-77d1-290b",
-        "hidden": false,
-        "import": true,
-        "targetId": "8b64-1e68-a680-b744",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "3f7c-2db9-808e-5894", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b97d-efbc-72af-38d0", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Techmarine",
-        "id": "1e7c-1e2b-2e81-583d",
-        "hidden": false,
-        "import": true,
-        "targetId": "5906-c31b-60b0-6ea6",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a05b-1c52-a656-cb03", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c027-dcdf-e2c5-b960", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {
-        "name": "Legion Cataphractii Squad",
-        "id": "070c-79eb-b7e3-456f",
-        "hidden": false,
-        "import": true,
-        "targetId": "86e9-7365-1fa1-e847",
-        "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c0e4-4a92-5bfc-7737", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "eb90-cf52-604d-54f7", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
-      },
-      {"name": "Legion Tartaros Squad", "id": "3754-9522-920a-ff76", "hidden": false, "import": true, "targetId": "533b-2c5b-c5aa-7fac", "type": "selectionEntry"},
-      {"name": "Legion Veteran Squad", "id": "d3d0-bbcc-9fdf-6108", "hidden": false, "import": true, "targetId": "14ca-45b2-dca4-33f6", "type": "selectionEntry"},
-      {
         "name": "Legion Assault Squad",
-        "id": "3343-55a8-867d-41c9",
+        "id": "bc57-fc45-0fa8-2356",
         "hidden": false,
         "import": true,
         "targetId": "ee1e-7c3c-d075-ccfb",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c11b-ec47-322e-90f0", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "a7d5-efe9-e7a1-84be", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "08ca-23c0-209f-0774", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
         "name": "Legion Breacher Squad",
-        "id": "d1fa-58ea-dc63-187d",
+        "id": "fd87-5190-19df-e5b7",
         "hidden": false,
         "import": true,
         "targetId": "e2bb-808a-d22a-b21c",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "9d52-0576-da65-48d3", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "6308-42ea-e678-09c8", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "97d4-b20f-f77c-9c32", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
         "name": "Legion Tactical Squad",
-        "id": "ca51-8003-fbcf-657d",
+        "id": "19e6-96ba-2d6c-b065",
         "hidden": false,
         "import": true,
         "targetId": "d7d2-ed0b-87cb-f5bd",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "7246-a565-805c-31af", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3a4f-5bbc-1843-094d", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5661-01df-3307-2561", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
         "name": "Legion Despoiler Squad",
-        "id": "a2d3-5e2c-90d3-a88f",
+        "id": "c01e-be1b-d652-3337",
         "hidden": false,
         "import": true,
         "targetId": "6174-a4fd-ad46-ddfa",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c6de-607f-687b-d32f", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "2310-a232-c588-867f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "cf3d-0311-92a5-fcab", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
+      {"name": "Davinite Lodge Priest", "id": "22d6-d028-fc55-5dd4", "hidden": false, "import": true, "targetId": "508b-3db2-00f4-01bb", "type": "selectionEntry"},
+      {"name": "Exponditionary Navigator", "id": "aef0-f4f4-ad7b-86e8", "hidden": false, "import": true, "targetId": "5765-8056-9276-b9e8", "type": "selectionEntry"},
       {
-        "name": "Legion Reconnaissance Squad",
-        "id": "a11f-5a14-9ade-8949",
+        "name": "Legion Apothecary",
+        "id": "7473-c909-0e75-7c91",
         "hidden": false,
         "import": true,
-        "targetId": "87e9-4645-76e0-00e8",
+        "targetId": "5597-c7f9-c3ee-290a",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "54c4-a7b0-11a8-1d98", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "9383-c878-a3b2-6a8c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3a4c-c718-2eca-a4ab", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Scout Squad",
-        "id": "4119-97fc-f6ee-d75e",
+        "name": "Legion Armistos",
+        "id": "ab99-bb11-843f-36e2",
         "hidden": false,
         "import": true,
-        "targetId": "769b-7644-1599-a579",
+        "targetId": "623e-1034-b4cc-8b96",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "014c-4855-68bf-d4cb", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b433-9cc4-a66b-7969", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1ee6-62d0-53c2-528e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Tactical Support Squad",
-        "id": "1888-5b8c-f0f9-cae2",
+        "name": "Legion Cataphractii Centurion",
+        "id": "d0a7-634f-d9f5-1d77",
         "hidden": false,
         "import": true,
-        "targetId": "3711-985b-f066-5d7b",
+        "targetId": "28bf-8fe9-1cec-30ac",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e73d-6b92-08c7-9b91", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1c8c-adf4-5f82-2dd6", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "2383-f133-d697-77db", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Tarantula Sentry Gun Battery",
-        "id": "5753-fa9e-3020-7a0f",
+        "name": "Legion Cataphractii Champion",
+        "id": "62a7-23e6-c5ba-80eb",
         "hidden": false,
         "import": true,
-        "targetId": "e8da-18b9-7a85-f1ea",
+        "targetId": "ce57-3967-c54e-fdf9",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a99e-f10b-064d-d10f", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d397-663e-adf4-7448", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "0b9d-91e7-48b0-2f3a", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Indomitus Terminator Squad",
-        "id": "adb9-44fa-37a1-b275",
+        "name": "Legion Cataphractii Chaplin",
+        "id": "5d1d-460e-c6bd-f3e2",
         "hidden": false,
         "import": true,
-        "targetId": "b24a-af33-bbf8-8c21",
+        "targetId": "9c84-4621-d522-c8d5",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "86b2-776c-b9ec-19d7", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "23b6-03ba-78a7-7bfb", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1911-85b1-a464-001c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Javelin Squadron",
-        "id": "db67-4252-c29c-9381",
+        "name": "Legion Cataphractii Esoterist",
+        "id": "d4f7-0962-7ff9-6d12",
         "hidden": false,
         "import": true,
-        "targetId": "2492-388c-9304-c2c8",
+        "targetId": "dd6a-027c-5acd-4779",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "bf21-5bf7-b0a1-ef89", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "51ab-545c-fbff-f118", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d89e-4992-af71-2d01", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Avenger Strike Fighter",
-        "id": "f6c8-ed5f-1dd2-ed63",
+        "name": "Legion Cataphractii Forge Lord",
+        "id": "e1bc-09a7-253f-f590",
         "hidden": false,
         "import": true,
-        "targetId": "3cc5-a083-a336-885f",
+        "targetId": "d7bc-ba47-227a-ca16",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e53d-1548-5faa-7424", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3a21-24e7-410f-5942", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "473e-a09a-0894-817c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Primaris-Lightning Strike Fighter",
-        "id": "f288-2faa-2fe1-cda5",
+        "name": "Legion Cataphractii Herald",
+        "id": "cd3d-3ea6-9fc5-3956",
         "hidden": false,
         "import": true,
-        "targetId": "0b04-9f4d-a24f-a316",
+        "targetId": "a00b-e416-84ab-4700",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "5b73-ce9e-aae4-a949", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3e90-61f6-17f7-d339", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3f95-3031-4ae8-8832", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Thunderbolt Fighter",
-        "id": "c54d-91c4-661f-def7",
+        "name": "Legion Cataphractii Librarian",
+        "id": "121d-a37b-62ab-9b6e",
         "hidden": false,
         "import": true,
-        "targetId": "1e31-32c6-8c4c-f357",
+        "targetId": "3187-3d1d-c6a5-6dab",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "b202-196b-4883-4dfc", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e15a-e000-ae8a-3d85", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "ae43-093c-83a1-8b75", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Outrider Squadron",
-        "id": "b77e-abae-c533-78f5",
+        "name": "Legion Cataphractii Mortifactor",
+        "id": "535c-572a-214a-51cd",
         "hidden": false,
         "import": true,
-        "targetId": "6d72-7039-2d3d-4f6a",
+        "targetId": "00b3-cab0-3ed0-46e7",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "5cc3-f0e1-6b33-5367", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b97e-10f9-7fe0-d4fc", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "8cc8-0ad9-3b60-32bc", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Proteus Land Speeder Squadron",
-        "id": "fac5-d353-1f72-d45d",
+        "name": "Legion Cataphractii Praetor",
+        "id": "e2c3-66c2-2853-35ca",
         "hidden": false,
         "import": true,
-        "targetId": "2cd9-4c4a-22d4-2149",
+        "targetId": "998f-7eb2-26ee-2a84",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "f72c-551e-5a96-210e", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "9343-3578-6d12-5ad4", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c310-e6a3-1d2d-686f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Sabre Strike Squadron",
-        "id": "93bf-d0b3-b12f-d546",
+        "name": "Legion Cataphractii Primus Medicae",
+        "id": "94c3-12d5-68cf-ba8f",
         "hidden": false,
         "import": true,
-        "targetId": "f50e-2453-e395-c153",
+        "targetId": "56c0-45e5-91ca-5b8a",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "2037-9073-f429-dfe9", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "2b5c-3470-d409-b1c5", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "8d87-2bca-b9af-8b06", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Seeker Squad",
-        "id": "1ba3-7979-7a67-a555",
+        "name": "Legion Cataphractii Siege Breaker",
+        "id": "a902-51d9-d56b-a72c",
         "hidden": false,
         "import": true,
-        "targetId": "3789-2f71-8ac7-06f6",
+        "targetId": "eaff-53c9-a602-2479",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "bbf0-efc1-8fe9-e373", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5c4b-f713-752f-7c7f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "90d9-9fdc-31fd-647b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Sky-Hunter Squadron",
-        "id": "c4a2-e474-75c4-7f1c",
+        "name": "Legion Cataphractii Warmonger",
+        "id": "22f9-50c1-3739-0245",
         "hidden": false,
         "import": true,
-        "targetId": "f417-278a-7c89-1231",
+        "targetId": "34e9-c499-a5b2-66a9",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "c9a1-d36b-289b-e02c", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "38c0-cbdb-1935-8e2c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "a056-0a20-3265-02d5", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Spatha Attack Bike Squadron",
-        "id": "d5d5-496c-5587-7725",
+        "name": "Legion Centurion",
+        "id": "d054-7d3b-273c-e302",
         "hidden": false,
         "import": true,
-        "targetId": "ffd4-fb23-ba98-73fc",
+        "targetId": "89d9-05e4-07bb-4cdf",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "bc34-04d7-3139-2e89", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "be8c-80a5-e142-eb02", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "4f00-bb3d-6323-5d3f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Storm Eagle Gunship",
-        "id": "92d6-7cd2-a416-4ada",
+        "name": "Legion Champion",
+        "id": "7f34-0ec6-b83f-4c8f",
         "hidden": false,
         "import": true,
-        "targetId": "018f-2bcd-8f19-764a",
+        "targetId": "8114-d185-a4ee-07cb",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "4328-279f-7616-e992", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "bb60-16d3-e46a-a186", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "ea21-681e-0c69-4101", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Xiphon Interceptor",
-        "id": "0dd3-474e-9034-c2ec",
+        "name": "Legion Chaplin",
+        "id": "37b7-447c-ae3c-db4d",
         "hidden": false,
         "import": true,
-        "targetId": "1fc9-94cb-9b08-7f28",
+        "targetId": "3ce3-e3c9-a85b-0e53",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "4947-e73a-f68d-ab74", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "40ca-f58d-fd98-ad79", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "18f3-3faa-05bd-a815", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Arquitor Squadron",
-        "id": "868f-4bf4-7562-b167",
+        "name": "Legion Damocles Command Rhino",
+        "id": "115d-5431-f5b8-f749",
         "hidden": false,
         "import": true,
-        "targetId": "efbe-a324-fdc4-4f2e",
+        "targetId": "7a1b-9d51-180e-a16b",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "4800-3f77-e2fc-c73c", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "8d0a-ebf4-e1e2-bd3a", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "f5dd-b9ee-8b18-5d3b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Caestus Assault Ram",
-        "id": "4a65-75b0-aa1d-5e06",
+        "name": "Legion Delegatus",
+        "id": "2dbf-a4d2-6192-6f2e",
         "hidden": false,
         "import": true,
-        "targetId": "c2ac-4740-5dac-46f6",
+        "targetId": "1713-0c7f-75d6-8cd6",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "b2b2-c5c9-f5ac-fe69", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c486-431b-01f2-2135", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "7b4d-b06c-2b11-bd60", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Deredeo Dreadnought Talon",
-        "id": "c082-1914-32b1-d41b",
+        "name": "Legion Esoterist",
+        "id": "9719-f9a6-5504-0265",
         "hidden": false,
         "import": true,
-        "targetId": "180d-3e88-b259-5d1d",
+        "targetId": "68c1-fc4a-296a-c658",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "a4cc-b8b5-4f49-3318", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5073-d509-bf95-4c43", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "8730-e982-7283-351b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Fire Raptor Gunship",
-        "id": "6cfe-1549-a884-74c1",
+        "name": "Legion Forge Lord",
+        "id": "ab20-e587-efd3-3a84",
         "hidden": false,
         "import": true,
-        "targetId": "8a76-6902-726c-b5e1",
+        "targetId": "531c-d5af-2f78-f4ca",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "9eac-940e-7bfd-b2bf", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "7c5a-ce72-13d5-1d10", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d7d0-da8b-19ce-a322", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Heavy Support Squad",
-        "id": "a18f-00ba-92e1-3140",
+        "name": "Legion Herald",
+        "id": "5d52-8295-51ab-91a9",
         "hidden": false,
         "import": true,
-        "targetId": "c68b-74aa-dc15-c950",
+        "targetId": "0cda-4f5c-8167-21e6",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "af6a-fe3c-2138-c4fe", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "dcbf-85d2-f57f-722d", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "9d69-a1bc-15ac-b288", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Kratos Squadron",
-        "id": "ec96-fcf7-4db2-48ef",
+        "name": "Legion Librarian",
+        "id": "e786-c72c-5217-a144",
         "hidden": false,
         "import": true,
-        "targetId": "c8f6-06dd-a85a-ee3e",
+        "targetId": "2501-499b-4f8e-69ea",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "e4c1-e4b9-790c-2c18", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "f7dd-a714-8887-1cb8", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "0666-d4cb-5db3-d19f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Basalisk Squadron",
-        "id": "996d-dda9-80dd-7ad1",
+        "name": "Legion Master of Signals",
+        "id": "b304-fae0-4430-f357",
         "hidden": false,
         "import": true,
-        "targetId": "5341-5378-0b4b-3df2",
+        "targetId": "32d7-9e1e-45bb-f13e",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "1e9c-8100-9d5d-c027", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d1e7-ff05-9e90-f948", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3510-007d-baf0-b3ea", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
-        "name": "Legion Sicaran Squadron",
-        "id": "d4bc-5177-bcba-1ab7",
+        "name": "Legion Moritat",
+        "id": "a7ec-95db-dfeb-eac5",
         "hidden": false,
         "import": true,
-        "targetId": "a6f3-8850-8883-56c5",
+        "targetId": "24ee-9f1e-ff3b-50f7",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "775f-ada4-2720-293f", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c3a2-d275-f56c-7206", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "6425-f2c5-3f75-0483", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Mortifactor",
+        "id": "0423-f9c6-50a6-d97b",
+        "hidden": false,
+        "import": true,
+        "targetId": "12fa-b8c1-64ca-eab5",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c64a-1ccf-0f1d-731a", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Overseer",
+        "id": "c247-9178-0a58-d7ad",
+        "hidden": false,
+        "import": true,
+        "targetId": "4726-b22c-efb0-cc88",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "030c-bd77-dc4a-0144", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Pathfinder",
+        "id": "b1cf-7a05-b192-dc93",
+        "hidden": false,
+        "import": true,
+        "targetId": "e43d-8e9e-7bad-3a4f",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "4c8e-79c1-244d-56a0", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Praetor",
+        "id": "3252-d412-be82-7145",
+        "hidden": false,
+        "import": true,
+        "targetId": "d21d-b83b-addc-90d1",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "6c3e-ba8b-85d5-c1ff", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Praevian",
+        "id": "2553-b40f-41b2-b7f1",
+        "hidden": false,
+        "import": true,
+        "targetId": "6eeb-a277-d3db-8d47",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1f35-5e32-e3d9-6598", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Primus Medicae",
+        "id": "e086-8d2e-1b0b-6782",
+        "hidden": false,
+        "import": true,
+        "targetId": "a33a-de11-6e28-dd63",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "7efe-b485-2d7c-4353", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
         "name": "Legion Sicaran Master of Armour",
-        "id": "c47f-017b-eae4-0e23",
+        "id": "0c5b-dac2-3ca5-e42f",
         "hidden": false,
         "import": true,
         "targetId": "3376-ed95-4f28-b705",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "efe7-2222-2843-6f3b", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "38b9-ed00-e758-74f9", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "0695-8923-d7dd-bdd9", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Siege Breaker",
+        "id": "51a4-19b5-e62d-109e",
+        "hidden": false,
+        "import": true,
+        "targetId": "db44-cb35-a60d-a6f6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "7567-3dad-a906-6ae3", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Centurion",
+        "id": "6b8e-cf21-b74a-6421",
+        "hidden": false,
+        "import": true,
+        "targetId": "4e15-f59f-a942-c829",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3cdc-05fb-edd8-a3ac", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Champion",
+        "id": "226a-64ab-c98a-6e74",
+        "hidden": false,
+        "import": true,
+        "targetId": "5a8c-8f7e-c8f3-458e",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "9530-ee24-fae5-c8c1", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Chaplin",
+        "id": "61e6-97f5-cb63-de38",
+        "hidden": false,
+        "import": true,
+        "targetId": "46e1-af9e-302a-b2ff",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d8d9-f90d-3588-bfb9", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Esoterist",
+        "id": "f795-7fdc-3a7e-7b65",
+        "hidden": false,
+        "import": true,
+        "targetId": "d6db-a7b1-09df-5034",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "9752-c6e9-a03a-4e23", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Forge Lord",
+        "id": "8484-e294-af3f-17d5",
+        "hidden": false,
+        "import": true,
+        "targetId": "8e62-aa3b-9a26-b151",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "14d3-13de-cc45-3707", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Herald",
+        "id": "929e-cd4c-6d4a-d15e",
+        "hidden": false,
+        "import": true,
+        "targetId": "a1a0-a39e-c9d8-885a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "fc04-3d23-b5da-3f69", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Librarian",
+        "id": "bc1d-3b18-898c-a9fc",
+        "hidden": false,
+        "import": true,
+        "targetId": "70c6-b440-89df-6881",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "52d8-213d-d3f8-890e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Praetor",
+        "id": "1446-36b1-ccbe-7dfc",
+        "hidden": false,
+        "import": true,
+        "targetId": "dd4d-8bc3-7d45-d3aa",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "094d-d00d-a801-e0a3", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Primus Medicae",
+        "id": "dce2-d51f-2082-7ced",
+        "hidden": false,
+        "import": true,
+        "targetId": "328a-c702-2f0a-6444",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "8a66-9549-e862-2d7a", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Siege Breaker",
+        "id": "45b6-5e9b-c731-2be5",
+        "hidden": false,
+        "import": true,
+        "targetId": "3976-982f-34dc-06f8",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "16a8-a86d-6094-51ab", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Vigilator",
+        "id": "fc51-f212-454c-d7bf",
+        "hidden": false,
+        "import": true,
+        "targetId": "adf8-32df-e4a3-be75",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "27f6-a151-107e-5363", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Warmonger",
+        "id": "2578-da9d-737c-1167",
+        "hidden": false,
+        "import": true,
+        "targetId": "c490-dbef-188a-dcb1",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "91cc-0e74-5615-ef6b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {"name": "Cult Abominatio", "id": "46cd-acc3-152f-866a", "hidden": false, "import": true, "targetId": "23e5-63f2-00a0-e269", "type": "selectionEntry"},
+      {
+        "name": "Legion Cataphracii Command Squad",
+        "id": "b59d-ba14-389e-3cb1",
+        "hidden": false,
+        "import": true,
+        "targetId": "260d-fcdb-bce6-adc6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "6103-4538-c20b-f937", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Cataphractii Primus Nullificator",
+        "id": "e354-8dba-3fb9-63f5",
+        "hidden": false,
+        "import": true,
+        "targetId": "326d-a698-02b6-8e8d",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "bd75-c9d6-e4c5-95e9", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Command Squad",
+        "id": "93df-7131-ae95-2602",
+        "hidden": false,
+        "import": true,
+        "targetId": "eb44-0ba7-961f-c555",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5ac6-131d-a3cf-7718", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Command Squad",
+        "id": "74f1-ab1b-470f-9eb4",
+        "hidden": false,
+        "import": true,
+        "targetId": "f543-f511-bd0d-8611",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "cbf4-1a6a-65ba-6126", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Optae",
+        "id": "3f6c-9092-3db0-c212",
+        "hidden": false,
+        "import": true,
+        "targetId": "011a-f45d-4771-9dfe",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5b7c-79eb-b7b6-a01f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       },
       {
         "name": "Legion Predator Master of Armour",
-        "id": "0c00-9ac6-539b-1a47",
+        "id": "4612-fd1a-9165-818d",
         "hidden": false,
         "import": true,
         "targetId": "34e4-f19f-e0dd-53b1",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "376a-a441-9b4d-6bfc", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b0c6-88b1-6ae4-b07b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "2d77-099f-16f1-80f6", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Mortifactor",
+        "id": "fbd7-695f-d1e3-afd1",
+        "hidden": false,
+        "import": true,
+        "targetId": "c678-20b5-8b21-4fbb",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "8c8b-9e2a-233b-1e0b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Warmonger",
+        "id": "0fb3-c086-78bb-1162",
+        "hidden": false,
+        "import": true,
+        "targetId": "4065-c653-1b0c-4f8f",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "68fd-9fed-974a-348e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Techmarine",
+        "id": "3f44-26a6-6130-1483",
+        "hidden": false,
+        "import": true,
+        "targetId": "5906-c31b-60b0-6ea6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "4bb4-e5ab-69c1-f99f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Avenger Strike Fighter",
+        "id": "fd6b-544a-b3df-a214",
+        "hidden": false,
+        "import": true,
+        "targetId": "3cc5-a083-a336-885f",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "e454-7eee-fda9-10ac", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Primaris-Lightning Strike Fighter",
+        "id": "b177-2a22-1884-2034",
+        "hidden": false,
+        "import": true,
+        "targetId": "0b04-9f4d-a24f-a316",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "66ac-764e-a1a3-2dfb", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Fire Raptor Gunship",
+        "id": "6475-34ac-21a2-8b2a",
+        "hidden": false,
+        "import": true,
+        "targetId": "8a76-6902-726c-b5e1",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "22ae-ba79-fa1c-9d5e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Storm Eagle Gunship",
+        "id": "2bf9-a3db-8b47-182b",
+        "hidden": false,
+        "import": true,
+        "targetId": "018f-2bcd-8f19-764a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d2dd-2368-2450-38ee", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Thunderbolt Fighter",
+        "id": "3878-a9e7-e9e5-a158",
+        "hidden": false,
+        "import": true,
+        "targetId": "1e31-32c6-8c4c-f357",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "95e3-d972-ddec-a456", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Xiphon Interceptor",
+        "id": "a198-c849-873d-90a8",
+        "hidden": false,
+        "import": true,
+        "targetId": "1fc9-94cb-9b08-7f28",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "462c-290a-c1f5-559e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tarantula Sentry Gun Battery",
+        "id": "85df-0c5d-e989-e5a2",
+        "hidden": false,
+        "import": true,
+        "targetId": "e8da-18b9-7a85-f1ea",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1029-e7d2-2f6d-2c29", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Cataphractii Squad",
+        "id": "ca5d-8181-4154-61d9",
+        "hidden": false,
+        "import": true,
+        "targetId": "86e9-7365-1fa1-e847",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1a13-800b-27b3-ea74", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Destroyer Assault Squad",
+        "id": "5f30-5d60-7dfa-5508",
+        "hidden": false,
+        "import": true,
+        "targetId": "9a22-1750-3581-f5e9",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "11a4-d58a-de3d-2113", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Mortalis Destroyer Squad",
+        "id": "f455-05ed-e1c2-4f52",
+        "hidden": false,
+        "import": true,
+        "targetId": "b5f2-8ddb-57bd-1583",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "48f5-de8b-e8b6-e82e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Nullificator Squad",
+        "id": "dbd6-48bb-f032-f096",
+        "hidden": false,
+        "import": true,
+        "targetId": "41de-856c-a041-1f74",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1cfd-19c5-0f1e-c15c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Rapier Battery",
+        "id": "b9d3-4fd2-0a3f-aa15",
+        "hidden": false,
+        "import": true,
+        "targetId": "8b64-1e68-a680-b744",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "a867-0569-4c1f-c8b5", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Reconnaissance Squad",
+        "id": "7207-8f96-3b92-05b3",
+        "hidden": false,
+        "import": true,
+        "targetId": "87e9-4645-76e0-00e8",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "789d-e38d-2100-e7d1", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Veteran Squad",
+        "id": "c9a8-7d41-2f39-8742",
+        "hidden": false,
+        "import": true,
+        "targetId": "14ca-45b2-dca4-33f6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "deb6-ee1b-8601-a054", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Heavy Support Squad",
+        "id": "6964-5de8-9117-eb36",
+        "hidden": false,
+        "import": true,
+        "targetId": "c68b-74aa-dc15-c950",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "51e6-078a-8990-81e2", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Indomitus Terminator Squad",
+        "id": "8f0c-1854-0a3b-1a98",
+        "hidden": false,
+        "import": true,
+        "targetId": "b24a-af33-bbf8-8c21",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "0a32-971c-944f-7d43", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Scout Squad",
+        "id": "2804-9d7f-b12e-472f",
+        "hidden": false,
+        "import": true,
+        "targetId": "769b-7644-1599-a579",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "c5b3-364f-5b7b-cd8d", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Seeker Squad",
+        "id": "6a5e-1b4a-e599-e063",
+        "hidden": false,
+        "import": true,
+        "targetId": "3789-2f71-8ac7-06f6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1784-7822-9748-f74e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tactical Support Squad",
+        "id": "5ed6-943f-a5aa-d4f5",
+        "hidden": false,
+        "import": true,
+        "targetId": "3711-985b-f066-5d7b",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d5ee-9bac-f5b9-7b3a", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Tartaros Squad",
+        "id": "bfca-52ee-977c-6e2b",
+        "hidden": false,
+        "import": true,
+        "targetId": "533b-2c5b-c5aa-7fac",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "343c-54c8-058f-e410", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Javelin Squadron",
+        "id": "9aab-2837-495d-dc7b",
+        "hidden": false,
+        "import": true,
+        "targetId": "2492-388c-9304-c2c8",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1937-ad1a-23ab-ea6c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Outrider Squadron",
+        "id": "c25a-8ba6-51ba-6b45",
+        "hidden": false,
+        "import": true,
+        "targetId": "6d72-7039-2d3d-4f6a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "9a6f-808d-30b1-4e73", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Proteus Land Speeder Squadron",
+        "id": "0a8b-4700-3e25-2a4d",
+        "hidden": false,
+        "import": true,
+        "targetId": "2cd9-4c4a-22d4-2149",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d822-29a8-ebe6-778b", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Spatha Attack Bike Squadron",
+        "id": "8d84-fb93-b594-86e0",
+        "hidden": false,
+        "import": true,
+        "targetId": "ffd4-fb23-ba98-73fc",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "2ed5-ca1b-9701-9f9e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Caestus Assault Ram",
+        "id": "db80-8de4-adf3-f6ff",
+        "hidden": false,
+        "import": true,
+        "targetId": "c2ac-4740-5dac-46f6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "6f93-e168-c76a-fd72", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Land raider Proteus Explorator",
+        "id": "c278-38b8-2134-d80b",
+        "hidden": false,
+        "import": true,
+        "targetId": "e0a6-52e4-abe6-a365",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "a2b0-f694-ce88-73d6", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Whirlwind",
+        "id": "e28e-d09b-a789-a0e8",
+        "hidden": false,
+        "import": true,
+        "targetId": "54bc-596b-4eec-7d43",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "d923-9ffe-5bb6-bf45", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Basalisk Squadron",
+        "id": "a02d-0030-ffac-122b",
+        "hidden": false,
+        "import": true,
+        "targetId": "5341-5378-0b4b-3df2",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "25d3-28d0-1e3e-9e38", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Land Raider Achillies Squadron",
+        "id": "c3e1-0917-23e6-e27d",
+        "hidden": false,
+        "import": true,
+        "targetId": "e94e-ebb3-d166-4742",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "08dc-8c46-31eb-aed2", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Medusa Squadron",
+        "id": "6d18-ae05-129b-3054",
+        "hidden": false,
+        "import": true,
+        "targetId": "a71c-9118-71cb-9ffe",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "8099-36d4-0c86-2121", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Minotaur Battery",
+        "id": "c90f-4966-29ab-6f49",
+        "hidden": false,
+        "import": true,
+        "targetId": "ed37-7e1a-a729-6bf4",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "473d-d115-e2f4-a3f9", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Sicaran Squadron",
+        "id": "00d2-d5f0-860f-1da0",
+        "hidden": false,
+        "import": true,
+        "targetId": "a6f3-8850-8883-56c5",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "621d-d7c4-6e2d-2aca", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Vindicator Squadron",
+        "id": "d1be-9ea6-7a61-6ac6",
+        "hidden": false,
+        "import": true,
+        "targetId": "1712-9d30-0f4f-5537",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "276c-c299-cd19-6582", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Arquitor Squadron",
+        "id": "9e19-07fc-0189-1e46",
+        "hidden": false,
+        "import": true,
+        "targetId": "efbe-a324-fdc4-4f2e",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3830-2553-4bfa-9b29", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Kratos Squadron",
+        "id": "b34e-1b1b-2f33-07ad",
+        "hidden": false,
+        "import": true,
+        "targetId": "c8f6-06dd-a85a-ee3e",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1ede-ab77-0a0d-bb33", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Land Raider Phobos Squadron",
+        "id": "888e-36d9-f85f-8fc8",
+        "hidden": false,
+        "import": true,
+        "targetId": "7dae-010e-1b78-650a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1b0e-4768-e4e7-23c6", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Land Raider Proteus Carrier Squadron",
+        "id": "7aae-6f8e-c239-8018",
+        "hidden": false,
+        "import": true,
+        "targetId": "6794-9181-ab78-220f",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "199f-e476-d0ad-1de9", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Land Raider Spartan",
+        "id": "6818-dd8c-8d2a-c9e4",
+        "hidden": false,
+        "import": true,
+        "targetId": "3623-ae0e-1bfd-6ffe",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "51b6-54ce-6044-54f0", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Malcador Assault Tank Squadron",
+        "id": "8bc2-cdf3-cb49-7931",
+        "hidden": false,
+        "import": true,
+        "targetId": "83f8-8560-c726-365a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "744c-8a5a-8886-e9db", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Predator Squadron",
+        "id": "f533-859c-7d46-8451",
+        "hidden": false,
+        "import": true,
+        "targetId": "b2fa-91c2-c0bf-bbcc",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "0aa4-d4cb-1ccc-361f", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Sabre Strike Squadron",
+        "id": "052f-a89d-5e96-e717",
+        "hidden": false,
+        "import": true,
+        "targetId": "f50e-2453-e395-c153",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "4fe0-ebb1-0b74-c227", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Castra Ferrum Dreadnought Talon",
+        "id": "c0d5-3993-c028-7daf",
+        "hidden": false,
+        "import": true,
+        "targetId": "f63b-d601-fe21-e221",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "6c55-5a3b-e932-1fed", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Contemptor Dreadnought Talon",
+        "id": "d724-fd2f-3985-2493",
+        "hidden": false,
+        "import": true,
+        "targetId": "0253-b6f0-97a0-4437",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "7b7a-64c3-df8e-9b74", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Levithan Dreadnought Talon",
+        "id": "b88c-bd47-62e1-4fde",
+        "hidden": false,
+        "import": true,
+        "targetId": "1b60-60be-1475-2a44",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "7554-7a5b-d8e1-9bbb", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Deredeo Dreadnought Talon",
+        "id": "abc4-33d9-2b6c-8202",
+        "hidden": false,
+        "import": true,
+        "targetId": "180d-3e88-b259-5d1d",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "97e3-2d68-6d7e-3d5c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {
+        "name": "Legion Scorpius Squadron",
+        "id": "330f-d16c-8b36-128e",
+        "hidden": false,
+        "import": true,
+        "targetId": "2630-7d98-466e-3a5b",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "3793-ae07-b200-5da8", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"},
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "b6f9-c173-813e-7773",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Legion Venerable Ancient Contempter Dreadnought",
-        "id": "3893-9715-3bf5-2041",
+        "id": "c5f2-3be5-47c0-7379",
         "hidden": false,
         "import": true,
         "targetId": "c738-a003-c9fc-8450",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Alpha Legion", "id": "6451-a4c2-eced-ee29", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}],
-        "infoLinks": [{"name": "Lies and Obfuscation", "id": "5884-7fb8-b400-2c77", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}]
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "f67e-7402-acac-db3c", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
       }
     ],
-    "sharedRules": [{"name": "Lies and Obfuscation", "id": "dd7d-c41a-6793-cbc4", "hidden": false}],
+    "selectionEntries": [
+      {
+        "name": "Alpharius",
+        "id": "2d9b-748a-965b-94ab",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Primarch", "id": "bf26-1d84-c33e-b9c6", "hidden": false, "primary": true, "targetId": "6474-0ce3-6b5a-120c"},
+          {"name": "Monster", "id": "219e-4f33-246b-a440", "hidden": false, "primary": false, "targetId": "9693-cf84-fe69-37a9"},
+          {"name": "Explosives", "id": "061c-bdd3-e583-aaab", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Alpharius", "id": "e00f-b92c-ad80-471b", "hidden": false, "primary": false, "targetId": "69f9-9746-9bc3-71bb"},
+          {"name": "Faction: Alpha Legion", "id": "6b20-ce6b-4017-f899", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"},
+          {"name": "Epic Hero", "id": "9440-2cc8-926d-59cf", "hidden": false, "primary": false, "targetId": "4f3a-f0f7-6647-348d"}
+        ],
+        "constraints": [
+          {
+            "id": "7ff1-eefe-e971-113e",
+            "field": "51b2-306e-1021-d207",
+            "includeChildSelections": true,
+            "percentValue": true,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 25
+          }
+        ],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 465},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Venom Sphere",
+            "id": "aacc-73c1-1bde-fa53",
+            "hidden": false,
+            "import": true,
+            "targetId": "d4c3-8f21-5f7d-8699",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "0d2f-bf26-e5e3-6a9b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "2912-3248-fe0f-2876", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+            ]
+          },
+          {
+            "name": "Warlord",
+            "id": "ee26-facd-2aa0-33a8",
+            "hidden": false,
+            "import": true,
+            "targetId": "464b-cef6-1b60-4f88",
+            "type": "selectionEntry",
+            "modifiers": [{"field": "0b06-18e6-527e-ee43", "type": "set", "value": 1}]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Sons of the Emperor", "id": "9f2b-14c1-e187-9783", "hidden": false, "targetId": "a83b-8c46-b484-53a5", "type": "profile"},
+          {
+            "name": "Adamantium Will x+",
+            "id": "362a-ea40-8c41-999a",
+            "hidden": false,
+            "targetId": "623a-2bda-6a71-8392",
+            "type": "profile",
+            "modifiers": [{"arg": "x", "field": "name", "type": "replace", "value": "3"}]
+          },
+          {"name": "Feel No Pain", "id": "8c82-a0b7-b5ce-1aa3", "hidden": false, "targetId": "9bf4-280f-bbe2-6fbb", "type": "rule"},
+          {"name": "Lies and Obfuscation", "id": "f0b0-c0fc-be9f-b72e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Alpharius",
+            "id": "68e9-ed27-cf2a-5b74",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "7", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "7", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "3", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+              {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+            ]
+          },
+          {
+            "name": "Pythian Scales",
+            "id": "5436-0a75-8b35-e703",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Weapons that target this model do not benefit from any **Anti-x** abilities the weapon may have.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Insidous Mastermind",
+            "id": "cf07-42d0-f4c3-c08f",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the start of your turn pick one of these abilities. These are given to all **Alpha Legion** units till the start of your next turn:\n- Burst of Speed: add 2\" to advance and charge rolls\n- Prefered Prey: Re-roll hit and wound rolls of 1\n- Sudden Strike: If no enermy unit in combat has **Fights First** this unit is treated as having it",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Everwhere and Nowhere",
+            "id": "7c2e-7ab2-ebee-bab3",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the start of the game before any deployments are made you can select up to 3 **Alpha Legion** units. Give all 3 and **Alpharius** one of these abilities however all of them must have the same one:\n- **Infiltrators**\n- **Scouts 6\"**\n- **Deep Strike**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Sire of the Alpha Legion",
+            "id": "3c00-3d55-df84-c7cf",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model must be your warlord and while withing 3\" of a friendly **Alpha Legion Infantry** model this model gains **Lone Operative**.\n\n\nAt the end of the deployment phase you can select up to 3 models and re-deploy them however you want including putting them in reserves. This does not effect the pts in reserves and does not count towards the limit.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Pale Spear",
+            "id": "e969-4862-cdd5-1217",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "be1a-b3a3-362e-5f30", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "65ef-d58c-e58a-5e39", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Devastating Wounds", "id": "96bd-4653-321e-a986", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+              {"name": "Anti", "id": "1e89-987b-caf0-177f", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Pale Spear",
+                "id": "c992-5e1e-384d-a73c",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                  {"name": "A", "$text": "6", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                  {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
+                  {"name": "AP", "$text": "-5", "typeId": "41a0-1301-112a-e2f2"},
+                  {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
+                  {"name": "Keywords", "$text": "Devastating Wounds, Anti-Vehicle 4+", "typeId": "893f-9000-ccf7-648e"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hydra's Spite",
+            "id": "6c39-f967-478c-1056",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "8574-24df-b48b-39c9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "6b6a-096f-f7f2-705b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Close-quarters", "id": "e3cd-5f93-a06a-24ff", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
+              {"name": "Hazardous", "id": "10d8-c5c8-fd6b-fab6", "hidden": false, "targetId": "8367-374c-f87-c627", "type": "rule"},
+              {"name": "Lethal Hits", "id": "ef74-0997-81f5-648b", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "➤ Hydra's Spite - Standard",
+                "id": "95bf-c1a3-eb46-5d73",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Close-quarters, Lethal Hits", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              },
+              {
+                "name": "➤ Hydra's Spite - Supercharge",
+                "id": "e3db-8a3f-4b6f-a4d3",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "9", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "4", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Close-quarters, Lethal Hits, Hazardous", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Armillus Dynaty",
+        "id": "38bb-f298-aca3-7145",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Epic Hero", "id": "25dd-4ee2-fe4f-a5e6", "hidden": false, "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
+          {"name": "Character", "id": "d99e-339d-3d04-0349", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "27d3-4541-89d4-6ae0", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "3561-a7f8-4239-403f", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Armillus Dynaty", "id": "4019-a381-ccaf-16af", "hidden": false, "primary": false, "targetId": "eef7-fa6f-007a-a93c"},
+          {"name": "Leader", "id": "a4a0-729f-81e1-e116", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Faction: Alpha Legion", "id": "e209-dfd5-9010-0f6a", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}
+        ],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 185},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Bolt Pistol",
+            "id": "b5a5-f33b-f2fe-4da9",
+            "hidden": false,
+            "import": true,
+            "targetId": "959d-ac2c-f31c-5d8e",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "fcc8-4cd6-7d83-0748", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "a074-e24d-9d51-4002", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Venom Sphere",
+            "id": "785e-0ac0-f619-6581",
+            "hidden": false,
+            "import": true,
+            "targetId": "d4c3-8f21-5f7d-8699",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "a7a6-461e-52be-3518", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "4782-4c38-07c2-291f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Phosphex Bomb",
+            "id": "e566-4ec8-e7ce-e473",
+            "hidden": false,
+            "import": true,
+            "targetId": "4b16-ade7-533d-159d",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "e747-d4b5-f92b-c3cf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "a367-81a0-75d2-07c7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {"name": "Warlord", "id": "42e3-b985-ebd5-843b", "hidden": false, "import": true, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"}
+        ],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "1774-e3c6-68fd-1c0a", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Armillus Dynaty",
+            "id": "07b2-cd46-a2a1-a1f7",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+              {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+            ]
+          },
+          {
+            "name": "Precision Blades",
+            "id": "3246-6b49-1f92-8d4a",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When this model makes an attack in the fight phase any **Hit rolls** of 4+ gain **[Precision]**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Weapon Master",
+            "id": "d6e9-4080-9330-cbe2",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When making **melee attacks** **Armillus Dynaty**  can use both **The Prince** and the **The Prophet** but can only make a total of 5 attacks with both weapons but this does not stop an attack from **Thunderstrike**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "The Harrowmaster (Warlord Trait)",
+            "id": "71f2-9fb7-2db5-12a5",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "You can pick up to 3 **Alpha Legion Infantry** units at the start of the deployment phase before any deployments are made. Give all 3 of thouse units 1 of these abilities however all 3 must have the same one:\n- **Infiltrators**\n- **Scout 6\"**\n- **Conuterattack**: When a unit with this ability has been charged for the rest of the turn they have +1 melee attacks",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "464b-cef6-1b60-4f88", "childName": "Warlord", "field": "selections", "scope": "self", "shared": true, "type": "lessThan", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "The Prince",
+            "id": "c153-1c8c-6664-2d13",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "c278-1d0f-c711-d1b4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "9812-00d9-5efb-b6c0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [{"name": "Lethal Hits", "id": "bc9e-6988-c7dc-df4f", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "The Prince",
+                "id": "6e5c-f90f-b041-3d6d",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                  {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                  {"name": "S", "$text": "4", "typeId": "ab33-d393-96ce-ccba"},
+                  {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
+                  {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                  {"name": "Keywords", "$text": "Lethal Hits", "typeId": "893f-9000-ccf7-648e"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "The Prophet",
+            "id": "2510-8785-3246-d972",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "5d21-dc50-0010-98b6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "7305-e15b-a6bc-9609", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "profiles": [
+              {
+                "name": "The Prophet",
+                "id": "cc21-ed4c-1399-605c",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                  {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                  {"name": "S", "$text": "9", "typeId": "ab33-d393-96ce-ccba"},
+                  {"name": "AP", "$text": "-4", "typeId": "41a0-1301-112a-e2f2"},
+                  {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
+                  {"name": "Keywords", "$text": "Thunderstrike", "typeId": "893f-9000-ccf7-648e"}
+                ]
+              }
+            ],
+            "rules": [
+              {
+                "name": "Thunderstrike",
+                "id": "8d59-caa4-2797-dc72",
+                "description": "If a enemy model suffers 1 or more wounds from **The Prince** then **Armillus Dynaty** can make 1 attack with this weapon at the end of the fight",
+                "hidden": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Exodus",
+        "id": "94de-9d6a-756c-a59e",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Epic Hero", "id": "f629-01d7-54f5-d07c", "hidden": false, "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
+          {"name": "Character", "id": "8e07-6d82-f7e2-0191", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "8f45-fd8c-64df-80cd", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "446e-8703-ced8-3f43", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Leader", "id": "935d-f5ae-b609-9150", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Exodus", "id": "3889-d0f4-a6b7-bef2", "hidden": false, "primary": false, "targetId": "c4f7-61cf-dde0-dd21"},
+          {"name": "Faction: Alpha Legion", "id": "326a-4659-904c-1a24", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"}
+        ],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 165},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Bolt Pistol",
+            "id": "d2dc-8978-1ba0-3e6a",
+            "hidden": false,
+            "import": true,
+            "targetId": "959d-ac2c-f31c-5d8e",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "c318-d72a-9c47-3629", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "6a27-fed1-a40a-0c37", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Power Dagger",
+            "id": "f47c-c455-fade-ce24",
+            "hidden": false,
+            "import": true,
+            "targetId": "6929-a64a-8294-21fb",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "66ca-f767-cfff-ebf1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "11ad-5da8-a33e-cc97", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Venom Sphere",
+            "id": "9c2b-3477-3ad3-09b4",
+            "hidden": false,
+            "import": true,
+            "targetId": "d4c3-8f21-5f7d-8699",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "20ef-3985-a876-75d9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "10d7-b5e0-7721-e79c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Warlord",
+            "id": "35b9-0b7d-0ea5-ae93",
+            "hidden": false,
+            "import": true,
+            "targetId": "464b-cef6-1b60-4f88",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "b6f9-c173-813e-7773",
+                    "childName": "Headhunter Levithan",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Stealth", "id": "b971-c07c-5ea1-8484", "hidden": false, "targetId": "bec5-4288-34a6-ccfa", "type": "rule"},
+          {"name": "Infiltrators", "id": "4df5-bdd6-0208-3243", "hidden": false, "targetId": "c05d-f4c3-f091-4938", "type": "rule"},
+          {"name": "Lies and Obfuscation", "id": "ace1-8cb0-9bec-4ba0", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Exodus",
+            "id": "019f-6435-49e5-5ad4",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"},
+              {"name": "Base", "$text": "", "typeId": "nr-base-size"}
+            ]
+          },
+          {
+            "name": "Hidden Killer",
+            "id": "ee4e-bb63-83fc-b7de",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model has a **[Feel No Pain 5+]** against ranged attacks", "typeId": "9b8f-694b-e5e-b573"}]
+          },
+          {
+            "name": "Assaisings Eye",
+            "id": "0bf9-7c63-6df1-cc00",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This models ranged weapons gain **[Ignores Cover]** and this model ignores all modifers to BS and the to hit roll in addition to any modifiers to range of a weapon.\nFinally this can not trigger any **[Feel No Pain]** rolls if it is only activated by **ranged attacks**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "The Instrument",
+            "id": "47c4-634f-b6b5-2195",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "b599-c00d-0fb2-bac0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "9a29-4d05-3fbd-e28c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Precision", "id": "e890-8c9d-b857-e44a", "hidden": false, "targetId": "9143-31ae-e0a6-6007", "type": "rule"},
+              {"name": "Heavy", "id": "40ff-fa3e-b518-4f6a", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"},
+              {"name": "Anti", "id": "cd53-6695-a447-a048", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
+              {"name": "Pinning", "id": "f2d7-6059-b7c2-20a5", "hidden": false, "targetId": "a4b9-9c88-086f-205e", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "➤ The Instrument - Rapid Fire",
+                "id": "2177-abc4-7537-de54",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Anti-Vehicle 4+, Pinning", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              },
+              {
+                "name": "➤ The Instrument - Execution Shot",
+                "id": "98e8-1258-55ea-58fd",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-5", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Precision, Heavy, Anti-Vehicle 4+, Pinning, Deadly Aim", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ],
+            "rules": [{"name": "Deadly Aim", "id": "795e-9fc6-544d-a45a", "description": "If **Exodus** has not moved this turn improve this weapons damage by 2", "hidden": false}]
+          }
+        ]
+      },
+      {
+        "name": "Legion Lernaean Terminator Squad",
+        "id": "9cc0-2231-5383-d297",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Infantry", "id": "e24b-bad2-9536-6556", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "e28b-dda5-d0f0-637b", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Cataphracii", "id": "fd3e-257a-9a9b-a06a", "hidden": false, "primary": false, "targetId": "163e-4731-8e1a-b26b"},
+          {"name": "Terminator", "id": "81ed-fe78-b1ac-ec95", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Faction: Alpha Legion", "id": "a32c-ceab-02f3-1d95", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"},
+          {"name": "Lernaean Terminator Squad", "id": "4e6c-6d8e-cb5c-e3d0", "hidden": false, "primary": false, "targetId": "4e57-846d-3acb-8f24"}
+        ],
+        "constraints": [{"id": "428c-a34a-be01-6c81", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 250},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [{"name": "Lies and Obfuscation", "id": "b25a-20dd-a0a7-4845", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "428c-a34a-be01-6c81",
+            "type": "set",
+            "value": 6,
+            "conditions": [
+              {
+                "childId": "3028-a490-6c51-3d3c",
+                "childName": "Pride of the Legion",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "3028-a490-6c51-3d3c",
+                "childName": "Pride of the Legion",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 250,
+            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "self", "shared": true, "type": "greaterThan", "value": 5}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Hydra Exemplars",
+            "id": "be90-d314-d23e-b990",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the start of battle select 1 faction keyword. This unit gains +1 to hit against all models with that faction keyword.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Hydra Lords",
+            "id": "678d-245c-621e-e7e6",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the end of your turn roll a D6 for each injured model in this unit. If you roll a 5+ for a model it restores 1 wound.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Harrower",
+            "id": "3c3b-b13a-0f55-be6f",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Sergent", "id": "060f-963c-c998-f469", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "constraints": [
+              {"id": "4f0c-163a-1f9f-8891", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "fa8d-bcfb-6b19-483d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "entryLinks": [
+              {
+                "name": "Venom Sphere",
+                "id": "ea00-354a-c41a-5e3b",
+                "hidden": false,
+                "import": true,
+                "targetId": "d4c3-8f21-5f7d-8699",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "c0cb-c54d-a1b4-ce10", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "0bc6-dd34-2f26-2397", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Harrower",
+                "id": "d571-cff1-2010-2936",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "5\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "4", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapons",
+                "id": "13c0-fe6d-7f2c-e8e8",
+                "hidden": false,
+                "entryLinks": [
+                  {
+                    "name": "Volkite Charger",
+                    "id": "9031-2104-62fa-797f",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "33d0-6ba7-0853-b43a",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "ebcd-25a2-d179-44bb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "94a6-62fc-f6ac-6c52", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {"affects": "self.entries.group.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "self.entries.group.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "scope": "parent", "type": "increment", "value": 1}
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Melee Weapons",
+                    "id": "041e-fe51-6934-357d",
+                    "defaultSelectionEntryId": "94ff-fe23-8c6b-da13",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "5381-27e7-b364-45e5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "eff8-ce78-f25d-1411", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Power Weapon", "id": "94ff-fe23-8c6b-da13", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                      {
+                        "name": "Power Fist",
+                        "id": "b7b7-6d60-cfe7-92f8",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "1f23-df82-9bea-2ebf",
+                        "type": "selectionEntry",
+                        "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                      },
+                      {
+                        "name": "Chainfist",
+                        "id": "0062-4f49-8c5f-9d1a",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6d78-58ee-9119-b2e0",
+                        "type": "selectionEntry",
+                        "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 20}]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Lernaeans",
+            "id": "cae0-9cc0-9315-41cb",
+            "hidden": false,
+            "constraints": [
+              {"id": "c30c-8fee-2c80-2fe5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "7f2e-7566-745d-4f9b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 9}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Lernaeans",
+                "id": "ff3f-048c-c1b5-0bd1",
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "profiles": [
+                  {
+                    "name": "Lernaeans",
+                    "id": "53f8-1a1e-6226-42ce",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {"name": "M", "$text": "5\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                      {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+                      {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+                      {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                      {"name": "OC", "$text": "6+", "typeId": "bef7-942a-1a23-59f8"},
+                      {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+                      {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Weapons",
+                    "id": "eb09-8692-9987-88ca",
+                    "hidden": false,
+                    "entryLinks": [
+                      {
+                        "name": "Volkite Charger",
+                        "id": "2e9a-a3d5-2640-592d",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "33d0-6ba7-0853-b43a",
+                        "type": "selectionEntry",
+                        "constraints": [
+                          {"id": "0c79-5d0b-3a26-d2ba", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "d83b-dd07-f6e9-c373", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ]
+                      }
+                    ],
+                    "modifiers": [
+                      {"affects": "self.entries.group.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "parent", "type": "increment", "value": 1},
+                      {"affects": "self.entries.group.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "scope": "parent", "type": "increment", "value": 1}
+                    ],
+                    "selectionEntryGroups": [
+                      {
+                        "name": "Melee Weapons",
+                        "id": "8e52-dbb7-537e-1a19",
+                        "defaultSelectionEntryId": "9f5f-df2a-3d3d-e186",
+                        "hidden": false,
+                        "constraints": [
+                          {"id": "6249-9463-f266-8e5c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "7bee-a688-9b22-89d4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "entryLinks": [
+                          {"name": "Power Weapon", "id": "9f5f-df2a-3d3d-e186", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                          {
+                            "name": "Power Fist",
+                            "id": "cc9a-c08b-241e-b282",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "1f23-df82-9bea-2ebf",
+                            "type": "selectionEntry",
+                            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                          },
+                          {
+                            "name": "Chainfist",
+                            "id": "69ce-7d9b-505f-f7a1",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "6d78-58ee-9119-b2e0",
+                            "type": "selectionEntry",
+                            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 20}]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Lernaeans w/heavy weapons",
+                "id": "42cf-887a-e767-5461",
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "constraints": [{"id": "1cd8-fe4e-6292-ea09", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "1cd8-fe4e-6292-ea09",
+                    "type": "set",
+                    "value": 2,
+                    "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 6}]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Lernaeans",
+                    "id": "3bbf-9279-39ae-4fe4",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {"name": "M", "$text": "5\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                      {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+                      {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+                      {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                      {"name": "OC", "$text": "6+", "typeId": "bef7-942a-1a23-59f8"},
+                      {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+                      {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Weapons",
+                    "id": "4cd4-9220-720e-1172",
+                    "hidden": false,
+                    "modifiers": [
+                      {"affects": "self.entries.group.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "parent", "type": "increment", "value": 1},
+                      {"affects": "self.entries.group.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "scope": "parent", "type": "increment", "value": 1}
+                    ],
+                    "selectionEntryGroups": [
+                      {
+                        "name": "Melee Weapons",
+                        "id": "c9f8-4dbf-104d-c0c2",
+                        "defaultSelectionEntryId": "c959-016f-20db-382a",
+                        "hidden": false,
+                        "constraints": [
+                          {"id": "1a97-d69d-38c2-66d4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "8fe9-a221-cb6b-b4ee", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "entryLinks": [
+                          {"name": "Power Weapon", "id": "c959-016f-20db-382a", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                          {
+                            "name": "Power Fist",
+                            "id": "5666-6f34-3258-5ac6",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "1f23-df82-9bea-2ebf",
+                            "type": "selectionEntry",
+                            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                          },
+                          {
+                            "name": "Chainfist",
+                            "id": "53f2-a3ab-57b2-ff0f",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "6d78-58ee-9119-b2e0",
+                            "type": "selectionEntry",
+                            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 20}]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Heavy Weapon",
+                        "id": "e673-cb4b-aeaf-e5dc",
+                        "defaultSelectionEntryId": "40d8-c2b2-dc49-6b98",
+                        "hidden": false,
+                        "constraints": [
+                          {"id": "3c18-0c0a-21be-365b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "4443-f9cc-d154-426e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Heavy Flamer",
+                            "id": "40d8-c2b2-dc49-6b98",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "9d3e-c90c-6a12-a86f",
+                            "type": "selectionEntry",
+                            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+                          },
+                          {
+                            "name": "Plasma Blaster",
+                            "id": "1df6-892a-2ee1-d0de",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "27d0-ab92-57f9-0a22",
+                            "type": "selectionEntry",
+                            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                          },
+                          {
+                            "name": "Conversion Beam Cannon",
+                            "id": "8d8d-ec99-0768-a7e2",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "ec5f-6d59-c18d-100a",
+                            "type": "selectionEntry",
+                            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                          },
+                          {
+                            "name": "Volkite Culverin",
+                            "id": "5eff-f280-bb47-dce6",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "c689-57ed-e734-c9b1",
+                            "type": "selectionEntry",
+                            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Headhunter Kill Team",
+        "id": "8526-7371-0a27-78dd",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Infantry", "id": "97dc-e87e-f728-9f82", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "6643-3a63-84a9-4d2f", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Faction: Alpha Legion", "id": "797a-f62b-fbae-1a63", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"},
+          {"name": "Headhunter Kill Team", "id": "39b9-a1d1-2eea-0c27", "hidden": false, "primary": false, "targetId": "f7f8-8cf0-722a-cd3f"}
+        ],
+        "constraints": [
+          {"id": "07c0-f12c-d8ee-7fd1", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3},
+          {"id": "0885-4a87-9b6e-caaa", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 0}
+        ],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 125},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Infiltrators", "id": "ebfa-c1dc-25b4-8bb9", "hidden": false, "targetId": "c05d-f4c3-f091-4938", "type": "rule"},
+          {"name": "Scouts 6\"", "id": "2ae7-5588-4849-427e", "hidden": false, "targetId": "08fb-4cb5-36fb-d638", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 125,
+            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "self", "shared": true, "type": "atLeast", "value": 6}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Headhunters",
+            "id": "b399-17e5-333e-1e89",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When making **ranged attacks**, any hit roll of a 4+ gains **[Precision]** and if any attacks from this weapon targets a model with the **Charecter** keyword re-roll hit and wound rolls of 1.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Headhunter Prime",
+            "id": "f1cf-3ebb-e79d-efae",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Sergent", "id": "12fb-8af3-74f4-b1a2", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "constraints": [
+              {"id": "e9c1-6afe-00de-834f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "eb2a-772d-f545-aecf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "entryLinks": [
+              {
+                "name": "Venom Sphere",
+                "id": "4a62-1bdc-3642-8007",
+                "hidden": false,
+                "import": true,
+                "targetId": "d4c3-8f21-5f7d-8699",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "f7b9-6a37-4445-08c1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "568a-e18b-a26f-7939", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              },
+              {
+                "name": "Artificer Armour",
+                "id": "43e9-165f-7392-e4e9",
+                "hidden": false,
+                "import": true,
+                "targetId": "3c74-1631-7133-90a0",
+                "type": "selectionEntry",
+                "constraints": [{"id": "834f-5f1c-ba8a-98f9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+              }
+            ],
+            "modifiers": [{"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "scope": "parent", "type": "increment", "value": 1}],
+            "profiles": [
+              {
+                "name": "Headhunter Prime",
+                "id": "2e71-4762-a52f-d430",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapons",
+                "id": "2e18-013d-60ad-6938",
+                "hidden": false,
+                "selectionEntryGroups": [
+                  {
+                    "name": "Melee Weapons",
+                    "id": "267b-aca6-24f8-db39",
+                    "defaultSelectionEntryId": "eff0-ba6f-1adf-87b5",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "7f47-ac47-87ab-bdcc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "deb6-ac05-c5e3-3a70", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Power Dagger", "id": "eff0-ba6f-1adf-87b5", "hidden": false, "import": true, "targetId": "6929-a64a-8294-21fb", "type": "selectionEntry"},
+                      {
+                        "name": "Power Weapon",
+                        "id": "b796-264e-7ef7-0932",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "3e76-8280-4841-075d",
+                        "type": "selectionEntry",
+                        "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+                      },
+                      {
+                        "name": "Power Fist",
+                        "id": "5d53-c08e-a49d-4567",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "1f23-df82-9bea-2ebf",
+                        "type": "selectionEntry",
+                        "modifiers": [
+                          {"field": "51b2-306e-1021-d207", "type": "set", "value": 5},
+                          {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ranged Weapons",
+                    "id": "7496-26c6-5b8e-a6de",
+                    "defaultSelectionEntryId": "f3ab-42fc-e9af-b11c",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "75b1-2395-d9de-e9b4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "8d3c-820c-2608-c6ec", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Banestrike Combi Bolter", "id": "f3ab-42fc-e9af-b11c", "hidden": false, "import": true, "targetId": "fa7e-034a-56e7-9a12", "type": "selectionEntry"},
+                      {
+                        "name": "Combi-Weapon",
+                        "id": "d7e9-9954-80e2-4878",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6838-a43e-1af3-cfdd",
+                        "type": "selectionEntry",
+                        "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Pistol Weapons",
+                    "id": "d427-2c0e-ad81-e5ca",
+                    "defaultSelectionEntryId": "0595-00af-389d-c3eb",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "fb17-e234-0b2f-7ca7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "d116-d5d7-ec45-e902", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Bolt Pistol", "id": "0595-00af-389d-c3eb", "hidden": false, "import": true, "targetId": "959d-ac2c-f31c-5d8e", "type": "selectionEntry"},
+                      {
+                        "name": "Plasma Pistol",
+                        "id": "82dc-4df9-549d-718b",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "0cde-138a-6232-8dec",
+                        "type": "selectionEntry",
+                        "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+                      },
+                      {
+                        "name": "Inferno Pistol",
+                        "id": "a5ac-28af-0e1c-75d1",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "c097-aa41-1960-2880",
+                        "type": "selectionEntry",
+                        "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Headhunters",
+            "id": "10a4-f3dc-cedb-e841",
+            "hidden": false,
+            "constraints": [
+              {"id": "35b0-51eb-b27d-427e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "c66b-81fc-c827-0bf9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 9}
+            ],
+            "selectionEntries": [
+              {
+                "name": "Headhunter",
+                "id": "54e8-6e22-a020-0563",
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "modifiers": [{"affects": "recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "scope": "parent", "type": "increment", "value": 1}],
+                "profiles": [
+                  {
+                    "name": "Headhunter",
+                    "id": "bfde-3c21-9125-c611",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                      {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+                      {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
+                      {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
+                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                      {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
+                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Weapons",
+                    "id": "761b-5bbc-d988-65df",
+                    "hidden": false,
+                    "selectionEntryGroups": [
+                      {
+                        "name": "Melee Weapons",
+                        "id": "af40-802c-8796-9381",
+                        "defaultSelectionEntryId": "2e64-8187-1735-becf",
+                        "hidden": false,
+                        "constraints": [
+                          {"id": "2ce1-db43-cfff-548d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "87bc-4fa4-8fe5-fffd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "entryLinks": [{"name": "Power Dagger", "id": "2e64-8187-1735-becf", "hidden": false, "import": true, "targetId": "6929-a64a-8294-21fb", "type": "selectionEntry"}]
+                      },
+                      {
+                        "name": "Ranged Weapons",
+                        "id": "4df6-4f8d-2cad-22cb",
+                        "defaultSelectionEntryId": "28fc-9bae-45a7-7638",
+                        "hidden": false,
+                        "constraints": [
+                          {"id": "e72c-a14b-0ce1-12b0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "16ad-9764-99b7-e3a0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "entryLinks": [
+                          {"name": "Banestrike Combi Bolter", "id": "28fc-9bae-45a7-7638", "hidden": false, "import": true, "targetId": "fa7e-034a-56e7-9a12", "type": "selectionEntry"},
+                          {
+                            "name": "Combi-Weapon",
+                            "id": "2e4b-3658-b422-ec23",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "6838-a43e-1af3-cfdd",
+                            "type": "selectionEntry",
+                            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Pistol Weapons",
+                        "id": "3c36-2e07-9722-8cee",
+                        "defaultSelectionEntryId": "0ee6-4a91-32a3-a204",
+                        "hidden": false,
+                        "constraints": [
+                          {"id": "18e1-1644-6719-0a2d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "1a29-29ab-3ada-e4e9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "entryLinks": [{"name": "Bolt Pistol", "id": "0ee6-4a91-32a3-a204", "hidden": false, "import": true, "targetId": "959d-ac2c-f31c-5d8e", "type": "selectionEntry"}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Headhunter w/heavy weapon",
+                "id": "6797-c0da-6045-108a",
+                "hidden": false,
+                "import": true,
+                "type": "model",
+                "constraints": [{"id": "104f-18e3-23f7-29f6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {"affects": "recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "scope": "parent", "type": "increment", "value": 1},
+                  {
+                    "field": "104f-18e3-23f7-29f6",
+                    "type": "set",
+                    "value": 2,
+                    "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 6}]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Headhunter",
+                    "id": "92a2-6293-5ddc-154d",
+                    "hidden": false,
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "characteristics": [
+                      {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                      {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+                      {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
+                      {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
+                      {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                      {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
+                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Weapons",
+                    "id": "0faf-d3aa-c91e-65d6",
+                    "hidden": false,
+                    "selectionEntryGroups": [
+                      {
+                        "name": "Melee Weapons",
+                        "id": "5b18-5590-7a3e-3460",
+                        "defaultSelectionEntryId": "4211-331b-bd44-cf58",
+                        "hidden": false,
+                        "constraints": [
+                          {"id": "77f6-1f08-449f-c7a9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "6984-8e2a-bbbe-4d96", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "entryLinks": [{"name": "Power Dagger", "id": "4211-331b-bd44-cf58", "hidden": false, "import": true, "targetId": "6929-a64a-8294-21fb", "type": "selectionEntry"}]
+                      },
+                      {
+                        "name": "Heavy Weapons",
+                        "id": "5a57-afa2-71db-e1cd",
+                        "hidden": false,
+                        "constraints": [
+                          {"id": "b7d2-b862-34cf-d6bd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "723f-bd51-8156-fead", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Heavy Bolter",
+                            "id": "6f63-f368-48e1-a418",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "4d18-0d33-83ef-d294",
+                            "type": "selectionEntry",
+                            "infoLinks": [{"name": "Heavy", "id": "0f69-5da9-e9d0-01fc", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}],
+                            "modifiers": [
+                              {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
+                              {"affects": "profiles.Ranged Weapons", "field": "7f1b-8591-2fcf-d01c", "join": ", ", "type": "append", "value": "Heavy"},
+                              {"field": "51b2-306e-1021-d207", "type": "set", "value": 10}
+                            ]
+                          },
+                          {
+                            "name": "Multi-Melta",
+                            "id": "1b61-fc21-926c-42c5",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "ae61-afa4-4410-ecc9",
+                            "type": "selectionEntry",
+                            "infoLinks": [{"name": "Heavy", "id": "81b3-89b1-7687-3f30", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}],
+                            "modifiers": [
+                              {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
+                              {"affects": "profiles.Ranged Weapons", "field": "7f1b-8591-2fcf-d01c", "join": ", ", "type": "append", "value": "Heavy"},
+                              {"field": "51b2-306e-1021-d207", "type": "set", "value": 20}
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Pistol Weapons",
+                        "id": "4a5a-64ed-a02b-7a76",
+                        "defaultSelectionEntryId": "40f3-8439-3d68-ec24",
+                        "hidden": false,
+                        "constraints": [
+                          {"id": "973a-8967-41df-9b49", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "b6e1-8a2c-2a2e-6ff1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "entryLinks": [{"name": "Bolt Pistol", "id": "40f3-8439-3d68-ec24", "hidden": false, "import": true, "targetId": "959d-ac2c-f31c-5d8e", "type": "selectionEntry"}]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Lies and Obfuscation",
+        "id": "dd7d-c41a-6793-cbc4",
+        "description": "Models with this ability counts as being 2\" further away for enemy ranged weapons and enemy ranged weapon abilites such as **Melta**",
+        "hidden": false
+      }
+    ],
     "sharedSelectionEntries": [
       {
         "name": "Detachment",
@@ -1001,6 +3144,51 @@
                 "shared": true,
                 "type": "instanceOf",
                 "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Alpha Legion Detachments",
+            "id": "3938-08cc-b3d9-7cd6",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Headhunter Levithan",
+                "id": "b6f9-c173-813e-7773",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [{"name": "Reconnaissance", "id": "4469-364e-d9a9-e20d", "hidden": false, "primary": true, "targetId": "b4a7-5083-fe94-4d24"}],
+                "constraints": [{"id": "19ff-5bd7-2fa6-c61a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "infoLinks": [{"name": "Feel No Pain 5+", "id": "8d8d-e57a-5269-b77d", "hidden": false, "targetId": "5e10-6d62-2624-80a8", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Headhunter Levithan",
+                    "id": "14ce-8f33-8ca1-eaa4",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "- **Legion Headhunter Kill Teams** gain the **battleline** keyword\n- You gain +2VP if a **Alpha Legion** unit kills the enermy warlord\n- During Turn 1 all **Alpha Legion** units gain a **[Feel No Pain 5+]** against ranged attack while more then 12\" away from all enermy units.\n- All **Vehicles** must be placed in reserves",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }

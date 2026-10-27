@@ -77,6 +77,34 @@
             "typeId": "9b8f-694b-e5e-b573"
           }
         ]
+      },
+      {
+        "name": "Sons of the Emperor",
+        "id": "a83b-8c46-b484-53a5",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "This model has all these abilities:\n- If this model is on more then 1 wound and an attack would cause it to fall below 1 wound it instead reduces it to 1 wound\n- This models **Leadership** can not be modified\n- At the end of your turn roll a D6 and on a 5+ restore 1 wound on this model\n- This model counts as 4 for transport capacity",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "Adamantium Will x+",
+        "id": "623a-2bda-6a71-8392",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "**Models** with this ability have a **[Feel No Pain X+]** where x is the number in the ability against **Psychic** wounds from all sources",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
       }
     ],
     "sharedRules": [
@@ -432,6 +460,49 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Sky-Hunter Phalanx",
+            "id": "73c6-12b6-db10-dbb9",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "96a2-4423-bb46-5693", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": "Sky-Hunter Phalanx",
+                "id": "6acd-9278-f102-02bb",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "- **Legion Sky-Hunter Squadrons** and **Legion Land Speeder Squadrons** become Battleline\n- You can only bring **Fly Vehicles**\n- All **Infantry** units must be embarked in a **Fly transport**\n- This can not be taken in an Allied army\n- This army can not have **Dreadnoughts** or **Fortifications**",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Standard Army",
+            "id": "9bd0-1196-268b-c7f2",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Take and Hold", "id": "56c0-f7a2-419e-fa64", "hidden": false, "primary": true, "targetId": "1cc1-f11a-4e8f-1bcc"}],
+            "constraints": [{"id": "2764-727b-9d5c-b7fc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
           }
         ]
       }

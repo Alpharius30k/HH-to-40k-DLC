@@ -13,6 +13,1145 @@
       {"name": "Space Marines - Heresy", "id": "8520-0f3a-d8cc-ee2d", "importRootEntries": false, "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
       {"name": "Space Marines - Armoury", "id": "bc3c-acca-8010-5ec3", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
       {"name": "Space Marines - Wargear", "id": "2050-9719-eb9a-22c4", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"}
+    ],
+    "entryLinks": [
+      {
+        "name": "Legion Assault Squad",
+        "id": "2ee6-bc9f-946f-ec50",
+        "hidden": false,
+        "import": true,
+        "targetId": "ee1e-7c3c-d075-ccfb",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {"name": "A talent for Murder", "id": "89f4-4e8d-8821-f64b", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"},
+          {"name": "A talent for Murder", "id": "d132-5bd0-c0a9-7ddc", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}, {"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Breacher Squad",
+        "id": "fbf5-89a3-03fb-8a98",
+        "hidden": false,
+        "import": true,
+        "targetId": "e2bb-808a-d22a-b21c",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "226e-e79f-0174-f58f", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tactical Squad",
+        "id": "1dba-df2f-c86f-6a6e",
+        "hidden": false,
+        "import": true,
+        "targetId": "d7d2-ed0b-87cb-f5bd",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "1096-f8a4-d4c9-ba1e", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Despoiler Squad",
+        "id": "4c8d-f1c0-f255-6004",
+        "hidden": false,
+        "import": true,
+        "targetId": "6174-a4fd-ad46-ddfa",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "defa-65b1-9411-630f", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {"name": "Davinite Lodge Priest", "id": "dba9-3363-d6a7-b827", "hidden": false, "import": true, "targetId": "508b-3db2-00f4-01bb", "type": "selectionEntry"},
+      {"name": "Exponditionary Navigator", "id": "5008-560b-6773-524a", "hidden": false, "import": true, "targetId": "5765-8056-9276-b9e8", "type": "selectionEntry"},
+      {
+        "name": "Legion Apothecary",
+        "id": "364e-b94c-5097-d51b",
+        "hidden": false,
+        "import": true,
+        "targetId": "5597-c7f9-c3ee-290a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "27c8-285f-f1c5-fce3", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Armistos",
+        "id": "d995-d9a6-e18e-9249",
+        "hidden": false,
+        "import": true,
+        "targetId": "623e-1034-b4cc-8b96",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "bc4e-21be-8c86-ee1e", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "573b-b3b3-4e5d-1ab0",
+        "hidden": false,
+        "import": true,
+        "targetId": "28bf-8fe9-1cec-30ac",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "5771-dbce-268e-6e40", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Champion",
+        "id": "c320-8a9e-6b36-20d0",
+        "hidden": false,
+        "import": true,
+        "targetId": "ce57-3967-c54e-fdf9",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "7ab7-39c3-3011-cad4", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Chaplin",
+        "id": "d8a6-85e8-7776-eafa",
+        "hidden": false,
+        "import": true,
+        "targetId": "9c84-4621-d522-c8d5",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "e966-3655-3d67-0a0c", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Esoterist",
+        "id": "0e9d-28a4-698e-c62c",
+        "hidden": false,
+        "import": true,
+        "targetId": "dd6a-027c-5acd-4779",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "6f8a-8ad4-9418-bd5a", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Forge Lord",
+        "id": "8a3c-a228-843e-7a23",
+        "hidden": false,
+        "import": true,
+        "targetId": "d7bc-ba47-227a-ca16",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "d9fb-ac65-e612-0659", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Herald",
+        "id": "d529-2c41-72a8-5d6c",
+        "hidden": false,
+        "import": true,
+        "targetId": "a00b-e416-84ab-4700",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "f2ad-a395-ce63-dd7a", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Librarian",
+        "id": "220c-253a-26df-0540",
+        "hidden": false,
+        "import": true,
+        "targetId": "3187-3d1d-c6a5-6dab",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "ed14-7564-404f-e427", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Mortifactor",
+        "id": "6699-2fee-e7d0-4de5",
+        "hidden": false,
+        "import": true,
+        "targetId": "00b3-cab0-3ed0-46e7",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "0726-6f4f-980a-df81", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Praetor",
+        "id": "bfc4-41d1-781f-b02b",
+        "hidden": false,
+        "import": true,
+        "targetId": "998f-7eb2-26ee-2a84",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "bdc3-48b4-325b-7b3d", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Primus Medicae",
+        "id": "ee97-9be7-e911-91b3",
+        "hidden": false,
+        "import": true,
+        "targetId": "56c0-45e5-91ca-5b8a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "f2f3-febb-1762-41e0", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Siege Breaker",
+        "id": "2e2c-6252-2f3c-d806",
+        "hidden": false,
+        "import": true,
+        "targetId": "eaff-53c9-a602-2479",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "e93a-134b-165f-0642", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Warmonger",
+        "id": "be2c-d8a5-9178-9125",
+        "hidden": false,
+        "import": true,
+        "targetId": "34e9-c499-a5b2-66a9",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "c639-7182-b0f0-7ea8", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Centurion",
+        "id": "b1eb-683d-cf1c-b1f4",
+        "hidden": false,
+        "import": true,
+        "targetId": "89d9-05e4-07bb-4cdf",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "01a9-6d24-ff40-286a", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Champion",
+        "id": "bc90-fb47-ce95-79ac",
+        "hidden": false,
+        "import": true,
+        "targetId": "8114-d185-a4ee-07cb",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "72c0-3982-efb0-a284", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Chaplin",
+        "id": "267f-df20-70cd-71c9",
+        "hidden": false,
+        "import": true,
+        "targetId": "3ce3-e3c9-a85b-0e53",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "3b0a-cbe3-971b-4e8e", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Damocles Command Rhino",
+        "id": "e641-852b-33e8-da03",
+        "hidden": false,
+        "import": true,
+        "targetId": "7a1b-9d51-180e-a16b",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "97ab-548a-6101-0804", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Delegatus",
+        "id": "1327-cd21-464d-ae14",
+        "hidden": false,
+        "import": true,
+        "targetId": "1713-0c7f-75d6-8cd6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "dda2-1513-16e9-3000", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Esoterist",
+        "id": "7bde-0caf-15ad-33ac",
+        "hidden": false,
+        "import": true,
+        "targetId": "68c1-fc4a-296a-c658",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "ba3f-d99a-bdbc-70a0", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Forge Lord",
+        "id": "4136-ce26-7670-367e",
+        "hidden": false,
+        "import": true,
+        "targetId": "531c-d5af-2f78-f4ca",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "6676-9f93-9d26-3b63", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Herald",
+        "id": "f723-4d4e-5427-3b74",
+        "hidden": false,
+        "import": true,
+        "targetId": "0cda-4f5c-8167-21e6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "39f8-446f-67f3-7e19", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Librarian",
+        "id": "003f-d744-e563-16fe",
+        "hidden": false,
+        "import": true,
+        "targetId": "2501-499b-4f8e-69ea",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "8856-a069-30d1-8e90", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Master of Signals",
+        "id": "7710-f159-c458-e2d7",
+        "hidden": false,
+        "import": true,
+        "targetId": "32d7-9e1e-45bb-f13e",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "9150-f45a-b55a-4de7", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Moritat",
+        "id": "065a-a804-bbf7-5abe",
+        "hidden": false,
+        "import": true,
+        "targetId": "24ee-9f1e-ff3b-50f7",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "cbf9-edf7-033a-40a7", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Mortifactor",
+        "id": "4e6c-23fd-5aab-14a9",
+        "hidden": false,
+        "import": true,
+        "targetId": "12fa-b8c1-64ca-eab5",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "30b3-8282-5028-08be", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Overseer",
+        "id": "996b-13cc-54d2-d042",
+        "hidden": false,
+        "import": true,
+        "targetId": "4726-b22c-efb0-cc88",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "3614-d8ab-9392-6a97", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Pathfinder",
+        "id": "7e5f-271a-2337-e6fb",
+        "hidden": false,
+        "import": true,
+        "targetId": "e43d-8e9e-7bad-3a4f",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "0b12-3aaa-5130-aaac", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Praetor",
+        "id": "42b0-e7ae-ebf4-b31d",
+        "hidden": false,
+        "import": true,
+        "targetId": "d21d-b83b-addc-90d1",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "17e6-2f1a-f64a-1923", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Praevian",
+        "id": "b283-f6b1-25f9-8f42",
+        "hidden": false,
+        "import": true,
+        "targetId": "6eeb-a277-d3db-8d47",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "466c-3cd1-568d-cf16", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Primus Medicae",
+        "id": "5a94-2170-9cd1-e5a6",
+        "hidden": false,
+        "import": true,
+        "targetId": "a33a-de11-6e28-dd63",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "da3c-c372-9695-9a90", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Sicaran Master of Armour",
+        "id": "32b8-fcff-93c1-222a",
+        "hidden": false,
+        "import": true,
+        "targetId": "3376-ed95-4f28-b705",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "077c-296b-5824-5dad", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Siege Breaker",
+        "id": "b46e-83eb-4680-9685",
+        "hidden": false,
+        "import": true,
+        "targetId": "db44-cb35-a60d-a6f6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "95ac-ae25-bd1d-e830", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Centurion",
+        "id": "f0b0-b0ff-227b-83eb",
+        "hidden": false,
+        "import": true,
+        "targetId": "4e15-f59f-a942-c829",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "17ab-64e2-313b-d9e0", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Champion",
+        "id": "8b2f-6478-5f9d-e475",
+        "hidden": false,
+        "import": true,
+        "targetId": "5a8c-8f7e-c8f3-458e",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "5cb8-0a74-19df-ef23", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Chaplin",
+        "id": "2812-b03c-5465-21b0",
+        "hidden": false,
+        "import": true,
+        "targetId": "46e1-af9e-302a-b2ff",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "8782-3d8f-6fe7-0d81", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Esoterist",
+        "id": "c665-6efc-1e02-ca4d",
+        "hidden": false,
+        "import": true,
+        "targetId": "d6db-a7b1-09df-5034",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "72bd-0fbb-971e-efbf", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Forge Lord",
+        "id": "45d1-20c0-ff03-0805",
+        "hidden": false,
+        "import": true,
+        "targetId": "8e62-aa3b-9a26-b151",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "f208-63f7-4f20-88d2", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Herald",
+        "id": "49cd-ac95-2fcf-8632",
+        "hidden": false,
+        "import": true,
+        "targetId": "a1a0-a39e-c9d8-885a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "dda0-2dd1-5de1-6af5", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Librarian",
+        "id": "7031-c2f4-3b6d-b76d",
+        "hidden": false,
+        "import": true,
+        "targetId": "70c6-b440-89df-6881",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "d20e-74c6-8c57-5eb4", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Praetor",
+        "id": "b5d0-ee9c-fcc7-2678",
+        "hidden": false,
+        "import": true,
+        "targetId": "dd4d-8bc3-7d45-d3aa",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "c6b7-18e5-4b24-1f51", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Primus Medicae",
+        "id": "47ad-f3ab-f492-7b40",
+        "hidden": false,
+        "import": true,
+        "targetId": "328a-c702-2f0a-6444",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "0030-f636-1919-bb2b", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Siege Breaker",
+        "id": "ca4d-5a1c-4759-3f2f",
+        "hidden": false,
+        "import": true,
+        "targetId": "3976-982f-34dc-06f8",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "8167-63e1-5b58-061b", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Venerable Ancient Contempter Dreadnought",
+        "id": "ea3d-d382-eeb8-7260",
+        "hidden": false,
+        "import": true,
+        "targetId": "c738-a003-c9fc-8450",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "f204-2300-cd1a-f502", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Vigilator",
+        "id": "6ce0-3378-324e-cb44",
+        "hidden": false,
+        "import": true,
+        "targetId": "adf8-32df-e4a3-be75",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "09d0-172a-99c1-5f18", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Warmonger",
+        "id": "2f96-8564-e87a-da87",
+        "hidden": false,
+        "import": true,
+        "targetId": "c490-dbef-188a-dcb1",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "8af4-aae0-4f49-5683", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {"name": "Cult Abominatio", "id": "625f-da39-69f4-053e", "hidden": false, "import": true, "targetId": "23e5-63f2-00a0-e269", "type": "selectionEntry"},
+      {
+        "name": "Legion Cataphracii Command Squad",
+        "id": "2e43-e02a-644d-813c",
+        "hidden": false,
+        "import": true,
+        "targetId": "260d-fcdb-bce6-adc6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "66c0-3d20-dd5b-6bd9", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}, {"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Primus Nullificator",
+        "id": "1836-3552-b395-498e",
+        "hidden": false,
+        "import": true,
+        "targetId": "326d-a698-02b6-8e8d",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "6bcd-6c88-5ae1-88a3", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Command Squad",
+        "id": "6738-4885-bc80-5108",
+        "hidden": false,
+        "import": true,
+        "targetId": "eb44-0ba7-961f-c555",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "3107-da82-a9d5-4440", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Command Squad",
+        "id": "dbc2-efe2-e1cc-1b92",
+        "hidden": false,
+        "import": true,
+        "targetId": "f543-f511-bd0d-8611",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "5672-fd83-9416-0f88", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Optae",
+        "id": "809f-2f6b-7636-2523",
+        "hidden": false,
+        "import": true,
+        "targetId": "011a-f45d-4771-9dfe",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "b331-4c92-fc37-3e6c", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Predator Master of Armour",
+        "id": "94e0-358a-dd1d-1529",
+        "hidden": false,
+        "import": true,
+        "targetId": "34e4-f19f-e0dd-53b1",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "da6b-f2b2-d2d4-43bf", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Mortifactor",
+        "id": "c54e-86f7-0578-aa52",
+        "hidden": false,
+        "import": true,
+        "targetId": "c678-20b5-8b21-4fbb",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "1f60-5ed3-7d7c-e454", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Warmonger",
+        "id": "7f9e-1147-ee1a-1261",
+        "hidden": false,
+        "import": true,
+        "targetId": "4065-c653-1b0c-4f8f",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "bf10-8654-1465-f4fb", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Techmarine",
+        "id": "4f59-8d94-97b8-883a",
+        "hidden": false,
+        "import": true,
+        "targetId": "5906-c31b-60b0-6ea6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "3be0-a7ee-cf55-ee0d", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Detachment",
+        "id": "041b-4c6b-658d-3029",
+        "hidden": false,
+        "import": true,
+        "targetId": "a389-c8b9-1a77-3c68",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "ce27-3bf0-41fb-6287", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Loyalty",
+        "id": "85c7-0e62-3758-720d",
+        "hidden": false,
+        "import": true,
+        "targetId": "0397-ebbd-9609-b338",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "3584-dfbb-87bd-da53", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Avenger Strike Fighter",
+        "id": "18d2-662d-b1a3-a50d",
+        "hidden": false,
+        "import": true,
+        "targetId": "3cc5-a083-a336-885f",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "b013-c1f3-bea5-a499", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Primaris-Lightning Strike Fighter",
+        "id": "eceb-225e-64b8-5293",
+        "hidden": false,
+        "import": true,
+        "targetId": "0b04-9f4d-a24f-a316",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "ef28-4271-abd2-dd07", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Fire Raptor Gunship",
+        "id": "068f-5f5a-3012-02ee",
+        "hidden": false,
+        "import": true,
+        "targetId": "8a76-6902-726c-b5e1",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "20f4-7d03-ba77-25bc", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Storm Eagle Gunship",
+        "id": "684e-251b-cd2f-8fe8",
+        "hidden": false,
+        "import": true,
+        "targetId": "018f-2bcd-8f19-764a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "34f2-2797-89c3-1228", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Thunderbolt Fighter",
+        "id": "caf4-a3fb-19f4-6c8f",
+        "hidden": false,
+        "import": true,
+        "targetId": "1e31-32c6-8c4c-f357",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "fd0a-34b4-563f-fc16", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Xiphon Interceptor",
+        "id": "17df-2fed-45cb-ba3f",
+        "hidden": false,
+        "import": true,
+        "targetId": "1fc9-94cb-9b08-7f28",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "91db-4524-a7c2-d162", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tarantula Sentry Gun Battery",
+        "id": "5a18-871f-71ed-aae9",
+        "hidden": false,
+        "import": true,
+        "targetId": "e8da-18b9-7a85-f1ea",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "f433-b958-8791-f166", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Cataphractii Squad",
+        "id": "f5b3-8e03-bf64-88b0",
+        "hidden": false,
+        "import": true,
+        "targetId": "86e9-7365-1fa1-e847",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "2446-d1b8-b6f2-de12", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Destroyer Assault Squad",
+        "id": "694a-d5b2-a78b-7f81",
+        "hidden": false,
+        "import": true,
+        "targetId": "9a22-1750-3581-f5e9",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "8730-a14b-db2f-893e", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Mortalis Destroyer Squad",
+        "id": "b18d-98a5-9333-ca13",
+        "hidden": false,
+        "import": true,
+        "targetId": "b5f2-8ddb-57bd-1583",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "bdd4-66af-101b-6179", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Nullificator Squad",
+        "id": "c046-64c5-6320-73aa",
+        "hidden": false,
+        "import": true,
+        "targetId": "41de-856c-a041-1f74",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "61ea-b13a-bc88-adda", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Rapier Battery",
+        "id": "b814-2172-0892-dc4d",
+        "hidden": false,
+        "import": true,
+        "targetId": "8b64-1e68-a680-b744",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "a18e-13a6-9249-c2cd", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Reconnaissance Squad",
+        "id": "08e7-4c85-6afa-34d9",
+        "hidden": false,
+        "import": true,
+        "targetId": "87e9-4645-76e0-00e8",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "eddc-871e-bc1c-0d73", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Veteran Squad",
+        "id": "e45f-20f4-11d2-1800",
+        "hidden": false,
+        "import": true,
+        "targetId": "14ca-45b2-dca4-33f6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "5b9e-2599-cdcd-c850", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Heavy Support Squad",
+        "id": "b1a5-4ffd-c089-270b",
+        "hidden": false,
+        "import": true,
+        "targetId": "c68b-74aa-dc15-c950",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "e20e-a2ff-5b35-af1c", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Indomitus Terminator Squad",
+        "id": "815c-712b-c056-947e",
+        "hidden": false,
+        "import": true,
+        "targetId": "b24a-af33-bbf8-8c21",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "714f-830f-209d-0597", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Scout Squad",
+        "id": "fe1c-13dc-8b69-40c9",
+        "hidden": false,
+        "import": true,
+        "targetId": "769b-7644-1599-a579",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "1346-0712-a64c-013e", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Seeker Squad",
+        "id": "32af-f8b3-1de8-696b",
+        "hidden": false,
+        "import": true,
+        "targetId": "3789-2f71-8ac7-06f6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "c520-7268-b6b4-7df6", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tactical Support Squad",
+        "id": "faea-f102-e3cf-e1f8",
+        "hidden": false,
+        "import": true,
+        "targetId": "3711-985b-f066-5d7b",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "2db1-508c-2f0d-b9a8", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Tartaros Squad",
+        "id": "8370-82b3-92a3-edcc",
+        "hidden": false,
+        "import": true,
+        "targetId": "533b-2c5b-c5aa-7fac",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "c47b-1cec-3b57-b455", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Javelin Squadron",
+        "id": "ad50-d3cb-d50e-bb8e",
+        "hidden": false,
+        "import": true,
+        "targetId": "2492-388c-9304-c2c8",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "d212-96bc-64b5-5ecb", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Outrider Squadron",
+        "id": "1a4e-a411-a938-bd29",
+        "hidden": false,
+        "import": true,
+        "targetId": "6d72-7039-2d3d-4f6a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "eec6-de69-9a96-d203", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Proteus Land Speeder Squadron",
+        "id": "a436-1994-6065-434b",
+        "hidden": false,
+        "import": true,
+        "targetId": "2cd9-4c4a-22d4-2149",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "b409-b7d4-ca0d-9de3", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Spatha Attack Bike Squadron",
+        "id": "aed6-dc70-81d4-26ed",
+        "hidden": false,
+        "import": true,
+        "targetId": "ffd4-fb23-ba98-73fc",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "4122-e910-29f6-c0ff", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Caestus Assault Ram",
+        "id": "1e90-8d7f-6020-078a",
+        "hidden": false,
+        "import": true,
+        "targetId": "c2ac-4740-5dac-46f6",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "178d-4c31-9c77-4c3d", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Land raider Proteus Explorator",
+        "id": "9740-13a1-ab8f-1b92",
+        "hidden": false,
+        "import": true,
+        "targetId": "e0a6-52e4-abe6-a365",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "3c2f-c810-ffd1-b892", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Whirlwind",
+        "id": "2b2a-f6d6-2b0e-9a5b",
+        "hidden": false,
+        "import": true,
+        "targetId": "54bc-596b-4eec-7d43",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "29c1-23bf-5945-1a9d", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Basalisk Squadron",
+        "id": "5c06-334d-49e9-9e19",
+        "hidden": false,
+        "import": true,
+        "targetId": "5341-5378-0b4b-3df2",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "aade-b1e3-2a10-d9d6", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Land Raider Achillies Squadron",
+        "id": "9a39-54dd-2018-916f",
+        "hidden": false,
+        "import": true,
+        "targetId": "e94e-ebb3-d166-4742",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "a44f-9cbc-8745-74ac", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Medusa Squadron",
+        "id": "d6e1-cf2c-80da-9054",
+        "hidden": false,
+        "import": true,
+        "targetId": "a71c-9118-71cb-9ffe",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "dce4-1bec-6301-517f", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Minotaur Battery",
+        "id": "c393-c788-a310-d499",
+        "hidden": false,
+        "import": true,
+        "targetId": "ed37-7e1a-a729-6bf4",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "9ab3-2ed4-dd6f-b99a", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Sabre Strike Squadron",
+        "id": "6bd5-2313-cea0-e1a8",
+        "hidden": false,
+        "import": true,
+        "targetId": "f50e-2453-e395-c153",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "80e1-a737-c5d2-9302", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Scorpius Squadron",
+        "id": "e3c5-4dbb-2a4b-1caf",
+        "hidden": false,
+        "import": true,
+        "targetId": "2630-7d98-466e-3a5b",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "f275-270c-0ca1-8fb0", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Sicaran Squadron",
+        "id": "f64e-5579-19e5-9b81",
+        "hidden": false,
+        "import": true,
+        "targetId": "a6f3-8850-8883-56c5",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "ebe4-22f2-1296-5719", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Vindicator Squadron",
+        "id": "4850-31d5-5362-43a8",
+        "hidden": false,
+        "import": true,
+        "targetId": "1712-9d30-0f4f-5537",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "e367-3430-d580-2150", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Arquitor Squadron",
+        "id": "7071-7b93-65ea-99b2",
+        "hidden": false,
+        "import": true,
+        "targetId": "efbe-a324-fdc4-4f2e",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "829e-0da9-21e3-895f", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Kratos Squadron",
+        "id": "d79e-b2d0-a81c-71ea",
+        "hidden": false,
+        "import": true,
+        "targetId": "c8f6-06dd-a85a-ee3e",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "20b2-a674-3da5-1521", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Land Raider Phobos Squadron",
+        "id": "06d4-2ddb-7d83-c93a",
+        "hidden": false,
+        "import": true,
+        "targetId": "7dae-010e-1b78-650a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "ad67-85b2-3dd2-724b", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Land Raider Proteus Carrier Squadron",
+        "id": "faac-3243-b01f-d585",
+        "hidden": false,
+        "import": true,
+        "targetId": "6794-9181-ab78-220f",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "8e63-fd49-8f0e-ccac", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Land Raider Spartan",
+        "id": "d45e-c4e6-5cfe-8b63",
+        "hidden": false,
+        "import": true,
+        "targetId": "3623-ae0e-1bfd-6ffe",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "e51e-2f13-8c51-a737", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Malcador Assault Tank Squadron",
+        "id": "f34f-a599-c22c-59e9",
+        "hidden": false,
+        "import": true,
+        "targetId": "83f8-8560-c726-365a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "5676-0942-dbb4-0346", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Predator Squadron",
+        "id": "fb4b-4c9c-c035-aa42",
+        "hidden": false,
+        "import": true,
+        "targetId": "b2fa-91c2-c0bf-bbcc",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "e00a-9fd3-3068-7e5f", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Castra Ferrum Dreadnought Talon",
+        "id": "67fa-2fd3-fcfd-a401",
+        "hidden": false,
+        "import": true,
+        "targetId": "f63b-d601-fe21-e221",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "ccda-a70b-9c51-3618", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Contemptor Dreadnought Talon",
+        "id": "1ee3-3a2c-f9a4-2713",
+        "hidden": false,
+        "import": true,
+        "targetId": "0253-b6f0-97a0-4437",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "b769-4630-5f73-91e0", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Levithan Dreadnought Talon",
+        "id": "83ad-fe44-dcc8-6740",
+        "hidden": false,
+        "import": true,
+        "targetId": "1b60-60be-1475-2a44",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "5201-24ce-a9e2-6125", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Deredeo Dreadnought Talon",
+        "id": "2b08-b63c-b49e-f777",
+        "hidden": false,
+        "import": true,
+        "targetId": "180d-3e88-b259-5d1d",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "A talent for Murder", "id": "9bbe-fe7f-ec43-9ced", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "A talent for Murder",
+        "id": "5211-8d4d-3957-1b6e",
+        "description": "When a unit with this targets an enemy unit that is **battleshocked**, **pinned** or has less models then this unit add 1 to the to wound roll. To determine **outnumbering** for **infantry** each model counts as 1 unless it has an ability that cause it to take up more in a transport and instead its value is that. **Terminators** and **Jumppacks** count as 2 unless overwise stated by a rule that makes them take up more transport. **Walkers** count as 5, **Monsters** count as 5 and **vehicles** count as 10.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Detachment",
+        "id": "a389-c8b9-1a77-3c68",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Configuration", "id": "0d03-c847-a627-4de1", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249"}],
+        "constraints": [
+          {
+            "id": "2131-8b42-00cc-3e1f",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "e334-42fb-eab8-58c5",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [{"name": "Common Detachments", "id": "ea19-7ff3-47f8-fa8b", "hidden": false, "import": true, "targetId": "1a9b-dc90-4bb8-6fee", "type": "selectionEntry"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "cac3-71d1-ea4b-795d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [{"name": "Night Lord Detachments", "id": "8902-d529-51e3-0b3c", "hidden": false}]
+      }
     ]
   }
 }
