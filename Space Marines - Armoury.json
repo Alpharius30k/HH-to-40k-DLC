@@ -1396,28 +1396,11 @@
         "id": "8f00-3bc0-29d0-87f2",
         "hidden": false,
         "import": true,
+        "sortIndex": 21,
         "type": "upgrade",
-        "modifiers": [
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {"childId": "8db9-a9ba-fe6f-4a13", "childName": "Chainaxe", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "63c7-4506-ca4e-e64a", "childName": "Chainsword", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "5ba8-3974-e1a8-2fd3", "childName": "Charnabal Blade", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "ee57-cdd8-50a4-9aa8", "childName": "Lightning Claw", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "6138-cb05-c38a-d295", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "1f23-df82-9bea-2ebf", "childName": "Power Fist", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "3e76-8280-4841-075d", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "6a81-9e86-bdb9-1d22", "childName": "Thunder Hammer", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "6cae-1eb0-e2bf-9ff0", "childName": "Force Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "6929-a64a-8294-21fb", "childName": "Power Dagger", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "ea30-b369-3179-725e", "childName": "Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "0d87-3cc7-62af-62a5", "childName": "Chain Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-              {"childId": "54ed-c997-6cf7-30f0", "childName": "Heavy Chainsword", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
-            ]
-          }
+        "constraints": [
+          {"id": "9758-97b2-8408-36bf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+          {"id": "0b60-e602-6ed6-9ab0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
         ],
         "profiles": [
           {
@@ -5584,6 +5567,7 @@
         "id": "6929-a64a-8294-21fb",
         "hidden": false,
         "import": true,
+        "sortIndex": 7,
         "type": "upgrade",
         "infoLinks": [{"name": "Lethal Hits", "id": "96b8-8cb9-8eef-f712", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}],
         "profiles": [
@@ -5610,6 +5594,7 @@
         "id": "d4c3-8f21-5f7d-8699",
         "hidden": false,
         "import": true,
+        "sortIndex": 7,
         "type": "upgrade",
         "infoLinks": [
           {"name": "One Shot", "id": "aee9-8bfb-aff3-8117", "hidden": false, "targetId": "cd26-1611-860a-91e4", "type": "rule"},
@@ -5640,6 +5625,7 @@
         "id": "7dcf-686d-500f-c683",
         "hidden": false,
         "import": true,
+        "sortIndex": 20,
         "type": "upgrade",
         "infoLinks": [
           {"name": "Lethal Hits", "id": "ee17-897e-b9c3-c57a", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
@@ -5687,6 +5673,7 @@
         "id": "fa7e-034a-56e7-9a12",
         "hidden": false,
         "import": true,
+        "sortIndex": 20,
         "type": "upgrade",
         "infoLinks": [
           {"name": "Lethal Hits", "id": "f603-bd30-1e3a-069e", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
@@ -5805,6 +5792,7 @@
         "id": "ef47-9c99-c4ff-329b",
         "hidden": false,
         "import": true,
+        "sortIndex": 7,
         "type": "upgrade",
         "infoLinks": [
           {"name": "Twin-linked", "id": "4ccf-40dc-bb2e-85b9", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"},
@@ -5852,6 +5840,7 @@
         "id": "e2d8-76c0-3823-b776",
         "hidden": false,
         "import": true,
+        "sortIndex": 7,
         "type": "upgrade",
         "infoLinks": [
           {"name": "Twin-linked", "id": "3f3f-1b8f-7f6d-b7bb", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"},
@@ -5899,6 +5888,7 @@
         "id": "b356-f6cd-f56e-85aa",
         "hidden": false,
         "import": true,
+        "sortIndex": 7,
         "type": "upgrade",
         "infoLinks": [
           {"name": "Lethal Hits", "id": "c5d3-cc63-0c5c-054e", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
@@ -5946,6 +5936,7 @@
         "id": "9bb3-583a-399e-10d2",
         "hidden": false,
         "import": true,
+        "sortIndex": 7,
         "type": "upgrade",
         "infoLinks": [
           {"name": "Devastating Wounds", "id": "da3f-c60c-a38a-4a9e", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
@@ -6009,6 +6000,97 @@
               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banestrike Shotgun",
+        "id": "699b-381f-cb81-a626",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 20,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Lethal Hits", "id": "6566-719a-c583-2a30", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
+          {"name": "Blast", "id": "431b-baf9-b7bf-d7c5", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+          {"name": "Assault", "id": "d89f-666a-27f2-dd48", "hidden": false, "targetId": "fc8a-8c24-bae9-cc1c", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Banestrike Shotgun",
+            "id": "1e64-670f-45ab-2c3c",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Assault, Blast 1, Lethal Hits [Non-Vehicle]", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fisticuffs (Terminator Armour)",
+        "id": "5800-e127-f756-778e",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 21,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "469e-21db-9967-c1af", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+          {"id": "f170-e3b9-32a3-65e5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+        ],
+        "profiles": [
+          {
+            "name": "Fisticuffs",
+            "id": "3302-eb2f-9b0f-5ddc",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "1", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fisticuffs (Human)",
+        "id": "9520-7397-b14a-140c",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 21,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "3f1f-2b11-1ea6-3db9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+          {"id": "945f-3680-bcdf-0557", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+        ],
+        "profiles": [
+          {
+            "name": "Fisticuffs",
+            "id": "b28a-889a-3e93-cfce",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "1", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "3", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
             ]
           }
         ]

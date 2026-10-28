@@ -428,7 +428,8 @@
               {"id": "1bbf-b430-b4be-4966", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "6171-2d28-64a0-076f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
-          }
+          },
+          {"name": "Fisticuffs (Human)", "id": "4fb0-bab1-0c0a-77ff", "hidden": false, "import": true, "targetId": "9520-7397-b14a-140c", "type": "selectionEntry"}
         ],
         "infoLinks": [
           {"name": "Support", "id": "c83c-8329-596a-b7e6", "hidden": false, "targetId": "3342-2180-9c5d-925f", "type": "rule"},
@@ -528,8 +529,7 @@
               {"name": "Base", "$text": "", "typeId": "nr-base-size"}
             ]
           }
-        ],
-        "selectionEntryGroups": [{"name": "Weapons", "id": "01dd-a03a-5814-f36d", "hidden": false}]
+        ]
       },
       {
         "name": "Exponditionary Navigator",
@@ -593,7 +593,8 @@
               {"id": "1b19-3442-f93b-19a9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "161f-f9b6-9148-1558", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
-          }
+          },
+          {"name": "Fisticuffs (Human)", "id": "a5d0-d0a4-d3f3-82c9", "hidden": false, "import": true, "targetId": "9520-7397-b14a-140c", "type": "selectionEntry"}
         ],
         "infoLinks": [
           {"name": "Support", "id": "54a1-7b6e-2d32-cfcb", "hidden": false, "targetId": "3342-2180-9c5d-925f", "type": "rule"},
@@ -731,7 +732,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "565c-fda2-4603-eab8",
             "hidden": false,
             "import": true,
@@ -793,7 +794,9 @@
                 "value": 1
               }
             ]
-          }
+          },
+          {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
+          {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
         ],
         "profiles": [
           {
@@ -831,7 +834,8 @@
                   {"id": "5377-3c30-4748-46a0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "5af3-539e-8d19-45bb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
-              }
+              },
+              {"name": "Fisticuffs (Power Armour)", "id": "30ea-7292-7e4a-6a58", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
             ],
             "selectionEntryGroups": [
               {
@@ -948,18 +952,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "be46-4d0f-4c63-a4f3",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "9897-a5a1-9576-2692", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "3e85-e9f0-a542-201e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "be46-4d0f-4c63-a4f3", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Alpha Legion Wargear",
             "id": "22f4-e57b-ec0e-3b7e",
@@ -970,7 +963,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "9919-4ef2-97a5-7676",
             "hidden": false,
             "import": true,
@@ -1868,7 +1861,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "f154-5610-54c7-1bc7",
             "hidden": false,
             "import": true,
@@ -1981,6 +1974,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "eb78-8676-dcf4-4e26", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "b793-64e9-a469-37ac",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -2173,7 +2174,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "dc00-3545-52b9-3479",
             "hidden": false,
             "import": true,
@@ -2294,6 +2295,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "16d6-c09f-7205-c035", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "88c0-b5fa-29d0-1013",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -2474,7 +2483,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "6b01-0aeb-c660-a50e",
             "hidden": false,
             "import": true,
@@ -2585,13 +2594,33 @@
               {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
             ],
             "modifiers": [
-              {"affects": "self.entries.6641-f51c-7ebc-a901.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 1},
-              {"affects": "self.entries.6641-f51c-7ebc-a901.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1},
+              {
+                "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
+                "field": "ab33-d393-96ce-ccba",
+                "scope": "parent",
+                "type": "increment",
+                "value": 1
+              },
+              {
+                "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
+                "field": "3254-9fe6-d824-513e",
+                "scope": "parent",
+                "type": "increment",
+                "value": 1
+              },
               {
                 "field": "hidden",
                 "type": "set",
                 "value": true,
                 "conditions": [{"childId": "d38d-2c27-067c-19db", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "lessThan", "value": 1}]
+              },
+              {
+                "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
+                "field": "name",
+                "join": " ",
+                "scope": "parent",
+                "type": "prepend",
+                "value": "Master-Crafted"
               }
             ]
           },
@@ -2623,6 +2652,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "c05d-fa43-e90f-2f38", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "3591-fc36-51a5-936b",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -2803,7 +2840,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "d390-e48e-42b2-4f3a",
             "hidden": false,
             "import": true,
@@ -2948,6 +2985,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "c0c6-6774-9155-a0e2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "b28b-2ef4-c952-83d5",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -3151,7 +3196,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "d1e1-6e23-a72f-3cdb",
             "hidden": false,
             "import": true,
@@ -3162,7 +3207,7 @@
         ],
         "infoLinks": [
           {"name": "Leader", "id": "fd63-8dda-c24e-c894", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
-          {"name": "Legion Librarian (Psyker Level 1)", "id": "b59d-ba26-3677-ef17", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
+          {"name": "Legion Librarian (Psyker Level 2)", "id": "b59d-ba26-3677-ef17", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
           {"name": "Psyker", "id": "afb4-9371-ba2c-f0bc", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
         ],
         "modifiers": [
@@ -3268,6 +3313,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "5b6e-0348-a491-99d7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "2656-6925-1f14-4a62",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -3551,6 +3604,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "4be1-f6a1-d935-c4b0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "b1dc-edea-34d9-c610",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -3730,7 +3791,7 @@
                 "type": "selectionEntryGroup"
               },
               {
-                "name": "Nightlord Wargear",
+                "name": "Night lord Wargear",
                 "id": "d705-6dd1-c538-8ebc",
                 "hidden": false,
                 "import": true,
@@ -3778,7 +3839,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "202f-2b23-0a33-e7cc",
             "hidden": false,
             "import": true,
@@ -3914,6 +3975,14 @@
                   {"id": "0bcf-40d9-716f-dd31", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "4db7-6444-e29f-aa47", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "61e0-2cb3-98ad-9056",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -4074,7 +4143,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "704a-911e-3444-7398",
             "hidden": false,
             "import": true,
@@ -4085,7 +4154,7 @@
         ],
         "infoLinks": [
           {"name": "Leader", "id": "2721-be3a-4718-b82b", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
-          {"name": "Legion Librarian (Psyker Level 1)", "id": "8703-b414-5cc5-d624", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
+          {"name": "Legion Librarian (Psyker Level 2)", "id": "8703-b414-5cc5-d624", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
           {"name": "Psyker", "id": "cdc8-c710-0930-e18c", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
         ],
         "modifiers": [
@@ -4174,6 +4243,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "756c-d968-c7f6-69a5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "4bd8-7b53-c051-08f4",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -4389,7 +4466,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "b699-c926-3f19-2dbc",
             "hidden": false,
             "import": true,
@@ -4517,6 +4594,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "eddd-f535-9bd1-02f1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "8bcf-87f6-85d8-e110",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -4697,7 +4782,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "324a-a3cb-fa6a-8bf4",
             "hidden": false,
             "import": true,
@@ -4810,6 +4895,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "6858-83a4-1017-44a6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "686b-da3e-0908-b70b",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -5011,7 +5104,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "ff74-87d4-bd60-cf20",
             "hidden": false,
             "import": true,
@@ -5121,6 +5214,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "d854-09e0-422a-f91d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "8568-b51b-3603-5263",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -5334,7 +5435,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "fa5a-9aa6-1473-efb3",
             "hidden": false,
             "import": true,
@@ -5461,6 +5562,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "c61c-5f5f-84aa-de01", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "4266-ad22-27a8-9138",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -5641,7 +5750,7 @@
             "type": "selectionEntryGroup"
           },
           {
-            "name": "Nightlord Wargear",
+            "name": "Night lord Wargear",
             "id": "34c3-a99d-802a-6a9c",
             "hidden": false,
             "import": true,
@@ -5779,6 +5888,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "891f-97c7-504e-b392", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "7e05-bbf3-42da-ab3e",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -5946,18 +6063,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "75b1-754a-920e-69ac",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "78c6-c0e7-0692-73c6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "e5ad-f849-e97f-4ea4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "75b1-754a-920e-69ac", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Alpha Legion Wargear",
             "id": "1e38-bcd0-b8ec-7bfa",
@@ -6421,7 +6527,8 @@
             "sortIndex": 2,
             "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
-          }
+          },
+          {"name": "Fisticuffs (Power Armour)", "id": "0985-e5d6-2fc4-f35b", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
         ],
         "infoLinks": [{"name": "Leader", "id": "e839-b140-afe2-8041", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
         "modifiers": [
@@ -6846,18 +6953,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "4c96-8cc9-af4f-d58f",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "8592-e076-49cb-f846", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "3470-3cc9-ffe9-851c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "4c96-8cc9-af4f-d58f", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Alpha Legion Wargear",
             "id": "7bcc-6daa-ae85-d210",
@@ -6979,13 +7075,33 @@
               {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
             ],
             "modifiers": [
-              {"affects": "self.entries.6641-f51c-7ebc-a901.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 1},
-              {"affects": "self.entries.6641-f51c-7ebc-a901.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1},
+              {
+                "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
+                "field": "ab33-d393-96ce-ccba",
+                "scope": "parent",
+                "type": "increment",
+                "value": 1
+              },
+              {
+                "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
+                "field": "3254-9fe6-d824-513e",
+                "scope": "parent",
+                "type": "increment",
+                "value": 1
+              },
               {
                 "field": "hidden",
                 "type": "set",
                 "value": true,
                 "conditions": [{"childId": "0096-5e8d-1441-babb", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "lessThan", "value": 1}]
+              },
+              {
+                "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
+                "field": "name",
+                "join": " ",
+                "scope": "parent",
+                "type": "prepend",
+                "value": "Master-Crafted"
               }
             ]
           },
@@ -7592,18 +7708,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "8b6e-84e8-f256-1702",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "b0da-7365-b0a8-4436", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "e49a-03c8-6908-0693", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "8b6e-84e8-f256-1702", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Alpha Legion Wargear",
             "id": "5c8f-439f-f131-7f7b",
@@ -8093,18 +8198,7 @@
             "constraints": [{"id": "0e58-3677-0496-697f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 20}]
           },
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "c241-0a1a-0111-5ea1",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "7242-7af9-3dd0-44e4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "84ac-8013-a2de-71de", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "c241-0a1a-0111-5ea1", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Alpha Legion Wargear",
             "id": "b2e7-a655-dfbf-06c0",
@@ -8126,7 +8220,7 @@
         ],
         "infoLinks": [
           {"name": "Leader", "id": "fa77-adb7-1b54-b2c4", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
-          {"name": "Legion Librarian (Psyker Level 1)", "id": "25f9-8644-c5c8-46cf", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
+          {"name": "Legion Librarian (Psyker Level 2)", "id": "25f9-8644-c5c8-46cf", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
           {"name": "Psyker", "id": "cc16-7af7-0064-7216", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
         ],
         "modifiers": [
@@ -8563,7 +8657,8 @@
               {"id": "341a-dbb9-35dd-a429", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "c738-b79d-6f6b-3bda", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
-          }
+          },
+          {"name": "Fisticuffs (Power Armour)", "id": "ad8f-4a99-f5e5-8484", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
         ],
         "infoLinks": [
           {"name": "Leader", "id": "acb7-69a3-fa1e-f55f", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
@@ -9038,7 +9133,8 @@
             "sortIndex": 2,
             "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
-          }
+          },
+          {"name": "Fisticuffs (Power Armour)", "id": "29ba-06c3-f8c5-06a5", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
         ],
         "infoLinks": [{"name": "Leader", "id": "9387-90a3-3324-bdb7", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
         "modifiers": [
@@ -9804,18 +9900,7 @@
             "constraints": [{"id": "3dd0-7fad-67c1-d437", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
           },
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "b328-3d6f-9137-e75b",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "03de-375c-708b-fe62", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "87f9-1f7d-14fd-4d7e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "b328-3d6f-9137-e75b", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Alpha Legion Wargear",
             "id": "526f-11dc-ac0d-3eeb",
@@ -9837,7 +9922,7 @@
         ],
         "infoLinks": [
           {"name": "Leader", "id": "1c5d-b6b1-f344-eb8d", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
-          {"name": "Legion Librarian (Psyker Level 1)", "id": "a4fb-6ddb-8e2b-cb9c", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
+          {"name": "Legion Librarian (Psyker Level 2)", "id": "a4fb-6ddb-8e2b-cb9c", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
           {"name": "Psyker", "id": "9f7b-e208-ac4c-8210", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
         ],
         "modifiers": [
@@ -10322,18 +10407,7 @@
               {"id": "cfe2-2dc6-fd46-6339", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
           },
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "b7da-fc08-68b5-b7ee",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "0277-f7bb-76d2-f9fd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "b0c2-ba7d-ef53-8f70", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "b7da-fc08-68b5-b7ee", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Alpha Legion Wargear",
             "id": "ef0e-549e-9cea-ca04",
@@ -10666,18 +10740,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "de69-a334-100d-7dba",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "d18e-a386-37e3-17e1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "33bc-bc0f-2fd8-55c4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "de69-a334-100d-7dba", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Alpha Legion Wargear",
             "id": "c00d-925c-8dbb-9d98",
@@ -11298,7 +11361,8 @@
             "sortIndex": 2,
             "targetId": "2a57-7802-729b-6d61",
             "type": "selectionEntryGroup"
-          }
+          },
+          {"name": "Fisticuffs (Power Armour)", "id": "08ed-b292-4918-4969", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
         ],
         "infoLinks": [
           {"name": "Leader", "id": "7d06-f4e1-165c-754e", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
@@ -11730,18 +11794,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "e7ce-9a3b-8ec0-f308",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "9f3a-fbb9-6936-4a3c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "40d9-8edb-5ae5-86f2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "e7ce-9a3b-8ec0-f308", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Alpha Legion Wargear",
             "id": "ee06-ed27-15c9-6407",
@@ -12121,18 +12174,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "a009-7f49-b07b-8355",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "8729-762a-ceef-7c7c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "f213-107f-905a-a2e4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "a009-7f49-b07b-8355", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Master-Crafted Astartes Shotgun",
             "id": "d70b-823b-b8a4-ccc9",
@@ -12528,18 +12570,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "5a8c-fb05-930d-1dc7",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "0dc9-7cc3-9a44-1557", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "2255-fea4-b056-65e3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "5a8c-fb05-930d-1dc7", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Alpha Legion Wargear",
             "id": "0c17-a62d-8f6e-d870",
@@ -13038,18 +13069,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "9f44-add1-4e55-a335",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "e441-8dc6-4df9-a1ef", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "6f6d-06c8-35e4-f7ca", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "9f44-add1-4e55-a335", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Cyber-Familiar",
             "id": "c827-546f-959b-fd7f",
@@ -13681,18 +13701,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "5db2-1b3a-98e0-3433",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "b183-50c0-a9c9-e0a7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "fe86-b56e-69fc-f3fe", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "5db2-1b3a-98e0-3433", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Narthecium",
             "id": "3856-6125-57de-902b",
@@ -14489,18 +14498,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "7da6-bfe6-4372-f488",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "8b1d-f306-3fa9-f1c5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "be9d-db0c-9567-6e35", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "7da6-bfe6-4372-f488", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Nunci-Vox",
             "id": "cc3f-5047-3c30-5f44",
@@ -15098,6 +15096,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "a520-d6d5-5e2f-21cd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "badf-0d1f-cf50-3a3b",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -15270,18 +15276,6 @@
         ],
         "entryLinks": [
           {
-            "name": "Paragon Blade",
-            "id": "1285-dcfe-e53b-9b41",
-            "hidden": false,
-            "import": true,
-            "targetId": "bedc-2ee9-5636-27e5",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "e6d1-7ff0-0b73-b573", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "a9d6-5977-31bb-eb0c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
-          {
             "name": "Alpha Legion Wargear",
             "id": "66b3-d46e-faa1-72f4",
             "hidden": false,
@@ -15412,6 +15406,26 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "cd44-c03a-d17f-260d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "e64a-2379-7e81-11ea",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Paragon Blade",
+                "id": "1285-dcfe-e53b-9b41",
+                "hidden": false,
+                "import": true,
+                "targetId": "bedc-2ee9-5636-27e5",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "e6d1-7ff0-0b73-b573", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "a9d6-5977-31bb-eb0c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
               }
             ],
             "selectionEntryGroups": [
@@ -15717,8 +15731,8 @@
               {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
             ],
             "modifiers": [
-              {"affects": "self.entries.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 1},
-              {"affects": "self.entries.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1},
+              {"affects": "self.entries.3e76-8280-4841-075d.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 1},
+              {"affects": "self.entries.3e76-8280-4841-075d.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1},
               {
                 "field": "hidden",
                 "type": "set",
@@ -15742,6 +15756,26 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "1f35-6a17-7756-0594", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Paragon Blade",
+                "id": "dbed-7204-5ca7-7c4c",
+                "hidden": false,
+                "import": true,
+                "targetId": "bedc-2ee9-5636-27e5",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "e87b-fe38-4580-1498", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "3b4e-212e-953b-d28c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "74d5-ca0b-ca3e-d27d",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -16068,6 +16102,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "ff08-1a02-6776-3dfb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "5e73-69f0-7e2f-d86f",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -16283,7 +16325,7 @@
         ],
         "infoLinks": [
           {"name": "Leader", "id": "da58-c3ed-e11f-c822", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
-          {"name": "Legion Librarian (Psyker Level 1)", "id": "2d67-6d2f-195c-2bcd", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
+          {"name": "Legion Librarian (Psyker Level 2)", "id": "2d67-6d2f-195c-2bcd", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
           {"name": "Psyker", "id": "ca21-8d86-24d2-8bcd", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
         ],
         "modifiers": [
@@ -16389,6 +16431,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "dc0f-56a1-b232-6feb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "1c15-fdba-f44a-8762",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -16689,6 +16739,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "2142-aae4-eddd-aad6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "90cb-79d9-2afd-62c6",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -17053,6 +17111,14 @@
                   {"id": "5716-67c9-68c2-578f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "fc39-dcf3-a756-eb32", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "a724-46c2-0e95-1f67",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -17225,7 +17291,7 @@
         ],
         "infoLinks": [
           {"name": "Leader", "id": "4ad8-ae8b-5d9c-c7d5", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
-          {"name": "Legion Librarian (Psyker Level 1)", "id": "f346-5c0f-233d-5f41", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
+          {"name": "Legion Librarian (Psyker Level 2)", "id": "f346-5c0f-233d-5f41", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
           {"name": "Psyker", "id": "f5ba-1965-ce20-0982", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
         ],
         "modifiers": [
@@ -17331,6 +17397,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "1433-3f39-ed8b-ccdf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "b921-0779-a30d-e651",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -17634,6 +17708,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "cf29-5441-8f0a-1525", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "a90e-ccaf-6555-5f11",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -17946,6 +18028,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "121a-ef18-55c9-cf7e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "4994-2f88-4566-edfc",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -18288,6 +18378,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "07ed-af0a-f136-2804", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "bc5b-2a32-507b-2295",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -18746,18 +18844,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "ab0c-9a43-a57d-1328",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "177b-3cad-060e-1c5b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "e352-d95f-de34-06ca", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "ab0c-9a43-a57d-1328", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Master-Crafted Nemesis Bolter",
             "id": "d1ad-bde5-0352-ba7b",
@@ -19246,18 +19333,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "98ff-1caf-5514-8b63",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "6b77-2710-a3f5-8ed4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "2b23-9360-307b-ff54", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "98ff-1caf-5514-8b63", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Alpha Legion Wargear",
             "id": "bb89-c295-19a1-ebb5",
@@ -20200,7 +20276,7 @@
                 "type": "selectionEntryGroup"
               },
               {
-                "name": "Nightlord Wargear",
+                "name": "Night lord Wargear",
                 "id": "9ec9-97fd-8c06-4822",
                 "hidden": false,
                 "import": true,
@@ -20224,7 +20300,7 @@
                   {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                   {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                  {"name": "Base", "$text": "", "typeId": "nr-base-size"}
+                  {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                 ]
               }
             ],
@@ -20233,6 +20309,9 @@
                 "name": "Weapons",
                 "id": "ce4e-89d1-360d-df99",
                 "hidden": false,
+                "entryLinks": [
+                  {"name": "Fisticuffs (Power Armour)", "id": "a98c-defd-2d08-3716", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                ],
                 "modifiers": [
                   {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                   {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
@@ -20457,6 +20536,7 @@
           {
             "name": "Assault Legionaries",
             "id": "d887-9739-540d-e08a",
+            "defaultSelectionEntryId": "69bd-c97e-491d-e269",
             "hidden": false,
             "constraints": [
               {"id": "9a72-2b8b-2097-fc08", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 19},
@@ -20521,6 +20601,19 @@
                     "type": "selectionEntry",
                     "constraints": [{"id": "f779-b087-57ec-b5a7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 4}]
+                  },
+                  {
+                    "name": "Fisticuffs (Power Armour)",
+                    "id": "a301-7b93-e52b-9305",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "8f00-3bc0-29d0-87f2",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "6103-bb70-9675-2b43", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "9817-137d-7688-42eb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "modifiers": [{"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}]
                   }
                 ],
                 "profiles": [
@@ -20538,7 +20631,7 @@
                       {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                       {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                       {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "", "typeId": "nr-base-size"}
+                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                     ]
                   }
                 ]
@@ -20585,6 +20678,19 @@
                     "type": "selectionEntry",
                     "constraints": [{"id": "b3a1-92b5-b55b-4817", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 4}]
+                  },
+                  {
+                    "name": "Fisticuffs (Power Armour)",
+                    "id": "fa8d-347c-855f-807e",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "8f00-3bc0-29d0-87f2",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "9ac4-afcd-e3bc-ea01", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "2d43-0fa5-796c-249a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "modifiers": [{"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}]
                   }
                 ],
                 "modifiers": [
@@ -20610,7 +20716,7 @@
                       {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                       {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                       {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "", "typeId": "nr-base-size"}
+                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                     ]
                   }
                 ],
@@ -20700,7 +20806,8 @@
                     "type": "selectionEntry",
                     "constraints": [{"id": "b9b2-b6a6-c703-eb69", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 4}]
-                  }
+                  },
+                  {"name": "Fisticuffs (Power Armour)", "id": "182c-8455-ef35-44bc", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -20708,7 +20815,8 @@
                     "type": "set",
                     "value": 4,
                     "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 11}]
-                  }
+                  },
+                  {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
                 ],
                 "profiles": [
                   {
@@ -20725,7 +20833,7 @@
                       {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                       {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                       {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "", "typeId": "nr-base-size"}
+                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                     ]
                   }
                 ],
@@ -20771,8 +20879,7 @@
                         "type": "selectionEntry",
                         "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                       }
-                    ],
-                    "modifiers": [{"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}]
+                    ]
                   }
                 ]
               }
@@ -21155,18 +21262,7 @@
                 "constraints": [{"id": "f402-b02a-bb3e-3d5a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
               },
-              {
-                "name": "Fisticuffs (Power Armour)",
-                "id": "fb3f-f2eb-990f-0428",
-                "hidden": false,
-                "import": true,
-                "targetId": "8f00-3bc0-29d0-87f2",
-                "type": "selectionEntry",
-                "constraints": [
-                  {"id": "5bce-7488-0b17-f56e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "7199-99d9-ba17-d002", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                ]
-              },
+              {"name": "Fisticuffs (Power Armour)", "id": "fb3f-f2eb-990f-0428", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
               {
                 "name": "Alpha Legion Wargear",
                 "id": "cdc7-eaf8-af62-be58",
@@ -21177,7 +21273,7 @@
                 "type": "selectionEntryGroup"
               },
               {
-                "name": "Nightlord Wargear",
+                "name": "Night lord Wargear",
                 "id": "35f4-56f3-bf61-83f7",
                 "hidden": false,
                 "import": true,
@@ -21206,7 +21302,7 @@
                   {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                   {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                  {"name": "Base", "$text": "", "typeId": "nr-base-size"}
+                  {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                 ]
               }
             ],
@@ -21388,6 +21484,7 @@
           {
             "name": "Breacher Legionaries",
             "id": "d6c0-3ddb-cfbf-ac69",
+            "defaultSelectionEntryId": "533c-65cb-f3d0-911b",
             "hidden": false,
             "constraints": [
               {"id": "0753-450c-b30c-34ea", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 9},
@@ -21417,18 +21514,7 @@
                       {"id": "7969-5038-1252-153f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ]
                   },
-                  {
-                    "name": "Fisticuffs (Power Armour)",
-                    "id": "3521-c382-f02d-47a6",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "8f00-3bc0-29d0-87f2",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "792e-df91-e8c0-9211", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "1c6a-ef2f-a633-7bfa", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ]
-                  }
+                  {"name": "Fisticuffs (Power Armour)", "id": "3521-c382-f02d-47a6", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -21449,7 +21535,7 @@
                       {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                       {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                       {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "", "typeId": "nr-base-size"}
+                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                     ]
                   }
                 ],
@@ -21545,10 +21631,6 @@
                     "import": true,
                     "targetId": "8f00-3bc0-29d0-87f2",
                     "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "351e-60c8-f5ad-c293", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "d7bc-6a20-4206-b16c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
                     "modifiers": [
                       {
                         "field": "hidden",
@@ -21595,7 +21677,7 @@
                       {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                       {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                       {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                      {"name": "Base", "$text": "", "typeId": "nr-base-size"}
+                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                     ]
                   }
                 ],
@@ -21708,6 +21790,7 @@
           {
             "name": "Wargear",
             "id": "5f4d-2a92-6b30-b605",
+            "defaultSelectionEntryId": "none",
             "hidden": false,
             "entryLinks": [
               {
@@ -22101,6 +22184,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "a656-70f4-28a7-0bf3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "2143-c42f-3891-6e97",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "modifiers": [
@@ -22263,6 +22354,14 @@
                 "sortIndex": 1,
                 "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "5f0d-804c-f486-4bd9",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "modifiers": [
@@ -22432,7 +22531,7 @@
         ],
         "infoLinks": [
           {"name": "Leader", "id": "fc72-9c0e-1610-ef29", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
-          {"name": "Legion Librarian (Psyker Level 1)", "id": "093b-2dbe-9c09-a0de", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
+          {"name": "Legion Librarian (Psyker Level 2)", "id": "093b-2dbe-9c09-a0de", "hidden": false, "targetId": "dbde-40b9-c617-ddae", "type": "profile"},
           {"name": "Psyker", "id": "ac38-e843-475c-653c", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
         ],
         "modifiers": [
@@ -22549,6 +22648,14 @@
                   {"id": "e08e-974e-3c30-33fe", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "6773-4643-fd88-bf89", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "081a-756a-1dd7-2d9d",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -22740,6 +22847,14 @@
                     "targetId": "6138-cb05-c38a-d295",
                     "type": "selectionEntry",
                     "constraints": [{"id": "251e-f736-817b-5d0c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                  },
+                  {
+                    "name": "Fisticuffs (Terminator Armour)",
+                    "id": "b5a1-8b3c-2f47-26ce",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "5800-e127-f756-778e",
+                    "type": "selectionEntry"
                   }
                 ],
                 "selectionEntryGroups": [
@@ -22871,6 +22986,7 @@
           {
             "name": "Cataphractii ",
             "id": "d844-3cdd-30d1-2359",
+            "defaultSelectionEntryId": "f52b-a947-17fb-fe16",
             "hidden": false,
             "constraints": [
               {"id": "11cd-4e29-b4bd-2710", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
@@ -22921,6 +23037,14 @@
                         "targetId": "6138-cb05-c38a-d295",
                         "type": "selectionEntry",
                         "constraints": [{"id": "24a5-01ff-88c8-8305", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                      },
+                      {
+                        "name": "Fisticuffs (Terminator Armour)",
+                        "id": "191f-d895-eb46-02e1",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "5800-e127-f756-778e",
+                        "type": "selectionEntry"
                       }
                     ],
                     "selectionEntryGroups": [
@@ -23042,6 +23166,16 @@
                     "name": "Weapons",
                     "id": "f32c-98eb-c893-396f",
                     "hidden": false,
+                    "entryLinks": [
+                      {
+                        "name": "Fisticuffs (Terminator Armour)",
+                        "id": "b900-edde-0611-0172",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "5800-e127-f756-778e",
+                        "type": "selectionEntry"
+                      }
+                    ],
                     "selectionEntryGroups": [
                       {
                         "name": "Ranged Weapon",
@@ -23262,7 +23396,8 @@
                 "sortIndex": 2,
                 "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
-              }
+              },
+              {"name": "Fisticuffs (Power Armour)", "id": "8b6d-442b-8a1c-0606", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
             ],
             "modifiers": [
               {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -23460,7 +23595,8 @@
                 "type": "selectionEntry",
                 "constraints": [{"id": "0095-04d2-d391-59d3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
-              }
+              },
+              {"name": "Fisticuffs (Power Armour)", "id": "025b-81c4-bec4-d8b0", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
             ],
             "modifiers": [
               {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -24077,6 +24213,9 @@
                 "name": "Weapons",
                 "id": "d269-7552-ce30-176c",
                 "hidden": false,
+                "entryLinks": [
+                  {"name": "Fisticuffs (Power Armour)", "id": "a9c6-a232-8bb9-2f3a", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                ],
                 "modifiers": [
                   {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                   {"affects": "self.entries.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
@@ -24327,6 +24466,7 @@
           {
             "name": "Destroyers",
             "id": "241c-163f-6f89-38ab",
+            "defaultSelectionEntryId": "dd20-b25f-dda8-229a",
             "hidden": false,
             "constraints": [
               {"id": "d16c-0e84-8808-248f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
@@ -24377,6 +24517,9 @@
                     "name": "Weapons",
                     "id": "c363-4e40-bcb3-089f",
                     "hidden": false,
+                    "entryLinks": [
+                      {"name": "Fisticuffs (Power Armour)", "id": "b43e-2513-672a-034d", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                    ],
                     "modifiers": [
                       {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                       {"affects": "self.entries.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
@@ -24562,7 +24705,8 @@
                           {"id": "468d-8472-655c-7285", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
                           {"id": "8f4d-67e3-7e38-4ddb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
                         ]
-                      }
+                      },
+                      {"name": "Fisticuffs (Power Armour)", "id": "d9d9-e71c-ea4b-3c93", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                     ],
                     "modifiers": [
                       {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -24692,6 +24836,9 @@
                     "name": "Weapons",
                     "id": "18d2-7b6d-a744-d9dc",
                     "hidden": false,
+                    "entryLinks": [
+                      {"name": "Fisticuffs (Power Armour)", "id": "41bd-9417-0610-0d5a", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                    ],
                     "modifiers": [
                       {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                       {"affects": "self.entries.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
@@ -26244,6 +26391,9 @@
                 "name": "Weapons",
                 "id": "8702-bb4b-9f78-c4b8",
                 "hidden": false,
+                "entryLinks": [
+                  {"name": "Fisticuffs (Power Armour)", "id": "69c6-38d2-96ac-4549", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                ],
                 "modifiers": [
                   {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                   {"affects": "self.entries.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
@@ -26448,6 +26598,7 @@
           {
             "name": "Destroyers",
             "id": "0e6f-3d0b-ac46-f3bf",
+            "defaultSelectionEntryId": "f334-a423-62c4-10c2",
             "hidden": false,
             "constraints": [
               {"id": "f7c8-2ce9-8624-d686", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
@@ -26484,6 +26635,9 @@
                     "name": "Weapons",
                     "id": "c911-6218-dd63-7fa5",
                     "hidden": false,
+                    "entryLinks": [
+                      {"name": "Fisticuffs (Power Armour)", "id": "bd3a-8cc3-e05e-401c", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                    ],
                     "modifiers": [
                       {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                       {"affects": "self.entries.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
@@ -26655,7 +26809,8 @@
                           {"id": "cbd3-a1dd-c154-c44a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
                           {"id": "c445-0aae-acc1-9d53", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
                         ]
-                      }
+                      },
+                      {"name": "Fisticuffs (Power Armour)", "id": "8975-d3e9-76d5-bbf8", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                     ],
                     "modifiers": [
                       {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -26923,6 +27078,16 @@
                 "name": "Weapons",
                 "id": "e194-b4a5-00a2-d0c6",
                 "hidden": false,
+                "entryLinks": [
+                  {
+                    "name": "Fisticuffs (Terminator Armour)",
+                    "id": "f025-38b5-d6da-4e17",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "5800-e127-f756-778e",
+                    "type": "selectionEntry"
+                  }
+                ],
                 "modifiers": [
                   {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                   {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
@@ -27029,6 +27194,16 @@
                 "name": "Weapons",
                 "id": "5584-9dbb-d1cd-57ad",
                 "hidden": false,
+                "entryLinks": [
+                  {
+                    "name": "Fisticuffs (Terminator Armour)",
+                    "id": "4252-583a-9b5c-7365",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "5800-e127-f756-778e",
+                    "type": "selectionEntry"
+                  }
+                ],
                 "modifiers": [
                   {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                   {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
@@ -27993,18 +28168,7 @@
                       {"id": "e657-2ff1-0bec-84e0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
                     ]
                   },
-                  {
-                    "name": "Fisticuffs (Power Armour)",
-                    "id": "b965-a56f-3bff-c4e9",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "8f00-3bc0-29d0-87f2",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "1fc8-3938-5861-b92a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
-                      {"id": "9c23-6190-ded3-5e36", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
-                    ]
-                  }
+                  {"name": "Fisticuffs (Power Armour)", "id": "b965-a56f-3bff-c4e9", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ]
               }
             ]
@@ -28156,38 +28320,7 @@
                 "id": "eae9-d7a1-54e9-3ca6",
                 "hidden": false,
                 "entryLinks": [
-                  {
-                    "name": "Fisticuffs (Power Armour)",
-                    "id": "1e15-86f7-437a-3286",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "8f00-3bc0-29d0-87f2",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "5ece-2750-3082-3d58", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "89cf-f4e1-54b1-bd81", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "modifiers": [
-                      {
-                        "field": "hidden",
-                        "type": "set",
-                        "value": true,
-                        "conditionGroups": [
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {"childId": "63c7-4506-ca4e-e64a", "childName": "Chainsword", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ea30-b369-3179-725e", "childName": "Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "0d87-3cc7-62af-62a5", "childName": "Chain Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ee57-cdd8-50a4-9aa8", "childName": "Lightning Claw", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "1f23-df82-9bea-2ebf", "childName": "Power Fist", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "3e76-8280-4841-075d", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
+                  {"name": "Fisticuffs (Power Armour)", "id": "1e15-86f7-437a-3286", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -28434,38 +28567,7 @@
                 "id": "0d26-2541-2a4a-b198",
                 "hidden": false,
                 "entryLinks": [
-                  {
-                    "name": "Fisticuffs (Power Armour)",
-                    "id": "6bfc-403d-e9be-6bd6",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "8f00-3bc0-29d0-87f2",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "afcd-3a0a-a112-3142", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "7b33-5fe0-ca52-82b9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "modifiers": [
-                      {
-                        "field": "hidden",
-                        "type": "set",
-                        "value": true,
-                        "conditionGroups": [
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {"childId": "63c7-4506-ca4e-e64a", "childName": "Chainsword", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ea30-b369-3179-725e", "childName": "Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "0d87-3cc7-62af-62a5", "childName": "Chain Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ee57-cdd8-50a4-9aa8", "childName": "Lightning Claw", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "1f23-df82-9bea-2ebf", "childName": "Power Fist", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "3e76-8280-4841-075d", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
+                  {"name": "Fisticuffs (Power Armour)", "id": "6bfc-403d-e9be-6bd6", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -30254,14 +30356,15 @@
                 "type": "selectionEntryGroup"
               },
               {
-                "name": "Nightlord Wargear",
+                "name": "Night lord Wargear",
                 "id": "fc20-3af5-1dfc-1ed2",
                 "hidden": false,
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
-              }
+              },
+              {"name": "Fisticuffs (Power Armour)", "id": "ae97-4c5e-a311-b5ea", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
             ],
             "modifiers": [
               {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -30283,7 +30386,7 @@
                   {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                   {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                  {"name": "Base", "$text": "", "typeId": "nr-base-size"}
+                  {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                 ]
               }
             ],
@@ -30353,12 +30456,9 @@
               {
                 "name": "Melee Weapon",
                 "id": "33d7-0401-44c1-1dc1",
-                "defaultSelectionEntryId": "ae97-4c5e-a311-b5ea",
+                "defaultSelectionEntryId": "none",
                 "hidden": false,
-                "constraints": [
-                  {"id": "4c17-1d88-71b6-0bb2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
-                  {"id": "10a4-9c08-5bd9-71e7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
-                ],
+                "constraints": [{"id": "4c17-1d88-71b6-0bb2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "entryLinks": [
                   {
                     "name": "Chainsword",
@@ -30411,7 +30511,6 @@
                       {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
                     ]
                   },
-                  {"name": "Fisticuffs (Power Armour)", "id": "ae97-4c5e-a311-b5ea", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
                   {
                     "name": "Headsman's axe",
                     "id": "4f3c-d9ee-b817-ed57",
@@ -30567,7 +30666,7 @@
                   {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                   {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
-                  {"name": "Base", "$text": "", "typeId": "nr-base-size"}
+                  {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                 ]
               }
             ],
@@ -30739,6 +30838,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "32fe-93ba-0fb1-4a07", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "fea1-b694-468f-074c",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "modifiers": [
@@ -30900,6 +31007,14 @@
                 "sortIndex": 2,
                 "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "d01f-35e7-4051-010d",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "modifiers": [
@@ -31147,7 +31262,8 @@
                 "sortIndex": 1,
                 "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
-              }
+              },
+              {"name": "Fisticuffs (Power Armour)", "id": "a216-be68-5317-58c0", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
             ],
             "modifiers": [
               {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -31481,6 +31597,7 @@
           {
             "name": "Vetreran",
             "id": "c2cd-3e9c-e815-2575",
+            "defaultSelectionEntryId": "9d56-2c77-fd50-a5b5",
             "hidden": false,
             "constraints": [
               {"id": "ccf8-bc5e-2c31-cbe8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
@@ -31525,7 +31642,8 @@
                     "targetId": "6138-cb05-c38a-d295",
                     "type": "selectionEntry",
                     "constraints": [{"id": "3427-77cb-4f21-0f15", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
-                  }
+                  },
+                  {"name": "Fisticuffs (Power Armour)", "id": "ab81-6ddf-cb05-1fe2", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ],
                 "modifiers": [{"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}],
                 "selectionEntryGroups": [
@@ -31746,6 +31864,9 @@
                 "import": true,
                 "type": "model",
                 "constraints": [{"id": "7ee4-2e97-61c5-aef7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "entryLinks": [
+                  {"name": "Fisticuffs (Power Armour)", "id": "b77f-0293-f80e-cd0e", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                ],
                 "modifiers": [
                   {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                   {
@@ -32998,14 +33119,15 @@
                 "type": "selectionEntryGroup"
               },
               {
-                "name": "Nightlord Wargear",
+                "name": "Night lord Wargear",
                 "id": "1d42-1dda-b8e5-4f56",
                 "hidden": false,
                 "import": true,
                 "sortIndex": 1,
                 "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
-              }
+              },
+              {"name": "Fisticuffs (Power Armour)", "id": "8dbf-3509-aaf8-3fc9", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
             ],
             "modifiers": [
               {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -33248,6 +33370,7 @@
           {
             "name": "Despoiler Legionarys",
             "id": "f4d7-98fe-bb00-e84c",
+            "defaultSelectionEntryId": "4906-c023-509a-6621",
             "hidden": false,
             "constraints": [
               {"id": "c1cb-3e3e-bd65-4c30", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 9},
@@ -33276,7 +33399,8 @@
                       {"id": "6c7c-e4ce-1ad6-ca65", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                       {"id": "1f47-1ece-b1a3-cbe8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ]
-                  }
+                  },
+                  {"name": "Fisticuffs (Power Armour)", "id": "16f7-5b02-ea7a-def0", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -33335,6 +33459,9 @@
                 "import": true,
                 "type": "model",
                 "constraints": [{"id": "ff43-e984-105e-ea82", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                "entryLinks": [
+                  {"name": "Fisticuffs (Power Armour)", "id": "328c-bf47-35c0-4755", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                ],
                 "modifiers": [
                   {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                   {"affects": "self.entries.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
@@ -33443,7 +33570,8 @@
                       {"id": "9f43-ea7d-0026-fc01", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                       {"id": "4e9e-8221-e252-9e67", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ]
-                  }
+                  },
+                  {"name": "Fisticuffs (Power Armour)", "id": "f902-b28b-80cf-999f", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -33869,8 +33997,7 @@
                 "constraints": [
                   {"id": "1ace-b7d2-bf36-6783", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "34fb-f651-12dd-930c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                ],
-                "modifiers": [{"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}]
+                ]
               },
               {
                 "name": "Alpha Legion Wargear",
@@ -33889,7 +34016,13 @@
                 "sortIndex": 1,
                 "targetId": "2a57-7802-729b-6d61",
                 "type": "selectionEntryGroup"
-              }
+              },
+              {"name": "Fisticuffs (Power Armour)", "id": "dc03-e9db-0e12-b75a", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+            ],
+            "modifiers": [
+              {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
+              {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
+              {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "type": "increment", "value": 1}
             ],
             "selectionEntryGroups": [
               {
@@ -33961,7 +34094,7 @@
                 ],
                 "infoLinks": [{"name": "Heavy", "id": "082e-3183-d50f-fc55", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}],
                 "modifiers": [
-                  {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 2},
+                  {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                   {"affects": "self.entries.profiles.Ranged Weapons", "field": "7f1b-8591-2fcf-d01c", "join": ", ", "type": "append", "value": "Heavy"}
                 ]
               }
@@ -33988,9 +34121,12 @@
                 "constraints": [
                   {"id": "e959-378e-5222-d2c1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "5855-6873-ebd4-9776", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                ],
-                "modifiers": [{"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}]
+                ]
               }
+            ],
+            "modifiers": [
+              {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
+              {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}
             ],
             "selectionEntryGroups": [
               {
@@ -34062,7 +34198,7 @@
                 ],
                 "infoLinks": [{"name": "Heavy", "id": "1cae-9ec4-ada6-c614", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}],
                 "modifiers": [
-                  {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 2},
+                  {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                   {"affects": "self.entries.profiles.Ranged Weapons", "field": "7f1b-8591-2fcf-d01c", "join": ", ", "type": "append", "value": "Heavy"}
                 ]
               }
@@ -34265,6 +34401,14 @@
                     "targetId": "6138-cb05-c38a-d295",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Fisticuffs (Terminator Armour)",
+                    "id": "da64-d381-9ba1-ec47",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "5800-e127-f756-778e",
+                    "type": "selectionEntry"
                   }
                 ],
                 "modifiers": [
@@ -34417,6 +34561,7 @@
           {
             "name": "Indomitus Terminators",
             "id": "1d07-cb75-1fa1-cf49",
+            "defaultSelectionEntryId": "87c9-58c6-90e5-9ee9",
             "hidden": false,
             "constraints": [
               {"id": "20fa-c73c-04be-95ef", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
@@ -34466,6 +34611,14 @@
                         "targetId": "6138-cb05-c38a-d295",
                         "type": "selectionEntry",
                         "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                      },
+                      {
+                        "name": "Fisticuffs (Terminator Armour)",
+                        "id": "c832-10b5-8f12-8b05",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "5800-e127-f756-778e",
+                        "type": "selectionEntry"
                       }
                     ],
                     "modifiers": [
@@ -34624,6 +34777,16 @@
                     "name": "Weapons",
                     "id": "4066-6c88-0485-9e3b",
                     "hidden": false,
+                    "entryLinks": [
+                      {
+                        "name": "Fisticuffs (Terminator Armour)",
+                        "id": "f204-9a08-9067-0706",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "5800-e127-f756-778e",
+                        "type": "selectionEntry"
+                      }
+                    ],
                     "modifiers": [
                       {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                       {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
@@ -36575,18 +36738,7 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {
-            "name": "Fisticuffs (Power Armour)",
-            "id": "8d67-7460-3e42-9ba1",
-            "hidden": false,
-            "import": true,
-            "targetId": "8f00-3bc0-29d0-87f2",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "6aab-2441-b6e7-cb78", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "dfa9-11aa-f2ab-6726", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ]
-          },
+          {"name": "Fisticuffs (Power Armour)", "id": "8d67-7460-3e42-9ba1", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
           {
             "name": "Artificer Armour",
             "id": "fe24-522f-4ecd-5028",
@@ -37469,6 +37621,41 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "name",
+            "join": " ",
+            "type": "append",
+            "value": "(Reserves)",
+            "conditions": [
+              {
+                "childId": "e3e7-5c95-2997-3f0f",
+                "childName": "Recon Company",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3ad1-8c05-4e33-22b5",
+                "childName": "Angel's Wrath",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -38263,38 +38450,7 @@
                 "id": "e447-8acf-7350-6dca",
                 "hidden": false,
                 "entryLinks": [
-                  {
-                    "name": "Fisticuffs (Power Armour)",
-                    "id": "a15f-8416-dfcb-78be",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "8f00-3bc0-29d0-87f2",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "94d4-e337-74d1-cc83", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "dd16-a845-239f-49eb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "modifiers": [
-                      {
-                        "field": "hidden",
-                        "type": "set",
-                        "value": true,
-                        "conditionGroups": [
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {"childId": "63c7-4506-ca4e-e64a", "childName": "Chainsword", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ea30-b369-3179-725e", "childName": "Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "0d87-3cc7-62af-62a5", "childName": "Chain Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ee57-cdd8-50a4-9aa8", "childName": "Lightning Claw", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "1f23-df82-9bea-2ebf", "childName": "Power Fist", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "3e76-8280-4841-075d", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
+                  {"name": "Fisticuffs (Power Armour)", "id": "a15f-8416-dfcb-78be", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
@@ -38514,38 +38670,7 @@
                 "id": "a056-8ac2-42f1-348c",
                 "hidden": false,
                 "entryLinks": [
-                  {
-                    "name": "Fisticuffs (Power Armour)",
-                    "id": "829c-7ce8-431d-e411",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "8f00-3bc0-29d0-87f2",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "ab7c-758d-2cef-be55", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "258f-c921-7e40-bdcf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "modifiers": [
-                      {
-                        "field": "hidden",
-                        "type": "set",
-                        "value": true,
-                        "conditionGroups": [
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {"childId": "63c7-4506-ca4e-e64a", "childName": "Chainsword", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ea30-b369-3179-725e", "childName": "Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "0d87-3cc7-62af-62a5", "childName": "Chain Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ee57-cdd8-50a4-9aa8", "childName": "Lightning Claw", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "1f23-df82-9bea-2ebf", "childName": "Power Fist", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "3e76-8280-4841-075d", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
+                  {"name": "Fisticuffs (Power Armour)", "id": "829c-7ce8-431d-e411", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
@@ -38807,38 +38932,7 @@
                 "id": "c4b5-ac23-397d-3697",
                 "hidden": false,
                 "entryLinks": [
-                  {
-                    "name": "Fisticuffs (Power Armour)",
-                    "id": "22a5-760e-946a-0e6c",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "8f00-3bc0-29d0-87f2",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "ce59-86f3-7860-7be1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "f46c-bfb0-3857-202e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "modifiers": [
-                      {
-                        "field": "hidden",
-                        "type": "set",
-                        "value": true,
-                        "conditionGroups": [
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {"childId": "63c7-4506-ca4e-e64a", "childName": "Chainsword", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ea30-b369-3179-725e", "childName": "Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "0d87-3cc7-62af-62a5", "childName": "Chain Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ee57-cdd8-50a4-9aa8", "childName": "Lightning Claw", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "1f23-df82-9bea-2ebf", "childName": "Power Fist", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "3e76-8280-4841-075d", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
+                  {"name": "Fisticuffs (Power Armour)", "id": "22a5-760e-946a-0e6c", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
@@ -39073,38 +39167,7 @@
                 "id": "2919-fe9b-2010-f7c0",
                 "hidden": false,
                 "entryLinks": [
-                  {
-                    "name": "Fisticuffs (Power Armour)",
-                    "id": "0ab0-ffe0-7e46-eeba",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "8f00-3bc0-29d0-87f2",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "19b3-368c-f9bc-31b2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "5fb8-322d-d7fc-4d37", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "modifiers": [
-                      {
-                        "field": "hidden",
-                        "type": "set",
-                        "value": true,
-                        "conditionGroups": [
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {"childId": "63c7-4506-ca4e-e64a", "childName": "Chainsword", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ea30-b369-3179-725e", "childName": "Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "0d87-3cc7-62af-62a5", "childName": "Chain Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "ee57-cdd8-50a4-9aa8", "childName": "Lightning Claw", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "1f23-df82-9bea-2ebf", "childName": "Power Fist", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                              {"childId": "3e76-8280-4841-075d", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
+                  {"name": "Fisticuffs (Power Armour)", "id": "0ab0-ffe0-7e46-eeba", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
@@ -39676,7 +39739,7 @@
             "field": "51b2-306e-1021-d207",
             "type": "increment",
             "value": 85,
-            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "self", "shared": true, "type": "atLeast", "value": 11}]
+            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "self", "shared": true, "type": "atLeast", "value": 6}]
           },
           {
             "field": "category",
@@ -39781,6 +39844,13 @@
                 "name": "Weapons",
                 "id": "6e90-64e6-75ef-4d5e",
                 "hidden": false,
+                "entryLinks": [
+                  {"name": "Fisticuffs (Power Armour)", "id": "99cf-5093-90ee-9a5a", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
+                  {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}
+                ],
                 "selectionEntryGroups": [
                   {
                     "name": "Ranged Weapon",
@@ -39842,30 +39912,6 @@
                         "targetId": "63c7-4506-ca4e-e64a",
                         "type": "selectionEntry",
                         "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
-                      },
-                      {
-                        "name": "Fisticuffs (Power Armour)",
-                        "id": "d264-6c40-0b4b-c5ea",
-                        "hidden": false,
-                        "import": true,
-                        "targetId": "8f00-3bc0-29d0-87f2",
-                        "type": "selectionEntry",
-                        "modifiers": [
-                          {
-                            "field": "hidden",
-                            "type": "set",
-                            "value": true,
-                            "conditionGroups": [
-                              {
-                                "type": "or",
-                                "conditions": [
-                                  {"childId": "ea30-b369-3179-725e", "childName": "Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                                  {"childId": "0d87-3cc7-62af-62a5", "childName": "Chain Bayonet", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
-                                ]
-                              }
-                            ]
-                          }
-                        ]
                       },
                       {
                         "name": "Lightning Claw",
@@ -40003,17 +40049,21 @@
                 "name": "Weapons",
                 "id": "c27f-4f7c-c613-f2bb",
                 "hidden": false,
-                "entryLinks": [{"name": "Bolt Pistol", "id": "22f9-30b5-7383-9292", "hidden": false, "import": true, "targetId": "959d-ac2c-f31c-5d8e", "type": "selectionEntry"}],
+                "entryLinks": [
+                  {"name": "Bolt Pistol", "id": "22f9-30b5-7383-9292", "hidden": false, "import": true, "targetId": "959d-ac2c-f31c-5d8e", "type": "selectionEntry"},
+                  {"name": "Fisticuffs (Power Armour)", "id": "1478-02b5-0342-ead8", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                ],
+                "modifiers": [
+                  {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
+                  {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}
+                ],
                 "selectionEntryGroups": [
                   {
                     "name": "Melee Weapon",
                     "id": "0d4e-87a9-a14a-46a8",
-                    "defaultSelectionEntryId": "ec2b-b926-4921-dfc3",
+                    "defaultSelectionEntryId": "none",
                     "hidden": false,
-                    "constraints": [
-                      {"id": "3ded-9016-47ad-a8b8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "a2fd-fdec-1de2-1e25", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
+                    "constraints": [{"id": "a2fd-fdec-1de2-1e25", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "entryLinks": [
                       {
                         "name": "Chainsword",
@@ -40023,8 +40073,7 @@
                         "targetId": "63c7-4506-ca4e-e64a",
                         "type": "selectionEntry",
                         "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
-                      },
-                      {"name": "Fisticuffs (Power Armour)", "id": "ec2b-b926-4921-dfc3", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                      }
                     ]
                   },
                   {
@@ -40580,6 +40629,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "e183-bb0e-98bf-7f74", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "19f8-566f-67ad-d261",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -40894,6 +40951,14 @@
                     "targetId": "6138-cb05-c38a-d295",
                     "type": "selectionEntry",
                     "constraints": [{"id": "f4cf-20b2-fbe5-423a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                  },
+                  {
+                    "name": "Fisticuffs (Terminator Armour)",
+                    "id": "f666-dad8-9ccb-ecdc",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "5800-e127-f756-778e",
+                    "type": "selectionEntry"
                   }
                 ],
                 "selectionEntryGroups": [
@@ -41025,6 +41090,7 @@
           {
             "name": "Tartaros",
             "id": "a778-5725-3600-2a43",
+            "defaultSelectionEntryId": "e0b4-bc49-c89b-72c0",
             "hidden": false,
             "constraints": [
               {"id": "f5ef-e1a8-d0e4-1690", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
@@ -41075,6 +41141,14 @@
                         "targetId": "6138-cb05-c38a-d295",
                         "type": "selectionEntry",
                         "constraints": [{"id": "fadc-5b16-e6c2-e0d7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+                      },
+                      {
+                        "name": "Fisticuffs (Terminator Armour)",
+                        "id": "755c-15d9-e6ce-bfac",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "5800-e127-f756-778e",
+                        "type": "selectionEntry"
                       }
                     ],
                     "selectionEntryGroups": [
@@ -41196,6 +41270,16 @@
                     "name": "Weapons",
                     "id": "3d65-b6b8-3bdb-4b4b",
                     "hidden": false,
+                    "entryLinks": [
+                      {
+                        "name": "Fisticuffs (Terminator Armour)",
+                        "id": "c56b-acd1-0ed2-456d",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "5800-e127-f756-778e",
+                        "type": "selectionEntry"
+                      }
+                    ],
                     "selectionEntryGroups": [
                       {
                         "name": "Ranged Weapon",
@@ -41469,6 +41553,14 @@
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
                 "constraints": [{"id": "4535-2d36-9b75-a1d2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+              },
+              {
+                "name": "Fisticuffs (Terminator Armour)",
+                "id": "a13e-17a6-0613-f625",
+                "hidden": false,
+                "import": true,
+                "targetId": "5800-e127-f756-778e",
+                "type": "selectionEntry"
               }
             ],
             "selectionEntryGroups": [
@@ -41729,7 +41821,8 @@
                   {"id": "2f7c-7adf-8314-d672", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
                   {"id": "1117-8b3f-e499-1a5a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
                 ]
-              }
+              },
+              {"name": "Fisticuffs (Power Armour)", "id": "f19b-cf17-f766-ee81", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
             ],
             "modifiers": [
               {"affects": "self.entries.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
