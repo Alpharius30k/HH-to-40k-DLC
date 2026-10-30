@@ -12,7 +12,7 @@
       {"name": "New Catalogue (link)", "id": "876d-05a8-5bfa-eba9", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
       {"name": "New Catalogue (link)", "id": "4471-ee67-9465-bf7b", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}
     ],
-    "categoryEntries": [{"name": "Sergent", "id": "1920-5c73-27b4-b612", "hidden": false}],
+    "categoryEntries": [{"name": "Sergeant", "id": "1920-5c73-27b4-b612", "hidden": false}],
     "sharedProfiles": [
       {
         "name": "Legion Standard",
@@ -191,7 +191,10 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "infoLinks": [{"name": "Hammer of Wraith", "id": "c264-af52-75fa-1b7e", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}],
+        "infoLinks": [
+          {"name": "Hammer of Wraith", "id": "c264-af52-75fa-1b7e", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"},
+          {"name": "Deep Strike", "id": "4813-e94a-bf36-1c3c", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}
+        ],
         "modifiers": [
           {"affects": "profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "12\""},
           {"field": "category", "type": "add", "value": "dda2-bb0a-215e-ad9c"},
@@ -595,6 +598,7 @@
         "id": "bc0f-1c68-9bd4-baa7",
         "hidden": false,
         "import": true,
+        "sortIndex": 7,
         "type": "upgrade",
         "infoLinks": [{"name": "Bloody Murder", "id": "e6d5-ec83-6cbd-9eab", "hidden": false, "targetId": "7d26-7f68-a67c-63eb", "type": "profile"}]
       },
@@ -603,6 +607,7 @@
         "id": "ff51-b185-fa39-3d46",
         "hidden": false,
         "import": true,
+        "sortIndex": 7,
         "type": "upgrade",
         "profiles": [
           {
@@ -626,6 +631,7 @@
         "id": "9ea6-8416-803f-5793",
         "hidden": false,
         "import": true,
+        "sortIndex": 7,
         "type": "upgrade",
         "profiles": [
           {
@@ -643,6 +649,213 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Corvid Pattern Jump Pack",
+        "id": "23df-6a8d-c752-b8fe",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 19,
+        "type": "upgrade",
+        "constraints": [{"id": "c2a7-6042-7f73-1c3d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}],
+        "infoLinks": [
+          {"name": "Hammer of Wraith", "id": "596f-bb46-0d48-8126", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"},
+          {"name": "Deep Strike", "id": "8680-f38b-c3f6-39ac", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}
+        ],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "dda2-bb0a-215e-ad9c"},
+          {"field": "category", "type": "add", "value": "c619-2086-bbcf-69c9"},
+          {"affects": "profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "14\""},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "dda2-bb0a-215e-ad9c",
+                    "childName": "Jump Pack",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "unit-self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "dda2-bb0a-215e-ad9c",
+                    "childName": "Jump Pack",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "model-self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "c2a7-6042-7f73-1c3d",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "dda2-bb0a-215e-ad9c",
+                "childName": "Jump Pack",
+                "field": "selections",
+                "scope": "model-or-unit-self",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Corvid Pattern Jump Pack",
+            "id": "f5c7-410b-f184-aae1",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Models with this take up 3 Transport Capacity however when you make a **fly** move models with this only loose 1\" of movment.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Infravisor",
+        "id": "8075-17b8-3010-5c99",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 19,
+        "type": "upgrade",
+        "constraints": [{"id": "be30-290d-0e3f-a59b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "infoLinks": [{"name": "Night Vision", "id": "7843-cd81-fe03-13fe", "hidden": false, "targetId": "765d-8ce5-b90c-15a9", "type": "profile"}],
+        "modifiers": [
+          {"affects": "self.entries.group.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "model-or-unit", "type": "decrement", "value": 1},
+          {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "model-or-unit", "type": "floor", "value": "2"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "1920-5c73-27b4-b612",
+                    "childName": "Sergent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Infravisor",
+            "id": "0ebd-bdf3-9a9f-4a49",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model has +1BS", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Cameleoline",
+        "id": "28f4-a72c-b312-3a30",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 19,
+        "type": "upgrade",
+        "constraints": [{"id": "f403-01b6-9273-ba43", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "9cfd-1c32-585f-7d5c",
+                    "childName": "Character",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "dbd4-63-af05-998",
+                    "childName": "Vehicle",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dda-e157-334d-e93a",
+                    "childName": "Walker",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Cameleoline",
+            "id": "8561-f282-d46c-ddd4",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model gains a **[Feel No Pain 6+]** against **ranged attacks** or if it already has one of these improve it by 1.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -650,6 +863,7 @@
         "name": "Night lord Wargear",
         "id": "2a57-7802-729b-6d61",
         "hidden": false,
+        "sortIndex": 7,
         "entryLinks": [
           {
             "name": "Prey Sight",
@@ -731,6 +945,166 @@
                 "shared": true,
                 "type": "notInstanceOf",
                 "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Raven Gaurd Wargear",
+        "id": "6238-2a4d-233e-6b28",
+        "hidden": false,
+        "sortIndex": 17,
+        "entryLinks": [
+          {"name": "Cameleoline", "id": "4d47-98aa-e304-ebb1", "hidden": false, "import": true, "targetId": "28f4-a72c-b312-3a30", "type": "selectionEntry"},
+          {"name": "Infravisor", "id": "3ff6-0080-301c-488d", "hidden": false, "import": true, "targetId": "8075-17b8-3010-5c99", "type": "selectionEntry"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "51c7-eb8f-f617-0348",
+                "childName": "Faction: Raven Gaurd",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Salamander Wargear",
+        "id": "e02e-e44c-6e8d-7363",
+        "hidden": false,
+        "sortIndex": 18,
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3826-6483-b50e-6b8f",
+                "childName": "Faction: Salamanders",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Mantle of the Elder Drake",
+            "id": "be38-b2b3-8371-db50",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "8899-997e-be72-0c16", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 35},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "2d7f-1892-2fd0-e29c", "childName": "Captain", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Mantle of the Elder Drake",
+                "id": "7abb-167e-d48f-0043",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [{"name": "Description", "$text": "All incoming damage targeting this model is reduced by 1 to a minimum of 1", "typeId": "9b8f-694b-e5e-b573"}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Master-crafted Weapon",
+            "id": "8177-6456-3ce8-4f9a",
+            "hidden": false,
+            "constraints": [{"id": "e676-df00-15e9-b6c8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "1920-5c73-27b4-b612", "childName": "Sergeant", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Melee Weapon",
+                "id": "8faf-dc82-36cf-858b",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "modifiers": [
+                  {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "name", "join": " ", "scope": "parent", "type": "prepend", "value": "Master-Crafted"}
+                ]
+              },
+              {
+                "name": "Ranged Weapon",
+                "id": "2bc2-111b-a4b8-15c9",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "modifiers": [
+                  {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "name", "join": " ", "scope": "parent", "type": "prepend", "value": "Master-Crafted"}
+                ]
               }
             ]
           }

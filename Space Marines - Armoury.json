@@ -15,9 +15,7 @@
       {"name": "Incendiary", "id": "3eaf-9cbd-df67-2a87", "hidden": false},
       {"name": "Splinter", "id": "b85e-c62f-b305-ae7e", "hidden": false},
       {"name": "Phospex", "id": "c114-8bcd-36f5-1e76", "hidden": false},
-      {"name": "Bolt", "id": "cd79-0baa-51ff-e6d0", "hidden": false},
-      {"name": "Faction: Alpha Legion", "id": "3583-4c5d-bf42-1f69", "hidden": false},
-      {"name": "Faction: Night Lords", "id": "caf5-ef2d-bb96-dc65", "hidden": false}
+      {"name": "Cassian Dracos Reborn", "id": "2931-8cbe-b05b-d679", "hidden": false}
     ],
     "sharedProfiles": [
       {
@@ -733,6 +731,10 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
+        "infoLinks": [
+          {"name": "Torrent", "id": "053b-fb18-4533-c90c", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+          {"name": "Blast", "id": "35c0-5749-a0a3-4b70", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
+        ],
         "profiles": [
           {
             "name": "Heavy Flamer",
@@ -1400,7 +1402,7 @@
         "type": "upgrade",
         "constraints": [
           {"id": "9758-97b2-8408-36bf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-          {"id": "0b60-e602-6ed6-9ab0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+          {"id": "d5e5-4551-3f03-770a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
         ],
         "profiles": [
           {
@@ -2280,6 +2282,24 @@
                 "targetId": "fa7e-034a-56e7-9a12",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "2931-8cbe-b05b-d679",
+                    "childName": "Cassian Dracos Reborn",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -5567,7 +5587,7 @@
         "id": "6929-a64a-8294-21fb",
         "hidden": false,
         "import": true,
-        "sortIndex": 7,
+        "sortIndex": 20,
         "type": "upgrade",
         "infoLinks": [{"name": "Lethal Hits", "id": "96b8-8cb9-8eef-f712", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}],
         "profiles": [
@@ -5594,7 +5614,7 @@
         "id": "d4c3-8f21-5f7d-8699",
         "hidden": false,
         "import": true,
-        "sortIndex": 7,
+        "sortIndex": 20,
         "type": "upgrade",
         "infoLinks": [
           {"name": "One Shot", "id": "aee9-8bfb-aff3-8117", "hidden": false, "targetId": "cd26-1611-860a-91e4", "type": "rule"},
@@ -6091,6 +6111,552 @@
               {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
               {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
               {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Raven's Talons",
+        "id": "bb1b-fc2c-d8cc-092d",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 19,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Lethal Hits", "id": "88d8-5cad-673d-5a8d", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "51c7-eb8f-f617-0348",
+                "childName": "Faction: Raven Gaurd",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Raven's Talons",
+            "id": "3465-5be0-f06b-3a41",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "4", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "Lethal Hits", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Twin Raven's Talons",
+        "id": "3f56-5e88-ca54-1b3a",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 19,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Lethal Hits", "id": "2cbd-df2d-009c-2581", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
+          {"name": "Twin-linked", "id": "793a-1aa5-14c3-55f4", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "51c7-eb8f-f617-0348",
+                "childName": "Faction: Raven Gaurd",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Twin Raven's Talons",
+            "id": "1802-0a74-e151-7a0d",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "8", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "4", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "Lethal Hits, Twin-Linked", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Contempter Raven's Talons",
+        "id": "fd3b-0226-0970-fef8",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 19,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Lethal Hits", "id": "9df8-a45d-0006-f94d", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "51c7-eb8f-f617-0348",
+                "childName": "Faction: Raven Gaurd",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Contempter Raven's Talons",
+            "id": "4776-1f8d-bd9e-ec1b",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "6", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "Lethal Hits", "typeId": "893f-9000-ccf7-648e"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "In built weapons",
+            "id": "4b40-0432-7ad5-18e5",
+            "defaultSelectionEntryId": "8574-7027-20b0-2264",
+            "hidden": false,
+            "constraints": [
+              {"id": "7f36-c10d-85d9-5ade", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {"id": "5ae9-9028-4763-80e1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+            ],
+            "entryLinks": [
+              {"name": "Combi-Bolter", "id": "74c3-83ea-69f5-8366", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"},
+              {
+                "name": "Heavy Flamer",
+                "id": "83b0-fd34-edd9-84d6",
+                "hidden": false,
+                "import": true,
+                "targetId": "9d3e-c90c-6a12-a86f",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+              },
+              {
+                "name": "Meltagun",
+                "id": "a021-200a-bfdf-d669",
+                "hidden": false,
+                "import": true,
+                "targetId": "d523-8b64-6ba8-d34b",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Banestrike Combi Bolter",
+                "id": "5bfe-6777-020d-4402",
+                "hidden": false,
+                "import": true,
+                "targetId": "fa7e-034a-56e7-9a12",
+                "type": "selectionEntry",
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dragon's Breath Heavy Flamer",
+        "id": "6504-5dba-4e15-318b",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Torrent", "id": "e855-6fe3-4d86-69b0", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+          {"name": "Blast", "id": "3023-8d48-4f90-aeac", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3826-6483-b50e-6b8f",
+                "childName": "Faction: Salamanders",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Dragon's Breath Heavy Flamer",
+            "id": "9fea-96dc-2245-ddbf",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 3, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dragonscale Storm Sheild",
+        "id": "cd21-411a-6a67-374a",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "modifiers": [
+          {"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "decrement", "value": 1},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3826-6483-b50e-6b8f",
+                "childName": "Faction: Salamanders",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pyroclast flame Projector",
+        "id": "47d5-8aa7-751e-eb62",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "4461-3c58-38bb-d011", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+          {"id": "fd7f-7fd5-5b1a-e469", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+        ],
+        "infoLinks": [
+          {"name": "Melta", "id": "b71a-9a0a-5f12-00e6", "hidden": false, "targetId": "7cdb-fb99-44a9-8849", "type": "rule"},
+          {"name": "Blast", "id": "67b6-8a89-746a-cb91", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+          {"name": "Torrent", "id": "dd97-7174-a489-9d89", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3826-6483-b50e-6b8f",
+                "childName": "Faction: Salamanders",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "➤ Pyroclast flame Projector - Dispersed",
+            "id": "c9f2-c8ab-7d44-90da",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 2, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          },
+          {
+            "name": "➤ Pyroclast flame Projector - Focused",
+            "id": "fa2b-db47-c0b3-b078",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "1", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Melta 3", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Obsidite Rotar Cannon",
+        "id": "854e-2d27-b4e9-658f",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Pinning", "id": "150a-445f-b57d-9da1", "hidden": false, "targetId": "a4b9-9c88-086f-205e", "type": "rule"},
+          {"name": "Lethal Hits", "id": "4928-8392-f7b8-fe4a", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Obsidite Rotar Cannon",
+            "id": "e709-c80a-bebd-b9ee",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Lethal Hits [Non-Vehicle], Pinning ", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dragon's Breath pistol",
+        "id": "dce8-4400-7941-b606",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Close-quarters", "id": "f488-a63d-b2cb-7726", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
+          {"name": "Torrent", "id": "734d-8037-a557-1a71", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3826-6483-b50e-6b8f",
+                "childName": "Faction: Salamanders",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Dragon's Breath pistol",
+            "id": "1fcb-9604-bbb6-f883",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 1, Torrent, Close-Quarters", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dragon's Breath Flamer",
+        "id": "da0d-286d-5e1f-8549",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Blast", "id": "d756-f55b-c015-5fdc", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+          {"name": "Torrent", "id": "5af5-1aaa-6c74-f0b0", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3826-6483-b50e-6b8f",
+                "childName": "Faction: Salamanders",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Dragon's Breath pistol Flamer",
+            "id": "8188-a07d-0b1d-6c6d",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Torrent, Blast 2", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dragon's Breath Cannon",
+        "id": "8fb9-ee87-8481-5cfd",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Torrent", "id": "e029-6729-a607-bd48", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+          {"name": "Blast", "id": "96cb-7603-4881-6907", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3826-6483-b50e-6b8f",
+                "childName": "Faction: Salamanders",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Dragon's Breath Cannonn",
+            "id": "a30e-3c3e-fc64-c164",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "30\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Torrent, Blast 2", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Twin Dragon's Breath Heavy Flamer",
+        "id": "c798-d254-7e8b-a53b",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Torrent", "id": "9733-21c5-bef1-a494", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+          {"name": "Blast", "id": "76c5-deaa-59c4-de20", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3826-6483-b50e-6b8f",
+                "childName": "Faction: Salamanders",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Twin Dragon's Breath Heavy Flamer",
+            "id": "cc11-2a1e-4004-f1fe",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Blast 3, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
             ]
           }
         ]

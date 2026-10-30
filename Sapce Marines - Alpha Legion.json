@@ -12,7 +12,8 @@
     "catalogueLinks": [
       {"name": "Space Marines - Heresy", "id": "8e94-c7c8-0760-33e0", "importRootEntries": false, "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
       {"name": "Space Marines - Armoury", "id": "9b75-9b23-19f1-92dc", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
-      {"name": "Space Marines - Wargear", "id": "374c-4e72-6358-a3a8", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"}
+      {"name": "Space Marines - Wargear", "id": "374c-4e72-6358-a3a8", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"},
+      {"name": "Space Marines - Config/Keywords/Abilties", "id": "4aa4-0605-3cc4-fb50", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}
     ],
     "categoryEntries": [
       {"name": "Alpharius", "id": "69f9-9746-9bc3-71bb", "hidden": false},
@@ -25,7 +26,7 @@
     ],
     "entryLinks": [
       {"name": "Loyalty", "id": "625c-3846-b2ca-5602", "hidden": false, "import": true, "targetId": "0397-ebbd-9609-b338", "type": "selectionEntry"},
-      {"name": "Detachment", "id": "67bf-32e8-d2de-d31b", "hidden": false, "import": true, "targetId": "378c-a751-bdbe-2c34", "type": "selectionEntry"},
+      {"name": "Detachments", "id": "67bf-32e8-d2de-d31b", "hidden": false, "import": true, "targetId": "9786-847b-7959-7855", "type": "selectionEntry"},
       {
         "name": "Legion Assault Squad",
         "id": "bc57-fc45-0fa8-2356",
@@ -866,7 +867,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -896,7 +897,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -926,7 +927,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -956,7 +957,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -986,7 +987,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1016,7 +1017,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1046,7 +1047,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1076,7 +1077,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1106,7 +1107,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1136,7 +1137,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1166,7 +1167,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1196,7 +1197,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1226,7 +1227,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1256,7 +1257,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1286,7 +1287,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1316,7 +1317,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1346,7 +1347,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -1416,7 +1417,7 @@
             "value": "(Reserves)",
             "conditions": [
               {
-                "childId": "b6f9-c173-813e-7773",
+                "childId": "77c9-d918-eb3d-5613",
                 "childName": "Headhunter Levithan",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -2035,7 +2036,7 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "b6f9-c173-813e-7773",
+                    "childId": "77c9-d918-eb3d-5613",
                     "childName": "Headhunter Levithan",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -2330,7 +2331,7 @@
             "hidden": false,
             "import": true,
             "type": "model",
-            "categoryLinks": [{"name": "Sergent", "id": "060f-963c-c998-f469", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "categoryLinks": [{"name": "Sergeant", "id": "060f-963c-c998-f469", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
             "constraints": [
               {"id": "4f0c-163a-1f9f-8891", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "fa8d-bcfb-6b19-483d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -2666,10 +2667,7 @@
           {"name": "Faction: Alpha Legion", "id": "797a-f62b-fbae-1a63", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"},
           {"name": "Headhunter Kill Team", "id": "39b9-a1d1-2eea-0c27", "hidden": false, "primary": false, "targetId": "f7f8-8cf0-722a-cd3f"}
         ],
-        "constraints": [
-          {"id": "07c0-f12c-d8ee-7fd1", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3},
-          {"id": "0885-4a87-9b6e-caaa", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 0}
-        ],
+        "constraints": [{"id": "07c0-f12c-d8ee-7fd1", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
         "costs": [
           {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 125},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
@@ -2726,6 +2724,40 @@
             "type": "increment",
             "value": 125,
             "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "self", "shared": true, "type": "atLeast", "value": 6}]
+          },
+          {
+            "field": "07c0-f12c-d8ee-7fd1",
+            "type": "set",
+            "value": 6,
+            "conditions": [
+              {
+                "childId": "77c9-d918-eb3d-5613",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "set-primary",
+            "value": "e338-111e-d0c6-b687",
+            "conditions": [
+              {
+                "childId": "77c9-d918-eb3d-5613",
+                "childName": "Headhunter Levithan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
           }
         ],
         "profiles": [
@@ -2751,7 +2783,7 @@
             "hidden": false,
             "import": true,
             "type": "model",
-            "categoryLinks": [{"name": "Sergent", "id": "12fb-8af3-74f4-b1a2", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "categoryLinks": [{"name": "Sergeant", "id": "12fb-8af3-74f4-b1a2", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
             "constraints": [
               {"id": "e9c1-6afe-00de-834f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "eb2a-772d-f545-aecf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -3530,97 +3562,20 @@
     ],
     "sharedSelectionEntries": [
       {
-        "name": "Detachment",
-        "id": "378c-a751-bdbe-2c34",
+        "name": "Detachments",
+        "id": "9786-847b-7959-7855",
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Configuration", "id": "7e4b-45a6-bf79-78fb", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249"}],
-        "constraints": [
-          {
-            "id": "c14b-7a4e-4468-d65c",
-            "field": "selections",
-            "includeChildForces": true,
-            "includeChildSelections": true,
-            "scope": "roster",
-            "shared": true,
-            "type": "min",
-            "value": 1
-          },
-          {
-            "id": "11d4-2828-7c05-765c",
-            "field": "selections",
-            "includeChildForces": true,
-            "includeChildSelections": true,
-            "scope": "roster",
-            "shared": true,
-            "type": "max",
-            "value": 1
-          }
-        ],
-        "entryLinks": [{"name": "Common Detachments", "id": "f3a2-7814-3faa-ef69", "hidden": false, "import": true, "targetId": "1a9b-dc90-4bb8-6fee", "type": "selectionEntryGroup"}],
-        "modifiers": [
-          {
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "childId": "cac3-71d1-ea4b-795d",
-                "field": "selections",
-                "includeChildForces": false,
-                "includeChildSelections": false,
-                "scope": "force",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ],
-        "selectionEntryGroups": [
+        "entryLinks": [
+          {"name": "Common Detachments", "id": "a29b-c51f-00bc-7cca", "hidden": false, "import": true, "targetId": "1a9b-dc90-4bb8-6fee", "type": "selectionEntryGroup"},
           {
             "name": "Alpha Legion Detachments",
-            "id": "3938-08cc-b3d9-7cd6",
+            "id": "abdc-ec2a-a592-6c68",
             "hidden": false,
-            "selectionEntries": [
-              {
-                "name": "Headhunter Levithan",
-                "id": "b6f9-c173-813e-7773",
-                "hidden": false,
-                "import": true,
-                "type": "upgrade",
-                "categoryLinks": [{"name": "Reconnaissance", "id": "4469-364e-d9a9-e20d", "hidden": false, "primary": true, "targetId": "b4a7-5083-fe94-4d24"}],
-                "constraints": [{"id": "19ff-5bd7-2fa6-c61a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
-                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
-                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
-                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
-                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
-                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
-                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
-                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
-                ],
-                "infoLinks": [{"name": "Feel No Pain 5+", "id": "8d8d-e57a-5269-b77d", "hidden": false, "targetId": "5e10-6d62-2624-80a8", "type": "rule"}],
-                "profiles": [
-                  {
-                    "name": "Headhunter Levithan",
-                    "id": "14ce-8f33-8ca1-eaa4",
-                    "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "$text": "- **Legion Headhunter Kill Teams** gain the **battleline** keyword\n- You gain +2VP if a **Alpha Legion** unit kills the enermy warlord\n- During Turn 1 all **Alpha Legion** units gain a **[Feel No Pain 5+]** against ranged attack while more then 12\" away from all enermy units.\n- All **Vehicles** must be placed in reserves",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
+            "import": true,
+            "targetId": "2b21-4c1c-9c7f-c22d",
+            "type": "selectionEntryGroup"
           }
         ]
       }

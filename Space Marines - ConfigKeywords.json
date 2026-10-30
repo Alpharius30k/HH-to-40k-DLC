@@ -11,7 +11,17 @@
     "categoryEntries": [
       {"name": "Loyalist", "id": "6385-b04f-2e5f-56dc", "hidden": false},
       {"name": "Traitor", "id": "ab5d-ae96-512e-2748", "hidden": false},
-      {"name": "Bitter Duty", "id": "2078-fcee-2eba-3af8", "hidden": false}
+      {"name": "Bitter Duty", "id": "2078-fcee-2eba-3af8", "hidden": false},
+      {"name": "Faction: Alpha Legion", "id": "3583-4c5d-bf42-1f69", "hidden": false},
+      {"name": "Faction: Night Lords", "id": "caf5-ef2d-bb96-dc65", "hidden": false},
+      {"name": "Faction: Raven Gaurd", "id": "51c7-eb8f-f617-0348", "hidden": false},
+      {"name": "Faction: Salamanders", "id": "3826-6483-b50e-6b8f", "hidden": false},
+      {
+        "name": "Corvus Corax",
+        "id": "0db7-5327-9cb8-a805",
+        "hidden": false,
+        "constraints": [{"id": "1113-2849-afdb-c25e", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1}]
+      }
     ],
     "sharedProfiles": [
       {
@@ -151,6 +161,12 @@
         "name": "Rad-Phage",
         "id": "eb66-1fe7-18ff-3369",
         "description": "A unit that has taken 1 or more wounds from a weapon with this ability have -1 toughness till the end of the phase but does not stack with itself but does with all other modifers.",
+        "hidden": false
+      },
+      {
+        "name": "Burst",
+        "id": "f73e-424c-e4d9-73f4",
+        "description": "If a weapon **succsesfully** hits its target every **sucsesful** hit triggers **[Sustained Hits]** even if its not a **critical Hits**. **Critical Hits** do not trigger this ability as they already trigger **[Sustained Hits]**",
         "hidden": false
       }
     ],
@@ -517,6 +533,196 @@
             "type": "upgrade",
             "categoryLinks": [{"name": "Take and Hold", "id": "56c0-f7a2-419e-fa64", "hidden": false, "primary": true, "targetId": "1cc1-f11a-4e8f-1bcc"}],
             "constraints": [{"id": "2764-727b-9d5c-b7fc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Salamander Detachments",
+        "id": "588d-1be1-21b7-b382",
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "name": "Covenant of Fire",
+            "id": "da80-9ade-9403-8ff2",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Take and Hold", "id": "f5cc-48a5-fb7e-74e1", "hidden": false, "primary": true, "targetId": "1cc1-f11a-4e8f-1bcc"}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 2},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": "Covenant of Fire",
+                "id": "71d5-7735-85fb-9094",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "- **Pyroclast Squads**,**Legion Tactical Support Squads** and **Legion Predator Squads** gain **battleline** but LTSS and LPS can only take Dragon Breath Weapons if they are **Battleline**\n- You can not deploy **Deep Strike** models via **Deep Strike**\n- You can not take any **Bitter Duty** units\n- You must take a **Champion Charecter**",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Alpha Legion Detachments",
+        "id": "2b21-4c1c-9c7f-c22d",
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "name": "Headhunter Levithan",
+            "id": "77c9-d918-eb3d-5613",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Reconnaissance", "id": "20b7-2b92-60a3-b26b", "hidden": false, "primary": true, "targetId": "b4a7-5083-fe94-4d24"}],
+            "constraints": [{"id": "5cac-1afd-0fdb-9ffd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "infoLinks": [{"name": "Feel No Pain 5+", "id": "f0e8-3bd5-2fdf-a410", "hidden": false, "targetId": "5e10-6d62-2624-80a8", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Headhunter Levithan",
+                "id": "94d3-0bf4-7f11-c157",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "- **Legion Headhunter Kill Teams** gain the **battleline** keyword\n- You gain +2VP if a **Alpha Legion** unit kills the enermy warlord\n- During Turn 1 all **Alpha Legion** units gain a **[Feel No Pain 5+]** against ranged attack while more then 12\" away from all enermy units.\n- All **Vehicles** must be placed in reserves",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Night Lord Detachments",
+        "id": "9f55-eed6-f1a3-3413",
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "name": "Terror Assault",
+            "id": "26d0-30da-c100-1194",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Disruption", "id": "03ec-00cd-b7db-f557", "hidden": false, "primary": true, "targetId": "ecf8-cf72-7d5b-1b5b"}],
+            "constraints": [{"id": "ea8b-c6c5-0111-0a38", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 2},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": " Terror Assault",
+                "id": "8f1a-1b06-ebac-ec73",
+                "hidden": false,
+                "noindex": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "- **Terror Squad** and **Night Raptor Squad** gain **battleline**\n- All units that do not have **Prey Sight** and/or **Night Vision** can not shoot further then 24\". This lasts till the end of battleround 2\n- All **friendly Night Lord Charecter** units gain **Legion of fear** or improve any leadership debuffs by 1\n- This must be your primary army\n- All vehicles are capped at 1 max\n- You can not take **titanic** models",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              },
+              {
+                "name": "Legion of fear",
+                "id": "21c3-d70d-f5a3-fa0d",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "Enemy models withing 9\" have -1 to their leadership charecteristic (So a 6+ would become a 7+)",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Raven Guard Detachments",
+        "id": "7d1b-6f3c-750b-b0e4",
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "name": "Decapitation Strike",
+            "id": "b560-eed1-f9cf-df2a",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Purge the Foe", "id": "050c-26de-690f-97cf", "hidden": false, "primary": true, "targetId": "6fe0-3dbe-f7e0-10bb"}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 2},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": " Decapitation Strike",
+                "id": "e298-60f2-6125-8b2f",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "- All **friendly Raven Guard** units gain **Charecter Killer** ability\n- Any models that come out of **Reserves** or **Deep Strike** gain a **[Feel No Pain 5+]*8 against ranged attacks till the end of your opponents next turn.\n- You gain +2VP if a **Friendly Raven Gaurd** unit kills the opponents **warlord**\n- You can only bring a maximum of 1 of each vehicle/Dreadnought and no fortifications",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              },
+              {
+                "name": "Charecter Killer",
+                "id": "0958-a8b0-f54f-c96c",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [{"name": "Description", "$text": "Models with this ability can re-roll hit rolls of 1 when targeting **charecter** models", "typeId": "9b8f-694b-e5e-b573"}]
+              }
+            ]
           }
         ]
       }

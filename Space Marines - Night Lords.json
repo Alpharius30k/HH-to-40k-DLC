@@ -361,13 +361,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -451,13 +451,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -568,13 +568,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -685,13 +685,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -802,13 +802,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -919,13 +919,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -1036,13 +1036,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -1153,13 +1153,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -1270,13 +1270,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -1387,13 +1387,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -1504,13 +1504,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -1621,13 +1621,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -1738,13 +1738,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -1828,13 +1828,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -1918,13 +1918,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2008,13 +2008,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2098,13 +2098,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2188,13 +2188,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2278,13 +2278,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2368,13 +2368,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2458,13 +2458,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2548,13 +2548,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2638,13 +2638,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2728,13 +2728,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2818,13 +2818,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2908,13 +2908,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -2998,13 +2998,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -3088,13 +3088,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -3178,13 +3178,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -3268,13 +3268,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -3358,13 +3358,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -3448,13 +3448,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -3538,13 +3538,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -3655,13 +3655,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -3772,13 +3772,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -3889,13 +3889,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -4006,13 +4006,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -4123,13 +4123,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -4240,13 +4240,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -4357,13 +4357,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -4474,13 +4474,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -4591,13 +4591,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -4708,13 +4708,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -4798,13 +4798,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -4888,13 +4888,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -4978,13 +4978,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -5096,13 +5096,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -5213,13 +5213,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -5303,13 +5303,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -5420,13 +5420,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -5510,13 +5510,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -5600,13 +5600,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -5717,13 +5717,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -5807,13 +5807,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -5897,13 +5897,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -7308,7 +7308,7 @@
             "value": true,
             "conditions": [
               {
-                "childId": "9956-023a-6b93-4fbf",
+                "childId": "26d0-30da-c100-1194",
                 "childName": "Terror Assault",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -7357,7 +7357,7 @@
             "value": true,
             "conditions": [
               {
-                "childId": "9956-023a-6b93-4fbf",
+                "childId": "26d0-30da-c100-1194",
                 "childName": "Terror Assault",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -7386,7 +7386,7 @@
             "value": true,
             "conditions": [
               {
-                "childId": "9956-023a-6b93-4fbf",
+                "childId": "26d0-30da-c100-1194",
                 "childName": "Terror Assault",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -7819,7 +7819,7 @@
                 "value": "10+",
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -7837,7 +7837,7 @@
                 "value": "-4",
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -7881,7 +7881,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model must be your warlord and while withing 3\" of a friendly **Night Lord Infantry** model this model gains **Lone Operative**.\n\n\n\n\nAll friendly **night lord Infantry**, **Dreadnought**, **Mounted** gain **Night Vision** and **Bloody Murder**",
+                "$text": "This model must be your warlord and while withing 3\" of a friendly **Night Lord Infantry** model this model gains **Lone Operative**.\n\nAll friendly **night lord Infantry**, **Dreadnought**, **Mounted** gain **Night Vision** and **Bloody Murder**",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -8093,7 +8093,7 @@
                 "value": "9+",
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -8111,7 +8111,7 @@
                 "value": "-3",
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -8408,7 +8408,7 @@
             "import": true,
             "sortIndex": 1,
             "type": "model",
-            "categoryLinks": [{"name": "Sergent", "id": "82ce-e5ea-0a62-fe00", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "categoryLinks": [{"name": "Sergeant", "id": "82ce-e5ea-0a62-fe00", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
             "constraints": [
               {"id": "2385-fa77-fd2f-b6d4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "b92f-ba69-e37a-2e6d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -8704,7 +8704,7 @@
                 "value": "-2",
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -8722,7 +8722,7 @@
                 "value": "8+",
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -8744,7 +8744,7 @@
             "import": true,
             "sortIndex": 1,
             "type": "model",
-            "categoryLinks": [{"name": "Sergent", "id": "07a6-45aa-bfa7-d613", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "categoryLinks": [{"name": "Sergeant", "id": "07a6-45aa-bfa7-d613", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
             "constraints": [
               {"id": "c538-fe77-6a75-9358", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "f6cb-1db0-d842-2b1d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -8933,7 +8933,7 @@
             "value": "e338-111e-d0c6-b687",
             "conditions": [
               {
-                "childId": "9956-023a-6b93-4fbf",
+                "childId": "26d0-30da-c100-1194",
                 "childName": "Terror Assault",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -8950,7 +8950,7 @@
             "value": 6,
             "conditions": [
               {
-                "childId": "9956-023a-6b93-4fbf",
+                "childId": "26d0-30da-c100-1194",
                 "childName": "Terror Assault",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -8999,7 +8999,7 @@
             "hidden": false,
             "import": true,
             "type": "model",
-            "categoryLinks": [{"name": "Sergent", "id": "c09f-af41-82e9-c06d", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "categoryLinks": [{"name": "Sergeant", "id": "c09f-af41-82e9-c06d", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
             "constraints": [
               {"id": "c2ac-5a11-4dcc-2ef6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "50a0-0d08-5d8a-c0aa", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -9646,7 +9646,7 @@
             "value": 6,
             "conditions": [
               {
-                "childId": "9956-023a-6b93-4fbf",
+                "childId": "26d0-30da-c100-1194",
                 "childName": "Terror Assault",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -9663,7 +9663,7 @@
             "value": "e338-111e-d0c6-b687",
             "conditions": [
               {
-                "childId": "9956-023a-6b93-4fbf",
+                "childId": "26d0-30da-c100-1194",
                 "childName": "Terror Assault",
                 "field": "selections",
                 "includeChildSelections": true,
@@ -9715,7 +9715,7 @@
             "import": true,
             "sortIndex": 1,
             "type": "model",
-            "categoryLinks": [{"name": "Sergent", "id": "2544-cc1b-d86d-63e4", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "categoryLinks": [{"name": "Sergeant", "id": "2544-cc1b-d86d-63e4", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
             "constraints": [
               {"id": "bfe3-84df-6d7c-29b8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "8d29-470b-e8e6-26e8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -10156,13 +10156,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -10460,7 +10460,7 @@
                 "value": "8+",
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -10478,7 +10478,7 @@
                 "value": "-2",
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -10794,7 +10794,7 @@
                 "value": "8+",
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -10812,7 +10812,7 @@
                 "value": "-2",
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -11024,13 +11024,13 @@
                 "value": true,
                 "conditions": [
                   {
-                    "childId": "9956-023a-6b93-4fbf",
+                    "childId": "26d0-30da-c100-1194",
                     "childName": "Terror Assault",
                     "field": "selections",
                     "includeChildSelections": true,
                     "scope": "force",
                     "shared": true,
-                    "type": "lessThan",
+                    "type": "atLeast",
                     "value": 1
                   }
                 ]
@@ -11781,7 +11781,17 @@
             "value": 1
           }
         ],
-        "entryLinks": [{"name": "Common Detachments", "id": "ea19-7ff3-47f8-fa8b", "hidden": false, "import": true, "targetId": "1a9b-dc90-4bb8-6fee", "type": "selectionEntryGroup"}],
+        "entryLinks": [
+          {"name": "Common Detachments", "id": "ea19-7ff3-47f8-fa8b", "hidden": false, "import": true, "targetId": "1a9b-dc90-4bb8-6fee", "type": "selectionEntryGroup"},
+          {
+            "name": "Night Lord Detachments",
+            "id": "278e-b02a-3bd4-69b5",
+            "hidden": false,
+            "import": true,
+            "targetId": "9f55-eed6-f1a3-3413",
+            "type": "selectionEntryGroup"
+          }
+        ],
         "modifiers": [
           {
             "field": "hidden",
@@ -11797,51 +11807,6 @@
                 "shared": true,
                 "type": "instanceOf",
                 "value": 1
-              }
-            ]
-          }
-        ],
-        "selectionEntryGroups": [
-          {
-            "name": "Night Lord Detachments",
-            "id": "8902-d529-51e3-0b3c",
-            "hidden": false,
-            "selectionEntries": [
-              {
-                "name": "Terror Assault",
-                "id": "9956-023a-6b93-4fbf",
-                "hidden": false,
-                "import": true,
-                "type": "upgrade",
-                "categoryLinks": [{"name": "Disruption", "id": "7165-d41d-91f7-39ec", "hidden": false, "primary": true, "targetId": "ecf8-cf72-7d5b-1b5b"}],
-                "constraints": [{"id": "b858-1ff4-cce0-6956", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
-                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
-                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
-                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
-                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
-                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
-                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 2},
-                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
-                ],
-                "infoLinks": [{"name": "Legion of fear", "id": "c092-e5a5-9411-7dae", "hidden": false, "targetId": "c7bd-b654-dd73-90d6", "type": "profile"}],
-                "profiles": [
-                  {
-                    "name": "Terror Assault",
-                    "id": "bb9d-76c6-9afc-37f4",
-                    "hidden": false,
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "$text": "- **Terror Squad** and **Night Raptor Squad** gain **battleline**\n- All units that do not have **Prey Sight** and/or **Night Vision** can not shoot further then 24\". This lasts till the end of battleround 2\n- All **friendly Night Lord Charecter** units gain **Legion of fear** or improve any leadership debuffs by 1\n- This must be your primary army\n- All vehicles are capped at 1 max\n- You can not take **titanic** models",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
-                  }
-                ]
               }
             ]
           }
