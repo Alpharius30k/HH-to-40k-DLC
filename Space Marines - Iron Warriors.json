@@ -1,0 +1,1770 @@
+{
+  "catalogue": {
+    "name": "Space Marines - Iron Warriors",
+    "id": "8273-cc5f-f89e-6f0c",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [
+      {"name": "Space Marines - Armoury", "id": "727f-40bd-fa09-d05a", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
+      {"name": "Space Marines - Config/Keywords/Abilties", "id": "9c3a-3688-7813-f100", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"},
+      {"name": "Space Marines - Models", "id": "46bb-b318-6563-29d6", "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
+      {"name": "Space Marines - Wargear", "id": "2d35-3c37-9c3c-6578", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"},
+      {"name": "Space Marines - Psychic Powers", "id": "b235-fab2-0faf-90f9", "targetId": "3466-8bfe-9885-435d", "type": "catalogue"}
+    ],
+    "categoryEntries": [
+      {"name": "Kravek Morne", "id": "535f-fa37-99e8-54ff", "hidden": false},
+      {"name": "Perturabo", "id": "4b3d-075c-6d5b-da9a", "hidden": false},
+      {"name": "Iron Circle Maniple", "id": "da25-e097-d5a0-23b8", "hidden": false},
+      {"name": "Domitar-ferrum", "id": "19d4-089b-1435-b231", "hidden": false},
+      {"name": "Tyrant Siege Terminators", "id": "8187-28f0-fd04-b740", "hidden": false}
+    ],
+    "entryLinks": [
+      {"name": "Legion Assault Squad", "id": "a5dd-e46a-0f75-3018", "hidden": false, "import": true, "targetId": "ee1e-7c3c-d075-ccfb", "type": "selectionEntry"},
+      {"name": "Legion Breacher Squad", "id": "4939-28d8-3f94-17cd", "hidden": false, "import": true, "targetId": "e2bb-808a-d22a-b21c", "type": "selectionEntry"},
+      {"name": "Legion Tactical Squad", "id": "d262-7b8a-283c-f474", "hidden": false, "import": true, "targetId": "d7d2-ed0b-87cb-f5bd", "type": "selectionEntry"},
+      {"name": "Legion Despoiler Squad", "id": "2f36-1344-bb02-3d23", "hidden": false, "import": true, "targetId": "6174-a4fd-ad46-ddfa", "type": "selectionEntry"},
+      {"name": "Davinite Lodge Priest", "id": "c20e-4550-cce5-0090", "hidden": false, "import": true, "targetId": "508b-3db2-00f4-01bb", "type": "selectionEntry"},
+      {"name": "Exponditionary Navigator", "id": "eafb-7220-9358-e54c", "hidden": false, "import": true, "targetId": "5765-8056-9276-b9e8", "type": "selectionEntry"},
+      {"name": "Legion Apothecary", "id": "44da-abcd-45bb-fbe9", "hidden": false, "import": true, "targetId": "5597-c7f9-c3ee-290a", "type": "selectionEntry"},
+      {"name": "Legion Armistos", "id": "6f25-b965-9129-58f9", "hidden": false, "import": true, "targetId": "623e-1034-b4cc-8b96", "type": "selectionEntry"},
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "9fbb-ca54-7d77-8b0f",
+        "hidden": false,
+        "import": true,
+        "targetId": "28bf-8fe9-1cec-30ac",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Champion",
+        "id": "15b5-f2d5-f877-0239",
+        "hidden": false,
+        "import": true,
+        "targetId": "ce57-3967-c54e-fdf9",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Chaplin",
+        "id": "9a39-4b76-13d7-29d0",
+        "hidden": false,
+        "import": true,
+        "targetId": "9c84-4621-d522-c8d5",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Esoterist",
+        "id": "76ca-d133-ea03-25cf",
+        "hidden": false,
+        "import": true,
+        "targetId": "dd6a-027c-5acd-4779",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Forge Lord",
+        "id": "57f8-0398-7885-5682",
+        "hidden": false,
+        "import": true,
+        "targetId": "d7bc-ba47-227a-ca16",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Herald",
+        "id": "7b18-23a9-ba9c-65c3",
+        "hidden": false,
+        "import": true,
+        "targetId": "a00b-e416-84ab-4700",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Librarian",
+        "id": "4c73-ec9c-deb4-92c7",
+        "hidden": false,
+        "import": true,
+        "targetId": "3187-3d1d-c6a5-6dab",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Mortifactor",
+        "id": "2242-5f40-6cd1-44ef",
+        "hidden": false,
+        "import": true,
+        "targetId": "00b3-cab0-3ed0-46e7",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Praetor",
+        "id": "9d24-49a5-9839-b3fa",
+        "hidden": false,
+        "import": true,
+        "targetId": "998f-7eb2-26ee-2a84",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Primus Medicae",
+        "id": "01c0-4580-8bbd-673c",
+        "hidden": false,
+        "import": true,
+        "targetId": "56c0-45e5-91ca-5b8a",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Primus Nullificator",
+        "id": "a31b-6c05-d3e1-81e2",
+        "hidden": false,
+        "import": true,
+        "targetId": "326d-a698-02b6-8e8d",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Siege Breaker",
+        "id": "ef2c-45dd-71ce-0f9d",
+        "hidden": false,
+        "import": true,
+        "targetId": "eaff-53c9-a602-2479",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Cataphractii Warmonger",
+        "id": "7255-7baf-bccf-a6ee",
+        "hidden": false,
+        "import": true,
+        "targetId": "34e9-c499-a5b2-66a9",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Centurion", "id": "639c-0753-503a-7302", "hidden": false, "import": true, "targetId": "89d9-05e4-07bb-4cdf", "type": "selectionEntry"},
+      {"name": "Legion Champion", "id": "3b52-57eb-fc87-7276", "hidden": false, "import": true, "targetId": "8114-d185-a4ee-07cb", "type": "selectionEntry"},
+      {"name": "Legion Chaplin", "id": "07fd-2ce6-d5e6-a6ac", "hidden": false, "import": true, "targetId": "3ce3-e3c9-a85b-0e53", "type": "selectionEntry"},
+      {
+        "name": "Legion Damocles Command Rhino",
+        "id": "3fa2-f65f-f332-ffac",
+        "hidden": false,
+        "import": true,
+        "targetId": "7a1b-9d51-180e-a16b",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Delegatus", "id": "ded6-aed7-5a2d-b4bf", "hidden": false, "import": true, "targetId": "1713-0c7f-75d6-8cd6", "type": "selectionEntry"},
+      {"name": "Legion Esoterist", "id": "085c-394d-04d1-f671", "hidden": false, "import": true, "targetId": "68c1-fc4a-296a-c658", "type": "selectionEntry"},
+      {"name": "Legion Forge Lord", "id": "516c-279e-4944-15f1", "hidden": false, "import": true, "targetId": "531c-d5af-2f78-f4ca", "type": "selectionEntry"},
+      {"name": "Legion Herald", "id": "6a06-6420-bd70-7eb0", "hidden": false, "import": true, "targetId": "0cda-4f5c-8167-21e6", "type": "selectionEntry"},
+      {"name": "Legion Librarian", "id": "62bf-f476-a92d-96bc", "hidden": false, "import": true, "targetId": "2501-499b-4f8e-69ea", "type": "selectionEntry"},
+      {"name": "Legion Master of Signals", "id": "706a-35ab-deea-3514", "hidden": false, "import": true, "targetId": "32d7-9e1e-45bb-f13e", "type": "selectionEntry"},
+      {"name": "Legion Moritat", "id": "a2b1-149f-a28e-d4f0", "hidden": false, "import": true, "targetId": "24ee-9f1e-ff3b-50f7", "type": "selectionEntry"},
+      {"name": "Legion Mortifactor", "id": "0703-eef3-b70d-bf5b", "hidden": false, "import": true, "targetId": "12fa-b8c1-64ca-eab5", "type": "selectionEntry"},
+      {"name": "Legion Optae", "id": "f2bd-674e-5295-c5b4", "hidden": false, "import": true, "targetId": "011a-f45d-4771-9dfe", "type": "selectionEntry"},
+      {"name": "Legion Overseer", "id": "c422-15dc-66d7-409c", "hidden": false, "import": true, "targetId": "4726-b22c-efb0-cc88", "type": "selectionEntry"},
+      {"name": "Legion Pathfinder", "id": "e1cf-60a5-703f-8708", "hidden": false, "import": true, "targetId": "e43d-8e9e-7bad-3a4f", "type": "selectionEntry"},
+      {"name": "Legion Praetor", "id": "717c-dd69-e866-d4d8", "hidden": false, "import": true, "targetId": "d21d-b83b-addc-90d1", "type": "selectionEntry"},
+      {"name": "Legion Praevian", "id": "e660-3afa-daa4-77b1", "hidden": false, "import": true, "targetId": "6eeb-a277-d3db-8d47", "type": "selectionEntry"},
+      {
+        "name": "Legion Predator Master of Armour",
+        "id": "f869-c775-a77a-ab71",
+        "hidden": false,
+        "import": true,
+        "targetId": "34e4-f19f-e0dd-53b1",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Primus Medicae", "id": "637c-ce98-0d8c-67c1", "hidden": false, "import": true, "targetId": "a33a-de11-6e28-dd63", "type": "selectionEntry"},
+      {
+        "name": "Legion Saturnine Centurion",
+        "id": "8701-eb4e-8582-d0f5",
+        "hidden": false,
+        "import": true,
+        "targetId": "b360-e1a4-246c-0b44",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Saturnine Praetor", "id": "75bb-c0c0-409b-50b3", "hidden": false, "import": true, "targetId": "fb08-e4c3-c2dd-0fc7", "type": "selectionEntry"},
+      {
+        "name": "Legion Sicaran Master of Armour",
+        "id": "4f61-c637-d621-d365",
+        "hidden": false,
+        "import": true,
+        "targetId": "3376-ed95-4f28-b705",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Siege Breaker", "id": "d6e0-d9a8-4eb8-a7e4", "hidden": false, "import": true, "targetId": "db44-cb35-a60d-a6f6", "type": "selectionEntry"},
+      {"name": "Legion Tartaros Centurion", "id": "1ff1-7a51-4568-877f", "hidden": false, "import": true, "targetId": "4e15-f59f-a942-c829", "type": "selectionEntry"},
+      {"name": "Legion Tartaros Champion", "id": "2861-35b6-3c6c-4810", "hidden": false, "import": true, "targetId": "5a8c-8f7e-c8f3-458e", "type": "selectionEntry"},
+      {"name": "Legion Tartaros Chaplin", "id": "c8c3-9978-44d1-e107", "hidden": false, "import": true, "targetId": "46e1-af9e-302a-b2ff", "type": "selectionEntry"},
+      {"name": "Legion Tartaros Esoterist", "id": "01b3-ce84-7994-5cac", "hidden": false, "import": true, "targetId": "d6db-a7b1-09df-5034", "type": "selectionEntry"},
+      {
+        "name": "Legion Tartaros Forge Lord",
+        "id": "4d23-7e60-93c7-e79c",
+        "hidden": false,
+        "import": true,
+        "targetId": "8e62-aa3b-9a26-b151",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Tartaros Herald", "id": "481c-c8f8-2af5-8d99", "hidden": false, "import": true, "targetId": "a1a0-a39e-c9d8-885a", "type": "selectionEntry"},
+      {"name": "Legion Tartaros Librarian", "id": "d0eb-b151-841b-ea5b", "hidden": false, "import": true, "targetId": "70c6-b440-89df-6881", "type": "selectionEntry"},
+      {
+        "name": "Legion Tartaros Mortifactor",
+        "id": "67b4-2bd0-241d-898e",
+        "hidden": false,
+        "import": true,
+        "targetId": "c678-20b5-8b21-4fbb",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Tartaros Praetor", "id": "4cdd-1315-4b46-5047", "hidden": false, "import": true, "targetId": "dd4d-8bc3-7d45-d3aa", "type": "selectionEntry"},
+      {
+        "name": "Legion Tartaros Primus Medicae",
+        "id": "fd91-79e0-4f38-f664",
+        "hidden": false,
+        "import": true,
+        "targetId": "328a-c702-2f0a-6444",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Tartaros Siege Breaker",
+        "id": "0360-d74e-14e8-23b7",
+        "hidden": false,
+        "import": true,
+        "targetId": "3976-982f-34dc-06f8",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Tartaros Warmonger", "id": "29fb-5c14-948a-5ce5", "hidden": false, "import": true, "targetId": "4065-c653-1b0c-4f8f", "type": "selectionEntry"},
+      {"name": "Legion Techmarine", "id": "389b-467a-b790-88f9", "hidden": false, "import": true, "targetId": "5906-c31b-60b0-6ea6", "type": "selectionEntry"},
+      {
+        "name": "Legion Venerable Ancient Contempter Dreadnought",
+        "id": "d3b9-539e-d625-3807",
+        "hidden": false,
+        "import": true,
+        "targetId": "c738-a003-c9fc-8450",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Vigilator", "id": "7758-38d5-c15f-fd1a", "hidden": false, "import": true, "targetId": "adf8-32df-e4a3-be75", "type": "selectionEntry"},
+      {"name": "Legion Warmonger", "id": "0ea0-45e4-5ab7-b1d9", "hidden": false, "import": true, "targetId": "c490-dbef-188a-dcb1", "type": "selectionEntry"},
+      {"name": "Cult Abominatio", "id": "be0a-e732-c8cd-249d", "hidden": false, "import": true, "targetId": "23e5-63f2-00a0-e269", "type": "selectionEntry"},
+      {
+        "name": "Legion Cataphracii Command Squad",
+        "id": "1bf3-d273-6393-487d",
+        "hidden": false,
+        "import": true,
+        "targetId": "260d-fcdb-bce6-adc6",
+        "type": "selectionEntry",
+        "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}]
+      },
+      {"name": "Legion Command Squad", "id": "8c2a-845b-a5c4-7ce5", "hidden": false, "import": true, "targetId": "eb44-0ba7-961f-c555", "type": "selectionEntry"},
+      {
+        "name": "Legion Saturnine Command Squad",
+        "id": "ce9d-7dcd-5d80-16ba",
+        "hidden": false,
+        "import": true,
+        "targetId": "461a-2b45-411c-50a3",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Tartaros Command Squad",
+        "id": "013d-6863-13e5-51a3",
+        "hidden": false,
+        "import": true,
+        "targetId": "f543-f511-bd0d-8611",
+        "type": "selectionEntry"
+      },
+      {"name": "Detachment", "id": "da87-6102-51cd-1421", "hidden": false, "import": true, "targetId": "d7c3-9abe-a66e-9da6", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "2a9d-7297-d67f-8cea", "hidden": false, "import": true, "targetId": "0397-ebbd-9609-b338", "type": "selectionEntry"},
+      {
+        "name": "Legion Avenger Strike Fighter",
+        "id": "6e45-68c9-a475-3763",
+        "hidden": false,
+        "import": true,
+        "targetId": "3cc5-a083-a336-885f",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Fire Raptor Gunship",
+        "id": "a6f5-8ee5-a54f-00a8",
+        "hidden": false,
+        "import": true,
+        "targetId": "8a76-6902-726c-b5e1",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Primaris-Lightning Strike Fighter",
+        "id": "ba40-8345-c682-0ad0",
+        "hidden": false,
+        "import": true,
+        "targetId": "0b04-9f4d-a24f-a316",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Storm Eagle Gunship",
+        "id": "f034-4688-7015-4bd5",
+        "hidden": false,
+        "import": true,
+        "targetId": "018f-2bcd-8f19-764a",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Thunderbolt Fighter",
+        "id": "dbf9-f21f-70e8-eb51",
+        "hidden": false,
+        "import": true,
+        "targetId": "1e31-32c6-8c4c-f357",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Xiphon Interceptor", "id": "ccc7-7852-0923-4167", "hidden": false, "import": true, "targetId": "1fc9-94cb-9b08-7f28", "type": "selectionEntry"},
+      {"name": "Legion Xiphon Interceptor", "id": "5688-dc12-1d99-0507", "hidden": false, "import": true, "targetId": "1fc9-94cb-9b08-7f28", "type": "selectionEntry"},
+      {
+        "name": "Araknae Quad Accelerator Platform",
+        "id": "821d-1d5e-b8c3-eb79",
+        "hidden": false,
+        "import": true,
+        "targetId": "ddc4-a817-ebab-5b10",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Tarantula Sentry Gun Battery",
+        "id": "82df-22e9-5fe6-e479",
+        "hidden": false,
+        "import": true,
+        "targetId": "e8da-18b9-7a85-f1ea",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Cataphractii Squad", "id": "daf3-5e5e-21d9-06c2", "hidden": false, "import": true, "targetId": "86e9-7365-1fa1-e847", "type": "selectionEntry"},
+      {
+        "name": "Legion Destroyer Assault Squad",
+        "id": "b0a5-b196-3326-14e5",
+        "hidden": false,
+        "import": true,
+        "targetId": "9a22-1750-3581-f5e9",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Heavy Support Squad",
+        "id": "3d4c-db77-eabf-a8dd",
+        "hidden": false,
+        "import": true,
+        "targetId": "c68b-74aa-dc15-c950",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Indomitus Terminator Squad",
+        "id": "59bb-9ccb-bfa3-5443",
+        "hidden": false,
+        "import": true,
+        "targetId": "b24a-af33-bbf8-8c21",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Mortalis Destroyer Squad",
+        "id": "589b-04c3-0c4a-9d88",
+        "hidden": false,
+        "import": true,
+        "targetId": "b5f2-8ddb-57bd-1583",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Nullificator Squad", "id": "3d36-2992-468e-470e", "hidden": false, "import": true, "targetId": "41de-856c-a041-1f74", "type": "selectionEntry"},
+      {"name": "Legion Rapier Battery", "id": "363f-95ae-26de-8d24", "hidden": false, "import": true, "targetId": "8b64-1e68-a680-b744", "type": "selectionEntry"},
+      {
+        "name": "Legion Reconnaissance Squad",
+        "id": "371f-423f-63e5-739c",
+        "hidden": false,
+        "import": true,
+        "targetId": "87e9-4645-76e0-00e8",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Saturnine Terminator Squad",
+        "id": "4618-0366-6549-d27b",
+        "hidden": false,
+        "import": true,
+        "targetId": "dbe4-370a-baf7-d82d",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Scout Squad", "id": "8e9f-ba59-2df2-15db", "hidden": false, "import": true, "targetId": "769b-7644-1599-a579", "type": "selectionEntry"},
+      {"name": "Legion Seeker Squad", "id": "a158-58b7-7fcd-167c", "hidden": false, "import": true, "targetId": "3789-2f71-8ac7-06f6", "type": "selectionEntry"},
+      {
+        "name": "Legion Tactical Support Squad",
+        "id": "2537-04ca-cb52-0e06",
+        "hidden": false,
+        "import": true,
+        "targetId": "3711-985b-f066-5d7b",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Tartaros Squad", "id": "5a08-7b95-6ce9-1acd", "hidden": false, "import": true, "targetId": "533b-2c5b-c5aa-7fac", "type": "selectionEntry"},
+      {"name": "Legion Veteran Squad", "id": "dd72-e384-a100-5e90", "hidden": false, "import": true, "targetId": "14ca-45b2-dca4-33f6", "type": "selectionEntry"},
+      {"name": "Legion Javelin Squadron", "id": "c237-4f99-9255-f74e", "hidden": false, "import": true, "targetId": "2492-388c-9304-c2c8", "type": "selectionEntry"},
+      {"name": "Legion Outrider Squadron", "id": "a2ea-b2a8-549c-5a13", "hidden": false, "import": true, "targetId": "6d72-7039-2d3d-4f6a", "type": "selectionEntry"},
+      {
+        "name": "Legion Proteus Land Speeder Squadron",
+        "id": "25ef-379d-d401-c7de",
+        "hidden": false,
+        "import": true,
+        "targetId": "2cd9-4c4a-22d4-2149",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Spatha Attack Bike Squadron",
+        "id": "21b0-4344-d59e-3122",
+        "hidden": false,
+        "import": true,
+        "targetId": "ffd4-fb23-ba98-73fc",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Caestus Assault Ram",
+        "id": "b924-8791-b1b0-a52f",
+        "hidden": false,
+        "import": true,
+        "targetId": "c2ac-4740-5dac-46f6",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Land raider Proteus Explorator",
+        "id": "8e0b-d3b6-9bd1-8ccc",
+        "hidden": false,
+        "import": true,
+        "targetId": "e0a6-52e4-abe6-a365",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Whirlwind", "id": "b762-525c-e737-7e84", "hidden": false, "import": true, "targetId": "54bc-596b-4eec-7d43", "type": "selectionEntry"},
+      {"name": "Legion Basalisk Squadron", "id": "7f1b-c714-681d-44d8", "hidden": false, "import": true, "targetId": "5341-5378-0b4b-3df2", "type": "selectionEntry"},
+      {
+        "name": "Legion Land Raider Achillies Squadron",
+        "id": "281f-5af1-5541-50fc",
+        "hidden": false,
+        "import": true,
+        "targetId": "e94e-ebb3-d166-4742",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Medusa Squadron", "id": "7d5e-0b03-a41a-bbaa", "hidden": false, "import": true, "targetId": "a71c-9118-71cb-9ffe", "type": "selectionEntry"},
+      {"name": "Legion Minotaur Battery", "id": "6c44-115f-bf18-53ca", "hidden": false, "import": true, "targetId": "ed37-7e1a-a729-6bf4", "type": "selectionEntry"},
+      {
+        "name": "Legion Sabre Strike Squadron",
+        "id": "bf70-30a0-95ad-aa3d",
+        "hidden": false,
+        "import": true,
+        "targetId": "f50e-2453-e395-c153",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Scorpius Squadron", "id": "f7ee-5b75-11d8-a109", "hidden": false, "import": true, "targetId": "2630-7d98-466e-3a5b", "type": "selectionEntry"},
+      {"name": "Legion Sicaran Squadron", "id": "d13a-b059-e48f-2d39", "hidden": false, "import": true, "targetId": "a6f3-8850-8883-56c5", "type": "selectionEntry"},
+      {
+        "name": "Legion Vindicator Squadron",
+        "id": "5862-007f-fe5e-342c",
+        "hidden": false,
+        "import": true,
+        "targetId": "1712-9d30-0f4f-5537",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Arquitor Squadron", "id": "a231-f106-4d17-7fed", "hidden": false, "import": true, "targetId": "efbe-a324-fdc4-4f2e", "type": "selectionEntry"},
+      {"name": "Legion Kratos Squadron", "id": "650e-6cf3-8c84-a773", "hidden": false, "import": true, "targetId": "c8f6-06dd-a85a-ee3e", "type": "selectionEntry"},
+      {
+        "name": "Legion Land Raider Phobos Squadron",
+        "id": "7e80-1b05-a44d-25ad",
+        "hidden": false,
+        "import": true,
+        "targetId": "7dae-010e-1b78-650a",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Land Raider Proteus Carrier Squadron",
+        "id": "6cf2-1253-46ac-42b6",
+        "hidden": false,
+        "import": true,
+        "targetId": "6794-9181-ab78-220f",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Land Raider Spartan",
+        "id": "fe8d-c2c3-e264-b21e",
+        "hidden": false,
+        "import": true,
+        "targetId": "3623-ae0e-1bfd-6ffe",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Malcador Assault Tank Squadron",
+        "id": "3445-d0c4-c92d-6b96",
+        "hidden": false,
+        "import": true,
+        "targetId": "83f8-8560-c726-365a",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Predator Squadron", "id": "5fed-3e74-25d3-56a6", "hidden": false, "import": true, "targetId": "b2fa-91c2-c0bf-bbcc", "type": "selectionEntry"},
+      {
+        "name": "Legion Saturnine Dreadnought",
+        "id": "3d61-a24a-3932-309b",
+        "hidden": false,
+        "import": true,
+        "targetId": "bb4b-be3a-d843-5a66",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Castra Ferrum Dreadnought Talon",
+        "id": "41c3-ddd9-4594-135f",
+        "hidden": false,
+        "import": true,
+        "targetId": "f63b-d601-fe21-e221",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Contemptor Dreadnought Talon",
+        "id": "71d4-11f7-84ac-8beb",
+        "hidden": false,
+        "import": true,
+        "targetId": "0253-b6f0-97a0-4437",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Levithan Dreadnought Talon",
+        "id": "07de-6e9d-2855-a7a3",
+        "hidden": false,
+        "import": true,
+        "targetId": "1b60-60be-1475-2a44",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Deredeo Dreadnought Talon",
+        "id": "f540-9d3a-2298-9387",
+        "hidden": false,
+        "import": true,
+        "targetId": "180d-3e88-b259-5d1d",
+        "type": "selectionEntry"
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Kravek Morne",
+        "id": "5d24-91c4-d11f-51f9",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Infantry", "id": "f2c7-2561-8522-4ef7", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Character", "id": "cbed-87c4-4402-5e15", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Epic Hero", "id": "d577-bb07-ec49-4c7d", "hidden": false, "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
+          {"name": "Terminator", "id": "253a-bcf7-ecb5-f01f", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Leader", "id": "e2cc-5918-9aa3-e877", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Kravek Morne", "id": "5d10-71f6-1115-83de", "hidden": false, "primary": false, "targetId": "535f-fa37-99e8-54ff"},
+          {"name": "Faction: Iron Warrior", "id": "166b-04d7-a0e4-1f1b", "hidden": false, "primary": false, "targetId": "646b-2fc9-f9e9-3295"},
+          {"name": "Traitor", "id": "84b9-ed17-05a6-857d", "hidden": false, "primary": false, "targetId": "ab5d-ae96-512e-2748"}
+        ],
+        "constraints": [{"id": "25c3-e369-f7a4-3a59", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 130},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "45e5-069a-ce20-ec05",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "464b-cef6-1b60-4f88",
+            "type": "selectionEntry"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Deep Strike", "id": "c256-1800-8a13-fd21", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"},
+          {"name": "Leader", "id": "e5e4-4a82-cb8f-26f4", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
+          {"name": "Wrack and Ruin", "id": "9d2b-87ef-5f78-7906", "hidden": false, "targetId": "e073-96f1-02f2-4636", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Kravek Morne",
+            "id": "6547-722e-d5c9-6644",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "5\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "6", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+              {"name": "Base", "$text": "50mm", "typeId": "nr-base-size"}
+            ]
+          },
+          {
+            "name": "Headlong Destruction",
+            "id": "3f9f-cbed-f398-d8a2",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Each time a model in this unit makes an attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Architect of Ruin",
+            "id": "fa0e-5819-9afa-7958",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the start of the battle, select one unit in your opponent’s army to be this model’s hated foe. Each time this model makes an attack that targets its hated foe, you can re-roll the Wound roll. Each time this model’s hated foe is destroyed, you can select a new unit from your opponent’s army to be its hated foe.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "id": "4256-0783-274e-1a9d",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following units:", "typeId": "9b8f-694b-e5e-b573"}]
+          },
+          {
+            "name": "Lord Armourer (Warlord Trait)",
+            "id": "f824-9faf-327b-db62",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "All **Terminator** units gain **battleline** (but can still only take 3) and increase the maximum number of models in the **unit** by half rounded up.\nAll other units loose **battleline** and go down to 3 units",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "464b-cef6-1b60-4f88", "childName": "Warlord", "field": "selections", "scope": "self", "shared": true, "type": "lessThan", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "c4bc-d869-b50c-4778",
+            "hidden": false,
+            "sortIndex": 3,
+            "entryLinks": [
+              {
+                "name": "Combi-Bolter",
+                "id": "9cd2-751a-1115-922f",
+                "hidden": false,
+                "import": true,
+                "targetId": "0195-c2fa-56aa-9582",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "1059-3ff3-70c2-803f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "4c02-f252-c77d-a76b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Baleflamer",
+                "id": "d16a-7755-786e-d2b9",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "2e5d-88b8-f4cc-310a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "24ab-4f60-7b2b-954b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "infoLinks": [
+                  {"name": "Ignores Cover", "id": "b77b-7db6-2bfa-52da", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
+                  {"name": "Torrent", "id": "147f-e1c9-70d2-5ade", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Baleflamer",
+                    "id": "41af-645e-2a80-bab3",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                      {"name": "A", "$text": "D6+3", "typeId": "3bb-c35f-f54-fb08"},
+                      {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+                      {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                      {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                      {"name": "Keywords", "$text": "Ignores Cover, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Last Argument and power fist",
+                "id": "7130-3b11-e6a7-704e",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "eed3-a185-546a-7ba9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "4bf6-992b-7c31-9839", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Power Fist",
+                    "id": "237a-2ecd-cf6c-a31b",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1f23-df82-9bea-2ebf",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "2e48-0dba-d3c3-faa5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "c385-d580-17da-e58a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {"name": "Devastating Wounds", "id": "590a-1dbc-3548-dbaa", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+                  {"name": "Extra Attacks", "id": "c8e9-f28f-a165-f4ee", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Last Argument",
+                    "id": "da28-a2eb-ba22-2edd",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "10", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "Extra Attacks, Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Servo-harness",
+                "id": "7313-ea4f-4a05-ca53",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "71ef-3915-f32a-0f34", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "e018-3a20-2753-6dae", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "infoLinks": [
+                  {"name": "Anti", "id": "a404-1790-d6d3-8973", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
+                  {"name": "Extra Attacks", "id": "8fa6-5f46-2eab-ee12", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Servo-harness",
+                    "id": "c551-6776-fd25-c6db",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "Anti-Vehicle 2+, Extra Attacks", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Perturabo",
+        "id": "c817-35e4-9f7c-2805",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Primarch", "id": "6093-da74-5115-f428", "hidden": false, "primary": true, "targetId": "6474-0ce3-6b5a-120c"},
+          {"name": "Epic Hero", "id": "fc21-792e-2a54-cd86", "hidden": false, "primary": false, "targetId": "4f3a-f0f7-6647-348d"},
+          {"name": "Character", "id": "eca7-28ef-521f-2dda", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Monster", "id": "6f0b-3d51-d874-fa4b", "hidden": false, "primary": false, "targetId": "9693-cf84-fe69-37a9"},
+          {"name": "Explosives", "id": "ab14-dbad-81de-ba69", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Faction: Iron Warrior", "id": "3495-f7b1-caea-81e1", "hidden": false, "primary": false, "targetId": "646b-2fc9-f9e9-3295"},
+          {"name": "Perturabo", "id": "76af-1586-2b9b-1f7c", "hidden": false, "primary": false, "targetId": "4b3d-075c-6d5b-da9a"},
+          {"name": "Traitor", "id": "2f96-9ce0-d67d-7690", "hidden": false, "primary": false, "targetId": "ab5d-ae96-512e-2748"}
+        ],
+        "constraints": [
+          {"id": "b259-db35-38b0-eae3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+          {
+            "id": "810d-c46f-6d42-ee7f",
+            "field": "51b2-306e-1021-d207",
+            "includeChildSelections": true,
+            "percentValue": true,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 25
+          }
+        ],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 425},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "2123-4bde-c4af-e1a6",
+            "hidden": false,
+            "import": true,
+            "targetId": "464b-cef6-1b60-4f88",
+            "type": "selectionEntry",
+            "modifiers": [{"field": "0b06-18e6-527e-ee43", "type": "set", "value": 1}]
+          },
+          {
+            "name": "Cortex Contoller",
+            "id": "ab22-8e2e-c1cc-0ae7",
+            "hidden": false,
+            "import": true,
+            "targetId": "03dc-7b6a-a279-b913",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "8a7a-3785-2950-5077", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "ed91-1668-5099-33bb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Wrack and Ruin", "id": "66da-6bd8-f8f3-dcd5", "hidden": false, "targetId": "e073-96f1-02f2-4636", "type": "rule"},
+          {
+            "name": "Battlesmith x+",
+            "id": "920a-bcc9-b49e-2f7d",
+            "hidden": false,
+            "targetId": "6b28-e707-4237-e961",
+            "type": "profile",
+            "modifiers": [
+              {"arg": "x", "field": "name", "type": "replace", "value": "2"},
+              {"arg": "x", "field": "9b8f-694b-e5e-b573", "type": "replace", "value": "2"},
+              {"arg": "Heal(1)", "field": "9b8f-694b-e5e-b573", "type": "replace", "value": "Heal(D3)"}
+            ]
+          },
+          {"name": "Sons of the Emperor", "id": "3230-b954-3344-7282", "hidden": false, "targetId": "a83b-8c46-b484-53a5", "type": "profile"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "The Logos",
+            "id": "beac-c7ef-b56d-9a27",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Perturabo** can ignore modifiers to his BS and when you target him with **Overwatch strategem** reduces its cost by 1.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Perturabo",
+            "id": "3a2d-f9f5-7362-efd0",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "8", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "7", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "4", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "3+", "typeId": "55a7-5b54-c60d-11dc"},
+              {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+            ]
+          },
+          {
+            "name": "Lord of Automata",
+            "id": "6ca9-c8a9-3d1b-329f",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Walker** models count as if they has the **infantry** keyword for **Sire of the Iron Warriors**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Sire of the Iron Warriors",
+            "id": "2f94-a2fb-e826-1cd4",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model must be your warlord and while withing 3\" of a friendly **Iron Warrior Infantry** model this model gains **Lone Operative**.\n\n\nAll **Iron Warrior Infantry** units can roll an additional dice when rolling for **leadership** and discard the lowest dice",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "3886-772b-41e9-4be9",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Logos Array",
+                "id": "8b88-727a-1b9d-01cb",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "3173-54a8-0c53-57ad", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "a030-d88c-e410-93dd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "infoLinks": [
+                  {"name": "Pinning", "id": "ee98-f472-9911-cfb2", "hidden": false, "targetId": "a4b9-9c88-086f-205e", "type": "rule"},
+                  {"name": "Close-quarters", "id": "8152-af2f-8c85-bb11", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
+                  {"name": "Twin-linked", "id": "e2f9-0844-d405-95e1", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Logos Array",
+                    "id": "525c-ba71-bd56-74ee",
+                    "hidden": false,
+                    "typeId": "f77d-b953-8fa4-b762",
+                    "typeName": "Ranged Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
+                      {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+                      {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                      {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                      {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                      {"name": "Keywords", "$text": "Close-Quarters, Twin-Linked, Pinning", "typeId": "7f1b-8591-2fcf-d01c"}
+                    ]
+                  },
+                  {
+                    "name": "Logos Array",
+                    "id": "dba3-14c5-a435-2da9",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "6", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "7", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "-4", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Forgebreaker Desecrated",
+                "id": "5a6b-5a66-2ba2-2fcf",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [{"id": "ff76-37a8-9d3d-1404", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 35},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "infoLinks": [{"name": "Anti", "id": "9376-e0b9-1a8d-64f8", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}],
+                "profiles": [
+                  {
+                    "name": "Forgebreaker Desecrated",
+                    "id": "61da-c636-cd41-dd54",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "12", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "-5", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "5", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "Anti-Vehicle 2+", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Iron Circle Maniple",
+        "id": "8fbf-3e43-819a-d371",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Walker", "id": "c519-c695-140e-a1d3", "hidden": false, "primary": true, "targetId": "6dda-e157-334d-e93a"},
+          {"name": "Vehicle", "id": "00c7-4dda-4c91-e051", "hidden": false, "primary": false, "targetId": "dbd4-63-af05-998"},
+          {"name": "Automata", "id": "4780-f633-edf3-8564", "hidden": false, "primary": false, "targetId": "2607-f7fc-13d2-8213"},
+          {"name": "Faction: Iron Warrior", "id": "f88f-2064-b004-498d", "hidden": false, "primary": false, "targetId": "646b-2fc9-f9e9-3295"},
+          {"name": "Iron Circle Maniple", "id": "0f0c-75ba-5415-eb91", "hidden": false, "primary": false, "targetId": "da25-e097-d5a0-23b8"}
+        ],
+        "constraints": [{"id": "6379-4328-73cc-fd5e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Moving Bulwark", "id": "23a7-8d47-01da-4806", "hidden": false, "targetId": "fccb-fc17-64ad-7344", "type": "profile"},
+          {
+            "name": "Hammer of Wraith",
+            "id": "583f-c0a2-85e4-eb13",
+            "hidden": false,
+            "targetId": "facf-8502-db26-947c",
+            "type": "profile",
+            "modifiers": [
+              {"field": "name", "join": " ", "type": "append", "value": "3"},
+              {"arg": "suffers 1", "field": "9b8f-694b-e5e-b573", "join": " ", "type": "replace", "value": "suffers 3"}
+            ]
+          },
+          {"name": "Wrack and Ruin", "id": "43cb-46cc-ecfc-c1cd", "hidden": false, "targetId": "e073-96f1-02f2-4636", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Sheild of the Iron Tyrant",
+            "id": "f378-7b07-d046-2612",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This unit has a **[Feel No Pain 5+]** while withing 3\" of **Perturabo**", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Domitar-ferrum",
+            "id": "2094-aa9c-234e-940b",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Domitar-ferrum", "id": "3135-d5b5-0492-fd0d", "hidden": false, "primary": false, "targetId": "19d4-089b-1435-b231"}],
+            "constraints": [
+              {"id": "45e0-4b7f-09af-3874", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "cee3-5b08-2a32-b2f5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 5}
+            ],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 135},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": "Domitar-ferrum",
+                "id": "292c-f01d-2dc2-6141",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "8", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "6", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "60mm", "typeId": "nr-base-size"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Karceri Battle Sheild",
+                "id": "6c8e-3f75-eb45-9aaf",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "da13-07f3-497d-ca3c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "603c-4fb2-6911-52b3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "modifiers": [{"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "5+"}],
+                "profiles": [
+                  {
+                    "name": "Karceri Battle Sheild",
+                    "id": "d806-e4c3-337a-45ff",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "$text": "Once per battle per model, If this model has more then 1 wound and an attack where to reduce it to 0 wounds or less instead this model lives on 1 **wound**",
+                        "typeId": "9b8f-694b-e5e-b573"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapons",
+                "id": "d939-febf-f9e2-704f",
+                "hidden": false,
+                "entryLinks": [
+                  {
+                    "name": "Shrapnel Cannon",
+                    "id": "ad9e-b30f-65f5-219a",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "a0dd-0682-3bb1-893b",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "5958-019e-5a4e-9a19", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "f1ea-014d-6833-5ce8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  },
+                  {
+                    "name": "Graviton Maul",
+                    "id": "cdfb-e6ac-424b-b8b0",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6d61-d8e1-5069-94d1",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "fd44-9a14-543a-c54d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "6598-f348-4ba9-41ac", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 2},
+                  {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tyrant Siege Terminators",
+        "id": "384e-70c8-756d-b0a9",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "upgrade",
+        "categoryLinks": [
+          {"name": "Infantry", "id": "8cf0-56e3-34d6-9c58", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "29e4-326a-2876-b76c", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Terminator", "id": "6ee2-a240-7a37-ec59", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Cataphracii", "id": "fc76-e031-89f1-08ef", "hidden": false, "primary": false, "targetId": "163e-4731-8e1a-b26b"},
+          {"name": "Faction: Iron Warrior", "id": "3809-3a86-618a-d648", "hidden": false, "primary": false, "targetId": "646b-2fc9-f9e9-3295"},
+          {"name": "Tyrant Siege Terminators", "id": "6eed-e498-8662-f972", "hidden": false, "primary": false, "targetId": "8187-28f0-fd04-b740"}
+        ],
+        "constraints": [{"id": "e390-3d46-9bc7-c332", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 300},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [{"name": "Wrack and Ruin", "id": "f46c-69a6-b017-9620", "hidden": false, "targetId": "e073-96f1-02f2-4636", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 300,
+            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "self", "shared": true, "type": "atLeast", "value": 6}]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Siege Master",
+            "id": "b042-f766-0dbd-3c50",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Sergeant", "id": "db60-96d0-2d35-a91a", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "constraints": [
+              {"id": "67c2-5230-d6fc-daf5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "0b1a-275e-54b2-c676", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "entryLinks": [
+              {
+                "name": "Omni-Scope",
+                "id": "3142-5da9-edc2-8ed0",
+                "hidden": false,
+                "import": true,
+                "targetId": "7bdb-6f3d-8e49-89b0",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "377a-5e4d-2294-896c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "9dd6-ab73-0638-3e76", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Siege Master",
+                "id": "340e-0511-f4a4-da2d",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "5\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapons",
+                "id": "9af1-4c07-ddcb-c9f5",
+                "hidden": false,
+                "entryLinks": [
+                  {
+                    "name": "Twin-Lightning Claws",
+                    "id": "1991-2c1c-0d92-cb78",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6138-cb05-c38a-d295",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "ecf3-35b5-e0b8-e544", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+                  },
+                  {
+                    "name": "Combi-Bolter",
+                    "id": "5936-ca40-21f4-2031",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "0195-c2fa-56aa-9582",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "cfe5-58d5-889e-80b8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "be98-6241-4288-8ea8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditions": [
+                          {"childId": "6138-cb05-c38a-d295", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
+                  {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
+                  {"affects": "profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "type": "increment", "value": 1}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Tyrant Rocket Laucher",
+                    "id": "1a85-6a14-a301-2151",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {"id": "41e2-6f62-571e-9890", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "ba9a-5217-f741-0a40", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "infoLinks": [
+                      {"name": "Blast", "id": "2862-801c-869e-cd9e", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+                      {"name": "Anti", "id": "c799-8176-e8bb-cbe7", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}
+                    ],
+                    "profiles": [
+                      {
+                        "name": "➤ Tyrant Rocket Laucher - Krak",
+                        "id": "9572-dbf4-87f8-e86b",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+                          {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                          {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
+                        ]
+                      },
+                      {
+                        "name": "➤ Tyrant Rocket Laucher - Frag",
+                        "id": "f5a5-f98d-aaf3-c42f",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+                          {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                          {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "Keywords", "$text": "Blast 1", "typeId": "7f1b-8591-2fcf-d01c"}
+                        ]
+                      },
+                      {
+                        "name": "➤ Tyrant Rocket Laucher - Flak",
+                        "id": "86df-dfde-528e-83a0",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+                          {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                          {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "Keywords", "$text": "Anti-Fly 3+", "typeId": "7f1b-8591-2fcf-d01c"}
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Melee Weapon",
+                    "id": "b67a-9369-d666-176e",
+                    "defaultSelectionEntryId": "ece4-0326-a31d-cdfd",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "94e1-0d53-65bf-b214", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "bae7-7fcc-3188-b5f2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Power Fist", "id": "ece4-0326-a31d-cdfd", "hidden": false, "import": true, "targetId": "1f23-df82-9bea-2ebf", "type": "selectionEntry"},
+                      {
+                        "name": "Chainfist",
+                        "id": "e164-9edc-aac7-e511",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6d78-58ee-9119-b2e0",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditions": [
+                          {"childId": "6138-cb05-c38a-d295", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tyrant",
+            "id": "2171-17e7-1d30-e631",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "5bb0-2449-64ea-7f04", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "afd5-ade6-9eae-4425", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 9}
+            ],
+            "profiles": [
+              {
+                "name": "Tyrant",
+                "id": "168f-9046-c419-28da",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "5\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapons",
+                "id": "a4ee-e22f-de47-d9e4",
+                "hidden": false,
+                "entryLinks": [
+                  {
+                    "name": "Twin-Lightning Claws",
+                    "id": "29ab-4933-c20e-2b69",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6138-cb05-c38a-d295",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "c7cb-1ab0-233f-deb4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+                  },
+                  {
+                    "name": "Combi-Bolter",
+                    "id": "3795-1b09-80d8-9be0",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "0195-c2fa-56aa-9582",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "9ed4-7a81-8ce3-0d42", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "1d53-8d9f-88bb-ee4c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditions": [
+                          {"childId": "6138-cb05-c38a-d295", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
+                  {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Tyrant Rocket Laucher",
+                    "id": "6a00-18ef-7e65-103f",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [
+                      {"id": "0c3c-d168-ca29-c28d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "2506-6fe3-f28f-32bd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "infoLinks": [
+                      {"name": "Blast", "id": "0be0-66f1-fad0-3862", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+                      {"name": "Anti", "id": "447d-1365-7249-18ac", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}
+                    ],
+                    "profiles": [
+                      {
+                        "name": "➤ Tyrant Rocket Laucher - Krak",
+                        "id": "12c0-e505-61c2-ab68",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+                          {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                          {"name": "S", "$text": "10", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "D", "$text": "D3+3", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
+                        ]
+                      },
+                      {
+                        "name": "➤ Tyrant Rocket Laucher - Frag",
+                        "id": "9580-89ed-3a84-d4ca",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+                          {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                          {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "Keywords", "$text": "Blast 1", "typeId": "7f1b-8591-2fcf-d01c"}
+                        ]
+                      },
+                      {
+                        "name": "➤ Tyrant Rocket Laucher - Flak",
+                        "id": "a6f4-30d0-606b-af41",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
+                          {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                          {"name": "S", "$text": "8", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "Keywords", "$text": "Anti-Fly 3+", "typeId": "7f1b-8591-2fcf-d01c"}
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Melee Weapon",
+                    "id": "87df-d2f7-b66b-3b6e",
+                    "defaultSelectionEntryId": "ecaf-d3fc-113c-9ade",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "9d3c-ebe8-69d2-86eb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "4625-f551-dcc0-4cee", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Power Fist", "id": "ecaf-d3fc-113c-9ade", "hidden": false, "import": true, "targetId": "1f23-df82-9bea-2ebf", "type": "selectionEntry"},
+                      {
+                        "name": "Chainfist",
+                        "id": "b7a0-5fa5-e84f-83f6",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6d78-58ee-9119-b2e0",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditions": [
+                          {"childId": "6138-cb05-c38a-d295", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Wrack and Ruin",
+        "id": "e073-96f1-02f2-4636",
+        "description": "Improve the **strength** of all weapons that are used by models with this rule when **targeting** a **vehicle** or **fortification** unit",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Detachment",
+        "id": "d7c3-9abe-a66e-9da6",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Configuration", "id": "284b-eaad-d8f8-8b9a", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249"}],
+        "constraints": [
+          {
+            "id": "c8da-71d9-2527-d89f",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "7c6e-fd01-4fe0-554a",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [{"name": "Common Detachments", "id": "7508-d21b-367a-f97d", "hidden": false, "import": true, "targetId": "1a9b-dc90-4bb8-6fee", "type": "selectionEntryGroup"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "cac3-71d1-ea4b-795d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

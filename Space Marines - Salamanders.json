@@ -20,7 +20,12 @@
       {"name": "Pyroclast Squad", "id": "67ee-f4b9-7ea6-e877", "hidden": false},
       {"name": "Nomus Rhy'Tan", "id": "94a2-3449-db1d-c8a5", "hidden": false},
       {"name": "Xiaphas Jurr", "id": "8fc2-28d9-0185-64ba", "hidden": false},
-      {"name": "Sanctifier Squad", "id": "52e7-5905-1bab-a938", "hidden": false}
+      {"name": "Sanctifier Squad", "id": "52e7-5905-1bab-a938", "hidden": false},
+      {"name": "Adherents Squad", "id": "1cba-a0cf-70f4-16de", "hidden": false},
+      {"name": "Adrax Agatone", "id": "280a-eba4-fcf9-7c1c", "hidden": false},
+      {"name": "Vulkan He'stan", "id": "f936-4cbb-4f07-0b65", "hidden": false},
+      {"name": "Noctures Hammer", "id": "2c14-95a6-cfa7-f684", "hidden": false},
+      {"name": "Lord of the Firedrakes", "id": "741f-64d1-4011-e5a9", "hidden": false}
     ],
     "entryLinks": [
       {
@@ -92,7 +97,10 @@
         "import": true,
         "targetId": "28bf-8fe9-1cec-30ac",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "b586-c477-315c-014c", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "b586-c477-315c-014c", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "6701-0262-041d-1f88", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -102,7 +110,10 @@
         "import": true,
         "targetId": "ce57-3967-c54e-fdf9",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "675f-d04c-648d-a1e0", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "675f-d04c-648d-a1e0", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "d6df-894c-5889-6749", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -112,7 +123,10 @@
         "import": true,
         "targetId": "9c84-4621-d522-c8d5",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "a9ef-44db-00d6-b345", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "a9ef-44db-00d6-b345", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "f53c-4098-d154-5c03", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -122,7 +136,10 @@
         "import": true,
         "targetId": "dd6a-027c-5acd-4779",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "7f4c-134a-f503-3608", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "7f4c-134a-f503-3608", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "10ab-fce5-7a2f-92cd", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -132,7 +149,10 @@
         "import": true,
         "targetId": "d7bc-ba47-227a-ca16",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "7830-eaf2-8ff6-e2c5", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "7830-eaf2-8ff6-e2c5", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "22b0-7d2c-c08b-21a5", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -142,7 +162,10 @@
         "import": true,
         "targetId": "a00b-e416-84ab-4700",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "d664-f45b-9e17-7091", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "d664-f45b-9e17-7091", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "52aa-0f05-370c-ca1a", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -152,7 +175,10 @@
         "import": true,
         "targetId": "3187-3d1d-c6a5-6dab",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "744c-431f-bb01-5cec", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "744c-431f-bb01-5cec", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "0d6d-022f-2832-2142", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -162,7 +188,10 @@
         "import": true,
         "targetId": "00b3-cab0-3ed0-46e7",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "176f-e434-608d-91c0", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "176f-e434-608d-91c0", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "0053-37d0-2477-d0b6", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -172,7 +201,10 @@
         "import": true,
         "targetId": "998f-7eb2-26ee-2a84",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "8c19-dc0e-5ae5-c924", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "8c19-dc0e-5ae5-c924", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "4dd5-4b46-b295-85da", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -182,7 +214,10 @@
         "import": true,
         "targetId": "56c0-45e5-91ca-5b8a",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "1a97-36a7-fd35-312a", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "1a97-36a7-fd35-312a", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "0ca5-3e3d-c070-6b28", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -192,7 +227,10 @@
         "import": true,
         "targetId": "eaff-53c9-a602-2479",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "9e4f-1231-a118-ded5", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "9e4f-1231-a118-ded5", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "e73c-23f0-15f2-5294", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -202,7 +240,10 @@
         "import": true,
         "targetId": "34e9-c499-a5b2-66a9",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "2ec3-c588-bd3d-205f", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "2ec3-c588-bd3d-205f", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "5bfa-1741-6ae0-c26a", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -421,7 +462,10 @@
         "import": true,
         "targetId": "4e15-f59f-a942-c829",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "8cfe-1fce-f771-0c3f", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "8cfe-1fce-f771-0c3f", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "abbe-c612-c636-6220", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -431,7 +475,10 @@
         "import": true,
         "targetId": "5a8c-8f7e-c8f3-458e",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "52aa-a22c-598b-e9a0", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "52aa-a22c-598b-e9a0", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "e9a0-3d64-2906-62b4", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -441,7 +488,10 @@
         "import": true,
         "targetId": "46e1-af9e-302a-b2ff",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "59ac-87d9-120a-5c34", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "59ac-87d9-120a-5c34", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "b141-a2e1-a7be-9513", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -451,7 +501,10 @@
         "import": true,
         "targetId": "d6db-a7b1-09df-5034",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "a2c8-29ce-064d-7db3", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "a2c8-29ce-064d-7db3", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "1f83-b62d-7d26-5052", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -461,7 +514,10 @@
         "import": true,
         "targetId": "8e62-aa3b-9a26-b151",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "707d-6585-1f5d-9c91", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "707d-6585-1f5d-9c91", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "78d8-e0ff-7bb7-e78a", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -471,7 +527,10 @@
         "import": true,
         "targetId": "a1a0-a39e-c9d8-885a",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "7822-c099-3d48-12e5", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "7822-c099-3d48-12e5", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "1f18-4291-2857-6f5c", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -481,7 +540,10 @@
         "import": true,
         "targetId": "70c6-b440-89df-6881",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "035e-e433-934d-d406", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "035e-e433-934d-d406", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "7fb0-e6f9-e538-97a5", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -491,7 +553,10 @@
         "import": true,
         "targetId": "dd4d-8bc3-7d45-d3aa",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "4f84-2f89-3aa4-8256", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "4f84-2f89-3aa4-8256", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "13f6-77b4-1b46-f444", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -501,7 +566,10 @@
         "import": true,
         "targetId": "328a-c702-2f0a-6444",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "6d87-87c0-2106-f3b3", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "6d87-87c0-2106-f3b3", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "a713-fe87-627f-2474", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -511,7 +579,10 @@
         "import": true,
         "targetId": "3976-982f-34dc-06f8",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "e691-8b2a-5cc9-52a8", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "e691-8b2a-5cc9-52a8", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "9936-f045-89c6-97e8", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -552,7 +623,10 @@
         "import": true,
         "targetId": "260d-fcdb-bce6-adc6",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "d502-4031-921f-f5d4", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "d502-4031-921f-f5d4", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "0465-5770-9650-4e54", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3583-4c5d-bf42-1f69"}, {"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -562,7 +636,10 @@
         "import": true,
         "targetId": "326d-a698-02b6-8e8d",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "0d8d-4d3a-1151-0fe8", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "0d8d-4d3a-1151-0fe8", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "70db-855c-2eb5-3c23", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -582,7 +659,10 @@
         "import": true,
         "targetId": "f543-f511-bd0d-8611",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "dec3-7690-94d4-2d2c", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "dec3-7690-94d4-2d2c", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "4b7e-ab75-73e0-2d81", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -612,7 +692,10 @@
         "import": true,
         "targetId": "c678-20b5-8b21-4fbb",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "c1d0-f2a3-4416-eb2d", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "c1d0-f2a3-4416-eb2d", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "61da-d713-a761-c29f", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -622,7 +705,10 @@
         "import": true,
         "targetId": "4065-c653-1b0c-4f8f",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "6835-efcc-7f0b-82ec", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "6835-efcc-7f0b-82ec", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "b7e5-e444-4743-d232", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -832,7 +918,10 @@
         "import": true,
         "targetId": "b24a-af33-bbf8-8c21",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "15b2-723c-046b-4292", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "15b2-723c-046b-4292", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "0174-9884-f566-8096", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -902,7 +991,10 @@
         "import": true,
         "targetId": "533b-2c5b-c5aa-7fac",
         "type": "selectionEntry",
-        "infoLinks": [{"name": "Blood of Fire", "id": "7510-e3c1-e0a9-820f", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "7510-e3c1-e0a9-820f", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "15a0-3080-1c1f-c583", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
       },
       {
@@ -1358,8 +1450,73 @@
         "type": "selectionEntry",
         "infoLinks": [{"name": "Blood of Fire", "id": "f607-04cc-fe2b-c07c", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
         "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
+      },
+      {
+        "name": "Legion Saturnine Praetor",
+        "id": "1384-637b-e588-5b74",
+        "hidden": false,
+        "import": true,
+        "targetId": "fb08-e4c3-c2dd-0fc7",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "8971-18a5-21de-19df", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "4d5f-742f-8297-341e", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
+      },
+      {
+        "name": "Legion Saturnine Centurion",
+        "id": "45f2-4896-5482-4d49",
+        "hidden": false,
+        "import": true,
+        "targetId": "b360-e1a4-246c-0b44",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "7fb8-38c8-d2e5-6d1e", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "2947-b5c4-5899-81b6", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
+      },
+      {
+        "name": "Legion Saturnine Command Squad",
+        "id": "c098-7f47-18bb-d796",
+        "hidden": false,
+        "import": true,
+        "targetId": "461a-2b45-411c-50a3",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "90d8-7cf7-684f-ec00", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "3a6a-8604-c92e-9158", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "3826-6483-b50e-6b8f"}]
+      },
+      {
+        "name": "Legion Saturnine Terminator Squad",
+        "id": "c528-3342-0f0e-44db",
+        "hidden": false,
+        "import": true,
+        "targetId": "dbe4-370a-baf7-d82d",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Dragons Will", "id": "76c3-ad7e-d3d4-2cdb", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}]
+      },
+      {
+        "name": "Legion Saturnine Dreadnought",
+        "id": "be32-f13f-337b-761e",
+        "hidden": false,
+        "import": true,
+        "targetId": "bb4b-be3a-d843-5a66",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Araknae Quad Accelerator Platform",
+        "id": "2d23-d427-31ec-ef32",
+        "hidden": false,
+        "import": true,
+        "targetId": "ddc4-a817-ebab-5b10",
+        "type": "selectionEntry"
       }
     ],
+    "infoLinks": [{"name": "Crushing Bulk", "id": "fcd4-12f8-cf45-f2bb", "hidden": false, "targetId": "b110-e55e-50dc-963e", "type": "profile"}],
     "selectionEntries": [
       {
         "name": "Vulkan",
@@ -1557,7 +1714,10 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
-        "infoLinks": [{"name": "Blood of Fire", "id": "4338-f3b4-a99b-aef6", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "4338-f3b4-a99b-aef6", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "b70b-b9d6-8614-e8b1", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
         "modifiers": [
           {
             "field": "category",
@@ -1599,16 +1759,31 @@
             "field": "e306-d713-5044-d50d",
             "type": "set",
             "value": 6,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "3028-a490-6c51-3d3c",
-                "childName": "Pride of the Legion",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "3028-a490-6c51-3d3c",
+                    "childName": "Pride of the Legion",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "741f-64d1-4011-e5a9",
+                    "childName": "Lord of the Firedrakes",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           },
@@ -1616,16 +1791,31 @@
             "field": "category",
             "type": "set-primary",
             "value": "e338-111e-d0c6-b687",
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "3028-a490-6c51-3d3c",
-                "childName": "Pride of the Legion",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "3028-a490-6c51-3d3c",
+                    "childName": "Pride of the Legion",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "741f-64d1-4011-e5a9",
+                    "childName": "Lord of the Firedrakes",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           },
@@ -1672,6 +1862,7 @@
               {"id": "f61e-9aa8-9f0a-bf9a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "01e5-967b-a4f4-f13d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
+            "entryLinks": [{"name": "Salamander Wargear", "id": "c7e6-30f2-c124-96c1", "hidden": false, "import": true, "targetId": "6408-abf0-3ac1-38cb", "type": "selectionEntryGroup"}],
             "modifiers": [
               {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
               {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "3bb-c35f-f54-fb08", "type": "increment", "value": 1}
@@ -2088,16 +2279,32 @@
             "field": "f4b2-4adf-4ecb-830a",
             "type": "set",
             "value": 6,
-            "conditions": [
+            "conditionGroups": [
               {
-                "childId": "da80-9ade-9403-8ff2",
-                "childName": "Covenant of Fire",
-                "field": "selections",
-                "includeChildSelections": true,
-                "scope": "force",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "da80-9ade-9403-8ff2",
+                    "childName": "Covenant of Fire",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2c14-95a6-cfa7-f684",
+                    "childName": "Noctures Hammer",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
               }
             ]
           },
@@ -2117,6 +2324,18 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 175,
+            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "self", "shared": true, "type": "greaterThan", "value": 10}]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 175,
+            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "self", "shared": true, "type": "greaterThan", "value": 15}]
           }
         ],
         "profiles": [
@@ -2156,7 +2375,7 @@
             "hidden": false,
             "import": true,
             "sortIndex": 1,
-            "type": "upgrade",
+            "type": "model",
             "categoryLinks": [{"name": "Sergeant", "id": "baa2-0b77-efea-1560", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
             "constraints": [
               {"id": "1144-c5d6-ec3a-46b4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -2303,10 +2522,30 @@
             "id": "ce93-0698-a293-9833",
             "hidden": false,
             "import": true,
-            "type": "upgrade",
+            "type": "model",
             "constraints": [
               {"id": "7348-c95b-e592-eadf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
               {"id": "c003-126b-8d50-7c30", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 9}
+            ],
+            "modifiers": [
+              {
+                "field": "c003-126b-8d50-7c30",
+                "type": "set",
+                "value": 19,
+                "conditions": [
+                  {
+                    "childId": "2c14-95a6-cfa7-f684",
+                    "childName": "Noctures Hammer",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
             ],
             "profiles": [
               {
@@ -2607,8 +2846,9 @@
           {"name": "Infantry", "id": "b74e-ff20-bfe6-96cf", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Leader", "id": "b372-bd05-6ed1-91e3", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
           {"name": "Chaplin", "id": "3c33-f3c6-1315-91f1", "hidden": false, "primary": false, "targetId": "b629-d058-55d0-36e7"},
-          {"name": "Faction: Salamanders", "id": "2a61-4775-f1d3-5863", "hidden": false, "primary": false, "targetId": "3826-6483-b50e-6b8f"},
-          {"name": "Nomus Rhy'Tan", "id": "0355-124f-5c18-c083", "hidden": false, "primary": false, "targetId": "94a2-3449-db1d-c8a5"}
+          {"name": "Nomus Rhy'Tan", "id": "0355-124f-5c18-c083", "hidden": false, "primary": false, "targetId": "94a2-3449-db1d-c8a5"},
+          {"name": "Faction: Salamanders", "id": "b01c-5d77-64a7-bf2f", "hidden": false, "primary": false, "targetId": "3826-6483-b50e-6b8f"},
+          {"name": "Captain", "id": "018b-9be7-e912-f798", "hidden": false, "primary": false, "targetId": "2d7f-1892-2fd0-e29c"}
         ],
         "constraints": [{"id": "295e-337e-d799-8a0c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
         "costs": [
@@ -2761,6 +3001,7 @@
           {"name": "Xiaphas Jurr", "id": "fc53-f25a-1853-3a36", "hidden": false, "primary": false, "targetId": "8fc2-28d9-0185-64ba"},
           {"name": "Psyker", "id": "eac7-b657-2d53-2b20", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"}
         ],
+        "constraints": [{"id": "c427-dac3-d3e2-ae4a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
         "costs": [
           {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 145},
           {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
@@ -3480,6 +3721,1137 @@
                     "entryLinks": [{"name": "Chainsword", "id": "ca48-c0c9-ef56-37ad", "hidden": false, "import": true, "targetId": "63c7-4506-ca4e-e64a", "type": "selectionEntry"}]
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Adherents Squad",
+        "id": "4e66-e6af-a749-cbb9",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Battleline", "id": "8f6b-56ce-33a2-64a0", "hidden": false, "primary": true, "targetId": "e338-111e-d0c6-b687"},
+          {"name": "Infantry", "id": "b239-42e1-4f81-1476", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "d3fb-6928-2bdc-75f3", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Faction: Salamanders", "id": "af31-8b19-d093-8020", "hidden": false, "primary": false, "targetId": "3826-6483-b50e-6b8f"},
+          {"name": "Adherents Squad", "id": "5dfc-189b-a460-0c9b", "hidden": false, "primary": false, "targetId": "1cba-a0cf-70f4-16de"}
+        ],
+        "constraints": [{"id": "aa72-5929-49f4-83e2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 6}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 140},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [{"name": "Blood of Fire", "id": "a020-7e06-47e1-8934", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "6385-b04f-2e5f-56dc",
+            "conditions": [
+              {
+                "childId": "a3cf-044a-6dbb-0e85",
+                "childName": "Loyalist",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "ab5d-ae96-512e-2748",
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 140,
+            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "self", "shared": true, "type": "atLeast", "value": 6}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Guided by Flame",
+            "id": "46ea-c3ec-1305-80fe",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "If this unit isn't **Battle-shocked** you can make a leadership test at the start of the fight phase. If this unit passes it gains **[Feel No Pain 6+]** else this unit is **battle-shocked**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Adherent Sergeant",
+            "id": "2ad5-067d-d25e-45b4",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "type": "model",
+            "categoryLinks": [{"name": "Sergeant", "id": "39e5-04a3-d94b-1ff4", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "constraints": [
+              {"id": "db4b-e695-0a6e-1424", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "a6c2-12ef-438f-2f88", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "profiles": [
+              {
+                "name": "Adherent Sergeant",
+                "id": "456c-f44e-fb03-7b16",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapons",
+                "id": "c576-a6af-58e8-3392",
+                "hidden": false,
+                "entryLinks": [
+                  {
+                    "name": "Fisticuffs (Human)",
+                    "id": "ba36-0423-4079-4361",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9520-7397-b14a-140c",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "981f-b522-bc8c-0e6d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "b7ff-c9ce-3b01-25c0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {"affects": "recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "recursive.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "scope": "parent", "type": "increment", "value": 1}
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Ranged Weapon",
+                    "id": "30a8-2ee1-0daa-2115",
+                    "defaultSelectionEntryId": "832a-a146-311b-00f9",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "49f7-ee2e-b2fc-7ec6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "07dd-61b0-0255-1406", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Dragon's Breath Heavy Flamer",
+                        "id": "71e0-7204-13aa-fa6b",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6504-5dba-4e15-318b",
+                        "type": "selectionEntry",
+                        "constraints": [{"id": "8ae6-c1b8-478b-ef89", "field": "selections", "includeChildSelections": true, "scope": "unit-self", "shared": true, "type": "max", "value": 1}],
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}],
+                        "modifiers": [
+                          {
+                            "field": "8ae6-c1b8-478b-ef89",
+                            "type": "increment",
+                            "value": 1,
+                            "conditions": [
+                              {
+                                "childId": "model",
+                                "childName": "model",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "unit-self",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 6
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {"name": "Dragon's Breath Flamer", "id": "832a-a146-311b-00f9", "hidden": false, "import": true, "targetId": "da0d-286d-5e1f-8549", "type": "selectionEntry"}
+                    ]
+                  },
+                  {
+                    "name": "Melee Weapon",
+                    "id": "f82d-0990-2158-95a7",
+                    "hidden": false,
+                    "constraints": [{"id": "c515-b9a5-5bf9-621a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "entryLinks": [
+                      {
+                        "name": "Power Weapon",
+                        "id": "554b-4f50-e0e5-bcb3",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "3e76-8280-4841-075d",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+                      },
+                      {
+                        "name": "Power Fist",
+                        "id": "b319-e59f-97bb-9bbf",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "1f23-df82-9bea-2ebf",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}]
+                      },
+                      {
+                        "name": "Thunder Hammer",
+                        "id": "da21-b8a3-a41a-d03f",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6a81-9e86-bdb9-1d22",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Wargear",
+                "id": "7b14-e008-ae6e-1e89",
+                "hidden": false,
+                "entryLinks": [
+                  {
+                    "name": "Legion Wargear",
+                    "id": "bf08-6dc4-e62a-07e1",
+                    "hidden": false,
+                    "import": true,
+                    "sortIndex": 1,
+                    "targetId": "f30a-2276-0559-198c",
+                    "type": "selectionEntryGroup"
+                  },
+                  {
+                    "name": "Artificer Armour",
+                    "id": "aafc-42f7-dde5-6025",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "3c74-1631-7133-90a0",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "604e-f248-a006-a454", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Adherent",
+            "id": "7a71-5547-c102-a45a",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "54fe-6fe0-2511-4bfc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "e0a1-63c2-e31f-b648", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 9}
+            ],
+            "profiles": [
+              {
+                "name": "Adherent",
+                "id": "de94-dc37-329d-2571",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapons",
+                "id": "a271-ff41-a289-739b",
+                "hidden": false,
+                "entryLinks": [
+                  {
+                    "name": "Fisticuffs (Human)",
+                    "id": "9367-94b8-6418-a2a5",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9520-7397-b14a-140c",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "dcc9-93a1-8882-8216", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "a6e5-c47f-4d7f-5b07", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {"affects": "recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "scope": "parent", "type": "increment", "value": 1}
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Ranged Weapon",
+                    "id": "4a5d-6995-01da-6975",
+                    "defaultSelectionEntryId": "3959-6aa1-ca1f-185d",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "1dd5-ec04-256e-7557", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "8c00-2a0f-32c2-198c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Dragon's Breath Heavy Flamer",
+                        "id": "8060-369f-c99f-3e21",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6504-5dba-4e15-318b",
+                        "type": "selectionEntry",
+                        "constraints": [{"id": "8ab1-6586-d557-a90d", "field": "selections", "includeChildSelections": true, "scope": "unit-self", "shared": true, "type": "max", "value": 1}],
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}],
+                        "modifiers": [
+                          {
+                            "field": "8ab1-6586-d557-a90d",
+                            "type": "increment",
+                            "value": 1,
+                            "conditions": [
+                              {
+                                "childId": "model",
+                                "childName": "model",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "unit-self",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 6
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {"name": "Dragon's Breath Flamer", "id": "3959-6aa1-ca1f-185d", "hidden": false, "import": true, "targetId": "da0d-286d-5e1f-8549", "type": "selectionEntry"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Adrax Agatone",
+        "id": "e688-20d9-9761-a9e1",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "27c5-0e25-1893-ae01",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "9ba8-7087-dcbd-9fd8",
+                    "childName": "Assault Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "930d-2875-125b-a65e",
+                    "childName": "Bladeguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "5956-471c-16ba-af95",
+                    "childName": "Company Heroes",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 5,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "5fe6-20de-df8d-8e92",
+                    "childName": "Infernus Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 6,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "7b57-816b-44b2-65ec",
+                    "childName": "Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 7,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "e05e-b4e4-6db0-5d42",
+                    "childName": "Sternguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 8,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 10,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {"name": "Epic Hero", "id": "c81d-837c-a94b-4347", "hidden": false, "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
+          {"name": "Character", "id": "f41f-9f13-6392-14e6", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "327b-4b16-71f4-e680", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Captain", "id": "b67d-e1ab-0559-a078", "hidden": false, "primary": false, "targetId": "2d7f-1892-2fd0-e29c"},
+          {"name": "Leader", "id": "91d7-db26-7df3-7fd2", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Explosives", "id": "48e9-96e7-e8fb-166d", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Adrax Agatone", "id": "f134-b3d5-ff47-bbcc", "hidden": false, "primary": false, "targetId": "280a-eba4-fcf9-7c1c"}
+        ],
+        "constraints": [{"id": "0a70-997f-3f7d-84f2", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 90},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+          {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+          {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+        ],
+        "entryLinks": [{"name": "Warlord", "id": "aa5b-e89b-43e7-b487", "hidden": false, "import": true, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"}],
+        "infoLinks": [{"name": "Leader", "id": "bbd6-664f-b326-5198", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "2c14-95a6-cfa7-f684",
+            "conditions": [{"childId": "464b-cef6-1b60-4f88", "childName": "Warlord", "field": "selections", "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Adrax Agatone",
+            "id": "d2e5-2e30-6fa7-68a9",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+              {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+            ]
+          },
+          {
+            "name": "Unto the Anvil",
+            "id": "ba60-156f-40c2-2e2f",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This unit’s melee attacks can:\n\n\n- Re-roll wound rolls of 1.\n- Or: If this unit has **charged** this turn re-roll all wounds for the turn",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Lord of the Pyroclasts",
+            "id": "1dcf-5070-3dac-9bf0",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "While an enemy unit is engaged with this unit, that enemy unit has -1 OC.", "typeId": "9b8f-694b-e5e-b573"}]
+          },
+          {
+            "name": "Leader",
+            "id": "8a16-d37d-6019-c8cb",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following units:\n\n", "typeId": "9b8f-694b-e5e-b573"}]
+          },
+          {
+            "name": "Noctures Hammer (Warlord Trait)",
+            "id": "be4c-4e94-66b2-d7e8",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Pyroclast Squad** can be take in squads of 20 and max of 10 and up to 6. All **[Torrent]** weapons gain re-roll wound rolls of 1",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "464b-cef6-1b60-4f88", "childName": "Warlord", "field": "selections", "scope": "self", "shared": true, "type": "lessThan", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Drakkis",
+            "id": "5f14-8ee6-21c5-f94e",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Torrent Weapon", "id": "db96-ff5d-b1f6-06b7", "hidden": false, "primary": false, "targetId": "064a-0470-60eb-e3ef"}],
+            "constraints": [
+              {"id": "f248-2976-7d0d-1dc6", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "f8cb-2a0e-6bae-3eb3", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Close-quarters", "id": "dcd3-6142-41d8-6bb1", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
+              {"name": "Torrent", "id": "67c8-d8f1-1cd1-d7fe", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Drakkis",
+                "id": "190c-86d9-9f19-09f2",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "D6+3", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "-", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Close-quarters, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Malleus Noctum",
+            "id": "e3d5-49d0-c8b9-65c3",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "d9d9-17c5-645a-95e7", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "0083-b1a1-1491-cdfa", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [{"name": "Devastating Wounds", "id": "1191-4fd7-efff-e860", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Malleus Noctum",
+                "id": "9b08-5e33-f99f-0518",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                  {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                  {"name": "S", "$text": "10", "typeId": "ab33-d393-96ce-ccba"},
+                  {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
+                  {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
+                  {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Crusade",
+            "id": "f12a-d339-029d-28c5",
+            "hidden": false,
+            "sortIndex": 1,
+            "entryLinks": [{"name": "Mighty Champions", "id": "df5a-f4bd-e8cc-2d91", "hidden": false, "import": true, "targetId": "f842-6e90-bc5a-80f1", "type": "selectionEntryGroup"}]
+          }
+        ]
+      },
+      {
+        "name": "Vulkan He'stan",
+        "id": "4c31-6a92-6a89-6a7a",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "b35a-66ed-67bb-48b0",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "9ba8-7087-dcbd-9fd8",
+                    "childName": "Assault Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "5956-471c-16ba-af95",
+                    "childName": "Company Heroes",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "68e3-e195-e8f-f56c",
+                    "childName": "Eradicator Squad with Melta Rifles",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 4,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "5fe6-20de-df8d-8e92",
+                    "childName": "Infernus Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 5,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 6,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "930d-2875-125b-a65e",
+                    "childName": "Bladeguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {"name": "Epic Hero", "id": "5904-517d-b3a2-1536", "hidden": false, "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
+          {"name": "Character", "id": "cb48-5535-9a4d-bdf6", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "c16f-a8a7-b1f3-6dca", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Captain", "id": "eb7a-5263-efca-83bd", "hidden": false, "primary": false, "targetId": "2d7f-1892-2fd0-e29c"},
+          {"name": "Grenades", "id": "3f28-81ea-dd49-88ee", "hidden": false, "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
+          {"name": "Leader", "id": "8dec-4c8e-517c-4a61", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Faction: Salamanders", "id": "1540-6017-e491-904e", "hidden": false, "primary": false, "targetId": "3826-6483-b50e-6b8f"},
+          {"name": "Vulkan He'stan", "id": "c43e-2805-a77d-7cd6", "hidden": false, "primary": false, "targetId": "f936-4cbb-4f07-0b65"}
+        ],
+        "constraints": [{"id": "8f45-48a6-d38f-4ea1", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 105},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0},
+          {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
+          {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Bolt Pistol",
+            "id": "842a-d048-a53e-baa2",
+            "hidden": false,
+            "import": true,
+            "targetId": "959d-ac2c-f31c-5d8e",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "05d8-78b1-68c1-9eff", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "eb32-cda9-d876-010b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {"name": "Warlord", "id": "a46e-478d-e678-1066", "hidden": false, "import": true, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"}
+        ],
+        "infoLinks": [
+          {"name": "Leader", "id": "102c-3514-6ce8-3274", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
+          {"name": "Feel No Pain 6+", "id": "6891-8a21-eff3-9c31", "hidden": false, "targetId": "676c-ecb5-d24d-3540", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Vulkan He'stan",
+            "id": "c071-3b0e-e2de-0b10",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+              {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+            ]
+          },
+          {
+            "name": "Forgefather",
+            "id": "65ba-0310-f17c-2aa5",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "In your Shooting phase, select one visible enemy unit within 24\" of this model. Friendly ^^**Salamander**^^ units’ [Melta]/[Torrent] attacks that target that enemy unit have +2 S.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "464b-cef6-1b60-4f88", "childName": "Warlord", "field": "selections", "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Seeker of the Unfound",
+            "id": "adf6-11a5-c588-e436",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "The first time this model is set up on the battlefield, select one objective on the battlefield. While this model is within range of that objective, this model has:\n\n- 10 OC.\n- 5+ Ld.\n- Feel No Pain 4+.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "id": "1eeb-5ff7-111c-40c4",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following units:\n", "typeId": "9b8f-694b-e5e-b573"}]
+          },
+          {
+            "name": "Forgefather of War (Warlord Trait)",
+            "id": "41ee-9552-6287-1295",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "All Friendly ^^**Salamander**^^ units’ [Melta]/[Torrent] attacks have +2 S while withing 24\" of this model.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "464b-cef6-1b60-4f88", "childName": "Warlord", "field": "selections", "scope": "self", "shared": true, "type": "lessThan", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Gauntlet of the Forge",
+            "id": "ceb1-f33c-887a-1b2f",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "7757-362e-eba3-aba5", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "eab1-8925-da69-53cd", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Close-quarters", "id": "51f1-0951-3bb4-11af", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
+              {"name": "Torrent", "id": "f8ec-fdb9-a924-a428", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Gauntlet of the Forge",
+                "id": "bea0-4a16-75e7-88a4",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "D6+3", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "-", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Close-quarters, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Spear of Vulkan",
+            "id": "65d6-9564-e1cb-ba07",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "d932-fec2-83d9-c098", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "cb68-823a-5b0f-afb0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [{"name": "Devastating Wounds", "id": "69bc-8714-83dc-e2d8", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Spear of Vulkan",
+                "id": "5fe9-3eeb-e627-438d",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                  {"name": "A", "$text": "6", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                  {"name": "S", "$text": "7", "typeId": "ab33-d393-96ce-ccba"},
+                  {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
+                  {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                  {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Crusade",
+            "id": "19f1-ee0b-55fc-d8c9",
+            "hidden": false,
+            "sortIndex": 1,
+            "entryLinks": [{"name": "Mighty Champions", "id": "5157-f912-4a5f-066a", "hidden": false, "import": true, "targetId": "f842-6e90-bc5a-80f1", "type": "selectionEntryGroup"}]
+          }
+        ]
+      },
+      {
+        "name": "Lord Ashtra Vantor",
+        "id": "d350-e113-5437-d4d4",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Character", "id": "7a0f-6b38-c6f0-dbcd", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Infantry", "id": "b8e1-fc63-6049-0b81", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Leader", "id": "8d94-8359-3107-48fe", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
+          {"name": "Terminator", "id": "abe9-9bf8-1fc0-ec6e", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Cataphracii", "id": "7a4f-ec16-7eff-dc9f", "hidden": false, "primary": false, "targetId": "163e-4731-8e1a-b26b"},
+          {"name": "Faction: Salamanders", "id": "6fab-21cc-b9d0-bd34", "hidden": false, "primary": false, "targetId": "3826-6483-b50e-6b8f"},
+          {"name": "Custom", "id": "b248-a4aa-1a57-51c7", "hidden": false, "primary": false, "targetId": "37ef-9693-88a2-c4eb"},
+          {"name": "Captain", "id": "09bc-0e89-cde3-8fff", "hidden": false, "primary": false, "targetId": "2d7f-1892-2fd0-e29c"},
+          {"name": "Epic Hero", "id": "f2fc-7259-cd68-48fd", "hidden": false, "primary": true, "targetId": "4f3a-f0f7-6647-348d"}
+        ],
+        "constraints": [{"id": "ae50-02b0-e632-51e9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 165},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {"name": "Warlord", "id": "7a25-6ca9-6f47-defb", "hidden": false, "import": true, "sortIndex": 1, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"},
+          {
+            "name": "Dragonscale Storm Sheild",
+            "id": "8314-6510-ea64-96f7",
+            "hidden": false,
+            "import": true,
+            "targetId": "cd21-411a-6a67-374a",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "76d1-8ad7-cc5c-b1bf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "6fb5-d806-fe55-9da4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Mantle of the Elder Drake",
+            "id": "9572-f1a8-3f36-8e41",
+            "hidden": false,
+            "import": true,
+            "targetId": "b8b3-eb95-c3e5-3cff",
+            "type": "selectionEntry",
+            "constraints": [{"id": "4037-86f0-8aca-59bf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Blood of Fire", "id": "ccd8-055a-470c-627b", "hidden": false, "targetId": "bf73-ae5b-3173-c96c", "type": "rule"},
+          {"name": "Dragons Will", "id": "88ff-c62e-13e8-1445", "hidden": false, "targetId": "5f13-aa7f-a4ff-3377", "type": "profile"}
+        ],
+        "modifiers": [
+          {
+            "field": "category",
+            "type": "add",
+            "value": "741f-64d1-4011-e5a9",
+            "conditions": [{"childId": "464b-cef6-1b60-4f88", "childName": "Warlord", "field": "selections", "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Lord of the Firedrakes (Warlord Trait)",
+            "id": "9729-b233-2834-b62e",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Firedrake Terminator Squads** become battleline and all **terminator** units gain the **Dragons Will** ability",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "464b-cef6-1b60-4f88", "childName": "Warlord", "field": "selections", "scope": "self", "shared": true, "type": "lessThan", "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Dragon Gaurd",
+            "id": "3daa-25a2-394a-af7b",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "While leading a unit this model and its unit have -1 to wound and reduce all incoming rend by 1.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Lord Ashtra Vantor",
+            "id": "494f-6fd2-e49d-2ad8",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "5\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
+              {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Dragon's Claw",
+            "id": "b748-4dc8-ea4f-a8b7",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "f3f4-2396-be98-fada", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "10bc-168e-fa35-208f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Sustained Hits", "id": "e313-303d-4924-46ff", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"},
+              {"name": "Lethal Hits", "id": "68e1-1607-4f10-3c57", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Dragon's Claw",
+                "id": "cf8f-36cd-3091-9f13",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                  {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                  {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
+                  {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
+                  {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                  {"name": "Keywords", "$text": "Lethal Hits, Sustained Hits 2", "typeId": "893f-9000-ccf7-648e"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Underslung Dragons Breath Flamer",
+                "id": "235a-3e38-bcdc-424d",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "329e-abf2-a4fd-4989", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "b0cd-18ac-eff6-1e55", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Dragon's Breath Flamer",
+                    "id": "bb0d-7f3c-23a6-1002",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "da0d-286d-5e1f-8549",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "f3a3-4c3c-40c7-2468", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "bdc3-fa4c-b043-5654", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Dragons Will",
+        "id": "5f13-aa7f-a4ff-3377",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "Models with this ability can not have their **leadership Charecteristic** modified", "typeId": "9b8f-694b-e5e-b573"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "741f-64d1-4011-e5a9",
+                "childName": "Lord of the Firedrakes",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
               }
             ]
           }

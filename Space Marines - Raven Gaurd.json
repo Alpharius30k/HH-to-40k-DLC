@@ -5689,6 +5689,47 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Legion Saturnine Centurion",
+        "id": "da5c-dc76-4c80-7a36",
+        "hidden": false,
+        "import": true,
+        "targetId": "b360-e1a4-246c-0b44",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Saturnine Praetor", "id": "94db-f323-c3ee-88ce", "hidden": false, "import": true, "targetId": "fb08-e4c3-c2dd-0fc7", "type": "selectionEntry"},
+      {
+        "name": "Legion Saturnine Command Squad",
+        "id": "811c-c60c-d99f-ff2d",
+        "hidden": false,
+        "import": true,
+        "targetId": "461a-2b45-411c-50a3",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Saturnine Terminator Squad",
+        "id": "e3c0-9c5c-e18b-44a9",
+        "hidden": false,
+        "import": true,
+        "targetId": "dbe4-370a-baf7-d82d",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Araknae Quad Accelerator Platform",
+        "id": "d6b1-192a-a05e-10d6",
+        "hidden": false,
+        "import": true,
+        "targetId": "ddc4-a817-ebab-5b10",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Saturnine Dreadnought",
+        "id": "1a21-0206-52c6-f30c",
+        "hidden": false,
+        "import": true,
+        "targetId": "bb4b-be3a-d843-5a66",
+        "type": "selectionEntry"
       }
     ],
     "selectionEntries": [
@@ -6448,7 +6489,8 @@
           {"name": "Faction: Raven Gaurd", "id": "0d51-e46a-d530-4205", "hidden": false, "primary": false, "targetId": "51c7-eb8f-f617-0348"},
           {"name": "Loyalist", "id": "5be5-ae6e-1c96-b79c", "hidden": false, "primary": false, "targetId": "6385-b04f-2e5f-56dc"},
           {"name": "Fly", "id": "5106-3b30-5677-7d6d", "hidden": false, "primary": false, "targetId": "c619-2086-bbcf-69c9"},
-          {"name": "Corvus Corax the Raven Deamon", "id": "300b-2dfb-ab3f-aa47", "hidden": false, "primary": false, "targetId": "22b7-50c6-9375-475d"}
+          {"name": "Corvus Corax the Raven Deamon", "id": "300b-2dfb-ab3f-aa47", "hidden": false, "primary": false, "targetId": "22b7-50c6-9375-475d"},
+          {"name": "Custom", "id": "d0f0-095d-d1a7-a76d", "hidden": false, "primary": false, "targetId": "37ef-9693-88a2-c4eb"}
         ],
         "constraints": [
           {
@@ -6606,6 +6648,20 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Crow Lord",
+            "id": "4875-9c51-9509-3a4f",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Once per battle round at the start of ever players turn. **Corvus Corax the Raven Deamon** looses **Ravens Talons** and gains **Swarm of Crows** instead in addition he looses **monster** and gains the **swarm** keyword. He looses the benefits of **Shadow Sable Armour** and has a **Invulnerable Save 6+** however has a **[Feel No Pain 2+]**. You can not swap back till the start of the same players turn in the next battle round.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -6662,22 +6718,6 @@
               {"affects": "recursive.profiles.Unit", "field": "450-a17e-9d5e-29da", "scope": "parent", "type": "set", "value": "7+"},
               {"affects": "recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "6+"},
               {"field": "category", "type": "add", "value": "b00b-5bae-444f-964e"}
-            ],
-            "profiles": [
-              {
-                "name": "Crow Lord",
-                "id": "4875-9c51-9509-3a4f",
-                "hidden": false,
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "characteristics": [
-                  {
-                    "name": "Description",
-                    "$text": "Once per battle round at the start of ever players turn. **Corvus Corax the Raven Deamon** looses **Ravens Talons** and gains **Swarm of Crows** instead in addition he looses **monster** and gains the **swarm** keyword. He looses the benefits of **Shadow Sable Armour** and has a **Invulnerable Save 6+** however has a **[Feel No Pain 2+]**. You can not swap back till the start of the same players turn in the next battle round.",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ]
-              }
             ]
           },
           {

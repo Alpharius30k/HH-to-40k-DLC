@@ -10,7 +10,8 @@
     "type": "catalogue",
     "catalogueLinks": [
       {"name": "New Catalogue (link)", "id": "876d-05a8-5bfa-eba9", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
-      {"name": "New Catalogue (link)", "id": "4471-ee67-9465-bf7b", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}
+      {"name": "New Catalogue (link)", "id": "4471-ee67-9465-bf7b", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"},
+      {"name": "New Catalogue (link)", "id": "bf31-3c5b-defc-b9d1", "targetId": "3466-8bfe-9885-435d", "type": "catalogue"}
     ],
     "categoryEntries": [{"name": "Sergeant", "id": "1920-5c73-27b4-b612", "hidden": false}],
     "sharedProfiles": [
@@ -21,20 +22,6 @@
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "characteristics": [{"name": "Description", "$text": "Improve this units OC by 1 while a **Name** is in the unit", "typeId": "9b8f-694b-e5e-b573"}]
-      },
-      {
-        "name": "Hammer of Wraith",
-        "id": "facf-8502-db26-947c",
-        "hidden": false,
-        "typeId": "9cc3-6d83-4dd3-9b64",
-        "typeName": "Abilities",
-        "characteristics": [
-          {
-            "name": "Description",
-            "$text": "After this unit has charged select 1 enemy unit withing engagment range of this unit. Roll a dice for each model in this unit with this ability. On each 4+ the selected unit suffers 1 mortal wound",
-            "typeId": "9b8f-694b-e5e-b573"
-          }
-        ]
       },
       {
         "name": "Night Vision",
@@ -198,7 +185,24 @@
         "modifiers": [
           {"affects": "profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "12\""},
           {"field": "category", "type": "add", "value": "dda2-bb0a-215e-ad9c"},
-          {"field": "category", "type": "add", "value": "c619-2086-bbcf-69c9"}
+          {"field": "category", "type": "add", "value": "c619-2086-bbcf-69c9"},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "23df-6a8d-c752-b8fe",
+                "childName": "Corvid Pattern Jump Pack",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "unit-self",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -643,7 +647,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "Enemy models withing 9\" have +1 to leadership charectertistics  (so for example a 6+ would become a 7+)",
+                "$text": "Enemy models withing 9\" have -1 to leadership charectertistics  (so for example a 6+ would become a 7+)",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -657,7 +661,6 @@
         "import": true,
         "sortIndex": 19,
         "type": "upgrade",
-        "constraints": [{"id": "c2a7-6042-7f73-1c3d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 0}],
         "infoLinks": [
           {"name": "Hammer of Wraith", "id": "596f-bb46-0d48-8126", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"},
           {"name": "Deep Strike", "id": "8680-f38b-c3f6-39ac", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}
@@ -670,46 +673,14 @@
             "field": "hidden",
             "type": "set",
             "value": true,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "dda2-bb0a-215e-ad9c",
-                    "childName": "Jump Pack",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "unit-self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  },
-                  {
-                    "childId": "dda2-bb0a-215e-ad9c",
-                    "childName": "Jump Pack",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "model-self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "field": "c2a7-6042-7f73-1c3d",
-            "type": "set",
-            "value": 1,
             "conditions": [
               {
-                "childId": "dda2-bb0a-215e-ad9c",
-                "childName": "Jump Pack",
+                "childId": "51c7-eb8f-f617-0348",
+                "childName": "Faction: Raven Gaurd",
                 "field": "selections",
-                "scope": "model-or-unit-self",
+                "scope": "ancestor",
                 "shared": true,
-                "type": "atLeast",
+                "type": "notInstanceOf",
                 "value": 1
               }
             ]
@@ -856,33 +827,582 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Saturnine Teleportation Synchroniser",
+        "id": "d1e5-d00a-3c2d-b238",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [{"name": "Deep Strike", "id": "3472-20c4-5fb5-2b47", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Saturnine Teleportation Synchroniser",
+            "id": "eece-1de1-0001-99a8",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This unit gets **deep strike**", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Mantle of the Elder Drake",
+        "id": "b8b3-eb95-c3e5-3cff",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "0203-fff6-144c-191f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 35},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "2d7f-1892-2fd0-e29c", "childName": "Captain", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Mantle of the Elder Drake",
+            "id": "bd0e-3486-b2b7-9b23",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "All incoming damage targeting this model is reduced by 1 to a minimum of 1", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Omni-Scope",
+        "id": "7bdb-6f3d-8e49-89b0",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Omni-Scope",
+            "id": "5cac-84f3-6f24-b946",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "A unit with atleast 1 model with this can ignore modifiers to their BS and **Snap-Shot** on 5s",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
       {
-        "name": "Night lord Wargear",
-        "id": "2a57-7802-729b-6d61",
+        "name": "Legion Wargear",
+        "id": "f30a-2276-0559-198c",
         "hidden": false,
-        "sortIndex": 7,
+        "sortIndex": 0,
+        "entryLinks": [
+          {
+            "name": "Thousand Sons Wargear",
+            "id": "c210-c19d-38dd-a094",
+            "hidden": false,
+            "import": true,
+            "targetId": "95c9-6b29-e892-aa0e",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "f7f0-5867-fb76-e821",
+                    "childName": "Faction: Thousand Son",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Night lord Wargear",
+            "id": "2a57-7802-729b-6d61",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Prey Sight",
+                "id": "bc95-63a8-b28c-5053",
+                "hidden": false,
+                "import": true,
+                "targetId": "ff51-b185-fa39-3d46",
+                "type": "selectionEntry",
+                "constraints": [{"id": "ff5d-366d-f07c-7dc1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+              },
+              {
+                "name": "Trophies of Judgement",
+                "id": "e88d-74ee-da23-41a8",
+                "hidden": false,
+                "import": true,
+                "targetId": "9ea6-8416-803f-5793",
+                "type": "selectionEntry",
+                "constraints": [{"id": "7c1f-5cc1-4f1d-f8df", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {"field": "51b2-306e-1021-d207", "type": "set", "value": 10},
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1920-5c73-27b4-b612", "childName": "Sergent", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Lords of Murder",
+                "id": "0475-51ad-3fd7-bbf2",
+                "hidden": false,
+                "import": true,
+                "targetId": "bc0f-1c68-9bd4-baa7",
+                "type": "selectionEntry",
+                "constraints": [{"id": "839f-be98-beb4-7d91", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {"field": "51b2-306e-1021-d207", "type": "set", "value": 5},
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "9cfd-1c32-585f-7d5c",
+                        "childName": "Character",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "caf5-ef2d-bb96-dc65",
+                    "childName": "Faction: Night Lords",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Raven Gaurd Wargear",
+            "id": "6238-2a4d-233e-6b28",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Cameleoline",
+                "id": "4d47-98aa-e304-ebb1",
+                "hidden": false,
+                "import": true,
+                "targetId": "28f4-a72c-b312-3a30",
+                "type": "selectionEntry",
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25}]
+              },
+              {
+                "name": "Infravisor",
+                "id": "3ff6-0080-301c-488d",
+                "hidden": false,
+                "import": true,
+                "targetId": "8075-17b8-3010-5c99",
+                "type": "selectionEntry",
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25}]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "51c7-eb8f-f617-0348",
+                    "childName": "Faction: Raven Gaurd",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Salamander Wargear",
+            "id": "f09c-676b-b929-8de4",
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "3826-6483-b50e-6b8f",
+                    "childName": "Faction: Salamanders",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Mantle of the Elder Drake",
+                "id": "0dbd-e20c-7a70-0733",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [{"id": "e004-4c50-825c-b54e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 35},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [{"childId": "2d7f-1892-2fd0-e29c", "childName": "Captain", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Mantle of the Elder Drake",
+                    "id": "f69e-d0b5-e3d2-39ed",
+                    "hidden": false,
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "characteristics": [{"name": "Description", "$text": "All incoming damage targeting this model is reduced by 1 to a minimum of 1", "typeId": "9b8f-694b-e5e-b573"}]
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Master-crafted Weapon",
+                "id": "52c7-cf9c-696f-8367",
+                "hidden": false,
+                "constraints": [{"id": "61d8-2b62-a7bf-6d56", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1920-5c73-27b4-b612", "childName": "Sergeant", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Melee Weapon",
+                    "id": "a6e4-02cf-41ae-51a7",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [
+                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                      {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                      {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                      {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                      {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                      {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                      {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                      {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                    ],
+                    "modifiers": [
+                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 1},
+                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1},
+                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "name", "join": " ", "scope": "parent", "type": "prepend", "value": "Master-Crafted"}
+                    ]
+                  },
+                  {
+                    "name": "Ranged Weapon",
+                    "id": "2415-ff95-766f-b7cd",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [
+                      {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                      {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                      {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                      {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                      {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                      {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                      {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                      {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                    ],
+                    "modifiers": [
+                      {
+                        "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                        "field": "name",
+                        "join": " ",
+                        "scope": "parent",
+                        "type": "prepend",
+                        "value": "Master-Crafted"
+                      },
+                      {
+                        "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                        "field": "2229-f494-25db-c5d3",
+                        "join": " ",
+                        "scope": "parent",
+                        "type": "increment",
+                        "value": 1
+                      },
+                      {
+                        "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                        "field": "a354-c1c8-a745-f9e3",
+                        "join": " ",
+                        "scope": "parent",
+                        "type": "increment",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Alpha Legion Wargear",
+            "id": "8c13-d43f-51c9-78ae",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Power Dagger",
+                "id": "5597-3a6a-5a90-4030",
+                "hidden": false,
+                "import": true,
+                "targetId": "6929-a64a-8294-21fb",
+                "type": "selectionEntry",
+                "constraints": [{"id": "3bd8-c3e2-2031-2926", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {"field": "51b2-306e-1021-d207", "type": "set", "value": 5},
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1920-5c73-27b4-b612", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Venom Sphere",
+                "id": "99e4-14f2-10e8-f273",
+                "hidden": false,
+                "import": true,
+                "targetId": "d4c3-8f21-5f7d-8699",
+                "type": "selectionEntry",
+                "constraints": [{"id": "4d5e-5258-0f01-0a83", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {"field": "51b2-306e-1021-d207", "type": "set", "value": 10},
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "3583-4c5d-bf42-1f69",
+                    "childName": "Faction: Alpha Legion",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Alpha Legion Wargear",
+        "id": "750a-4c76-c215-c98d",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "name": "Power Dagger",
+            "id": "bbac-718f-f1f4-1097",
+            "hidden": false,
+            "import": true,
+            "targetId": "6929-a64a-8294-21fb",
+            "type": "selectionEntry",
+            "constraints": [{"id": "dbc7-5cf7-1c6d-fd28", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"field": "51b2-306e-1021-d207", "type": "set", "value": 5},
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "1920-5c73-27b4-b612", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Venom Sphere",
+            "id": "69a5-c14d-de83-5e59",
+            "hidden": false,
+            "import": true,
+            "targetId": "d4c3-8f21-5f7d-8699",
+            "type": "selectionEntry",
+            "constraints": [{"id": "b4fc-c56d-58ae-7be3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"field": "51b2-306e-1021-d207", "type": "set", "value": 10},
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3583-4c5d-bf42-1f69",
+                "childName": "Faction: Alpha Legion",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Night lord Wargear",
+        "id": "0988-273f-3bf3-81c9",
+        "hidden": false,
         "entryLinks": [
           {
             "name": "Prey Sight",
-            "id": "bc95-63a8-b28c-5053",
+            "id": "f77a-d502-a28e-5178",
             "hidden": false,
             "import": true,
             "targetId": "ff51-b185-fa39-3d46",
             "type": "selectionEntry",
-            "constraints": [{"id": "ff5d-366d-f07c-7dc1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "constraints": [{"id": "c450-85a8-51bf-1be3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
           },
           {
             "name": "Trophies of Judgement",
-            "id": "e88d-74ee-da23-41a8",
+            "id": "12f3-b4cb-22e3-7e29",
             "hidden": false,
             "import": true,
             "targetId": "9ea6-8416-803f-5793",
             "type": "selectionEntry",
-            "constraints": [{"id": "7c1f-5cc1-4f1d-f8df", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "constraints": [{"id": "675b-f2e6-32b5-9958", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "modifiers": [
               {"field": "51b2-306e-1021-d207", "type": "set", "value": 10},
               {
@@ -903,12 +1423,12 @@
           },
           {
             "name": "Lords of Murder",
-            "id": "0475-51ad-3fd7-bbf2",
+            "id": "80a2-c352-923c-6c57",
             "hidden": false,
             "import": true,
             "targetId": "bc0f-1c68-9bd4-baa7",
             "type": "selectionEntry",
-            "constraints": [{"id": "839f-be98-beb4-7d91", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "constraints": [{"id": "efe7-4ce3-690c-d9ef", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "modifiers": [
               {"field": "51b2-306e-1021-d207", "type": "set", "value": 5},
               {
@@ -952,12 +1472,27 @@
       },
       {
         "name": "Raven Gaurd Wargear",
-        "id": "6238-2a4d-233e-6b28",
+        "id": "c8a2-f7bb-32d4-60ba",
         "hidden": false,
-        "sortIndex": 17,
         "entryLinks": [
-          {"name": "Cameleoline", "id": "4d47-98aa-e304-ebb1", "hidden": false, "import": true, "targetId": "28f4-a72c-b312-3a30", "type": "selectionEntry"},
-          {"name": "Infravisor", "id": "3ff6-0080-301c-488d", "hidden": false, "import": true, "targetId": "8075-17b8-3010-5c99", "type": "selectionEntry"}
+          {
+            "name": "Cameleoline",
+            "id": "bb1f-8419-1f5d-2329",
+            "hidden": false,
+            "import": true,
+            "targetId": "28f4-a72c-b312-3a30",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25}]
+          },
+          {
+            "name": "Infravisor",
+            "id": "e377-a80b-33c5-a5db",
+            "hidden": false,
+            "import": true,
+            "targetId": "8075-17b8-3010-5c99",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25}]
+          }
         ],
         "modifiers": [
           {
@@ -980,9 +1515,8 @@
       },
       {
         "name": "Salamander Wargear",
-        "id": "e02e-e44c-6e8d-7363",
+        "id": "6408-abf0-3ac1-38cb",
         "hidden": false,
-        "sortIndex": 18,
         "modifiers": [
           {
             "field": "hidden",
@@ -1004,11 +1538,11 @@
         "selectionEntries": [
           {
             "name": "Mantle of the Elder Drake",
-            "id": "be38-b2b3-8371-db50",
+            "id": "ac13-62c2-2cb7-1f03",
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "constraints": [{"id": "8899-997e-be72-0c16", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "constraints": [{"id": "cd27-a515-af5d-0cb7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 35},
               {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
@@ -1030,7 +1564,7 @@
             "profiles": [
               {
                 "name": "Mantle of the Elder Drake",
-                "id": "7abb-167e-d48f-0043",
+                "id": "79bc-2bd3-6a6f-48fa",
                 "hidden": false,
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "Abilities",
@@ -1042,9 +1576,9 @@
         "selectionEntryGroups": [
           {
             "name": "Master-crafted Weapon",
-            "id": "8177-6456-3ce8-4f9a",
+            "id": "7e6b-c4d4-ee66-9ca3",
             "hidden": false,
-            "constraints": [{"id": "e676-df00-15e9-b6c8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "constraints": [{"id": "a52a-0851-34a8-ca96", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "modifiers": [
               {
                 "field": "hidden",
@@ -1064,7 +1598,7 @@
             "selectionEntries": [
               {
                 "name": "Melee Weapon",
-                "id": "8faf-dc82-36cf-858b",
+                "id": "4e97-2a41-3fd9-c442",
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
@@ -1086,7 +1620,7 @@
               },
               {
                 "name": "Ranged Weapon",
-                "id": "2bc2-111b-a4b8-15c9",
+                "id": "6268-92b8-c18e-dfa3",
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
@@ -1101,9 +1635,242 @@
                   {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
                 ],
                 "modifiers": [
-                  {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 1},
-                  {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1},
-                  {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "name", "join": " ", "scope": "parent", "type": "prepend", "value": "Master-Crafted"}
+                  {
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "field": "name",
+                    "join": " ",
+                    "scope": "parent",
+                    "type": "prepend",
+                    "value": "Master-Crafted"
+                  },
+                  {
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "field": "2229-f494-25db-c5d3",
+                    "join": " ",
+                    "scope": "parent",
+                    "type": "increment",
+                    "value": 1
+                  },
+                  {
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "field": "a354-c1c8-a745-f9e3",
+                    "join": " ",
+                    "scope": "parent",
+                    "type": "increment",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thousand Sons Wargear",
+        "id": "95c9-6b29-e892-aa0e",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "name": "Minor Arcana",
+            "id": "7e62-890d-bebd-746d",
+            "hidden": false,
+            "import": true,
+            "targetId": "3f6b-6a0b-f6a0-6445",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                  {"childId": "1920-5c73-27b4-b612", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Psychic Discipline",
+            "id": "8205-2915-db1f-2772",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "entryLinks": [
+              {
+                "name": "Core Psychic Diciplines",
+                "id": "b818-1b6c-5a4e-e58d",
+                "hidden": false,
+                "import": true,
+                "targetId": "8d26-8331-5add-a48a",
+                "type": "selectionEntryGroup"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "5e3e-5df0-cb13-57e7", "childName": "Librarian", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                      {"childId": "c063-0c67-d977-a4c7", "childName": "Esoterist", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "f00c-671e-7ab9-4a33",
+                        "childName": "Primus Nullificator",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cults Arcana",
+            "id": "21e4-29e9-0edf-3e1e",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "d1b5-80f5-c52f-14f1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "8e00-f9e1-a6e9-5a41", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {
+                "name": "Psychicly Gifted (Psyker Level 1)",
+                "id": "9414-f40d-9348-b8dc",
+                "hidden": false,
+                "targetId": "e35d-45ec-7844-d5c6",
+                "type": "profile",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "f7f0-5867-fb76-e821",
+                        "childName": "Faction: Thousand Son",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "category",
+                "scope": "parent",
+                "type": "add",
+                "value": "13bf-2bee-3ae0-b414",
+                "conditions": [
+                  {
+                    "childId": "f7f0-5867-fb76-e821",
+                    "childName": "Faction: Thousand Son",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "5e3e-5df0-cb13-57e7", "childName": "Librarian", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                      {"childId": "c063-0c67-d977-a4c7", "childName": "Esoterist", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "f00c-671e-7ab9-4a33",
+                        "childName": "Primus Nullificator",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "8e00-f9e1-a6e9-5a41",
+                "type": "set",
+                "value": 0,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "5e3e-5df0-cb13-57e7", "childName": "Librarian", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                      {"childId": "c063-0c67-d977-a4c7", "childName": "Esoterist", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "f00c-671e-7ab9-4a33",
+                        "childName": "Primus Nullificator",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "field": "d1b5-80f5-c52f-14f1",
+                "type": "set",
+                "value": 0,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "5e3e-5df0-cb13-57e7", "childName": "Librarian", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                      {"childId": "c063-0c67-d977-a4c7", "childName": "Esoterist", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                      {
+                        "childId": "f00c-671e-7ab9-4a33",
+                        "childName": "Primus Nullificator",
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
                 ]
               }
             ]

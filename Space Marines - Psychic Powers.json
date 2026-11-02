@@ -25,6 +25,70 @@
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "characteristics": [{"name": "Description", "$text": "This model has the **psychic abilities** listed in the **psychic abilities** section", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "A death long foreseen (psyker level 2)",
+        "id": "df5b-fc7c-6397-549e",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "**Konrad Kurze** has the **psychic abilities** listed in the Psychic Abilities section.", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Arch-Sorcerer (Psyker Level 9)",
+        "id": "17f7-1417-0584-880f",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "**Magnus the Red** has the **psychic abilities** listed in the **psychic abilities** section\n\n\nHe can only use 1 **psychic ability** per phase however **Minor Arcana** do not count",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "Arch-magister of the Corvidae (Psyker level 4)",
+        "id": "f23a-4eb5-6ccb-ebac",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {"name": "Description", "$text": "**Ahzek Ahriman** has the **psychic abilities** listed in the **psychic abilities** section", "typeId": "9b8f-694b-e5e-b573"}
+        ]
+      },
+      {
+        "name": "Magister of Dust (Psyker level 4)",
+        "id": "6756-f50a-dc89-10cb",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {"name": "Description", "$text": "**Magistus Amon** has the **psychic abilities** listed in the **psychic abilities** section", "typeId": "9b8f-694b-e5e-b573"}
+        ]
+      },
+      {
+        "name": "Insane Wizard (Psyker Level 9)",
+        "id": "c03c-bc2c-3ce7-b410",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "**Lord of the Moon** has the **psychic abilities** listed in the **psychic abilities** section once he has used his **RANDOM PSYCHIC STUFF GO!!!**\n",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "Legion Exalted Librarian (Psyker Level 3)",
+        "id": "fb15-2513-881a-4510",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "This model has the **psychic abilities** listed in the **psychic abilities** section", "typeId": "9b8f-694b-e5e-b573"}]
       }
     ],
     "sharedRules": [
@@ -157,8 +221,21 @@
         "import": true,
         "type": "upgrade",
         "modifiers": [
-          {"field": "name", "scope": "parent", "type": "append", "value": "- Biomancer"},
-          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Biomancer"}
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Biomancer",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Biomancer",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
         ],
         "profiles": [
           {
@@ -221,12 +298,25 @@
           {"name": "Precision", "id": "1290-0152-63b9-1120", "hidden": false, "targetId": "9143-31ae-e0a6-6007", "type": "rule"}
         ],
         "modifiers": [
-          {"field": "name", "scope": "parent", "type": "append", "value": "- Diviner"},
-          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Diviner"}
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Diviner",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Diviner",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
         ],
         "profiles": [
           {
-            "name": "Diviner's Dart (Psychic Level 1)",
+            "name": "Diviner's Dart",
             "id": "b588-866b-4a06-ff27",
             "hidden": false,
             "typeId": "f77d-b953-8fa4-b762",
@@ -258,7 +348,7 @@
             ]
           },
           {
-            "name": "Divinatory Aegis",
+            "name": "Divinatory Aegis (Psychic Level 1)",
             "id": "409d-de24-34ee-7e89",
             "hidden": false,
             "typeId": "7e03-38c2-7fea-e955",
@@ -285,8 +375,21 @@
           {"name": "Blast", "id": "4d56-7c52-1463-2f27", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
         ],
         "modifiers": [
-          {"field": "name", "scope": "parent", "type": "append", "value": "- Pyromancer"},
-          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Pyromancer"}
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Pyromancer",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Pyromancer",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
         ],
         "profiles": [
           {
@@ -351,8 +454,21 @@
           {"name": "Anti", "id": "beb9-07e2-18a2-18d4", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}
         ],
         "modifiers": [
-          {"field": "name", "scope": "parent", "type": "append", "value": "- Telekinetic"},
-          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Telekinetic"}
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Telekinetic",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Telekinetic",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
         ],
         "profiles": [
           {
@@ -372,7 +488,7 @@
             ]
           },
           {
-            "name": "Telekine Dome",
+            "name": "Telekine Dome (Psychic Level 1)",
             "id": "f3b3-6c94-49fa-115f",
             "hidden": false,
             "typeId": "7e03-38c2-7fea-e955",
@@ -414,8 +530,21 @@
           {"name": "Pinned", "id": "0bff-4c43-a23d-21e8", "hidden": false, "targetId": "412b-0358-c6d1-ed7e", "type": "rule"}
         ],
         "modifiers": [
-          {"field": "name", "scope": "parent", "type": "append", "value": "- Telepath"},
-          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Telepath"}
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Telepath",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Telepath",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
         ],
         "profiles": [
           {
@@ -435,7 +564,7 @@
             ]
           },
           {
-            "name": "Telepathic Fugue",
+            "name": "Telepathic Fugue (Psychic Level 1)",
             "id": "412d-5070-5ada-85e7",
             "hidden": false,
             "typeId": "7e03-38c2-7fea-e955",
@@ -449,7 +578,7 @@
             ]
           },
           {
-            "name": "Hallucin",
+            "name": "Hallucin (Psychic Level 1)",
             "id": "6a4b-5500-c4eb-3978",
             "hidden": false,
             "typeId": "7e03-38c2-7fea-e955",
@@ -476,8 +605,21 @@
           {"name": "Anti", "id": "8ecb-9240-6fca-3e72", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"}
         ],
         "modifiers": [
-          {"field": "name", "scope": "parent", "type": "append", "value": "- Thaumaturger"},
-          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "append", "value": "- Thaumaturger"}
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Thaumaturger",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Thaumaturger",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
         ],
         "profiles": [
           {
@@ -513,7 +655,7 @@
             ]
           },
           {
-            "name": "Thaumaturgy",
+            "name": "Thaumaturgy (Psychic Level 1)",
             "id": "55ec-7083-3f66-b539",
             "hidden": false,
             "typeId": "7e03-38c2-7fea-e955",
@@ -597,7 +739,7 @@
         "infoLinks": [{"name": "Heal(x)", "id": "fd9e-8e66-3c7a-4078", "hidden": false, "targetId": "dcba-26c2-51f4-f429", "type": "rule"}],
         "profiles": [
           {
-            "name": "Delphos Serpentis",
+            "name": "Delphos Serpentis (Psychic Level 1)",
             "id": "834b-82ca-a4f3-90e6",
             "hidden": false,
             "typeId": "7e03-38c2-7fea-e955",
@@ -607,6 +749,914 @@
                 "name": "Descriptions",
                 "$text": "If this model is not **battle-shocked**you can use this instead of shooting. This model can mae a **psychic roll** on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: Select 1 unit withing 6\". That unit gets **heal(1)**",
                 "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Raptora",
+        "id": "aa3a-0e93-09ae-0cbf",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Raptora (Psychic Level 1)",
+            "id": "1fda-55fe-7092-b5ba",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **movement** phase this model can use this ability if this model has moved withing 12\" of an **enemy unit** and this unit is not **battle-shocked**.\nYou can make a **psychic** roll on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: This unit gains a **Invulnerable Save 6+** or if the unit already has one improve it by 1 to a **minimum** of 3+",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pyrae",
+        "id": "e02b-de59-943e-d2fc",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Pyrae (Psychic Level 1)",
+            "id": "7bd9-1985-4c6a-a18a",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **Charge** phase this model can use this ability if this model declares a **charge** and this unit is not **battle-shocked**.\nYou can make a **psychic** roll on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: This models unit gains **Hammer of Wrath 2**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pavoni",
+        "id": "4842-b9be-ecd4-9eb2",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Pavoni (Psychic Level 1)",
+            "id": "fc84-2c04-0818-9a2c",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **Movement** phase this model can use this ability if this model has not **moved** and this unit is not **battle-shocked**.\nYou can make a **psychic** roll on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: This models unit gains +3\" to their **movement**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Corvidae",
+        "id": "22d5-59e1-ca6d-b198",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Precision", "id": "63b0-261e-2e94-37c7", "hidden": false, "targetId": "9143-31ae-e0a6-6007", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Corvidae (Psychic Level 1)",
+            "id": "486d-fc6f-692f-5f0b",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **Shooting** phase this model can use this ability if this model has not **Shoot** and this unit is not **battle-shocked**.\nYou can make a **psychic** roll on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: The first attack from each model in this models unit gains **[Precision]**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Athanaen",
+        "id": "10d3-9ae0-0bb7-4bf7",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Athanaen (Psychic level 1)",
+            "id": "5053-898d-9a69-7c8a",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **Shooting** phase this model can use this ability if this model has **shot** and this unit is not **battle-shocked**.\nYou can make a **psychic** roll on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: Select 1 unit that was hit by this model's unit **ranged** weapons. That unit has -1 **leadership rolls** till the start of your next turn",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mindsong of Blades",
+        "id": "0d8d-2d4f-0308-5961",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Mindsong of Blades (Psychic Level 2)",
+            "id": "abc4-4b38-9a57-f546",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your command phase if this model is not **battle-shocked** you can make a **psychic roll** on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: Add 1 to this units movement, melee to hit and melee attacks",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Psy-Synchronicity",
+        "id": "b77c-ac39-9729-1096",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Psy-Synchronicity (Psychic Level 2)",
+            "id": "f7f6-b552-9b04-7439",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **shooting** phase this model can use this ability instead of shooting if this unit is not **battle-shocked**.\nYou can select up to 2 unit withing 12\" then make a **psychic** roll on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: Both units have +1BS\n",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mind Killer",
+        "id": "964f-03c9-8d50-e270",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Mind Killer (Psychic Level 2)",
+            "id": "60ba-bec3-2c08-7219",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your command phase if this model is not **battle-shocked** you can make a **psychic roll** on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: This units ranged weapons have **[Lethal Hits 4+]** and **[Ignores Cover]**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Glimpse of Death",
+        "id": "2e3f-8f83-a581-722c",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 8,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Glimpse of Death (psychic level 1)",
+            "id": "fa0d-fe86-4bc0-5804",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of the Fight phase, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling 2D6 but minus the number of times this has been used in a row this battle. If you do:\n- On a 6-, this unit suffers D3 mortal wounds\n- On a 7+, this model gains **[Feel No Pain 4+]** and +1 melee attacks till the end of the phase",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shadows of Past and Future",
+        "id": "bccb-a4a2-60f5-d40a",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 8,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Shadows of Past and Future (Psychic level 1)",
+            "id": "899a-ce6f-b2bd-65df",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of the fight phase if this unit is not **battle-shocked** you can make a **psychic roll** by rolling 1D6, if you do:\n- On a 1: **Sevatar** suffers D3 mortal wounds\n- Else: **Sevatar** gains +1 to hit and +1 attacks to **Night's Whisper**  for the rest of the phase.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tzeenchs Arch Sorcery",
+        "id": "3d00-781a-3f78-8029",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Arch-Sorcerer of Tzeentch (Psychic)",
+            "id": "adea-a09b-ea38-e4f6",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "All **Friendly Thousand Sons infantry** models that have **Psychicly Gifted (Psyker Level 1)** count as being **Psyker Level 2** whiel withing 12\"",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Scryer of Fates (Psychic)",
+            "id": "c747-49f1-f993-eb80",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "If your army includes this model, after both players have deployed their armies, you can select up to 3 ^^**Thousand Sons^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Transmogrifying Blast",
+            "id": "e4a6-01ee-8d09-2efa",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "efb6-04b0-8c7e-fa85",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "094e-1371-1c3a-acfe",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
+            "infoLinks": [
+              {"name": "Blast", "id": "208c-48a5-ceb6-7534", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+              {"name": "Psychic", "id": "e3d1-6fda-1263-e7b2", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Transmogrifying Blast",
+                "id": "a872-63e1-3410-29fe",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "D6+1", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "D3", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Blast, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tzeenchs Sorcereys",
+        "id": "6459-031b-a41a-d00b",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Rebind Rubricae (Psychic level 3)",
+            "id": "711a-cded-5bdf-35a5",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your command phase if this model is not **battle-shocked** you can make a **psychic roll** on 1D6:\n- On a 1: This unit is suffer D3 **Psychic Mortal Wounds**\n- Else: Restore D3 **Bodygaurd** model",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Arcane Shield (Psychic)",
+            "id": "6425-ff72-bd64-b20b",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [{"name": "Descriptions", "$text": "While this model is leading a unit, models in that unit have a 4+ invulnerable save.", "typeId": "1917-301f-5d49-2f76"}]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Astral Blast",
+            "id": "c8d2-7245-aca3-e1c3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [
+              {"name": "Psychic Weapon", "id": "57ea-f7f1-97d1-70e7", "hidden": false, "primary": false, "targetId": "4546-4a0c-b3be-e84c"},
+              {"name": "Ranged Weapon", "id": "7181-9ef5-6574-16c5", "hidden": false, "primary": false, "targetId": "eeda-8544-a2f3-3fab"},
+              {"name": "Attacks Dx Weapon", "id": "e14c-70cc-de83-7efe", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"},
+              {"name": "Damage Dx Weapon", "id": "4e71-ba29-d0d3-76a2", "hidden": false, "primary": false, "targetId": "4986-bf86-beb4-13ac"}
+            ],
+            "constraints": [
+              {
+                "id": "24cd-bb97-352c-698d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "807a-0068-d939-556c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
+            "infoLinks": [
+              {"name": "Blast", "id": "3106-ae3e-6d2a-0876", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+              {"name": "Devastating Wounds", "id": "4ab0-d46e-d1cc-4398", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+              {"name": "Psychic", "id": "b34b-b0f5-2917-1384", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Astral Blast",
+                "id": "99c5-7a5a-2469-b7c1",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "D6", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "D3", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Blast, Devastating Wounds, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tzeenche's Infernal Sorcery",
+        "id": "8f68-f5f8-6e29-ca6d",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Pinned", "id": "4c27-1961-4aca-f8db", "hidden": false, "targetId": "412b-0358-c6d1-ed7e", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Binding Tendrils (Psychic level 1)",
+            "id": "0eab-d6b8-a603-1ab5",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your Shooting phase, after this model has shot and is not **battle-shocked**, select one enemy ^^**Infantry^^** unit hit by one or more of those attacks made with Arcane Fire then make a **psychic roll** on 1D6:\n- On a 1: This model is **battle-shocked**\n- Else: The target is **pinned**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Illusions of Tzeentch (Psychic)",
+            "id": "7fcd-80af-7d2f-0c53",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Arcane Fire",
+            "id": "9311-d769-42b2-d27a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [
+              {"name": "Psychic Weapon", "id": "82f3-8c1c-14fe-c4e0", "hidden": false, "primary": false, "targetId": "4546-4a0c-b3be-e84c"},
+              {"name": "Ranged Weapon", "id": "6e1c-9139-b4f1-ad50", "hidden": false, "primary": false, "targetId": "eeda-8544-a2f3-3fab"},
+              {"name": "Attacks Dx Weapon", "id": "5950-7833-b066-7d25", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"},
+              {"name": "Damage Dx Weapon", "id": "84c4-788a-1be0-0827", "hidden": false, "primary": false, "targetId": "4986-bf86-beb4-13ac"}
+            ],
+            "constraints": [
+              {
+                "id": "eb5a-01de-608d-905f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c78d-12b2-3398-9e8a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
+            "infoLinks": [
+              {"name": "Torrent", "id": "3bcc-617e-b39c-abd2", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+              {"name": "Ignores Cover", "id": "52a1-8d73-5518-8499", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
+              {"name": "Psychic", "id": "bc38-cc94-41e8-c55a", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Arcane Fire",
+                "id": "68e3-bb14-ae03-365d",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "D6", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "D3", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Ignores Cover, Psychic, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapon Upgrades",
+                "id": "cb91-5bfa-c930-95bb",
+                "flatten": true,
+                "hidden": false,
+                "entryLinks": [
+                  {"name": "Weapon Modifications", "id": "08d7-0096-6a12-43a9", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"},
+                  {
+                    "name": "Crusade Relic Upgrades",
+                    "id": "ee65-ce80-f91f-b94a",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "b678-4a99-210e-931f",
+                    "type": "selectionEntryGroup"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Infernal Warpflames",
+        "id": "4916-eacc-3a7e-bf22",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Glimpse of Eternity (Psychic level 2)",
+            "id": "eb32-fb9b-91e7-35b2",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "Once per phase after rolling a group of dice for this model's unit whilt its not **battle-shocked** you can make a **psychic roll** on 1D6:\n- On a 1: This unit is **Battle-shocked**\n- Else: You can set 1 of the values to be 6",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Malefic Maelstrom (Psychic)",
+            "id": "cb1e-96d8-67c6-f3e1",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Fires of the Abyss",
+            "id": "9672-b524-ae3c-c54b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "1d97-a2e3-e980-bb1f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "659c-d4e2-a696-23c1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
+            "infoLinks": [
+              {"name": "Psychic", "id": "c0a5-8bee-e04f-7a1e", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Torrent", "id": "ae30-743a-9a54-6901", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+              {"name": "Hazardous", "id": "e53b-c58e-ffbb-4753", "hidden": false, "targetId": "8367-374c-f87-c627", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "➤ Fires of the Abyss - witchfire",
+                "id": "c6bf-468d-ef0c-519f",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "D6", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Psychic, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              },
+              {
+                "name": "➤ Fires of the Abyss - focused witchfire",
+                "id": "bf7e-6588-e553-ec37",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "2D6", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Hazardous, Psychic, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Magnus's Own Creations",
+        "id": "fa4c-7749-45f9-04c5",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Pinned", "id": "6556-87bf-e71d-cf25", "hidden": false, "targetId": "412b-0358-c6d1-ed7e", "type": "rule"},
+          {"name": "Hazardous", "id": "995d-2d6f-9d27-ee40", "hidden": false, "targetId": "8367-374c-f87-c627", "type": "rule"},
+          {"name": "Overcharge", "id": "a0d6-98c6-a123-6445", "hidden": false, "targetId": "bbaf-981c-4f63-44d0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Lord of the Planet of the Sorcerers (Psychic)",
+            "id": "63b6-c8bd-7874-18a7",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "When using **Psychic Abilities** **Magnus the Red: Deamon of Tzeench** reduces the **Psychic Level** of the ability by 1. This can cause them to be level 0.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Impossible Form (Psychic level 3)",
+            "id": "bd9b-1e34-8386-717f",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of your turn, if **Magnus the Red: Deamon of Tzeench** is not **battle-shocked** you can make a **psychic roll** on 1D6:\n- On a 1 he is **battle-shocked**\n- Else all **Psyker** models suffer 1 less damage while withing 12\" of **Magnus the Red: Deamon of Tzeench** until the start of your next turn",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Time Flux (Aura, Psychic level 1)",
+            "id": "65e6-1c5f-deda-f4a2",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your movement phase if **Magnus the Red: Deamon of Tzeench** is not **battle-shocked** you can make a **psychic roll** on 1D6:\n- On a 1 he is **pinned** or if he is already **pinned** he is **battle-shocked**\n- Else select 1 **Thousand sons** unit withing 6\". It gains +2\" to its movement",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Treason of Tzeentch (Psychic level 2)",
+            "id": "e929-bb5a-fab7-8d7d",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your shooting phase, if **Magnus the Red: Deamon of Tzeench** is not **battle-shocked** you can make a **psychic roll** on 1D6:\n- On a 1 he is **battle-shocked**\n- Else: Select an enemy unit withing 24\". All ranged weapons gain **[Hazardous]** and **[Overcharged]** till the start of your next turn",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Gaze of Magnus",
+            "id": "2640-e09e-044c-7487",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "f270-ce31-f1ed-4364",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c416-6df4-5d69-a800",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "infoLinks": [
+              {"name": "Devastating Wounds", "id": "7dc1-d66d-cf62-ba45", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+              {"name": "Psychic", "id": "b438-6a9b-54e4-ff24", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Gaze of Magnus",
+                "id": "5284-caae-0ad0-69f9",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "3D3", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "11", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Devastating Wounds, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tzeentch's Firestorm",
+            "id": "7729-b62d-8675-d641",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "26bd-9ba9-28f0-581a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7e32-067f-3029-b658",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "infoLinks": [
+              {"name": "Blast", "id": "3815-8aca-2eb5-df7a", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+              {"name": "Psychic", "id": "63a1-1123-88ff-845e", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Ignores Cover", "id": "b77c-8727-ad52-cb52", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Tzeentch's Firestorm",
+                "id": "bdd6-a49c-9720-1398",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "D6+3", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Blast, Ignores Cover, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tzeench Magic",
+        "id": "82b3-b409-ac3b-7460",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 15,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "The changers Illusions (Psychic Level 2)",
+            "id": "ade2-a0d2-2090-a36b",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your command phase if this unit is not **battle-shocked** it can make a **psychic roll** on 1D6:\n- On a 1:This unit is **battle-shocked**\n- Else: Half this units **movement** however it gains **Benefit of cover** or if it already has that reduce all incoming **ranged weapon strength** by 1",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Malefic Curse",
+            "id": "ab06-8265-5633-bbc7",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "fd1b-3c75-d310-3598", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "4def-1038-1595-d6ff", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Anti", "id": "338c-8068-f91e-d436", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
+              {"name": "Devastating Wounds", "id": "e9a4-dd89-4107-4413", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+              {"name": "Psychic", "id": "8944-fd3c-b428-3702", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Malefic Curse",
+                "id": "1338-d8ae-d903-da3c",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "3+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Anti-INFANTRY 4+, Devastating Wounds, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
               }
             ]
           }
@@ -627,6 +1677,20 @@
           {"name": "Telekinesis", "id": "4720-3f5f-6d2b-4567", "hidden": false, "import": true, "targetId": "2998-c194-b2aa-ebb7", "type": "selectionEntry"},
           {"name": "Telepathy", "id": "0067-027a-be9e-f00a", "hidden": false, "import": true, "targetId": "7c6b-b13b-4c0f-3894", "type": "selectionEntry"},
           {"name": "Thaumaturgy", "id": "7f0d-87ab-f2a2-3d3c", "hidden": false, "import": true, "targetId": "9984-d286-3ec2-e4fc", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Minor Arcana",
+        "id": "3f6b-6a0b-f6a0-6445",
+        "hidden": false,
+        "sortIndex": 15,
+        "constraints": [{"id": "1bd2-b9f7-0997-e906", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "entryLinks": [
+          {"name": "Pyrae", "id": "6c7d-78d7-df7d-1cc7", "hidden": false, "import": true, "targetId": "e02b-de59-943e-d2fc", "type": "selectionEntry"},
+          {"name": "Pavoni", "id": "9552-9157-6049-aff9", "hidden": false, "import": true, "targetId": "4842-b9be-ecd4-9eb2", "type": "selectionEntry"},
+          {"name": "Athanaen", "id": "090e-85b2-7374-ff32", "hidden": false, "import": true, "targetId": "10d3-9ae0-0bb7-4bf7", "type": "selectionEntry"},
+          {"name": "Corvidae", "id": "eef4-9b1a-b34d-b8fd", "hidden": false, "import": true, "targetId": "22d5-59e1-ca6d-b198", "type": "selectionEntry"},
+          {"name": "Raptora", "id": "a2ff-2b73-1060-cb1a", "hidden": false, "import": true, "targetId": "aa3a-0e93-09ae-0cbf", "type": "selectionEntry"}
         ]
       }
     ]

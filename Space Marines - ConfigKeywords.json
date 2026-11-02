@@ -21,7 +21,13 @@
         "id": "0db7-5327-9cb8-a805",
         "hidden": false,
         "constraints": [{"id": "1113-2849-afdb-c25e", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1}]
-      }
+      },
+      {"name": "Automata", "id": "2607-f7fc-13d2-8213", "hidden": false},
+      {"name": "Faction: Thousand Son", "id": "f7f0-5867-fb76-e821", "hidden": false},
+      {"name": "Esoterist", "id": "c063-0c67-d977-a4c7", "hidden": false},
+      {"name": "Primus Nullificator", "id": "f00c-671e-7ab9-4a33", "hidden": false},
+      {"name": "Librarian", "id": "5e3e-5df0-cb13-57e7", "hidden": false},
+      {"name": "Faction: Iron Warrior", "id": "646b-2fc9-f9e9-3295", "hidden": false}
     ],
     "sharedProfiles": [
       {
@@ -44,7 +50,7 @@
         "hidden": false,
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
-        "characteristics": [{"name": "Description", "$text": "This model can join **Infantry Walker** units as well as its regular leader options.", "typeId": "9b8f-694b-e5e-b573"}]
+        "characteristics": [{"name": "Description", "$text": "This model can join **Walker** units as well as its regular leader options.", "typeId": "9b8f-694b-e5e-b573"}]
       },
       {
         "name": "Bitter Defence",
@@ -129,6 +135,48 @@
             "typeId": "9b8f-694b-e5e-b573"
           }
         ]
+      },
+      {
+        "name": "Hammer of Wraith",
+        "id": "facf-8502-db26-947c",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "After this unit has charged select 1 enemy unit withing engagment range of this unit. Roll a dice for each model in this unit with this ability. On each 4+ the selected unit suffers 1 mortal wound",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "Crushing Bulk",
+        "id": "b110-e55e-50dc-963e",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "Models with this ability can be targeted by **Crushing Impact** strategem. When determining the number of dice to roll add up all the toughness of each models in this unit with this ability then half it rounded up. Use that number as the value for the number of dice to roll.",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "Moving Bulwark",
+        "id": "fccb-fc17-64ad-7344",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "While there are 2 or more models with this ability in the same unit improve all model's [with this ability in that unit] **Invulnerable Save** by 1 to a maximum of 4+",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
       }
     ],
     "sharedRules": [
@@ -167,6 +215,12 @@
         "name": "Burst",
         "id": "f73e-424c-e4d9-73f4",
         "description": "If a weapon **succsesfully** hits its target every **sucsesful** hit triggers **[Sustained Hits]** even if its not a **critical Hits**. **Critical Hits** do not trigger this ability as they already trigger **[Sustained Hits]**",
+        "hidden": false
+      },
+      {
+        "name": "Achean Force",
+        "id": "dbb3-cda4-fe58-63ba",
+        "description": "Before a unit attacks with weapons with this ability and is not **battle-shocked** it can make a **psychic roll** on 1D6:\n- On a 1 this unit is **battle-shocked**\n- Else: increase all **Achean Force** weapons in this unit **strength** by 2 for the rest of the phase\n[You only make 1 roll for this per phase no matter how many weapons have this ability]\nWeapons with this can not make a **psychic roll** due to the **psychic** weapon rule",
         "hidden": false
       }
     ],
@@ -548,6 +602,7 @@
             "import": true,
             "type": "upgrade",
             "categoryLinks": [{"name": "Take and Hold", "id": "f5cc-48a5-fb7e-74e1", "hidden": false, "primary": true, "targetId": "1cc1-f11a-4e8f-1bcc"}],
+            "constraints": [{"id": "665e-2c4d-fe63-6642", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
               {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
@@ -721,6 +776,47 @@
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "Abilities",
                 "characteristics": [{"name": "Description", "$text": "Models with this ability can re-roll hit rolls of 1 when targeting **charecter** models", "typeId": "9b8f-694b-e5e-b573"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thousand Sons Detachments",
+        "id": "ea00-a119-b168-d9b3",
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "name": "Achaean Configuration",
+            "id": "8c12-4e36-c24c-eae6",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [{"id": "fc7f-355d-3b90-6fff", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": "Achaean Configuration",
+                "id": "ced4-33fc-d5c5-8840",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "- **Castellax-Achea** become **Battleline**\n- When a **Friendly Psyker** withing 12\" of a **Castellax-Achea** fails a **psychic roll** the effect can be transfered to the **Castellax-Achea**\n- **Castellax-Achea** gain +1 OC when they are withing 9\" of a **friendly Thousand Sons Psyker**\n- **Castellax-Achea** must be in squads of 2 or more\n- You must include 1 **Techmarine** in your army\n- You must include 1 **Legion Praevian** in your army",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
               }
             ]
           }

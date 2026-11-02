@@ -23,9 +23,9 @@
       {"name": "Terror Squad", "id": "256c-6e24-883e-1fa4", "hidden": false},
       {"name": "Kheron Ophion of the Kyroptera", "id": "f387-5ffa-6077-4248", "hidden": false},
       {"name": "Nakrid Thale", "id": "0bdf-9833-c861-4bad", "hidden": false},
-      {"name": "Haarken Worldclaimer", "id": "8f07-b119-3e6b-9d66", "hidden": false},
       {"name": "Flaymaster Mawdryn Llansahai", "id": "9d78-2d24-a84c-c0da", "hidden": false},
-      {"name": "Artramentar Squad", "id": "da74-b9b2-ce97-3b1c", "hidden": false}
+      {"name": "Artramentar Squad", "id": "da74-b9b2-ce97-3b1c", "hidden": false},
+      {"name": "Haarken Worldclaimer", "id": "8f07-b119-3e6b-9d66", "hidden": false}
     ],
     "entryLinks": [
       {
@@ -7664,6 +7664,498 @@
           }
         ],
         "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Saturnine Centurion",
+        "id": "30b8-4f2c-73fa-01a8",
+        "hidden": false,
+        "import": true,
+        "targetId": "b360-e1a4-246c-0b44",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {
+            "name": "Bloody Murder",
+            "id": "f41b-b50d-a1d4-ce3d",
+            "hidden": false,
+            "targetId": "7d26-7f68-a67c-63eb",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Night Vision",
+            "id": "e1de-248a-0ed5-9d43",
+            "hidden": false,
+            "targetId": "765d-8ce5-b90c-15a9",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "A talent for Murder", "id": "612e-d9e8-bf3e-94cd", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"},
+          {
+            "name": "Deep Strike",
+            "id": "4596-d527-b4c6-fcb7",
+            "hidden": false,
+            "targetId": "7cb5-dd6b-dd87-ad3b",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "ebf9-1f45-94be-13bd",
+                    "childName": "Master of the Atramentar",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Saturnine Praetor",
+        "id": "22ff-5a72-0597-2fb2",
+        "hidden": false,
+        "import": true,
+        "targetId": "fb08-e4c3-c2dd-0fc7",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {
+            "name": "Bloody Murder",
+            "id": "3e6d-8351-50f8-62b8",
+            "hidden": false,
+            "targetId": "7d26-7f68-a67c-63eb",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Night Vision",
+            "id": "56a4-d607-2b3c-38af",
+            "hidden": false,
+            "targetId": "765d-8ce5-b90c-15a9",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "A talent for Murder", "id": "6335-6e1b-50db-ca10", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"},
+          {
+            "name": "Deep Strike",
+            "id": "af2f-a840-6166-f788",
+            "hidden": false,
+            "targetId": "7cb5-dd6b-dd87-ad3b",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "ebf9-1f45-94be-13bd",
+                    "childName": "Master of the Atramentar",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Saturnine Command Squad",
+        "id": "5efd-4061-eaf9-07ab",
+        "hidden": false,
+        "import": true,
+        "targetId": "461a-2b45-411c-50a3",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {
+            "name": "Night Vision",
+            "id": "269d-4bdc-87a1-4994",
+            "hidden": false,
+            "targetId": "765d-8ce5-b90c-15a9",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bloody Murder",
+            "id": "1f0e-cda8-ae45-c159",
+            "hidden": false,
+            "targetId": "7d26-7f68-a67c-63eb",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "A talent for Murder", "id": "ffac-d9ed-5829-33f3", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"},
+          {
+            "name": "Deep Strike",
+            "id": "9c12-d3ab-4e00-17f7",
+            "hidden": false,
+            "targetId": "7cb5-dd6b-dd87-ad3b",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "ebf9-1f45-94be-13bd",
+                    "childName": "Master of the Atramentar",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Saturnine Terminator Squad",
+        "id": "006f-d6dd-d55c-5878",
+        "hidden": false,
+        "import": true,
+        "targetId": "dbe4-370a-baf7-d82d",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {
+            "name": "Bloody Murder",
+            "id": "1142-3a9d-b1d4-70e8",
+            "hidden": false,
+            "targetId": "7d26-7f68-a67c-63eb",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Night Vision",
+            "id": "4846-c941-2849-6cfd",
+            "hidden": false,
+            "targetId": "765d-8ce5-b90c-15a9",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "A talent for Murder", "id": "e30b-476b-39c3-0ebb", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"},
+          {
+            "name": "Deep Strike",
+            "id": "aac3-bfa2-5ca3-208d",
+            "hidden": false,
+            "targetId": "7cb5-dd6b-dd87-ad3b",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "ebf9-1f45-94be-13bd",
+                    "childName": "Master of the Atramentar",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Araknae Quad Accelerator Platform",
+        "id": "f8f4-c15d-b3c9-9157",
+        "hidden": false,
+        "import": true,
+        "targetId": "ddc4-a817-ebab-5b10",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {
+            "name": "Bloody Murder",
+            "id": "c660-1233-d11a-0706",
+            "hidden": false,
+            "targetId": "7d26-7f68-a67c-63eb",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Night Vision",
+            "id": "fca4-3c35-53fe-3c5f",
+            "hidden": false,
+            "targetId": "765d-8ce5-b90c-15a9",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "A talent for Murder", "id": "9e13-2c14-8d1b-a1c7", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
+      },
+      {
+        "name": "Legion Saturnine Dreadnought",
+        "id": "017a-2d81-fc20-5b4f",
+        "hidden": false,
+        "import": true,
+        "targetId": "bb4b-be3a-d843-5a66",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {
+            "name": "Bloody Murder",
+            "id": "e452-dfab-52b2-a436",
+            "hidden": false,
+            "targetId": "7d26-7f68-a67c-63eb",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Night Vision",
+            "id": "4605-2ef9-7483-2802",
+            "hidden": false,
+            "targetId": "765d-8ce5-b90c-15a9",
+            "type": "profile",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "c6ec-8130-a2ce-fc30",
+                    "childName": "Konrad Kurze",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "A talent for Murder", "id": "2b77-1d52-4c07-9b78", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "caf5-ef2d-bb96-dc65"}]
       }
     ],
     "selectionEntries": [
@@ -7717,13 +8209,26 @@
             "targetId": "464b-cef6-1b60-4f88",
             "type": "selectionEntry",
             "modifiers": [{"field": "0b06-18e6-527e-ee43", "type": "set", "value": 1}]
+          },
+          {
+            "name": "Glimpse of Death",
+            "id": "887b-f397-43d7-2523",
+            "hidden": false,
+            "import": true,
+            "targetId": "2e3f-8f83-a581-722c",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "b101-e37f-c379-5599", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "6546-4b31-8615-d7eb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
           }
         ],
         "infoLinks": [
           {"name": "Bloody Murder", "id": "3f9d-6dec-f8ad-723f", "hidden": false, "targetId": "7d26-7f68-a67c-63eb", "type": "profile"},
           {"name": "Night Vision", "id": "2341-b0f2-3c8b-256c", "hidden": false, "targetId": "765d-8ce5-b90c-15a9", "type": "profile"},
           {"name": "Sons of the Emperor", "id": "6979-1d60-a05e-594d", "hidden": false, "targetId": "a83b-8c46-b484-53a5", "type": "profile"},
-          {"name": "Psyker", "id": "7dd0-e6ba-58ec-ad34", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
+          {"name": "Psyker", "id": "7dd0-e6ba-58ec-ad34", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"},
+          {"name": "A death long foreseen (psyker level 2)", "id": "48ec-0e11-a461-5dc4", "hidden": false, "targetId": "df5b-fc7c-6397-549e", "type": "profile"}
         ],
         "modifiers": [
           {
@@ -7851,28 +8356,6 @@
             ]
           },
           {
-            "name": "A death long foreseen (psyker level 2)",
-            "id": "df5b-fc7c-6397-549e",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "**Konrad Kurze** has the **psychic abilities** listed in the Psychic Abilities section.", "typeId": "9b8f-694b-e5e-b573"}]
-          },
-          {
-            "name": "Glimpse of Death (psychic level 1)",
-            "id": "ee72-2d73-8db6-5391",
-            "hidden": false,
-            "typeId": "7e03-38c2-7fea-e955",
-            "typeName": "Psychic Abilities",
-            "characteristics": [
-              {
-                "name": "Descriptions",
-                "$text": "At the start of the Fight phase, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling 2D6 but minus the number of times this has been used in a row this battle. If you do:\n- On a 6-, this unit suffers D3 mortal wounds\n- On a 7+, this model gains **[Feel No Pain 4+]** and +1 melee attacks till the end of the phase",
-                "typeId": "1917-301f-5d49-2f76"
-              }
-            ]
-          },
-          {
             "name": "Sire of the Night Lords",
             "id": "f9a2-88b1-6575-aad4",
             "hidden": false,
@@ -7996,7 +8479,19 @@
               {"id": "b021-f99f-eff4-e4a6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
           },
-          {"name": "Warlord", "id": "204f-e040-8891-80cc", "hidden": false, "import": true, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"}
+          {"name": "Warlord", "id": "204f-e040-8891-80cc", "hidden": false, "import": true, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"},
+          {
+            "name": "Shadows of Past and Future",
+            "id": "4760-a6e8-7f6d-acee",
+            "hidden": false,
+            "import": true,
+            "targetId": "bccb-a4a2-60f5-d40a",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "bd8c-3b67-f2ac-63d7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "2476-e26f-a970-1c12", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
         ],
         "infoLinks": [
           {"name": "Bloody Murder", "id": "10a3-5af6-ab04-1b42", "hidden": false, "targetId": "7d26-7f68-a67c-63eb", "type": "profile"},
@@ -8143,20 +8638,6 @@
                 "name": "Description",
                 "$text": "All **Night's Whisper** attacks that wound a **charecter** model have a damage charecteristic equal to the number of wounds the **charecter** currently has.",
                 "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
-          },
-          {
-            "name": "Shadows of Past and Future (Psychic level 1)",
-            "id": "899a-ce6f-b2bd-65df",
-            "hidden": false,
-            "typeId": "7e03-38c2-7fea-e955",
-            "typeName": "Psychic Abilities",
-            "characteristics": [
-              {
-                "name": "Descriptions",
-                "$text": "At the start of the fight phase if this unit is not **battle-shocked** you can make a **psychic roll** by rolling 1D6, if you do:\n- On a 1: **Sevatar** suffers D3 mortal wounds\n- Else: **Sevatar** gains +1 to hit and +1 attacks to **Night's Whisper**  for the rest of the phase.",
-                "typeId": "1917-301f-5d49-2f76"
               }
             ]
           },
@@ -8748,6 +9229,17 @@
             "constraints": [
               {"id": "c538-fe77-6a75-9358", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "f6cb-1db0-d842-2b1d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "entryLinks": [
+              {
+                "name": "Night lord Wargear",
+                "id": "0cc0-b1cf-1884-1847",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "0988-273f-3bf3-81c9",
+                "type": "selectionEntryGroup"
+              }
             ],
             "modifiers": [{"affects": "recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}],
             "profiles": [
@@ -10650,7 +11142,10 @@
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
-        "entryLinks": [{"name": "Warlord", "id": "f5a6-9d46-9653-ccac", "hidden": false, "import": true, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"}],
+        "entryLinks": [
+          {"name": "Warlord", "id": "f5a6-9d46-9653-ccac", "hidden": false, "import": true, "targetId": "464b-cef6-1b60-4f88", "type": "selectionEntry"},
+          {"name": "Night lord Wargear", "id": "91ec-be2a-db67-5611", "hidden": false, "import": true, "targetId": "0988-273f-3bf3-81c9", "type": "selectionEntryGroup"}
+        ],
         "infoLinks": [
           {"name": "Deep Strike", "id": "0990-c450-e5f3-957f", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"},
           {"name": "Leader", "id": "d4c2-6e93-a3a4-ab89", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
@@ -10706,7 +11201,8 @@
               }
             ]
           },
-          {"name": "A talent for Murder", "id": "1692-f1f6-4a62-0298", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"}
+          {"name": "A talent for Murder", "id": "1692-f1f6-4a62-0298", "hidden": false, "targetId": "5211-8d4d-3957-1b6e", "type": "rule"},
+          {"name": "Hammer of Wraith", "id": "4eac-8fd5-a532-bfed", "hidden": false, "targetId": "facf-8502-db26-947c", "type": "profile"}
         ],
         "modifiers": [
           {
@@ -10720,6 +11216,23 @@
                 "field": "selections",
                 "includeChildSelections": true,
                 "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "734f-b5e6-c6a9-9157",
+            "conditions": [
+              {
+                "childId": "464b-cef6-1b60-4f88",
+                "childName": "Warlord",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "self",
                 "shared": true,
                 "type": "atLeast",
                 "value": 1
@@ -10743,20 +11256,6 @@
               {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
               {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
               {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
-            ]
-          },
-          {
-            "name": "Head Taker",
-            "id": "7bf6-8fb8-e409-3294",
-            "hidden": false,
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "While this model is leading a unit, each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model’s unit and roll one D6 for each model in this model’s unit which is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound.",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
             ]
           },
           {
@@ -10836,6 +11335,39 @@
                 "name": "Description",
                 "$text": "In the turn this unit charges if no enemy models in combat have **fights first** this unit gains it. This counts as having **fights first** for the purposes of similar abilities",
                 "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Lord of Raptors (Warlord Trait)",
+            "id": "d909-0cff-e50d-e7b5",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Hammer of Wrath** is improved by 1 on all **Jump Pack** units and in addition while being lead by **Haarken Worldclaimer** him and his unit automatically trigger **Hammer of Wrath**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "464b-cef6-1b60-4f88",
+                    "childName": "Warlord",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
               }
             ]
           }
@@ -11264,7 +11796,7 @@
               {"id": "b976-87b6-bcad-5bdf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "2caf-e922-2b7d-fb7c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
-            "entryLinks": [{"name": "Night lord Wargear", "id": "662c-790f-f56e-f682", "hidden": false, "import": true, "targetId": "2a57-7802-729b-6d61", "type": "selectionEntryGroup"}],
+            "entryLinks": [{"name": "Night lord Wargear", "id": "5819-e586-24bf-d970", "hidden": false, "import": true, "targetId": "0988-273f-3bf3-81c9", "type": "selectionEntryGroup"}],
             "profiles": [
               {
                 "name": "Atramentar Trucidor",

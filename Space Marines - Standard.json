@@ -11,10 +11,9 @@
     "catalogueLinks": [
       {"name": "Space Marines - Armoury", "id": "1ab8-ea78-7539-8b31", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
       {"name": "Space Marines - Models", "id": "9bb7-d9b7-5674-e022", "importRootEntries": false, "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
-      {"name": "Space Marines - Armoury", "id": "d72a-917a-c929-f2e5", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
-      {"name": "Space Marines - Heresy", "id": "d975-ded1-e574-688b", "importRootEntries": false, "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
-      {"name": "Space Marines - Armoury", "id": "c2fb-fe05-ca6d-38b5", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
-      {"name": "Space Marines - Heresy", "id": "4ae7-687a-6de3-ec93", "importRootEntries": false, "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"}
+      {"name": "Space Marines - Wargear", "id": "d72a-917a-c929-f2e5", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"},
+      {"name": "Space Marines - Config/Keywords/Abilties", "id": "c2fb-fe05-ca6d-38b5", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"},
+      {"name": "Space Marines - Psychic Powers", "id": "301f-0e2c-d355-c014", "targetId": "3466-8bfe-9885-435d", "type": "catalogue"}
     ],
     "entryLinks": [
       {"name": "Legion Assault Squad", "id": "222c-b3d8-34bc-0787", "hidden": false, "import": true, "targetId": "ee1e-7c3c-d075-ccfb", "type": "selectionEntry"},
@@ -476,6 +475,48 @@
         "hidden": false,
         "import": true,
         "targetId": "180d-3e88-b259-5d1d",
+        "type": "selectionEntry"
+      },
+      {"name": "Legion Xiphon Interceptor", "id": "58a5-bfac-4d14-86f6", "hidden": false, "import": true, "targetId": "1fc9-94cb-9b08-7f28", "type": "selectionEntry"},
+      {"name": "Legion Saturnine Praetor", "id": "721e-fd93-aa63-4dcc", "hidden": false, "import": true, "targetId": "fb08-e4c3-c2dd-0fc7", "type": "selectionEntry"},
+      {
+        "name": "Legion Saturnine Centurion",
+        "id": "ff82-a0b6-56e9-0325",
+        "hidden": false,
+        "import": true,
+        "targetId": "b360-e1a4-246c-0b44",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Saturnine Command Squad",
+        "id": "dc0e-3aa7-37a2-0b8c",
+        "hidden": false,
+        "import": true,
+        "targetId": "461a-2b45-411c-50a3",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Saturnine Terminator Squad",
+        "id": "b7dd-1372-db93-a9ef",
+        "hidden": false,
+        "import": true,
+        "targetId": "dbe4-370a-baf7-d82d",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Araknae Quad Accelerator Platform",
+        "id": "09c6-c361-38c9-b857",
+        "hidden": false,
+        "import": true,
+        "targetId": "ddc4-a817-ebab-5b10",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Legion Saturnine Dreadnought",
+        "id": "a7a1-0a70-5744-73ed",
+        "hidden": false,
+        "import": true,
+        "targetId": "bb4b-be3a-d843-5a66",
         "type": "selectionEntry"
       }
     ],
