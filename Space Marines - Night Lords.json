@@ -10,9 +10,12 @@
     "revision": 1,
     "type": "catalogue",
     "catalogueLinks": [
-      {"name": "Space Marines - Heresy", "id": "8520-0f3a-d8cc-ee2d", "importRootEntries": false, "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
+      {"name": "Space Marines - Models", "id": "8520-0f3a-d8cc-ee2d", "importRootEntries": false, "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
       {"name": "Space Marines - Armoury", "id": "bc3c-acca-8010-5ec3", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
-      {"name": "Space Marines - Wargear", "id": "2050-9719-eb9a-22c4", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"}
+      {"name": "Space Marines - Wargear", "id": "2050-9719-eb9a-22c4", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"},
+      {"name": "Space Marines - Psychic Powers", "id": "5ae0-c385-5fd9-8560", "targetId": "3466-8bfe-9885-435d", "type": "catalogue"},
+      {"name": "Space Marines - Retinue", "id": "8ab9-6118-bd6f-74b0", "targetId": "ee8c-5715-9813-4b3b", "type": "catalogue"},
+      {"name": "Space Marines - Config/Keywords/Abilties", "id": "cb6d-87e7-ece4-741a", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}
     ],
     "categoryEntries": [
       {"name": "Konrad Kurze", "id": "c6ec-8130-a2ce-fc30", "hidden": false},

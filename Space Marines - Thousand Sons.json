@@ -13,7 +13,8 @@
       {"name": "Space Marines - Config/Keywords/Abilties", "id": "00e3-14af-c758-0887", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"},
       {"name": "Space Marines - Wargear", "id": "9fee-248b-f505-d4f5", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"},
       {"name": "Space Marines - Psychic Powers", "id": "266b-c702-4c78-5f4c", "targetId": "3466-8bfe-9885-435d", "type": "catalogue"},
-      {"name": "Space Marines - Models", "id": "2264-c2a1-d3c9-318c", "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"}
+      {"name": "Space Marines - Models", "id": "2264-c2a1-d3c9-318c", "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
+      {"name": "Space Marines - Retinue", "id": "4f46-2fdd-c0c3-e95b", "targetId": "ee8c-5715-9813-4b3b", "type": "catalogue"}
     ],
     "categoryEntries": [
       {
@@ -1382,7 +1383,7 @@
           {"name": "Monster", "id": "fc56-738c-e57d-a593", "hidden": false, "primary": false, "targetId": "9693-cf84-fe69-37a9"},
           {"name": "Psyker", "id": "686b-bde6-c1ca-debd", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
           {"name": "Traitor", "id": "0fb0-9dc9-882d-8e43", "hidden": false, "primary": false, "targetId": "ab5d-ae96-512e-2748"},
-          {"name": "Faction: Thousand Son", "id": "9715-5630-cb3f-3222", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "9715-5630-cb3f-3222", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Explosives", "id": "40be-e24f-6e43-efea", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Magnus the Red", "id": "f303-295d-4cb0-ff39", "hidden": false, "primary": false, "targetId": "63b5-a223-199e-ca14"}
         ],
@@ -1749,7 +1750,7 @@
           {"name": "Infantry", "id": "bfc8-4653-8e03-c019", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Leader", "id": "61ae-c2bf-37e0-ae12", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
           {"name": "Psyker", "id": "8c9a-d31c-a59a-6161", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
-          {"name": "Faction: Thousand Son", "id": "3d3d-1721-af86-24d1", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "3d3d-1721-af86-24d1", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Ahzek Ahriman", "id": "3009-161f-76a8-4931", "hidden": false, "primary": false, "targetId": "1b91-153c-d41a-a395"},
           {"name": "Traitor", "id": "5805-22ca-5c34-4d21", "hidden": false, "primary": false, "targetId": "ab5d-ae96-512e-2748"},
           {"name": "Explosives", "id": "f1a7-a40f-28a7-1ede", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
@@ -1955,7 +1956,7 @@
           {"name": "Leader", "id": "4059-549b-cd38-b427", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
           {"name": "Psyker", "id": "d466-3fe2-ecf4-1432", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
           {"name": "Explosives", "id": "0172-1641-000e-62d6", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
-          {"name": "Faction: Thousand Son", "id": "4e95-8d99-75ec-034e", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "4e95-8d99-75ec-034e", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Magistus Amon", "id": "bb46-37f7-280e-82ae", "hidden": false, "primary": false, "targetId": "60bd-a2a6-332e-e5f3"},
           {"name": "Traitor", "id": "0b47-2f1e-4dd0-dcf9", "hidden": false, "primary": false, "targetId": "ab5d-ae96-512e-2748"}
         ],
@@ -2163,7 +2164,7 @@
           {"name": "Walker", "id": "d8a6-7601-9ed8-afb9", "hidden": false, "primary": true, "targetId": "6dda-e157-334d-e93a"},
           {"name": "Vehicle", "id": "533f-acc0-c730-a2da", "hidden": false, "primary": false, "targetId": "dbd4-63-af05-998"},
           {"name": "Automata", "id": "2f6e-0552-a4bd-5168", "hidden": false, "primary": false, "targetId": "2607-f7fc-13d2-8213"},
-          {"name": "Faction: Thousand Son", "id": "85c8-e37c-5018-4552", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "85c8-e37c-5018-4552", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Psyker", "id": "5c18-463b-0802-eab2", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"}
         ],
         "constraints": [{"id": "6268-6cf0-17e1-6f4e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
@@ -2440,7 +2441,7 @@
               {"name": "Dreadnought", "id": "eaaf-e806-d20e-770e", "hidden": false, "primary": false, "targetId": "c97c-376-e2e0-1dd2"},
               {"name": "Contempter", "id": "c024-5681-db3a-6aed", "hidden": false, "primary": false, "targetId": "c2df-6baa-f3db-d351"},
               {"name": "Psyker", "id": "800e-5a85-cc2b-5a4c", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
-              {"name": "Faction: Thousand Son", "id": "3d2d-d0ff-6993-dc8b", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+              {"name": "Faction: Thousand Sons", "id": "3d2d-d0ff-6993-dc8b", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
               {"name": "Contempter-Osiron Dreadnought", "id": "7913-af87-996c-73e9", "hidden": false, "primary": false, "targetId": "5c24-adcf-eeed-99e7"}
             ],
             "constraints": [
@@ -2894,7 +2895,7 @@
           {"name": "Infantry", "id": "15df-41b2-c83f-54c2", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Explosives", "id": "05ad-8578-cc28-7ad3", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Psyker", "id": "2539-bc48-a692-698f", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
-          {"name": "Faction: Thousand Son", "id": "9a74-f66e-5605-f0a6", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "9a74-f66e-5605-f0a6", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Khenetai Occult Cabal", "id": "c93a-3f0f-5e7b-bae9", "hidden": false, "primary": false, "targetId": "6c73-a19a-75f9-d9da"}
         ],
         "constraints": [{"id": "9c1c-3248-85b6-e696", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
@@ -3294,7 +3295,7 @@
           {"name": "Terminator", "id": "2ce5-9a6c-3819-86d4", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
           {"name": "Explosives", "id": "f7d3-c6aa-838b-e9c5", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Psyker", "id": "82f2-da7b-afcc-2405", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
-          {"name": "Faction: Thousand Son", "id": "b2e3-2932-226a-95be", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "b2e3-2932-226a-95be", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Sekhmet Terminator Cabal", "id": "7848-bf98-4e4e-5299", "hidden": false, "primary": false, "targetId": "2ca7-9868-de3c-64ee"},
           {"name": "Cataphracii", "id": "b924-f420-83d8-23f5", "hidden": false, "primary": false, "targetId": "163e-4731-8e1a-b26b"}
         ],
@@ -3649,7 +3650,7 @@
           {"name": "Infantry", "id": "ea43-f275-30aa-445f", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Explosives", "id": "01ad-4aff-6227-cc0a", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Psyker", "id": "91ac-54ca-c509-2c7f", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
-          {"name": "Faction: Thousand Son", "id": "bf32-f53e-f2f5-4925", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "bf32-f53e-f2f5-4925", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Numerologist Cabal", "id": "d48c-cc32-2168-7892", "hidden": false, "primary": false, "targetId": "bb36-59a4-88b8-95af"}
         ],
         "constraints": [{"id": "ef12-7197-c702-cc9c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
@@ -4235,7 +4236,7 @@
           {"name": "Infantry", "id": "5344-3248-a4fa-429e", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Explosives", "id": "07ed-0beb-80ea-cdab", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Psyker", "id": "8441-2a80-f37f-aa6f", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
-          {"name": "Faction: Thousand Son", "id": "3a80-da3d-e5dc-10e7", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"}
+          {"name": "Faction: Thousand Sons", "id": "3a80-da3d-e5dc-10e7", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"}
         ],
         "constraints": [{"id": "c196-0f71-af7f-6d4a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
         "costs": [
@@ -4641,7 +4642,7 @@
           {"name": "Infantry", "id": "ec8c-ab62-a9ee-1fbd", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Psyker", "id": "d89f-9866-5684-2bc5", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
           {"name": "Explosives", "id": "9f58-7a6c-0028-7c8e", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
-          {"name": "Faction: Thousand Son", "id": "3fa0-bec9-7e00-5d1e", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "3fa0-bec9-7e00-5d1e", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Lord of the Moon", "id": "5d5c-5835-a0c3-d3c7", "hidden": false, "primary": false, "targetId": "d152-d53c-5897-547c"}
         ],
         "constraints": [{"id": "b799-c9a6-9269-efcb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
@@ -4793,6 +4794,17 @@
               {"id": "63be-dc64-dd60-1e1e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "6163-9332-3deb-56ae", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
+            "entryLinks": [
+              {
+                "name": "Lord of the Moon Spell Library",
+                "id": "cf92-8c25-2b57-b5fe",
+                "hidden": false,
+                "import": true,
+                "targetId": "eeaf-528c-6af5-cbe2",
+                "type": "selectionEntryGroup",
+                "constraints": [{"id": "7900-5bad-54d5-bd29", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}]
+              }
+            ],
             "profiles": [
               {
                 "name": "RANDOM PSYCHIC STUFF GO!!!",
@@ -4805,266 +4817,6 @@
                     "name": "Description",
                     "$text": "At the start of each of your turns roll a 3D100. If one or more dice have the same value this model suffers 1 **Psychic Mortal Wound** and re-roll all dice that have the same value. Then each value represents 1 **Psykic Disipline** in the list. This model gets them till the start of your next turn. If you rolled a value that has not one you can re-roll the dice for free.",
                     "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ]
-              }
-            ],
-            "selectionEntryGroups": [
-              {
-                "name": "List of Disiplines",
-                "id": "faee-b5bf-ed71-1d5b",
-                "hidden": false,
-                "constraints": [{"id": "6b8e-fd1f-bb50-d207", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
-                "entryLinks": [
-                  {
-                    "name": "Aetherbane",
-                    "id": "9894-4269-26c2-ee1b",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "0661-71c7-0ac7-3ce0",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "d536-be8f-40e4-4edf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "1."}]
-                  },
-                  {
-                    "name": "Anathemata",
-                    "id": "d1d7-05b7-8647-3a52",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "d149-29ec-ae67-11a1",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "5885-dc23-6158-6c7e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "2."}]
-                  },
-                  {
-                    "name": "Athanaen",
-                    "id": "474e-aff3-0989-4c9e",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "10d3-9ae0-0bb7-4bf7",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "5ca9-5816-ee31-f598", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "3."}]
-                  },
-                  {
-                    "name": "Biomancy",
-                    "id": "1009-8b8b-b4b7-a2ed",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "048b-d64e-17a3-d830",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "6a05-faa1-e1b4-b948", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "4."}]
-                  },
-                  {
-                    "name": "Corvidae",
-                    "id": "0523-d66f-ef39-9ee6",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "22d5-59e1-ca6d-b198",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "fd31-100a-7ad3-eeac", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "5."}]
-                  },
-                  {
-                    "name": "Delphos Serpentis",
-                    "id": "e97e-796b-f30d-eb6b",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "ca12-b90a-d17c-98d1",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "0918-e283-3ef0-0878", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "6."}]
-                  },
-                  {
-                    "name": "Divination",
-                    "id": "102d-2917-e1dc-a73b",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "3569-6ff6-e4cd-e775",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "c237-8c0e-4d18-91cd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "7."}]
-                  },
-                  {
-                    "name": "Glimpse of Death",
-                    "id": "2b63-d3bb-5dc6-e77c",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "2e3f-8f83-a581-722c",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "e9f5-9211-7174-98c5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "8."}]
-                  },
-                  {
-                    "name": "Mind Killer",
-                    "id": "518f-4103-6e2d-f0fe",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "964f-03c9-8d50-e270",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "7698-7591-a283-ff11", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "9."}]
-                  },
-                  {
-                    "name": "Mindsong of Blades",
-                    "id": "552f-0899-46f0-13a6",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "0d8d-2d4f-0308-5961",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "a82b-ddb6-48d5-f2ec", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "10."}]
-                  },
-                  {
-                    "name": "Navis Astrologis",
-                    "id": "1db0-4e4e-5ad8-3b40",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "bf5a-0c8a-deb0-b810",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "16fc-61fd-73a1-c5e1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "11."}]
-                  },
-                  {
-                    "name": "Pavoni",
-                    "id": "7ee0-d43b-1ebd-9710",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "4842-b9be-ecd4-9eb2",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "e770-0d0a-d95c-c529", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "12."}]
-                  },
-                  {
-                    "name": "Psy-Synchronicity",
-                    "id": "b7dc-12be-a36b-b6d0",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "b77c-ac39-9729-1096",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "14ce-e18f-364c-c1dd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "13."}]
-                  },
-                  {
-                    "name": "Pyrae",
-                    "id": "26ec-e2f0-5300-60f0",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "e02b-de59-943e-d2fc",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "baf8-0025-0e29-f1f4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "14."}]
-                  },
-                  {
-                    "name": "Pyromancy",
-                    "id": "cda9-9a9a-d4ec-1512",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "da86-3f6a-6a35-1ec0",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "3a80-be49-e47b-467e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "15."}]
-                  },
-                  {
-                    "name": "Raptora",
-                    "id": "3146-723f-f2de-0a7f",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "aa3a-0e93-09ae-0cbf",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "2957-194a-87d0-3761", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "16."}]
-                  },
-                  {
-                    "name": "Shadows of Past and Future",
-                    "id": "aa32-98c0-3202-aa75",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "bccb-a4a2-60f5-d40a",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "d3a5-8b4c-2fe5-a800", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "17."}]
-                  },
-                  {
-                    "name": "Telekinesis",
-                    "id": "896e-9ac7-cdc1-e6b7",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "2998-c194-b2aa-ebb7",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "7324-aa0e-975d-c558", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "18."}]
-                  },
-                  {
-                    "name": "Telepathy",
-                    "id": "695e-44b1-344f-67ed",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "7c6b-b13b-4c0f-3894",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "d5ea-9173-1299-a20c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "19."}]
-                  },
-                  {
-                    "name": "Thaumaturgy",
-                    "id": "6d67-a673-c0a2-de14",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "9984-d286-3ec2-e4fc",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "4407-607e-115a-5682", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "20."}]
-                  },
-                  {
-                    "name": "Magnus's Own Creations",
-                    "id": "4b20-b947-7276-e52a",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "fa4c-7749-45f9-04c5",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "6d4e-ecd1-3363-d2a5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "21."}]
-                  },
-                  {
-                    "name": "Tzeench Magic",
-                    "id": "1a30-0569-9c3c-aa56",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "82b3-b409-ac3b-7460",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "097a-cfda-695c-6599", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "22."}]
-                  },
-                  {
-                    "name": "Tzeenche's Infernal Sorcery",
-                    "id": "eff9-2232-3114-245b",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "8f68-f5f8-6e29-ca6d",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "b0f4-6f97-d839-d5ba", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "23."}]
-                  },
-                  {
-                    "name": "Tzeenchs Sorcereys",
-                    "id": "1419-3098-03fb-19c9",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "6459-031b-a41a-d00b",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "62d7-55af-0a80-3697", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "24."}]
-                  },
-                  {
-                    "name": "Tzeenchs Arch Sorcery",
-                    "id": "79ad-3919-d391-9c95",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "3d00-781a-3f78-8029",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "4bed-1289-8aa3-9b52", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "modifiers": [{"field": "name", "join": " ", "type": "prepend", "value": "25."}]
                   }
                 ]
               }
@@ -5090,7 +4842,7 @@
           {"name": "Tzeentch", "id": "7da5-8ed3-7ec1-d3e2", "hidden": false, "primary": false, "targetId": "b188-114f-6ba5-79a1"},
           {"name": "Leader", "id": "6e81-3d1a-bb00-c9f5", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
           {"name": "Infernal Master", "id": "2fa1-cbcd-8501-1816", "hidden": false, "primary": false, "targetId": "0320-7c10-9d6f-0801"},
-          {"name": "Faction: Thousand Son", "id": "3321-eedf-80fa-9404", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"}
+          {"name": "Faction: Thousand Sons", "id": "3321-eedf-80fa-9404", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"}
         ],
         "constraints": [
           {
@@ -5248,7 +5000,7 @@
           {"name": "Fly", "id": "c381-93ef-a05f-6ec0", "hidden": false, "primary": false, "targetId": "c619-2086-bbcf-69c9"},
           {"name": "Mounted", "id": "f6ce-740e-b044-3b15", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"},
           {"name": "Leader", "id": "e644-c32c-cf0c-347f", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
-          {"name": "Faction: Thousand Son", "id": "388d-af95-fe87-010d", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "388d-af95-fe87-010d", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Ahzek Ahriman", "id": "1bf6-9dc0-d997-f2b4", "hidden": false, "primary": false, "targetId": "1b91-153c-d41a-a395"},
           {"name": "Tzeentch", "id": "ddca-924f-36db-3f33", "hidden": false, "primary": false, "targetId": "b188-114f-6ba5-79a1"},
           {"name": "Traitor", "id": "8d6e-04e5-5b40-be66", "hidden": false, "primary": false, "targetId": "ab5d-ae96-512e-2748"}
@@ -5442,7 +5194,7 @@
           {"name": "Tzeentch", "id": "dc08-202f-95b8-fa91", "hidden": false, "primary": false, "targetId": "b188-114f-6ba5-79a1"},
           {"name": "Leader", "id": "51fc-d741-c1d5-03a9", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
           {"name": "Librarian", "id": "7add-d3f6-d921-5316", "hidden": false, "primary": false, "targetId": "5e3e-5df0-cb13-57e7"},
-          {"name": "Faction: Thousand Son", "id": "2df4-a182-0cd0-8b74", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "2df4-a182-0cd0-8b74", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Traitor", "id": "af57-49d6-0fe9-ab51", "hidden": false, "primary": false, "targetId": "ab5d-ae96-512e-2748"},
           {"name": "Exalted Sorcerer", "id": "92fb-6b2f-6cc3-ae5e", "hidden": false, "primary": false, "targetId": "a5d3-7411-7b80-6ae5"}
         ],
@@ -5589,7 +5341,7 @@
           {"name": "Mounted", "id": "a4fe-5263-f7f4-e29a", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"},
           {"name": "Leader", "id": "c7b8-b90a-3041-cf25", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
           {"name": "Exalted Sorcerer", "id": "7945-69cf-7e85-7715", "hidden": false, "primary": false, "targetId": "a5d3-7411-7b80-6ae5"},
-          {"name": "Faction: Thousand Son", "id": "2964-c322-728e-3cc9", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "2964-c322-728e-3cc9", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Traitor", "id": "ac89-6c24-4d29-f7da", "hidden": false, "primary": false, "targetId": "ab5d-ae96-512e-2748"}
         ],
         "constraints": [
@@ -6018,7 +5770,7 @@
           {"name": "Battleline", "id": "df55-13e8-2396-89fe", "hidden": false, "primary": true, "targetId": "e338-111e-d0c6-b687"},
           {"name": "Infantry", "id": "9db4-370f-a904-4812", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Explosives", "id": "77fa-4dcb-076c-af9f", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
-          {"name": "Faction: Thousand Son", "id": "0888-1b32-ef80-2ce9", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "0888-1b32-ef80-2ce9", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Rubric Marines", "id": "019a-7d84-7cca-eeb4", "hidden": false, "primary": false, "targetId": "f6c5-2473-93d2-c0c9"},
           {"name": "Psyker", "id": "1ae7-2c8e-01fc-e855", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"}
         ],
@@ -6277,7 +6029,7 @@
           {"name": "Tartaros", "id": "48c2-2ae5-793d-e432", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
           {"name": "Explosives", "id": "10dc-cf78-f8c2-b740", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Psyker", "id": "1241-612f-5d47-fc62", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
-          {"name": "Faction: Thousand Son", "id": "6c7b-e380-18d2-82ae", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "6c7b-e380-18d2-82ae", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Scarab Occult Terminators", "id": "8767-7e60-ae05-3704", "hidden": false, "primary": false, "targetId": "510f-46da-3219-27c5"},
           {"name": "Traitor", "id": "9eaf-8fc7-bcae-fa56", "hidden": false, "primary": false, "targetId": "ab5d-ae96-512e-2748"}
         ],
@@ -6638,7 +6390,7 @@
           {"name": "Vehicle", "id": "7292-16bf-9adf-c97f", "hidden": false, "primary": false, "targetId": "dbd4-63-af05-998"},
           {"name": "Explosives", "id": "0b31-768e-ace0-a49f", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Psyker", "id": "fb73-adca-a471-69e6", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
-          {"name": "Faction: Thousand Son", "id": "7b6a-1bb7-1cb3-1624", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
+          {"name": "Faction: Thousand Sons", "id": "7b6a-1bb7-1cb3-1624", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Sekhetar Robots", "id": "7574-4e08-b498-9c52", "hidden": false, "primary": false, "targetId": "5d89-5f62-bf9f-d4a8"}
         ],
         "constraints": [{"id": "f876-5916-6c36-553a", "field": "selections", "includeChildSelections": false, "scope": "force", "shared": true, "type": "max", "value": 3}],

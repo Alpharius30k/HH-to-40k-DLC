@@ -23,11 +23,12 @@
         "constraints": [{"id": "1113-2849-afdb-c25e", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1}]
       },
       {"name": "Automata", "id": "2607-f7fc-13d2-8213", "hidden": false},
-      {"name": "Faction: Thousand Son", "id": "f7f0-5867-fb76-e821", "hidden": false},
+      {"name": "Faction: Thousand Sons", "id": "f7f0-5867-fb76-e821", "hidden": false},
       {"name": "Esoterist", "id": "c063-0c67-d977-a4c7", "hidden": false},
       {"name": "Primus Nullificator", "id": "f00c-671e-7ab9-4a33", "hidden": false},
       {"name": "Librarian", "id": "5e3e-5df0-cb13-57e7", "hidden": false},
-      {"name": "Faction: Iron Warrior", "id": "646b-2fc9-f9e9-3295", "hidden": false}
+      {"name": "Faction: Iron Warrior", "id": "646b-2fc9-f9e9-3295", "hidden": false},
+      {"name": "Faction: Death Gaurd", "id": "15c4-e42a-41d1-5ded", "hidden": false}
     ],
     "sharedProfiles": [
       {
@@ -321,6 +322,7 @@
         "name": "Common Detachments",
         "id": "1a9b-dc90-4bb8-6fee",
         "hidden": false,
+        "sortIndex": 0,
         "constraints": [
           {
             "id": "b481-552e-3e08-cdb5",
@@ -594,6 +596,7 @@
         "name": "Salamander Detachments",
         "id": "588d-1be1-21b7-b382",
         "hidden": false,
+        "sortIndex": 18,
         "selectionEntries": [
           {
             "name": "Covenant of Fire",
@@ -636,6 +639,7 @@
         "name": "Alpha Legion Detachments",
         "id": "2b21-4c1c-9c7f-c22d",
         "hidden": false,
+        "sortIndex": 20,
         "selectionEntries": [
           {
             "name": "Headhunter Levithan",
@@ -679,6 +683,7 @@
         "name": "Night Lord Detachments",
         "id": "9f55-eed6-f1a3-3413",
         "hidden": false,
+        "sortIndex": 8,
         "selectionEntries": [
           {
             "name": "Terror Assault",
@@ -736,6 +741,7 @@
         "name": "Raven Guard Detachments",
         "id": "7d1b-6f3c-750b-b0e4",
         "hidden": false,
+        "sortIndex": 19,
         "selectionEntries": [
           {
             "name": "Decapitation Strike",
@@ -785,6 +791,7 @@
         "name": "Thousand Sons Detachments",
         "id": "ea00-a119-b168-d9b3",
         "hidden": false,
+        "sortIndex": 15,
         "selectionEntries": [
           {
             "name": "Achaean Configuration",
@@ -817,6 +824,57 @@
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Iron Warrior Detachment",
+        "id": "ff7a-2d74-b523-bdf1",
+        "hidden": false,
+        "sortIndex": 4,
+        "selectionEntries": [
+          {
+            "name": "Ironfire",
+            "id": "988e-9e6d-100d-03c9",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Take and Hold", "id": "2e60-aa60-6a91-736c", "hidden": false, "primary": true, "targetId": "1cc1-f11a-4e8f-1bcc"}],
+            "constraints": [{"id": "8ce9-4f24-0a86-acb9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 1},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": "Ironfire",
+                "id": "96d6-0044-11b7-fb42",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "$text": "- **Legion Arquitor Squadrons** gain Battleline\n- **[Indirect Fire]** weapons that benefit from a spotter now always miss on 1s and 2s if they would hit on 3s or better or normal hitting if they hit on a 4+\n- All **Infantry** units gain **Stubborn Iron** ability\n- You can not put any units into **reserves**\n- You can not bring any **mounted** units\n- You must bring 1 **Siege Breaker** in your army",
+                    "typeId": "9b8f-694b-e5e-b573"
+                  }
+                ]
+              },
+              {
+                "name": "Stubborn Iron",
+                "id": "9874-a502-6875-7333",
+                "hidden": false,
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "characteristics": [{"name": "Description", "$text": "This unit can re-roll failed armour saves against **[blast]** weapon", "typeId": "9b8f-694b-e5e-b573"}]
               }
             ]
           }

@@ -109,7 +109,24 @@
           {"field": "category", "scope": "parent", "type": "add", "value": "c619-2086-bbcf-69c9"},
           {"field": "category", "scope": "parent", "type": "add", "value": "14a0-40c9-2748-ae6e"},
           {"field": "category", "scope": "parent", "type": "remove", "value": "cf47-a0d7-7207-29dc"},
-          {"affects": "self.entries.profiles.Unit", "field": "d29d-cf75-fc2d-34a4", "scope": "parent", "type": "increment", "value": 1}
+          {"affects": "self.entries.profiles.Unit", "field": "d29d-cf75-fc2d-34a4", "scope": "parent", "type": "increment", "value": 1},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "988e-9e6d-100d-03c9",
+                "childName": "Ironfire",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
         ],
         "profiles": [
           {
@@ -153,7 +170,24 @@
           {"affects": "self.entries.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "12\""},
           {"field": "category", "scope": "parent", "type": "add", "value": "14a0-40c9-2748-ae6e"},
           {"field": "category", "scope": "parent", "type": "remove", "value": "cf47-a0d7-7207-29dc"},
-          {"affects": "self.entries.profiles.Unit", "field": "d29d-cf75-fc2d-34a4", "scope": "parent", "type": "increment", "value": 1}
+          {"affects": "self.entries.profiles.Unit", "field": "d29d-cf75-fc2d-34a4", "scope": "parent", "type": "increment", "value": 1},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "988e-9e6d-100d-03c9",
+                "childName": "Ironfire",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
         ],
         "profiles": [
           {
@@ -914,6 +948,29 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Cortex Designator",
+        "id": "ae14-9113-4f30-6b2f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Cortex Designator",
+            "id": "6099-b36d-e15e-ec72",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "After a model with this has shot **enemy units** hit by its **shooting attacks** all **Automata** units gain +1 to hit that unit.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -945,6 +1002,101 @@
                     "type": "notInstanceOf",
                     "value": 1
                   }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Iron Warrior Wargear",
+            "id": "0008-ad0b-ea6c-2416",
+            "hidden": false,
+            "import": true,
+            "targetId": "7231-23c0-e9cd-48f1",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "646b-2fc9-f9e9-3295",
+                    "childName": "Faction: Iron Warrior",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Warsmith",
+                "id": "fd25-c060-ad37-0f85",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "1105-4597-a909-ec48", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+                  {"id": "48b7-9537-9e9c-44ad", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Cortex Contoller",
+                    "id": "f218-9f22-2f5c-dc32",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "03dc-7b6a-a279-b913",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "f0c1-3d16-c4fc-3141", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "d83c-abef-dfdd-efe1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  },
+                  {
+                    "name": "Servo-arm",
+                    "id": "adcc-ccaa-5f9c-5f0c",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "3863-425f-361e-ea84",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "0868-34e0-b53b-574d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "1a7f-c734-7cfa-7fb3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {"name": "Master of Automata", "id": "8432-9696-6adb-fda2", "hidden": false, "targetId": "ef4d-8ac0-dafa-6942", "type": "profile"},
+                  {
+                    "name": "Battlesmith x+",
+                    "id": "e318-da00-f1f4-5019",
+                    "hidden": false,
+                    "targetId": "6b28-e707-4237-e961",
+                    "type": "profile",
+                    "modifiers": [{"arg": "x", "field": "name", "type": "replace", "value": "3"}, {"arg": "x", "field": "9b8f-694b-e5e-b573", "type": "replace", "value": "3"}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [{"childId": "2d7f-1892-2fd0-e29c", "childName": "Captain", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                  },
+                  {"arg": "Praetor", "field": "name", "scope": "parent", "type": "replace", "value": "Warsmith"}
                 ]
               }
             ]
@@ -1876,7 +2028,8 @@
             ]
           }
         ]
-      }
+      },
+      {"name": "Iron Warrior Wargear", "id": "7231-23c0-e9cd-48f1", "hidden": false}
     ]
   }
 }

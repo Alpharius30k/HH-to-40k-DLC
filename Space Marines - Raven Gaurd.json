@@ -10,9 +10,12 @@
     "revision": 1,
     "type": "catalogue",
     "catalogueLinks": [
-      {"name": "Space Marines - Heresy", "id": "b2ab-fc4f-d9f2-9889", "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
-      {"name": "New Catalogue (link)", "id": "bc26-cb6d-fcde-53ea", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
-      {"name": "New Catalogue (link)", "id": "7ef8-cd98-9fba-9ffc", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"}
+      {"name": "Space Marines - Models", "id": "b2ab-fc4f-d9f2-9889", "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
+      {"name": "Space Marines - Armoury", "id": "bc26-cb6d-fcde-53ea", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
+      {"name": "Space Marines - Wargear", "id": "7ef8-cd98-9fba-9ffc", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"},
+      {"name": "Space Marines - Psychic Powers", "id": "19e1-e1a7-38c2-a70b", "targetId": "3466-8bfe-9885-435d", "type": "catalogue"},
+      {"name": "Space Marines - Retinue", "id": "62ab-0600-8bbb-c9c5", "targetId": "ee8c-5715-9813-4b3b", "type": "catalogue"},
+      {"name": "Space Marines - Config/Keywords/Abilties", "id": "17f7-fadb-043e-a993", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}
     ],
     "categoryEntries": [
       {"name": "Talon", "id": "6098-83b5-2636-15a9", "hidden": false},
@@ -6201,7 +6204,8 @@
           {"name": "Monster", "id": "c6c4-76cf-bfeb-b97f", "hidden": false, "primary": false, "targetId": "9693-cf84-fe69-37a9"},
           {"name": "Faction: Raven Guard", "id": "ccc7-501e-0aaa-46f8", "hidden": false, "primary": false, "targetId": "84b7-7194-3b84-1b0c"},
           {"name": "Corvus Corax", "id": "e166-b19a-4872-3ed5", "hidden": false, "primary": false, "targetId": "0db7-5327-9cb8-a805"},
-          {"name": "Loyalist", "id": "2151-2493-4ce0-3766", "hidden": false, "primary": false, "targetId": "6385-b04f-2e5f-56dc"}
+          {"name": "Loyalist", "id": "2151-2493-4ce0-3766", "hidden": false, "primary": false, "targetId": "6385-b04f-2e5f-56dc"},
+          {"name": "Psyker", "id": "e06d-26e9-79e6-65a4", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"}
         ],
         "constraints": [
           {
@@ -6236,7 +6240,19 @@
             "type": "selectionEntry",
             "modifiers": [{"field": "0b06-18e6-527e-ee43", "type": "set", "value": 1}]
           },
-          {"name": "Shadow and Fury", "id": "c913-e3ab-529d-4fba", "hidden": false, "import": true, "targetId": "f0b7-268a-b6e0-a26b", "type": "selectionEntryGroup"}
+          {"name": "Shadow and Fury", "id": "c913-e3ab-529d-4fba", "hidden": false, "import": true, "targetId": "f0b7-268a-b6e0-a26b", "type": "selectionEntryGroup"},
+          {
+            "name": "Voids Calling",
+            "id": "e028-8ec1-0a23-6ff6",
+            "hidden": false,
+            "import": true,
+            "targetId": "ff53-3404-05cf-3832",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "704f-3408-682c-574d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "542d-2d1b-1a2e-12d2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
         ],
         "infoLinks": [
           {
@@ -6246,7 +6262,9 @@
             "targetId": "afc7-fa96-578f-daec",
             "type": "profile",
             "modifiers": [{"field": "hidden", "type": "set", "value": true}]
-          }
+          },
+          {"name": "Psyker", "id": "e217-2a8d-49b5-ae6a", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"},
+          {"name": "Lord of the Crows (psyker level 2)", "id": "54a7-6f22-a0cf-8cec", "hidden": false, "targetId": "4675-efd9-2c27-4874", "type": "profile"}
         ],
         "modifiers": [
           {

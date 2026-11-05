@@ -13,7 +13,9 @@
       {"name": "Space Marines - Heresy", "id": "8e94-c7c8-0760-33e0", "importRootEntries": false, "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
       {"name": "Space Marines - Armoury", "id": "9b75-9b23-19f1-92dc", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
       {"name": "Space Marines - Wargear", "id": "374c-4e72-6358-a3a8", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"},
-      {"name": "Space Marines - Config/Keywords/Abilties", "id": "4aa4-0605-3cc4-fb50", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}
+      {"name": "Space Marines - Config/Keywords/Abilties", "id": "4aa4-0605-3cc4-fb50", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"},
+      {"name": "Space Marines - Psychic Powers", "id": "17a0-055d-20dd-d9d3", "targetId": "3466-8bfe-9885-435d", "type": "catalogue"},
+      {"name": "Space Marines - Retinue", "id": "ceb3-fd85-0d4d-bdd4", "targetId": "ee8c-5715-9813-4b3b", "type": "catalogue"}
     ],
     "categoryEntries": [
       {"name": "Alpharius", "id": "69f9-9746-9bc3-71bb", "hidden": false},
@@ -1497,7 +1499,8 @@
           {"name": "Explosives", "id": "061c-bdd3-e583-aaab", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Alpharius", "id": "e00f-b92c-ad80-471b", "hidden": false, "primary": false, "targetId": "69f9-9746-9bc3-71bb"},
           {"name": "Faction: Alpha Legion", "id": "6b20-ce6b-4017-f899", "hidden": false, "primary": false, "targetId": "3583-4c5d-bf42-1f69"},
-          {"name": "Epic Hero", "id": "9440-2cc8-926d-59cf", "hidden": false, "primary": false, "targetId": "4f3a-f0f7-6647-348d"}
+          {"name": "Epic Hero", "id": "9440-2cc8-926d-59cf", "hidden": false, "primary": false, "targetId": "4f3a-f0f7-6647-348d"},
+          {"name": "Psyker", "id": "b794-82fc-9ad0-e45c", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"}
         ],
         "constraints": [
           {
@@ -1539,9 +1542,23 @@
             "id": "ee26-facd-2aa0-33a8",
             "hidden": false,
             "import": true,
+            "sortIndex": 1,
             "targetId": "464b-cef6-1b60-4f88",
             "type": "selectionEntry",
             "modifiers": [{"field": "0b06-18e6-527e-ee43", "type": "set", "value": 1}]
+          },
+          {
+            "name": "Hydras Hidden Powers",
+            "id": "e9fc-1d0a-6f55-5335",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "68d3-6ed6-fec2-2adb",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "a2f9-8b6a-2a3c-7159", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "089b-2e43-8e25-2f02", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
           }
         ],
         "infoLinks": [
@@ -1555,7 +1572,9 @@
             "modifiers": [{"arg": "x", "field": "name", "type": "replace", "value": "3"}]
           },
           {"name": "Feel No Pain", "id": "8c82-a0b7-b5ce-1aa3", "hidden": false, "targetId": "9bf4-280f-bbe2-6fbb", "type": "rule"},
-          {"name": "Lies and Obfuscation", "id": "f0b0-c0fc-be9f-b72e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"}
+          {"name": "Lies and Obfuscation", "id": "f0b0-c0fc-be9f-b72e", "hidden": false, "targetId": "dd7d-c41a-6793-cbc4", "type": "rule"},
+          {"name": "Hyrda's Myasmic Mist (Psyker level 2)", "id": "6f70-6529-06b8-49ce", "hidden": false, "targetId": "4efc-553a-f169-79f6", "type": "profile"},
+          {"name": "Psyker", "id": "b1c2-a414-5d63-2ac8", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
         ],
         "modifiers": [
           {

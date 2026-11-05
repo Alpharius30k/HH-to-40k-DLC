@@ -89,6 +89,88 @@
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "characteristics": [{"name": "Description", "$text": "This model has the **psychic abilities** listed in the **psychic abilities** section", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Hyrda's Myasmic Mist (Psyker level 2)",
+        "id": "4efc-553a-f169-79f6",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "**Alpharius** has the **psychic abilities** listed in the Psychic Abilities section.", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Lord of the Death Gaurd (Psyker Level 5)",
+        "id": "6eb2-d40b-c3e7-de62",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "**Mortarion: Deamon of Nurgle** has the **psychic abilities** listed in the **psychic abilities** section\n",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "A glimpse of the eye (psyker level 2)",
+        "id": "1cc9-16d6-2265-aeb1",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "**Purterabo** has the **psychic abilities** listed in the Psychic Abilities section.", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Lord of the Crows (psyker level 2)",
+        "id": "4675-efd9-2c27-4874",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "**Corvus Corax** has the **psychic abilities** listed in the Psychic Abilities section.", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Nocturnes Infernal Wraith (psyker level 4)",
+        "id": "1af9-5542-bd20-401d",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "**Vulkan** has the **psychic abilities** listed in the Psychic Abilities section.", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Nurgle's Chosen one (Psyker Level 4)",
+        "id": "f39f-52b9-15bb-3866",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "**Typhus: Herald of the Plague Farther** has the **psychic abilities** listed in the **psychic abilities** section",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "Repressed Powers (psyker level 1)",
+        "id": "8273-d751-7915-6166",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "**Mortarion** has the **psychic abilities** listed in the Psychic Abilities section however he can not use them unless hes below half-wounds.",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "Witchblood (Psyker Level 4)",
+        "id": "67a7-afab-54ae-fd1a",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "**Typhus** has the **psychic abilities** listed in the **psychic abilities** section", "typeId": "9b8f-694b-e5e-b573"}]
       }
     ],
     "sharedRules": [
@@ -964,7 +1046,7 @@
             "characteristics": [
               {
                 "name": "Descriptions",
-                "$text": "At the start of the Fight phase, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling 2D6 but minus the number of times this has been used in a row this battle. If you do:\n- On a 6-, this unit suffers D3 mortal wounds\n- On a 7+, this model gains **[Feel No Pain 4+]** and +1 melee attacks till the end of the phase",
+                "$text": "At the start of the Fight phase, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling 2D6 but minus the number of times this has been used in a row this battle. If you do:\n- On a 6-: this unit suffers D3 mortal wounds\n- On a 7+: this model gains **[Feel No Pain 4+]** and +1 melee attacks till the end of the phase",
                 "typeId": "1917-301f-5d49-2f76"
               }
             ]
@@ -1661,6 +1743,598 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Hydras Hidden Powers",
+        "id": "68d3-6ed6-fec2-2adb",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 20,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Cut of 1 head, 2 more appear (Psychic Level 2)",
+            "id": "2e3d-b43b-5022-5380",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your shooting phase if **Alpharius** is not battle shocked you can use this instead of shooting. Select 1 **friendly infantry** unit that has had models destroyed or 1 **friendly unit** that was completly destroyed the make a **psychic roll** on 1D6:\n- On a 1 or 2: **Alpharius** is **battle-shocked** and suffers 2D3 **Psychic mortal wounds**\n- Else: You can make 2 **shotting attacks** with the destroyed models. If you selected a **friendly unit** that has just had models destroyed treat it as if thouse models where not destroyed and then preform 2 **shooting attack** with only thouse destroyed models. If you picked a **completely destroyed** unit you can **temporarly** place it withing 12\" of **Alpharius** with twice as many model then preform 2 *8shooting attcks** with the unit before then removing it",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "I AM ALPHARIUS (Psychic level 1)",
+            "id": "07b5-319c-3a95-20be",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **movement phase** if **Alpharius** is not battle shocked he can make a **psychic roll** on 1D6 insetad of moving:\n- On a 1: **Alpharius** is battle shocked\n- Else: You can swap **Alpharius** with any **friendly infantry** or **monster charecter** model. **Alpharius** becomes a **leader** if the swaped **Charecter** was leading the unit.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nurgle's Gifts",
+        "id": "deaa-7795-51e2-8472",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 14,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Pestilent Fallout (Psychic Level 1)",
+            "id": "d1e6-86c2-6e5f-8c77",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your shooting phase if this mode is not **battle-shocked** it can make a **psychic roll** on 1D6:\n- On a 1: This unit is **Battle-shocked**\n- Else: Select 1 **enemy unit** withing 24\". That unit is **pinned**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Plauge Wind",
+            "id": "67a4-c2a0-e518-c5af",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "5f9e-a2ac-e1e6-5950", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "58b5-ef59-b17c-595f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Blast", "id": "09f0-feb2-715c-3e99", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+              {"name": "Hazardous", "id": "4dea-b916-7e6a-f31b", "hidden": false, "targetId": "8367-374c-f87-c627", "type": "rule"},
+              {"name": "Psychic", "id": "3c50-368b-4218-bd98", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Torrent", "id": "2bc1-d0a8-c87c-202f", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "➤ Plauge Wind - focused Witchfire",
+                "id": "f9a5-e393-2e95-acc4",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "D3", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Psychic, Torrent, Blast 2, Hazardous", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              },
+              {
+                "name": "➤ Plauge Wind - Witchfire",
+                "id": "15bb-6ed7-abf2-7b8c",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "D3", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Psychic, Torrent, Blast 1", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mortarions True power",
+        "id": "7b5b-27f5-ee73-9ca0",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 14,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Diseased Influence (Psychic level 2)",
+            "id": "6619-dfc2-a42f-5fd8",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In the **opponents movement phase** when an **enemy unit** ends a **move**, **advance** or **fall back** withing 8\" of a **friendly death guard** unit thats withing 6\" of **Mortarion: Deamon of Nurgle**. If **Mortarion: Deamon of Nurgle** is not **battle-shocked** he can make a **psychic roll** on 1D6:\n- On a 1: He is **battle-shocked**\n- Else: Select 1 **friendly Death Guard unit** withing 6\" of him that the **enemy unit** ended a **move**, **advance** or **fall back** withing 8\" of it and is not in **combat**. It can make a **normal move** of up to 5\"",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Boon of Death (Psychic Level 2)",
+            "id": "ecd1-184e-e1bb-085b",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your fight phase if **Mortarion: Deamon of Nurgle** is not **battle-shocked** he can make a **psychic roll** on 1D6:\n- On a 1: He is **battle-shocked**\n- Else: Select 1 **friendly Death Guard** unit withing 6\" that is in combat. Before a model is destroyed roll a D6 on a 2+ do not remove it from play; that model can fight back then after it has made all its attacks remove it from play.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Inflamed Resprisal (Psychic level 3)",
+            "id": "991b-ab31-4543-94f6",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **opponents shooting phase** if **Mortarion: Deamon of Nurgle** is not **battle-shocked** he can make a **psychic roll** on 1D6:\n- On a 1: He is **battle-shocked** and suffers 1 **psychic mortal wound**\n- Else: Select 1 **friendly Death Guard** that was a target of a **ranged attack**. It can shoot back at the **attacker** but has -1**BS**.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Rotwind",
+            "id": "c552-7da9-64f4-84e5",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "bee5-06f9-904e-6795", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "319c-b731-42e6-4236", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Psychic", "id": "6484-70d5-ec94-cd4a", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Blast", "id": "99cb-fa71-3a1c-8fc7", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+              {"name": "Devastating Wounds", "id": "78d8-83fe-f569-7598", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+              {"name": "Lethal Hits", "id": "a88b-3044-8568-8b27", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Rotwind",
+                "id": "fc7c-39ef-215f-97b4",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "D6+3", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Blast 2, Devastating Wounds, Lethal Hits, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warp Eye",
+        "id": "c530-7d8e-6fe7-cfb4",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 4,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Warp Eye",
+            "id": "806b-da77-2173-b024",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "All **friendly Iron Warrior psykers** withing 6\" of **Perturabo** can re-roll 1s when making **psychic roll**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Iron Fortitude (Psychic Level 1)",
+            "id": "202a-4647-cf90-ba14",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of your **command phase** if **Perturabo** is not **battle-shocked** he can make a **psychic roll** on1D6:\n- On a 1: He is **battle-shocked**\n- Else: This model is -1 to wound from all non **[Psychic]** attacks",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Voids Calling",
+        "id": "ff53-3404-05cf-3832",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 19,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Shadows  Consuming(Psychic Level 2)",
+            "id": "dd39-0fd2-3ef9-3e9a",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **movement phase** if **Corvus Corax** is not **battle-shocked** you can make a **psychic roll** on 1D6:\n- On a 1: He is **battle-shocked**\n- Else: All units withing 6\" of him gain **[Lone Operative]**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Void Darts",
+            "id": "f251-9318-fafd-604a",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "844b-f087-6842-126b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "7bdd-3f50-377b-e60c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Precision", "id": "81f1-b721-9ac4-ef5a", "hidden": false, "targetId": "9143-31ae-e0a6-6007", "type": "rule"},
+              {"name": "Psychic", "id": "5266-06de-a766-4e12", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Lethal Hits", "id": "cdc0-1f7e-3d63-bbca", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Void Darts",
+                "id": "0d53-1e74-f057-79aa",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "4", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Precision, Lethal Hits, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Drake's Heart",
+        "id": "f7c0-18de-263d-0cb3",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Magma Blood (Psychic Level 3)",
+            "id": "c486-cb61-cec7-6fe7",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of any **fight phase** if **Vulkan** is not **battle-shocked** he can make a **psychic roll** on 1D6:\n- On a 1: He is **Battle-shocked**\n- Else: Every time **Vulkan** fails an **armour save** the unit that delt the wound suffers D3 **mortal wound** for each **unsaved** wound they caused.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          },
+          {
+            "name": "Infernal Roar (Psychic Level 1)",
+            "id": "533f-7dd1-3f20-5b18",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of your **shooting phase** if **Vulkan** is not **battle-shocked** he can make a **psychic roll** on 1D6:\n- On a 1: He is **Battle-shocked**\n- Else: All **[melta]** and **[Torrent]** weapons equipped by **friendly salamander** withing 6\" gain +1 to wound",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Draconic Breath",
+            "id": "f31c-1bb1-dfeb-ebb5",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "5369-fdca-28ae-d7a5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "6a67-2b0a-ad94-2d34", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Melta", "id": "d256-d797-c2e0-416c", "hidden": false, "targetId": "7cdb-fb99-44a9-8849", "type": "rule"},
+              {"name": "Psychic", "id": "e515-c918-17ac-bafa", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Torrent", "id": "9a2e-d5ad-fe51-b1eb", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Dragons Flame - Focused",
+                "id": "6157-765e-d94c-7456",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "12", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-5", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "6", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Melta 6, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              },
+              {
+                "name": "Dragons Flame - Hell's Flame",
+                "id": "7964-a0ae-fca0-1599",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "12", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Torrent, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Typhus's Psychic Hive",
+        "id": "843b-f0e4-4837-513e",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 14,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Typhus's Psychic Hive (Psychic level 4)",
+            "id": "fa06-caeb-e9ac-ebbd",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **shooting phase** if **Typhus: Herald of the Plague Farther** is not **battle-shocked** he can make a **psychic roll** on 1D6:\n- On a 1: **Typhus: Herald of the Plague Farther** is **battle-shocked**\n- Else: Select 1 **visible enemy unit** withing 18\" (or 12\" if the target has **Lone Operative**) of him. Roll 1D6: On a 1: **Typhus: Herald of the Plague Farther** suffers D3 **psychic mortal wound**, 2-5 the target suffers D6 **psychic mortal wound** and on a 6 the target suffers D3+3 **psychic mortal wounds**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Infections Hive",
+            "id": "b3b1-a8bc-1c09-9780",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "a6de-942c-ac01-e618", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "8d0f-05ce-0fec-7e5c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Lethal Hits", "id": "9a2a-f914-69f4-c33c", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
+              {"name": "Sustained Hits", "id": "5851-710d-db37-1154", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Infections Hive",
+                "id": "8d45-8e7b-df80-7e25",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                  {"name": "A", "$text": "12", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "WS", "$text": "5+", "typeId": "95d1-95f-45b4-11d6"},
+                  {"name": "S", "$text": "4", "typeId": "ab33-d393-96ce-ccba"},
+                  {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+                  {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+                  {"name": "Keywords", "$text": "Lethal Hits, Sustained Hits 2D3", "typeId": "893f-9000-ccf7-648e"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Repressed Resilience",
+        "id": "3fcb-ccfe-4fa9-cfdb",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 14,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Warp Disruption (Psychic level 1)",
+            "id": "70c5-edea-0b5c-659c",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **command phase** if **Mortarion** is not **battle-shocked** he can make a **psychic roll** on 1D6-1\n- On a 0 or 1: He is **battle-shocked**\n- Else: All **psychic rolls** have -1 withing 12\"",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Witchblood",
+        "id": "3443-4df7-f8ec-5a66",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 14,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Witchsense (psychic level 2)",
+            "id": "94fa-dc47-f526-c8dd",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of any **fight phase** if **Typhus** is not **battle-shocked** then he can make a **psychic roll** on 1D6:\n- On a 1: He is **battle-shocked**\n- Else: improve his melee weapon attacks and damage charecteristic by D3 and 1.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Toxin Cloud",
+            "id": "8264-c46f-ab88-b5a1",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "db7f-f71c-eb94-edfe", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "933a-26fb-a52e-e22b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Psychic", "id": "741d-3839-277d-d370", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Blast", "id": "24ff-a954-1173-b726", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+              {"name": "Anti", "id": "ff70-3e53-2bfe-e83a", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
+              {"name": "Pinning", "id": "91bf-2d9a-6c83-12b9", "hidden": false, "targetId": "a4b9-9c88-086f-205e", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Toxin Cloud",
+                "id": "ec18-6b36-1500-e3f5",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "5", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "1", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Blast 2, Anti-Monster 2+, Anti-Infantry 2+, Pinning, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shielded by hate",
+        "id": "eb1a-0aab-b6d8-ea1a",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 14,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Shielded by hate (Psychic level 2)",
+            "id": "a97d-e19d-8aee-a254",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "Every time **Crysos Morturg** has fallen if he has not used this **psychic power** this turn and was not **battle-shocked** before he died he can make a **psychic roll** on 1D6 but minus the number of times he has used this abiltiy this game:\n- On a 1: If he was part of a unit it is **battle-shocked**\n- Else: He is placed as close as possible to where he was destroyed without being in **engagment range** of any enemy models",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Aetheric lightning",
+            "id": "4874-bb3f-648a-7278",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "b74e-5386-4dd5-aef6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "1417-1500-eceb-0967", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [{"name": "Psychic", "id": "2dab-3d29-2205-3b1e", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Aetheric lightning",
+                "id": "3fcb-cd88-256d-a5a9",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -1691,6 +2365,325 @@
           {"name": "Athanaen", "id": "090e-85b2-7374-ff32", "hidden": false, "import": true, "targetId": "10d3-9ae0-0bb7-4bf7", "type": "selectionEntry"},
           {"name": "Corvidae", "id": "eef4-9b1a-b34d-b8fd", "hidden": false, "import": true, "targetId": "22d5-59e1-ca6d-b198", "type": "selectionEntry"},
           {"name": "Raptora", "id": "a2ff-2b73-1060-cb1a", "hidden": false, "import": true, "targetId": "aa3a-0e93-09ae-0cbf", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Lord of the Moon Spell Library",
+        "id": "eeaf-528c-6af5-cbe2",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "name": "Glimpse of Death",
+            "id": "091e-42c6-f767-6715",
+            "hidden": false,
+            "import": true,
+            "targetId": "2e3f-8f83-a581-722c",
+            "type": "selectionEntry",
+            "constraints": [{"id": "2387-8826-37de-3214", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Shadows of Past and Future",
+            "id": "87f4-4f54-4a62-fc63",
+            "hidden": false,
+            "import": true,
+            "targetId": "bccb-a4a2-60f5-d40a",
+            "type": "selectionEntry",
+            "constraints": [{"id": "556b-6e0b-e67a-8abe", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "Sevatar", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"}]
+          },
+          {
+            "name": "Mortarions True power",
+            "id": "d319-45e8-b07e-6519",
+            "hidden": false,
+            "import": true,
+            "targetId": "7b5b-27f5-ee73-9ca0",
+            "type": "selectionEntry",
+            "constraints": [{"id": "98d8-6da8-256e-85bb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "Death Guard", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Thousand Sons"},
+              {"affects": "profiles.Psychic Abilities", "arg": "Mortarion: Deamon of Nurgle", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"}
+            ]
+          },
+          {
+            "name": "Nurgle's Gifts",
+            "id": "76be-5449-4fa3-2715",
+            "hidden": false,
+            "import": true,
+            "targetId": "deaa-7795-51e2-8472",
+            "type": "selectionEntry",
+            "constraints": [{"id": "e065-37d1-0f51-f79b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Infernal Warpflames",
+            "id": "8c8b-4afb-f415-1b27",
+            "hidden": false,
+            "import": true,
+            "targetId": "4916-eacc-3a7e-bf22",
+            "type": "selectionEntry",
+            "constraints": [{"id": "a32f-a9ad-7aff-736b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Athanaen",
+            "id": "b50f-d732-ac0d-7a7e",
+            "hidden": false,
+            "import": true,
+            "targetId": "10d3-9ae0-0bb7-4bf7",
+            "type": "selectionEntry",
+            "constraints": [{"id": "4d45-6eb1-1b51-4b91", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Thaumaturgy",
+            "id": "6112-43cd-46e7-0ea3",
+            "hidden": false,
+            "import": true,
+            "targetId": "9984-d286-3ec2-e4fc",
+            "type": "selectionEntry",
+            "constraints": [{"id": "2ba5-5b02-7efb-40b0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Magnus's Own Creations",
+            "id": "34da-3ccf-6a4d-319e",
+            "hidden": false,
+            "import": true,
+            "targetId": "fa4c-7749-45f9-04c5",
+            "type": "selectionEntry",
+            "constraints": [{"id": "7055-d448-ea41-54be", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "affects": "profiles.Psychic Abilities",
+                "arg": "Magnus the Red: Deamon of Tzeench",
+                "field": "1917-301f-5d49-2f76",
+                "type": "replace",
+                "value": "Lord of the Moon"
+              }
+            ]
+          },
+          {
+            "name": "Mindsong of Blades",
+            "id": "13bb-f5ae-91c8-a809",
+            "hidden": false,
+            "import": true,
+            "targetId": "0d8d-2d4f-0308-5961",
+            "type": "selectionEntry",
+            "constraints": [{"id": "4365-cbce-ba17-cea6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Hydras Hidden Powers",
+            "id": "963c-5055-71ae-1940",
+            "hidden": false,
+            "import": true,
+            "targetId": "68d3-6ed6-fec2-2adb",
+            "type": "selectionEntry",
+            "constraints": [{"id": "9919-8036-4938-8f0e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "Alpharius", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"}]
+          },
+          {
+            "name": "Mind Killer",
+            "id": "a100-3b7c-fe25-ef08",
+            "hidden": false,
+            "import": true,
+            "targetId": "964f-03c9-8d50-e270",
+            "type": "selectionEntry",
+            "constraints": [{"id": "929d-7099-4950-cc19", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Pavoni",
+            "id": "694b-39e1-4d47-5c18",
+            "hidden": false,
+            "import": true,
+            "targetId": "4842-b9be-ecd4-9eb2",
+            "type": "selectionEntry",
+            "constraints": [{"id": "5759-4976-22bd-a413", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Psy-Synchronicity",
+            "id": "9a89-0b96-6b2b-f8ea",
+            "hidden": false,
+            "import": true,
+            "targetId": "b77c-ac39-9729-1096",
+            "type": "selectionEntry",
+            "constraints": [{"id": "62d3-4673-9175-9bde", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Pyrae",
+            "id": "f96a-1a70-abf5-dc24",
+            "hidden": false,
+            "import": true,
+            "targetId": "e02b-de59-943e-d2fc",
+            "type": "selectionEntry",
+            "constraints": [{"id": "34da-e90c-1128-d686", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Raptora",
+            "id": "a01d-20b9-2b13-cba2",
+            "hidden": false,
+            "import": true,
+            "targetId": "aa3a-0e93-09ae-0cbf",
+            "type": "selectionEntry",
+            "constraints": [{"id": "81c4-303c-ee22-de06", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Tzeench Magic",
+            "id": "ffa8-2e78-0eb0-4558",
+            "hidden": false,
+            "import": true,
+            "targetId": "82b3-b409-ac3b-7460",
+            "type": "selectionEntry",
+            "constraints": [{"id": "aba1-6acf-fb73-8a4f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Tzeenche's Infernal Sorcery",
+            "id": "86d3-5c16-b237-8fd8",
+            "hidden": false,
+            "import": true,
+            "targetId": "8f68-f5f8-6e29-ca6d",
+            "type": "selectionEntry",
+            "constraints": [{"id": "727b-b808-2004-f8a1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Tzeenchs Arch Sorcery",
+            "id": "967f-561f-06f6-9d12",
+            "hidden": false,
+            "import": true,
+            "targetId": "3d00-781a-3f78-8029",
+            "type": "selectionEntry",
+            "constraints": [{"id": "2223-808f-5b8c-9c2b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Tzeenchs Sorcereys",
+            "id": "a454-6b40-9cf6-88ed",
+            "hidden": false,
+            "import": true,
+            "targetId": "6459-031b-a41a-d00b",
+            "type": "selectionEntry",
+            "constraints": [{"id": "0697-c862-ff86-acb5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Corvidae",
+            "id": "7e16-5687-7fa4-08e8",
+            "hidden": false,
+            "import": true,
+            "targetId": "22d5-59e1-ca6d-b198",
+            "type": "selectionEntry",
+            "constraints": [{"id": "d62c-5ab3-8815-9c1c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Aetherbane",
+            "id": "5529-e43c-d8c5-a103",
+            "hidden": false,
+            "import": true,
+            "targetId": "0661-71c7-0ac7-3ce0",
+            "type": "selectionEntry",
+            "constraints": [{"id": "7972-39ee-25c1-244a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Anathemata",
+            "id": "c9b7-8ae7-e875-51bf",
+            "hidden": false,
+            "import": true,
+            "targetId": "d149-29ec-ae67-11a1",
+            "type": "selectionEntry",
+            "constraints": [{"id": "1022-e17b-238f-0d34", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Biomancy",
+            "id": "b789-25d4-2a87-ea3a",
+            "hidden": false,
+            "import": true,
+            "targetId": "048b-d64e-17a3-d830",
+            "type": "selectionEntry",
+            "constraints": [{"id": "bb14-5504-6bea-db51", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Delphos Serpentis",
+            "id": "ebd2-6605-013d-dea3",
+            "hidden": false,
+            "import": true,
+            "targetId": "ca12-b90a-d17c-98d1",
+            "type": "selectionEntry",
+            "constraints": [{"id": "75aa-2fbe-283b-b046", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Divination",
+            "id": "6bbb-fb17-1145-16ad",
+            "hidden": false,
+            "import": true,
+            "targetId": "3569-6ff6-e4cd-e775",
+            "type": "selectionEntry",
+            "constraints": [{"id": "345d-ada2-6d7a-90d9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Navis Astrologis",
+            "id": "7da2-dd3f-ce2f-9da4",
+            "hidden": false,
+            "import": true,
+            "targetId": "bf5a-0c8a-deb0-b810",
+            "type": "selectionEntry",
+            "constraints": [{"id": "6bb7-c3ab-5037-4e81", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Pyromancy",
+            "id": "0b8f-59d9-bb28-7afd",
+            "hidden": false,
+            "import": true,
+            "targetId": "da86-3f6a-6a35-1ec0",
+            "type": "selectionEntry",
+            "constraints": [{"id": "a384-976f-765e-7feb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Telekinesis",
+            "id": "6155-7653-ea9c-6717",
+            "hidden": false,
+            "import": true,
+            "targetId": "2998-c194-b2aa-ebb7",
+            "type": "selectionEntry",
+            "constraints": [{"id": "aaea-0f82-2253-89f7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Telepathy",
+            "id": "6263-ab71-5b2c-da58",
+            "hidden": false,
+            "import": true,
+            "targetId": "7c6b-b13b-4c0f-3894",
+            "type": "selectionEntry",
+            "constraints": [{"id": "291d-bd1a-d900-6e1d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Warp Eye",
+            "id": "4e1f-dd84-c1a8-d084",
+            "hidden": false,
+            "import": true,
+            "targetId": "c530-7d8e-6fe7-cfb4",
+            "type": "selectionEntry",
+            "constraints": [{"id": "7295-dcfa-82d7-1f92", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "Perturabo", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"},
+              {"affects": "profiles.Psychic Abilities", "arg": "Iron Warrior", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Thousand Sons"}
+            ]
+          },
+          {
+            "name": "Voids Calling",
+            "id": "2218-0d4e-7e67-ea21",
+            "hidden": false,
+            "import": true,
+            "targetId": "ff53-3404-05cf-3832",
+            "type": "selectionEntry",
+            "constraints": [{"id": "0ed9-eefd-1fd1-e842", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "Corvus Corax", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"}]
+          },
+          {
+            "name": "Drake's Heart",
+            "id": "bc81-a89f-5929-70ae",
+            "hidden": false,
+            "import": true,
+            "targetId": "f7c0-18de-263d-0cb3",
+            "type": "selectionEntry",
+            "constraints": [{"id": "11ec-1c40-ea2d-eac4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "Vulkan", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"},
+              {"affects": "profiles.Psychic Abilities", "arg": "Salamander", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Thousand Sons"}
+            ]
+          }
         ]
       }
     ]

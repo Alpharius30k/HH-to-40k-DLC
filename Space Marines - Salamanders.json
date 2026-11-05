@@ -12,7 +12,9 @@
       {"name": "Space Marines - Armoury", "id": "e5f2-cae8-a9b0-2bd4", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
       {"name": "Space Marines - Config/Keywords/Abilties", "id": "ce8c-8f7f-1410-ab19", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"},
       {"name": "Space Marines - Wargear", "id": "01dc-d049-dff7-d68a", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"},
-      {"name": "Space Marines - Models", "id": "ef94-1064-70b7-4bc2", "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"}
+      {"name": "Space Marines - Models", "id": "ef94-1064-70b7-4bc2", "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"},
+      {"name": "Space Marines - Psychic Powers", "id": "5c32-08cc-2ecf-a9eb", "targetId": "3466-8bfe-9885-435d", "type": "catalogue"},
+      {"name": "Space Marines - Retinue", "id": "12d4-31a8-9268-e0b4", "targetId": "ee8c-5715-9813-4b3b", "type": "catalogue"}
     ],
     "categoryEntries": [
       {"name": "Vulkan", "id": "33ac-c4d2-0a53-7932", "hidden": false},
@@ -1532,7 +1534,8 @@
           {"name": "Monster", "id": "1c3e-f31f-b1e3-4010", "hidden": false, "primary": false, "targetId": "9693-cf84-fe69-37a9"},
           {"name": "Explosives", "id": "3c35-21aa-2f42-6f14", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Faction: Salamanders", "id": "e1e4-dc90-e3b0-4ea7", "hidden": false, "primary": false, "targetId": "3826-6483-b50e-6b8f"},
-          {"name": "Vulkan", "id": "827b-7914-409d-e576", "hidden": false, "primary": false, "targetId": "33ac-c4d2-0a53-7932"}
+          {"name": "Vulkan", "id": "827b-7914-409d-e576", "hidden": false, "primary": false, "targetId": "33ac-c4d2-0a53-7932"},
+          {"name": "Psyker", "id": "678c-5e22-1afa-2c31", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"}
         ],
         "constraints": [{"id": "954f-5aa0-133d-28c4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
         "costs": [
@@ -1566,6 +1569,18 @@
               {"id": "4fde-ce30-ce8c-b87d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "3918-7d0c-b828-2657", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
+          },
+          {
+            "name": "Drake's Heart",
+            "id": "d80d-0565-9a2a-d5ba",
+            "hidden": false,
+            "import": true,
+            "targetId": "f7c0-18de-263d-0cb3",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "2b7e-ac00-6c8f-5c6a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "4810-3b15-621c-f813", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
           }
         ],
         "infoLinks": [
@@ -1577,7 +1592,8 @@
             "targetId": "a83b-8c46-b484-53a5",
             "type": "profile",
             "modifiers": [{"arg": "5+", "field": "9b8f-694b-e5e-b573", "type": "replace", "value": "4+"}]
-          }
+          },
+          {"name": "Nocturnes Infernal Wraith (psyker level 4)", "id": "b448-83c1-8e98-9f57", "hidden": false, "targetId": "1af9-5542-bd20-401d", "type": "profile"}
         ],
         "profiles": [
           {

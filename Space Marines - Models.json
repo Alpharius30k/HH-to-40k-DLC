@@ -10,10 +10,11 @@
     "revision": 1,
     "type": "catalogue",
     "catalogueLinks": [
-      {"name": "Space Marines - Armoury", "id": "edfd-0727-43eb-9f34", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
-      {"name": "Space Marines - Wargear", "id": "ae92-7752-4957-dca5", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"},
-      {"name": "New Catalogue (link)", "id": "b5b6-ab66-d17d-a2d3", "targetId": "3466-8bfe-9885-435d", "type": "catalogue"},
-      {"name": "New Catalogue (link)", "id": "bcf6-df16-1bad-3347", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"}
+      {"name": "Wargear", "id": "f001-dd05-7200-8b6d", "targetId": "d0df-845e-0dd2-a443", "type": "catalogue"},
+      {"name": "Keywords", "id": "9efe-7219-044c-72fc", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"},
+      {"name": "Armoury", "id": "d09c-cbaf-3869-2e41", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
+      {"name": "Retinue", "id": "e8fd-4203-da66-4dc4", "targetId": "ee8c-5715-9813-4b3b", "type": "catalogue"},
+      {"name": "Psychic", "id": "d72a-fd10-f9c7-d000", "targetId": "3466-8bfe-9885-435d", "type": "catalogue"}
     ],
     "categoryEntries": [
       {"name": "Armistos", "id": "4f30-325e-7bec-d8e9", "hidden": false},
@@ -87,7 +88,34 @@
       {"name": "Vigilator", "id": "9cf7-ef53-1456-18fb", "hidden": false},
       {"name": "Warmonger", "id": "3eec-0f2b-ac1a-2518", "hidden": false},
       {"name": "Cataphracii", "id": "163e-4731-8e1a-b26b", "hidden": false},
-      {"name": "Siege Breaker", "id": "24c4-c630-0f83-1dfc", "hidden": false},
+      {
+        "name": "Siege Breaker",
+        "id": "24c4-c630-0f83-1dfc",
+        "hidden": false,
+        "constraints": [
+          {"id": "0a86-8406-c3ea-3de0", "field": "selections", "includeChildSelections": true, "scope": "9cfd-1c32-585f-7d5c", "shared": true, "type": "min", "value": 1}
+        ],
+        "modifiers": [
+          {
+            "field": "0a86-8406-c3ea-3de0",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "988e-9e6d-100d-03c9",
+                "childName": "Ironfire",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
       {"name": "Tartaros", "id": "eef7-aee4-8991-1688", "hidden": false},
       {"name": "Exponditionary Navigator", "id": "819f-db34-cd2b-397a", "hidden": false},
       {"name": "Infernus Abomination", "id": "3cee-a63d-b1b1-b423", "hidden": false},
@@ -201,268 +229,6 @@
     ],
     "selectionEntries": [
       {
-        "name": "Contempter Dreadnought",
-        "id": "570a-29bf-f1cc-529a",
-        "hidden": false,
-        "import": true,
-        "type": "model",
-        "categoryLinks": [
-          {"name": "Walker", "id": "9a9a-c8d3-009e-b6a0", "hidden": false, "primary": true, "targetId": "6dda-e157-334d-e93a"},
-          {"name": "Dreadnought", "id": "6c19-eb22-2c73-ed24", "hidden": false, "primary": false, "targetId": "c97c-376-e2e0-1dd2"},
-          {"name": "Vehicle", "id": "6877-2cd8-7b36-658f", "hidden": false, "primary": false, "targetId": "dbd4-63-af05-998"},
-          {"name": "Contempter", "id": "1721-b859-0109-d820", "hidden": false, "primary": false, "targetId": "c2df-6baa-f3db-d351"}
-        ],
-        "constraints": [
-          {"id": "34bd-f046-8c96-8ec8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3},
-          {"id": "5510-9d05-352b-e5bc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
-        ],
-        "costs": [
-          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 190},
-          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
-          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
-          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
-          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
-          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
-          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
-          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
-        ],
-        "entryLinks": [
-          {
-            "name": "Contempter Smash",
-            "id": "b8d6-adcd-3f7a-eec7",
-            "hidden": false,
-            "import": true,
-            "targetId": "1ffa-91e8-2646-aa66",
-            "type": "selectionEntry",
-            "constraints": [
-              {"id": "1842-18e8-36fe-903e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-              {"id": "6150-13a5-5df6-533f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditionGroups": [
-                  {
-                    "type": "or",
-                    "conditions": [
-                      {"childId": "ceab-b866-1d54-5d41", "childName": "Gravis Power Fist", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                      {"childId": "f69c-6861-25d6-e73b", "childName": "Gravis Chainfist", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
-                    ]
-                  }
-                ]
-              },
-              {
-                "field": "1842-18e8-36fe-903e",
-                "type": "set",
-                "value": 0,
-                "conditionGroups": [
-                  {
-                    "type": "or",
-                    "conditions": [
-                      {"childId": "ceab-b866-1d54-5d41", "childName": "Gravis Power Fist", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1},
-                      {"childId": "f69c-6861-25d6-e73b", "childName": "Gravis Chainfist", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Legion Wargear",
-            "id": "a36d-0149-3b70-d461",
-            "hidden": false,
-            "import": true,
-            "sortIndex": 1,
-            "targetId": "f30a-2276-0559-198c",
-            "type": "selectionEntryGroup"
-          }
-        ],
-        "infoLinks": [
-          {
-            "name": "Deadly Demise",
-            "id": "f425-700f-7b6d-5a11",
-            "hidden": false,
-            "targetId": "b68a-5ded-65ac-98c",
-            "type": "rule",
-            "modifiers": [{"field": "name", "type": "append", "value": "1"}]
-          }
-        ],
-        "modifiers": [
-          {
-            "field": "category",
-            "type": "add",
-            "value": "6385-b04f-2e5f-56dc",
-            "conditions": [
-              {
-                "childId": "a3cf-044a-6dbb-0e85",
-                "childName": "Loyalist",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "field": "category",
-            "type": "add",
-            "value": "ab5d-ae96-512e-2748",
-            "conditions": [
-              {
-                "childId": "8a2b-1eb8-b157-adcc",
-                "childName": "Traitor",
-                "field": "selections",
-                "includeChildForces": true,
-                "includeChildSelections": true,
-                "scope": "roster",
-                "shared": true,
-                "type": "atLeast",
-                "value": 1
-              }
-            ]
-          }
-        ],
-        "profiles": [
-          {
-            "name": "Contempter Dreadnought",
-            "id": "7807-c3eb-cba0-24e7",
-            "hidden": false,
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "characteristics": [
-              {"name": "M", "$text": "6\"", "typeId": "e703-ecb6-5ce7-aec1"},
-              {"name": "T", "$text": "7", "typeId": "d29d-cf75-fc2d-34a4"},
-              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
-              {"name": "W", "$text": "7", "typeId": "750a-a2ec-90d3-21fe"},
-              {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-              {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
-              {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"},
-              {"name": "Base", "$text": "", "typeId": "nr-base-size"}
-            ]
-          }
-        ],
-        "selectionEntryGroups": [
-          {
-            "name": "Weapons",
-            "id": "c1f5-3d29-0ebd-4f4a",
-            "defaultSelectionEntryId": "none",
-            "hidden": false,
-            "constraints": [
-              {"id": "49cf-5060-6648-b174", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2},
-              {"id": "9f2c-02b9-b475-7810", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}
-            ],
-            "entryLinks": [
-              {
-                "name": "Conversion Beam Cannon",
-                "id": "ada3-1960-cf82-8839",
-                "hidden": false,
-                "import": true,
-                "targetId": "ec5f-6d59-c18d-100a",
-                "type": "selectionEntry",
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 20}]
-              },
-              {
-                "name": "Gravis Autocannon",
-                "id": "9324-7d5e-d3ac-fd7c",
-                "hidden": false,
-                "import": true,
-                "targetId": "88aa-d0e8-0e27-e061",
-                "type": "selectionEntry",
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
-              },
-              {"name": "Gravis Bolt Cannon", "id": "7aa2-bfeb-ac50-969c", "hidden": false, "import": true, "targetId": "cda8-af14-4660-c697", "type": "selectionEntry"},
-              {
-                "name": "Gravis Chainfist",
-                "id": "7485-07a3-3e84-fbf6",
-                "hidden": false,
-                "import": true,
-                "targetId": "f69c-6861-25d6-e73b",
-                "type": "selectionEntry",
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
-              },
-              {
-                "name": "Gravis Lascannon",
-                "id": "0ff6-eacc-6ce5-521b",
-                "hidden": false,
-                "import": true,
-                "targetId": "9b4c-16d7-6919-eaa4",
-                "type": "selectionEntry",
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 20}]
-              },
-              {
-                "name": "Gravis Melta Cannon",
-                "id": "f787-f7e4-0fc5-4009",
-                "hidden": false,
-                "import": true,
-                "targetId": "dec3-16b6-176b-c213",
-                "type": "selectionEntry",
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
-              },
-              {
-                "name": "Gravis Plasma Cannon",
-                "id": "6ffe-54cf-54b6-6a20",
-                "hidden": false,
-                "import": true,
-                "targetId": "49dd-30f7-1627-06fd",
-                "type": "selectionEntry",
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
-              },
-              {"name": "Gravis Power Fist", "id": "2672-80db-6397-6262", "hidden": false, "import": true, "targetId": "ceab-b866-1d54-5d41", "type": "selectionEntry"},
-              {
-                "name": "Kheres Assault Cannon",
-                "id": "55ff-2d75-c5cb-82c3",
-                "hidden": false,
-                "import": true,
-                "targetId": "7126-b02f-b0cd-1514",
-                "type": "selectionEntry",
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
-              },
-              {
-                "name": "Kheres Assault Cannon",
-                "id": "ed90-3fe2-3036-2520",
-                "hidden": false,
-                "import": true,
-                "targetId": "7126-b02f-b0cd-1514",
-                "type": "selectionEntry",
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
-              }
-            ]
-          },
-          {
-            "name": "Wargear",
-            "id": "76ab-344f-4bc3-3a6e",
-            "defaultSelectionEntryId": "none",
-            "hidden": false,
-            "constraints": [{"id": "6708-9a12-0c71-8177", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-            "entryLinks": [
-              {
-                "name": "Havoc laucher",
-                "id": "1f18-a7ff-fbfd-5373",
-                "hidden": false,
-                "import": true,
-                "targetId": "d663-efb5-3837-07fe",
-                "type": "selectionEntry",
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
-              },
-              {
-                "name": "Helical Targeting Array",
-                "id": "a4ae-1c23-8f85-cf06",
-                "hidden": false,
-                "import": true,
-                "targetId": "3034-b476-91e4-8e09",
-                "type": "selectionEntry",
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 20}]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "name": "Davinite Lodge Priest",
         "id": "508b-3db2-00f4-01bb",
         "hidden": false,
@@ -470,10 +236,10 @@
         "type": "model",
         "categoryLinks": [
           {"name": "Psyker", "id": "1a87-2bae-32fe-c1d8", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
-          {"name": "Character", "id": "6335-bed0-6b8e-a487", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "5b64-d1e7-1da2-9a65", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Davinite Lodge Priest", "id": "cf88-b420-0d9a-ebd4", "hidden": false, "primary": false, "targetId": "4d15-d253-2f6f-8065"},
-          {"name": "Support", "id": "cbf1-7a73-bfae-647a", "hidden": false, "primary": false, "targetId": "7dcd-7f61-69a7-0294"}
+          {"name": "Support", "id": "cbf1-7a73-bfae-647a", "hidden": false, "primary": false, "targetId": "7dcd-7f61-69a7-0294"},
+          {"name": "Character", "id": "48e6-ff38-f738-168d", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"}
         ],
         "costs": [
           {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 50},
@@ -631,11 +397,11 @@
         "import": true,
         "type": "model",
         "categoryLinks": [
-          {"name": "Character", "id": "e511-57ae-35c0-3485", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "f3af-cc3c-f886-fabd", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Support", "id": "6324-93c0-70c5-ac7b", "hidden": false, "primary": false, "targetId": "7dcd-7f61-69a7-0294"},
           {"name": "Psyker", "id": "7f7b-36fa-d5a5-cff1", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
-          {"name": "Exponditionary Navigator", "id": "b878-7cd8-1707-7655", "hidden": false, "primary": false, "targetId": "819f-db34-cd2b-397a"}
+          {"name": "Exponditionary Navigator", "id": "b878-7cd8-1707-7655", "hidden": false, "primary": false, "targetId": "819f-db34-cd2b-397a"},
+          {"name": "Character", "id": "b5f2-79dc-ca36-c75c", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"}
         ],
         "constraints": [{"id": "1f0e-1740-8274-1595", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
         "costs": [
@@ -776,10 +542,10 @@
         "import": true,
         "type": "model",
         "categoryLinks": [
-          {"name": "Character", "id": "2f2d-f1a5-c3c7-1285", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "8ea5-49ab-f172-889c", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Explosives", "id": "c7f1-0b7e-bad6-f385", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
-          {"name": "Apothecary", "id": "5469-7922-89c1-fd46", "hidden": false, "primary": false, "targetId": "13d4-9a31-93f3-c8ee"}
+          {"name": "Apothecary", "id": "5469-7922-89c1-fd46", "hidden": false, "primary": false, "targetId": "13d4-9a31-93f3-c8ee"},
+          {"name": "Character", "id": "8747-dd87-a2ad-be73", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"}
         ],
         "constraints": [{"id": "f8f9-8daf-3230-176d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
         "costs": [
@@ -895,7 +661,7 @@
                     "import": true,
                     "targetId": "3e76-8280-4841-075d",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   },
                   {
                     "name": "Charnabal Blade",
@@ -904,7 +670,7 @@
                     "import": true,
                     "targetId": "5ba8-3974-e1a8-2fd3",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   },
                   {
                     "name": "Headsman's axe",
@@ -913,7 +679,7 @@
                     "import": true,
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
                   },
                   {
                     "name": "Chainglaive",
@@ -922,7 +688,7 @@
                     "import": true,
                     "targetId": "e2d8-76c0-3823-b776",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   },
                   {
                     "name": "Chainblade",
@@ -931,7 +697,7 @@
                     "import": true,
                     "targetId": "ef47-9c99-c4ff-329b",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   },
                   {
                     "name": "Achea force weapon",
@@ -940,7 +706,7 @@
                     "import": true,
                     "targetId": "1aa5-c6a8-d021-4de8",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   }
                 ]
               },
@@ -958,7 +724,7 @@
                     "import": true,
                     "targetId": "6838-a43e-1af3-cfdd",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   },
                   {
                     "name": "Volkite Charger",
@@ -967,7 +733,7 @@
                     "import": true,
                     "targetId": "33d0-6ba7-0853-b43a",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                   }
                 ]
               },
@@ -988,6 +754,15 @@
                     "hidden": false,
                     "import": true,
                     "targetId": "9983-f221-fa64-0b0f",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                  },
+                  {
+                    "name": "Shrapnel Bolt Pistol",
+                    "id": "67ae-d30c-0170-0359",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "4bcc-108a-29cd-4462",
                     "type": "selectionEntry",
                     "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                   }
@@ -1018,7 +793,7 @@
                 "targetId": "3c74-1631-7133-90a0",
                 "type": "selectionEntry",
                 "constraints": [{"id": "86e6-c92c-0e2b-a33f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
               },
               {
                 "name": "Narthecium",
@@ -1043,11 +818,11 @@
         "import": true,
         "type": "model",
         "categoryLinks": [
-          {"name": "Character", "id": "d299-2cf9-f2ac-70cb", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "120f-257b-c12b-a131", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Explosives", "id": "c0b7-0e2b-f782-6b5f", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Armistos", "id": "8028-f328-d247-6adb", "hidden": false, "primary": false, "targetId": "4f30-325e-7bec-d8e9"},
-          {"name": "Heavy", "id": "ba63-c8d3-7405-a893", "hidden": false, "primary": false, "targetId": "df18-9250-46bf-2bc9"}
+          {"name": "Heavy", "id": "ba63-c8d3-7405-a893", "hidden": false, "primary": false, "targetId": "df18-9250-46bf-2bc9"},
+          {"name": "Character", "id": "0302-ff52-f695-93ac", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"}
         ],
         "constraints": [{"id": "294e-00be-d6ba-03dc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
         "costs": [
@@ -1209,7 +984,7 @@
                 "import": true,
                 "targetId": "ee57-cdd8-50a4-9aa8",
                 "type": "selectionEntry",
-                "modifiers": [{"field": "8efa-54ed-a60b-107b", "type": "set", "value": 2}, {"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
               },
               {
                 "name": "Twin-Lightning Claws",
@@ -1218,7 +993,8 @@
                 "import": true,
                 "targetId": "6138-cb05-c38a-d295",
                 "type": "selectionEntry",
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                "constraints": [{"id": "8870-3ef9-c412-7163", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
               },
               {
                 "name": "Plasma Pistol",
@@ -1227,7 +1003,7 @@
                 "import": true,
                 "targetId": "0cde-138a-6232-8dec",
                 "type": "selectionEntry",
-                "modifiers": [{"field": "7f9d-b000-e13b-3d76", "type": "set", "value": 2}, {"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
               },
               {
                 "name": "Power Fist",
@@ -1236,11 +1012,8 @@
                 "import": true,
                 "targetId": "1f23-df82-9bea-2ebf",
                 "type": "selectionEntry",
-                "modifiers": [
-                  {"field": "86de-57c9-eb89-978a", "type": "set", "value": 2},
-                  {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
-                  {"field": "51b2-306e-1021-d207", "type": "set", "value": 25}
-                ]
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25}],
+                "modifiers": [{"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}]
               },
               {
                 "name": "Power Weapon",
@@ -1249,7 +1022,7 @@
                 "import": true,
                 "targetId": "3e76-8280-4841-075d",
                 "type": "selectionEntry",
-                "modifiers": [{"field": "dcac-3522-f4d0-4a14", "type": "set", "value": 2}, {"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
               },
               {
                 "name": "Thunder Hammer",
@@ -1258,11 +1031,8 @@
                 "import": true,
                 "targetId": "6a81-9e86-bdb9-1d22",
                 "type": "selectionEntry",
-                "modifiers": [
-                  {"field": "0e02-2333-3874-b3ff", "type": "set", "value": 2},
-                  {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
-                  {"field": "51b2-306e-1021-d207", "type": "set", "value": 30}
-                ]
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 30}],
+                "modifiers": [{"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}]
               },
               {
                 "name": "Volkite Serpenta",
@@ -1271,7 +1041,7 @@
                 "import": true,
                 "targetId": "a5f3-04b2-bd9d-a1de",
                 "type": "selectionEntry",
-                "modifiers": [{"field": "4654-a4e0-41a2-f9e1", "type": "set", "value": 2}, {"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
               },
               {
                 "name": "Headsman's axe",
@@ -1317,7 +1087,7 @@
                 "targetId": "3f56-5e88-ca54-1b3a",
                 "type": "selectionEntry",
                 "constraints": [{"id": "244b-a7f6-d6fb-2d36", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
               },
               {
                 "name": "Raven's Talons",
@@ -1326,7 +1096,7 @@
                 "import": true,
                 "targetId": "bb1b-fc2c-d8cc-092d",
                 "type": "selectionEntry",
-                "modifiers": [{"field": "8efa-54ed-a60b-107b", "type": "set", "value": 2}, {"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
               },
               {
                 "name": "Dragon's Breath pistol",
@@ -1353,7 +1123,7 @@
                 "import": true,
                 "targetId": "1aa5-c6a8-d021-4de8",
                 "type": "selectionEntry",
-                "modifiers": [{"field": "dcac-3522-f4d0-4a14", "type": "set", "value": 2}, {"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
               },
               {
                 "name": "Æther-fire pistol",
@@ -1427,7 +1197,7 @@
                     "import": true,
                     "targetId": "e58b-f2f9-7ee9-9137",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
                   },
                   {
                     "name": "Master-Crafted Heavy Bolter",
@@ -1436,7 +1206,7 @@
                     "import": true,
                     "targetId": "acfb-7e2b-a64d-b3b4",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
                   },
                   {
                     "name": "Master-Crafted Multi-Melta",
@@ -1445,7 +1215,7 @@
                     "import": true,
                     "targetId": "2d96-7402-1aff-c988",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   },
                   {
                     "name": "Master-Crafted Heavy Flamer",
@@ -1454,7 +1224,7 @@
                     "import": true,
                     "targetId": "d1dc-bc37-1d1d-741a",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
                   },
                   {
                     "name": "Master-Crafted Lascannon",
@@ -1463,7 +1233,7 @@
                     "import": true,
                     "targetId": "2a6d-4ca6-ac19-0ae6",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
                   },
                   {
                     "name": "Master-Crafted Missile Laucher",
@@ -1472,7 +1242,7 @@
                     "import": true,
                     "targetId": "e03c-fc84-ec97-c19a",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   },
                   {
                     "name": "Master-Crafted Plasma Cannon",
@@ -1481,7 +1251,7 @@
                     "import": true,
                     "targetId": "5dac-ab24-fe1d-8e76",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   },
                   {
                     "name": "Master-Crafted Volkite Culverin",
@@ -1490,7 +1260,7 @@
                     "import": true,
                     "targetId": "37f2-cf14-6f74-04ac",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   }
                 ]
               },
@@ -1508,7 +1278,7 @@
                     "import": true,
                     "targetId": "f82b-5483-aff6-7cce",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                   },
                   {
                     "name": "Combi-Weapon",
@@ -1517,7 +1287,7 @@
                     "import": true,
                     "targetId": "6838-a43e-1af3-cfdd",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   },
                   {
                     "name": "Astartes Shotgun",
@@ -1526,7 +1296,7 @@
                     "import": true,
                     "targetId": "6727-531b-ba6c-f18a",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                   },
                   {
                     "name": "Nemesis Bolter",
@@ -1535,12 +1305,7 @@
                     "import": true,
                     "targetId": "2b8b-6601-a881-6230",
                     "type": "selectionEntry",
-                    "infoLinks": [{"name": "Heavy", "id": "29d7-6434-8a54-482b", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}],
-                    "modifiers": [
-                      {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": "1"},
-                      {"affects": "profiles.Ranged Weapons", "field": "7f1b-8591-2fcf-d01c", "type": "append", "value": ", Heavy"},
-                      {"field": "51b2-306e-1021-d207", "type": "set", "value": 10}
-                    ]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   },
                   {
                     "name": "Volkite Charger",
@@ -1549,7 +1314,7 @@
                     "import": true,
                     "targetId": "33d0-6ba7-0853-b43a",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 2}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                   },
                   {
                     "name": "Banestrike Bolter",
@@ -1558,7 +1323,7 @@
                     "import": true,
                     "targetId": "7dcf-686d-500f-c683",
                     "type": "selectionEntry",
-                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 5}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
                   },
                   {
                     "name": "Asphyx Bolter",
@@ -1567,7 +1332,16 @@
                     "import": true,
                     "targetId": "20f9-d941-5d1c-6cd7",
                     "type": "selectionEntry",
-                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 4}]
+                  },
+                  {
+                    "name": "Shrapnel Bolter",
+                    "id": "9983-9aa9-ee7b-e666",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "0264-0657-9d6a-30e4",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 4}]
                   }
                 ]
               }
@@ -1583,9 +1357,9 @@
         "type": "model",
         "categoryLinks": [
           {"name": "Vehicle", "id": "760d-a461-daf3-0759", "hidden": false, "primary": false, "targetId": "dbd4-63-af05-998"},
-          {"name": "Fly", "id": "23bd-bbf2-b171-f2e1", "hidden": false, "primary": true, "targetId": "c619-2086-bbcf-69c9"},
           {"name": "Explosives", "id": "c648-40aa-f5d1-b83a", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
-          {"name": "Avenger Strike Fighter", "id": "fe30-50e5-4dc1-90dd", "hidden": false, "primary": false, "targetId": "d802-9a3b-1413-99e9"}
+          {"name": "Avenger Strike Fighter", "id": "fe30-50e5-4dc1-90dd", "hidden": false, "primary": false, "targetId": "d802-9a3b-1413-99e9"},
+          {"name": "Fly", "id": "47ab-da99-b1a2-8653", "hidden": false, "primary": true, "targetId": "c619-2086-bbcf-69c9"}
         ],
         "constraints": [{"id": "245f-1402-1a54-6503", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
         "costs": [
@@ -1807,8 +1581,8 @@
         "import": true,
         "type": "model",
         "categoryLinks": [
-          {"name": "Vehicle", "id": "cbb7-80bc-d59a-b205", "hidden": false, "primary": true, "targetId": "dbd4-63-af05-998"},
-          {"name": "Transport", "id": "af57-3059-5bd4-a4b2", "hidden": false, "primary": false, "targetId": "75e8-57c4-40e3-1817"}
+          {"name": "Transport", "id": "af57-3059-5bd4-a4b2", "hidden": false, "primary": false, "targetId": "75e8-57c4-40e3-1817"},
+          {"name": "Vehicle", "id": "a5ce-fd4b-48cb-198c", "hidden": false, "primary": true, "targetId": "dbd4-63-af05-998"}
         ],
         "constraints": [{"id": "1965-3d18-a519-476b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
         "costs": [
@@ -2028,11 +1802,11 @@
         "import": true,
         "type": "model",
         "categoryLinks": [
-          {"name": "Character", "id": "a27b-913c-6245-a37d", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "e17f-0382-5911-710b", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Explosives", "id": "f49c-fbcd-24b1-0a79", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Terminator", "id": "e534-1522-0c90-e987", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
-          {"name": "Cataphracii", "id": "9d0a-861a-76c4-ba64", "hidden": false, "primary": false, "targetId": "163e-4731-8e1a-b26b"}
+          {"name": "Cataphracii", "id": "9d0a-861a-76c4-ba64", "hidden": false, "primary": false, "targetId": "163e-4731-8e1a-b26b"},
+          {"name": "Character", "id": "35f8-ab42-dcf2-9748", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"}
         ],
         "constraints": [{"id": "e509-bf52-7e2d-3771", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
         "costs": [
@@ -2323,7 +2097,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "ea50-31a0-1360-85f0", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "ea50-31a0-1360-85f0", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "8d4b-460c-dd1f-d593", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -2353,12 +2128,12 @@
         "import": true,
         "type": "model",
         "categoryLinks": [
-          {"name": "Character", "id": "6cc9-bc68-a912-29d6", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "e3fe-6a29-b618-05a1", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Explosives", "id": "f51f-998e-00cf-94cc", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Terminator", "id": "8d29-1092-9536-16df", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
           {"name": "Cataphracii", "id": "0b08-e4c7-ff49-25c4", "hidden": false, "primary": false, "targetId": "163e-4731-8e1a-b26b"},
-          {"name": "Champion", "id": "b0dd-79bb-2adb-c0a9", "hidden": false, "primary": false, "targetId": "5853-67d9-d9d4-4203"}
+          {"name": "Champion", "id": "b0dd-79bb-2adb-c0a9", "hidden": false, "primary": false, "targetId": "5853-67d9-d9d4-4203"},
+          {"name": "Character", "id": "dcf4-87e0-2ada-a992", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"}
         ],
         "constraints": [{"id": "cb3e-ecec-02fc-b44b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 3}],
         "costs": [
@@ -2666,7 +2441,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Lightning Claw", "id": "1cd1-53e5-72dc-edb9", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"}
+                  {"name": "Lightning Claw", "id": "1cd1-53e5-72dc-edb9", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "6b3b-16e5-1d41-50fc", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -2713,17 +2489,6 @@
           {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
           {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
-        ],
-        "entryLinks": [
-          {
-            "name": "Legion Wargear",
-            "id": "0ffb-71e0-af34-85cc",
-            "hidden": false,
-            "import": true,
-            "sortIndex": 2,
-            "targetId": "f30a-2276-0559-198c",
-            "type": "selectionEntryGroup"
-          }
         ],
         "infoLinks": [{"name": "Leader", "id": "bef0-6c19-3f76-522f", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
         "modifiers": [
@@ -2809,54 +2574,6 @@
           }
         ],
         "selectionEntries": [
-          {
-            "name": "Master-Crafted ",
-            "id": "1a77-dbe3-160e-b0a5",
-            "hidden": false,
-            "import": true,
-            "type": "upgrade",
-            "constraints": [{"id": "be9e-6bce-41f7-c4ac", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-            "costs": [
-              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
-              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
-              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
-              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
-              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
-              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
-              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
-              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
-            ],
-            "modifiers": [
-              {
-                "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
-                "field": "ab33-d393-96ce-ccba",
-                "scope": "parent",
-                "type": "increment",
-                "value": 1
-              },
-              {
-                "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
-                "field": "3254-9fe6-d824-513e",
-                "scope": "parent",
-                "type": "increment",
-                "value": 1
-              },
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [{"childId": "d38d-2c27-067c-19db", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "lessThan", "value": 1}]
-              },
-              {
-                "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
-                "field": "name",
-                "join": " ",
-                "scope": "parent",
-                "type": "prepend",
-                "value": "Master-Crafted"
-              }
-            ]
-          },
           {
             "name": "Warlord",
             "id": "3c2c-f8e7-1843-895f",
@@ -3045,7 +2762,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "6b71-ef9b-0b63-04ea", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "6b71-ef9b-0b63-04ea", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "0eca-23ee-13e8-f860", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -3061,6 +2779,73 @@
                         ]
                       }
                     ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Wargear",
+            "id": "0bfc-d97d-4fc8-2d99",
+            "hidden": false,
+            "sortIndex": 2,
+            "entryLinks": [
+              {
+                "name": "Legion Wargear",
+                "id": "0ffb-71e0-af34-85cc",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "f30a-2276-0559-198c",
+                "type": "selectionEntryGroup"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Master-Crafted ",
+                "id": "1a77-dbe3-160e-b0a5",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [{"id": "be9e-6bce-41f7-c4ac", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "modifiers": [
+                  {
+                    "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
+                    "field": "ab33-d393-96ce-ccba",
+                    "scope": "parent",
+                    "type": "increment",
+                    "value": 1
+                  },
+                  {
+                    "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
+                    "field": "3254-9fe6-d824-513e",
+                    "scope": "parent",
+                    "type": "increment",
+                    "value": 1
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [{"childId": "d38d-2c27-067c-19db", "childName": "Power Weapon", "field": "selections", "scope": "parent", "shared": true, "type": "lessThan", "value": 1}]
+                  },
+                  {
+                    "affects": "self.entries.recursive.3e76-8280-4841-075d.profiles.Melee Weapons",
+                    "field": "name",
+                    "join": " ",
+                    "scope": "parent",
+                    "type": "prepend",
+                    "value": "Master-Crafted"
                   }
                 ]
               }
@@ -3400,7 +3185,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "9e80-6e47-0ca5-8565", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "9e80-6e47-0ca5-8565", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "1474-3588-d922-3640", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -3746,7 +3532,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "e0b3-4d3a-fd8d-9fbc", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "e0b3-4d3a-fd8d-9fbc", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "29ef-abe9-ad85-14fb", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -4066,7 +3853,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "50fe-d1af-65df-7411", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "50fe-d1af-65df-7411", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "0254-f588-973a-bfd9", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -4376,7 +4164,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "82f1-cd56-6650-31cc", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "82f1-cd56-6650-31cc", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "c243-f320-7344-5fdb", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ]
               }
             ]
@@ -4712,7 +4501,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "f7e2-9f59-15b3-40c8", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "f7e2-9f59-15b3-40c8", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "5ef4-e686-26ff-98ed", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -5083,7 +4873,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Lightning Claw", "id": "e284-ffbf-d8df-7a89", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"}
+                  {"name": "Lightning Claw", "id": "e284-ffbf-d8df-7a89", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "9949-d4e7-4b9d-0838", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -5415,7 +5206,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "91fe-1670-9941-50c7", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "91fe-1670-9941-50c7", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "bad4-69d0-e5f3-8fd8", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -5756,7 +5548,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "7237-3215-c739-42eb", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "7237-3215-c739-42eb", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "125c-6aab-cabd-a246", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -6117,7 +5910,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Lightning Claw", "id": "f359-fc0f-c823-d0c7", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"}
+                  {"name": "Lightning Claw", "id": "f359-fc0f-c823-d0c7", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "b1f1-4ee1-b22d-aa9f", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -6465,7 +6259,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Lightning Claw", "id": "e87c-4a86-ae7c-f1a3", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"}
+                  {"name": "Lightning Claw", "id": "e87c-4a86-ae7c-f1a3", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "a538-1a0f-c221-3a75", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -13230,7 +13025,17 @@
           {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
         ],
         "entryLinks": [
-          {"name": "Fisticuffs (Power Armour)", "id": "e7ce-9a3b-8ec0-f308", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+          {"name": "Fisticuffs (Power Armour)", "id": "e7ce-9a3b-8ec0-f308", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"},
+          {
+            "name": "Overseer Retinue",
+            "id": "f334-a648-c125-f0fe",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "5d4a-761b-9f81-19d8",
+            "type": "selectionEntryGroup"
+          },
+          {"name": "Overseer Retinue", "id": "a5c6-89d1-b460-4989", "hidden": false, "import": true, "targetId": "5d4a-761b-9f81-19d8", "type": "selectionEntryGroup"}
         ],
         "infoLinks": [{"name": "Leader", "id": "f5ef-b890-33f2-8e3a", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}],
         "modifiers": [
@@ -13659,8 +13464,7 @@
                 ]
               }
             ]
-          },
-          {"name": "Retinue", "id": "7622-773a-4272-0ccf", "hidden": false}
+          }
         ]
       },
       {
@@ -17154,7 +16958,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Lightning Claw", "id": "0699-20ee-21dc-8ce1", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"}
+                  {"name": "Lightning Claw", "id": "0699-20ee-21dc-8ce1", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "77c2-1bc0-e2ef-5fe3", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -17498,7 +17303,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Lightning Claw", "id": "5396-a639-86d4-84b6", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"}
+                  {"name": "Lightning Claw", "id": "5396-a639-86d4-84b6", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "9d1d-ecfb-e72f-9d98", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -17870,7 +17676,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Lightning Claw", "id": "6bd6-8cd1-e736-12c1", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"}
+                  {"name": "Lightning Claw", "id": "6bd6-8cd1-e736-12c1", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "766e-dfb8-18b6-8a38", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -18226,7 +18033,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "e876-254f-5631-7ae4", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "e876-254f-5631-7ae4", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "8762-9e91-aa2c-9158", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -18586,7 +18394,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "0801-fa21-d08e-66b4", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "0801-fa21-d08e-66b4", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "bcd1-1c2f-0bda-3a88", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -18916,7 +18725,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Lightning Claw", "id": "34cb-1933-7a72-f95e", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"}
+                  {"name": "Lightning Claw", "id": "34cb-1933-7a72-f95e", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "861c-d8a1-b5b3-9d6d", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -19292,7 +19102,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "9066-9f5d-587d-1738", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "9066-9f5d-587d-1738", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "7492-950c-44b9-a53b", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ]
               }
             ]
@@ -19588,7 +19399,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Lightning Claw", "id": "aa5a-b03f-bf89-2525", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"}
+                  {"name": "Lightning Claw", "id": "aa5a-b03f-bf89-2525", "hidden": false, "import": true, "targetId": "ee57-cdd8-50a4-9aa8", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "0619-54ca-d967-213c", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -19921,7 +19733,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "375c-5577-637e-80d8", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "375c-5577-637e-80d8", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "a3ca-9f0b-9b67-de91", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -20254,7 +20067,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "cb53-9ca5-2bb1-78e8", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "cb53-9ca5-2bb1-78e8", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "0e05-bab6-dfac-46e8", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -20548,8 +20362,7 @@
                 "targetId": "3f56-5e88-ca54-1b3a",
                 "type": "selectionEntry",
                 "constraints": [{"id": "ed83-139a-b917-1645", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
-              },
-              {"name": "Dragonscale Storm Sheild", "id": "c2a2-b983-945b-f7fe", "hidden": false, "import": true, "targetId": "cd21-411a-6a67-374a", "type": "selectionEntry"}
+              }
             ],
             "selectionEntryGroups": [
               {
@@ -20627,7 +20440,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "1a97-4d0b-3677-8d40", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "1a97-4d0b-3677-8d40", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "7858-cf85-5117-cdf3", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -20812,15 +20626,6 @@
             "targetId": "464b-cef6-1b60-4f88",
             "type": "selectionEntry",
             "modifiers": [{"field": "0b06-18e6-527e-ee43", "type": "set", "value": 1}]
-          },
-          {
-            "name": "Legion Wargear",
-            "id": "a05b-9ca6-2fd0-091c",
-            "hidden": false,
-            "import": true,
-            "sortIndex": 2,
-            "targetId": "f30a-2276-0559-198c",
-            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
@@ -21008,6 +20813,7 @@
             "id": "e852-88b5-884c-b93e",
             "defaultSelectionEntryId": "none",
             "hidden": false,
+            "sortIndex": 2,
             "constraints": [{"id": "0a13-dc2b-b256-60e9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "entryLinks": [
               {
@@ -21027,6 +20833,15 @@
                 "targetId": "3034-b476-91e4-8e09",
                 "type": "selectionEntry",
                 "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 20}]
+              },
+              {
+                "name": "Legion Wargear",
+                "id": "a05b-9ca6-2fd0-091c",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "targetId": "f30a-2276-0559-198c",
+                "type": "selectionEntryGroup"
               }
             ]
           }
@@ -22782,6 +22597,15 @@
                         "targetId": "9983-f221-fa64-0b0f",
                         "type": "selectionEntry",
                         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                      },
+                      {
+                        "name": "Shrapnel Bolt Pistol",
+                        "id": "52a7-b0bb-53f2-b86a",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "4bcc-108a-29cd-4462",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                       }
                     ]
                   },
@@ -22916,6 +22740,15 @@
                         "hidden": false,
                         "import": true,
                         "targetId": "0361-4ff8-6310-7ad2",
+                        "type": "selectionEntry",
+                        "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                      },
+                      {
+                        "name": "Graviton Mace",
+                        "id": "f9ac-bd4a-a37b-ab97",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6bec-d00d-a569-a6bc",
                         "type": "selectionEntry",
                         "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                       }
@@ -23074,6 +22907,15 @@
                             "hidden": false,
                             "import": true,
                             "targetId": "9983-f221-fa64-0b0f",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                          },
+                          {
+                            "name": "Shrapnel Bolt Pistol",
+                            "id": "3306-a43e-cb0b-f9c3",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "4bcc-108a-29cd-4462",
                             "type": "selectionEntry",
                             "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                           }
@@ -23290,6 +23132,15 @@
                             "targetId": "0361-4ff8-6310-7ad2",
                             "type": "selectionEntry",
                             "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                          },
+                          {
+                            "name": "Shrapnel Bolt Pistol",
+                            "id": "66c0-4d82-b294-887c",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "4bcc-108a-29cd-4462",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                           }
                         ]
                       }
@@ -23384,15 +23235,6 @@
                             "targetId": "3e76-8280-4841-075d",
                             "type": "selectionEntry",
                             "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
-                          },
-                          {
-                            "name": "Achea force weapon",
-                            "id": "38cd-93a2-0132-d4ab",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "1aa5-c6a8-d021-4de8",
-                            "type": "selectionEntry",
-                            "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                           }
                         ]
                       },
@@ -23409,6 +23251,15 @@
                             "hidden": false,
                             "import": true,
                             "targetId": "9983-f221-fa64-0b0f",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                          },
+                          {
+                            "name": "Shrapnel Bolt Pistol",
+                            "id": "1fd8-d2c7-9a84-71b4",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "4bcc-108a-29cd-4462",
                             "type": "selectionEntry",
                             "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                           }
@@ -24011,6 +23862,27 @@
                         "targetId": "1aa5-c6a8-d021-4de8",
                         "type": "selectionEntry",
                         "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                      },
+                      {
+                        "name": "Graviton Mace",
+                        "id": "4f99-72b3-fa64-1c16",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6bec-d00d-a569-a6bc",
+                        "type": "selectionEntry",
+                        "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                      },
+                      {
+                        "name": "Graviton Crusher",
+                        "id": "cf35-1fbb-20aa-cf8a",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "4a5d-3116-00a9-4f31",
+                        "type": "selectionEntry",
+                        "modifiers": [
+                          {"field": "51b2-306e-1021-d207", "type": "set", "value": 20},
+                          {"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}
+                        ]
                       }
                     ]
                   },
@@ -24049,6 +23921,15 @@
                         "hidden": false,
                         "import": true,
                         "targetId": "20f9-d941-5d1c-6cd7",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                      },
+                      {
+                        "name": "Shrapnel Bolter",
+                        "id": "be01-49d6-41ac-d669",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "0264-0657-9d6a-30e4",
                         "type": "selectionEntry",
                         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                       }
@@ -24118,6 +23999,15 @@
                         "targetId": "0361-4ff8-6310-7ad2",
                         "type": "selectionEntry",
                         "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                      },
+                      {
+                        "name": "Shrapnel Bolt Pistol",
+                        "id": "c93e-4c82-d2b1-4e32",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "4bcc-108a-29cd-4462",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                       }
                     ]
                   }
@@ -24208,6 +24098,15 @@
                             "targetId": "9983-f221-fa64-0b0f",
                             "type": "selectionEntry",
                             "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                          },
+                          {
+                            "name": "Shrapnel Bolt Pistol",
+                            "id": "b79c-39cf-7495-22db",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "4bcc-108a-29cd-4462",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                           }
                         ]
                       },
@@ -24237,6 +24136,15 @@
                             "hidden": false,
                             "import": true,
                             "targetId": "20f9-d941-5d1c-6cd7",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                          },
+                          {
+                            "name": "Shrapnel Bolter",
+                            "id": "ca61-bfc9-1b07-606e",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "0264-0657-9d6a-30e4",
                             "type": "selectionEntry",
                             "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                           }
@@ -24352,6 +24260,15 @@
                             "targetId": "9983-f221-fa64-0b0f",
                             "type": "selectionEntry",
                             "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                          },
+                          {
+                            "name": "Shrapnel Bolt Pistol",
+                            "id": "604a-9574-183b-684b",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "4bcc-108a-29cd-4462",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                           }
                         ]
                       },
@@ -24424,8 +24341,17 @@
                             "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                           },
                           {
-                            "name": "Asphyx Bolter",
+                            "name": "Shrapnel Bolter",
                             "id": "fe50-e085-b9f1-71e0",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "0264-0657-9d6a-30e4",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                          },
+                          {
+                            "name": "Asphyx Bolter",
+                            "id": "55ad-8911-fbb2-25f0",
                             "hidden": false,
                             "import": true,
                             "targetId": "20f9-d941-5d1c-6cd7",
@@ -25116,6 +25042,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Achea force weapon",
+                    "id": "aebb-5199-981f-1d61",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1aa5-c6a8-d021-4de8",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -26180,6 +26115,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Achea force weapon",
+                    "id": "c965-3a7c-6c2a-7f60",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1aa5-c6a8-d021-4de8",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -26219,6 +26163,24 @@
                     "hidden": false,
                     "import": true,
                     "targetId": "0cde-138a-6232-8dec",
+                    "type": "selectionEntry",
+                    "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                  },
+                  {
+                    "name": "Asphyx Bolt Pistol",
+                    "id": "4c1a-b7be-6c2f-6c56",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9983-f221-fa64-0b0f",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                  },
+                  {
+                    "name": "Æther-fire pistol",
+                    "id": "2e19-8e61-441d-5261",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "0361-4ff8-6310-7ad2",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   }
@@ -33765,6 +33727,15 @@
                         "targetId": "1aa5-c6a8-d021-4de8",
                         "type": "selectionEntry",
                         "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                      },
+                      {
+                        "name": "Graviton Mace",
+                        "id": "166c-a46f-04a5-a5ed",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6bec-d00d-a569-a6bc",
+                        "type": "selectionEntry",
+                        "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                       }
                     ]
                   },
@@ -33832,6 +33803,15 @@
                         "targetId": "0361-4ff8-6310-7ad2",
                         "type": "selectionEntry",
                         "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                      },
+                      {
+                        "name": "Shrapnel Bolt Pistol",
+                        "id": "1a67-2eef-bc8b-9d22",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "4bcc-108a-29cd-4462",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                       }
                     ]
                   },
@@ -33861,6 +33841,15 @@
                         "hidden": false,
                         "import": true,
                         "targetId": "9983-f221-fa64-0b0f",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                      },
+                      {
+                        "name": "Shrapnel Bolter",
+                        "id": "cc97-8035-7ca0-a91f",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "0264-0657-9d6a-30e4",
                         "type": "selectionEntry",
                         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                       }
@@ -34006,6 +33995,15 @@
                         "targetId": "9983-f221-fa64-0b0f",
                         "type": "selectionEntry",
                         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                      },
+                      {
+                        "name": "Shrapnel Bolt Pistol",
+                        "id": "5650-fb9d-ea9e-5cca",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "4bcc-108a-29cd-4462",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                       }
                     ]
                   },
@@ -34020,8 +34018,17 @@
                     "entryLinks": [
                       {"name": "Bolter", "id": "def1-47d1-d36b-b340", "hidden": false, "import": true, "targetId": "f82b-5483-aff6-7cce", "type": "selectionEntry"},
                       {
-                        "name": "Asphyx Bolter",
+                        "name": "Shrapnel Bolter",
                         "id": "952c-bfa5-1279-54f1",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "0264-0657-9d6a-30e4",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                      },
+                      {
+                        "name": "Asphyx Bolter",
+                        "id": "cfbe-db02-fc8d-f555",
                         "hidden": false,
                         "import": true,
                         "targetId": "20f9-d941-5d1c-6cd7",
@@ -34422,6 +34429,15 @@
                     "targetId": "b356-f6cd-f56e-85aa",
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 15}]
+                  },
+                  {
+                    "name": "Achea force weapon",
+                    "id": "dd4a-725d-0350-b3c5",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "1aa5-c6a8-d021-4de8",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
                   }
                 ],
                 "modifiers": [
@@ -36726,6 +36742,15 @@
                         "targetId": "0361-4ff8-6310-7ad2",
                         "type": "selectionEntry",
                         "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                      },
+                      {
+                        "name": "Graviton Mace",
+                        "id": "9ad7-17b1-dfa5-b8fc",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6bec-d00d-a569-a6bc",
+                        "type": "selectionEntry",
+                        "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                       }
                     ]
                   },
@@ -36853,6 +36878,15 @@
                         "targetId": "0361-4ff8-6310-7ad2",
                         "type": "selectionEntry",
                         "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                      },
+                      {
+                        "name": "Shrapnel Bolt Pistol",
+                        "id": "5be5-1c29-7ea4-5182",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "4bcc-108a-29cd-4462",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                       }
                     ]
                   }
@@ -36952,6 +36986,15 @@
                             "hidden": false,
                             "import": true,
                             "targetId": "9983-f221-fa64-0b0f",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                          },
+                          {
+                            "name": "Shrapnel Bolt Pistol",
+                            "id": "28a5-acfe-bf86-702a",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "4bcc-108a-29cd-4462",
                             "type": "selectionEntry",
                             "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                           }
@@ -37097,6 +37140,15 @@
                             "targetId": "0361-4ff8-6310-7ad2",
                             "type": "selectionEntry",
                             "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
+                          },
+                          {
+                            "name": "Shrapnel Bolt Pistol",
+                            "id": "97bf-ed56-59ff-cfb5",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "4bcc-108a-29cd-4462",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                           }
                         ]
                       }
@@ -37171,6 +37223,15 @@
                             "type": "selectionEntry",
                             "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}],
                             "displayCosts": [{"name": "pts", "id": "6476-0b70-2ddf-b988", "hidden": false, "typeId": "51b2-306e-1021-d207", "value": 2}]
+                          },
+                          {
+                            "name": "Shrapnel Bolt Pistol",
+                            "id": "743e-de98-fc9a-8f96",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "4bcc-108a-29cd-4462",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
                           }
                         ]
                       },
@@ -44803,7 +44864,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "47c9-2d28-50a7-ac72", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "47c9-2d28-50a7-ac72", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "aebf-53d2-cb31-c4b4", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
@@ -45712,7 +45774,7 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Power Weapon", "id": "3f79-a51a-6412-a74f", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"},
+                  {"name": "Achea force weapon", "id": "3f79-a51a-6412-a74f", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"},
                   {
                     "name": "Thunder Hammer",
                     "id": "46ea-a951-b57e-ef13",
@@ -45767,7 +45829,8 @@
                     "type": "selectionEntry",
                     "modifiers": [{"field": "51b2-306e-1021-d207", "type": "set", "value": 10}]
                   },
-                  {"name": "Raven's Talons", "id": "ec9b-ba91-35b1-cc8a", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"}
+                  {"name": "Raven's Talons", "id": "ec9b-ba91-35b1-cc8a", "hidden": false, "import": true, "targetId": "bb1b-fc2c-d8cc-092d", "type": "selectionEntry"},
+                  {"name": "Power Weapon", "id": "32fd-623b-712d-1ba7", "hidden": false, "import": true, "targetId": "3e76-8280-4841-075d", "type": "selectionEntry"}
                 ],
                 "modifiers": [
                   {
