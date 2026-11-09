@@ -25343,140 +25343,73 @@
             "sortIndex": 3,
             "selectionEntryGroups": [
               {
-                "name": "Big Shootas",
+                "name": "Dual Big Shoota and Skorcha",
                 "id": "db6a-f4c0-ff50-0154",
-                "defaultSelectionEntryId": "1518-4c71-c79c-a42e",
                 "hidden": false,
                 "constraints": [
-                  {"id": "76e8-7281-8a80-0ce9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "230c-c9df-181f-ca30", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {"id": "76e8-7281-8a80-0ce9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2},
+                  {"id": "230c-c9df-181f-ca30", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}
                 ],
-                "selectionEntries": [
-                  {
-                    "name": "2 Big Shootas",
-                    "id": "1518-4c71-c79c-a42e",
-                    "hidden": false,
-                    "import": true,
-                    "type": "upgrade",
-                    "entryLinks": [
-                      {
-                        "name": "Big Shoota",
-                        "id": "fcb2-009c-10d7-e688",
-                        "collective": false,
-                        "hidden": false,
-                        "import": true,
-                        "targetId": "bab8-ecdc-4ff6-71d4",
-                        "type": "selectionEntry",
-                        "constraints": [
-                          {"id": "e26e-cd71-2288-3175", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2},
-                          {"id": "03fc-7a1a-7f1f-b406", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2}
-                        ],
-                        "entryLinks": [
-                          {"name": "Weapon Modifications", "id": "e427-3bfa-237f-ce94", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "name": "2 Rokkit Launchas",
-                    "id": "5113-76ee-1ef7-8ade",
-                    "hidden": false,
-                    "import": true,
-                    "type": "upgrade",
-                    "entryLinks": [
-                      {
-                        "name": "Rokkit Launcha",
-                        "id": "f2d6-b5c8-52d4-ed95",
-                        "collective": false,
-                        "hidden": false,
-                        "import": true,
-                        "targetId": "6318-d7d7-ea26-8302",
-                        "type": "selectionEntry",
-                        "constraints": [
-                          {"id": "a196-526d-9239-8293", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2},
-                          {"id": "e800-a14f-dcca-5733", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2}
-                        ],
-                        "entryLinks": [
-                          {"name": "Weapon Modifications", "id": "ab58-7016-313d-3e67", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "name": "2 Skorchas",
-                    "id": "18dc-d4b9-d4a8-ddd0",
-                    "hidden": false,
-                    "import": true,
-                    "type": "upgrade",
-                    "entryLinks": [
-                      {
-                        "name": "Skorcha",
-                        "id": "a927-6517-791f-3d96",
-                        "collective": false,
-                        "hidden": false,
-                        "import": true,
-                        "targetId": "d9d3-f0ca-f950-69b2",
-                        "type": "selectionEntry",
-                        "constraints": [
-                          {"id": "ae04-3f88-deed-3722", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2},
-                          {"id": "1e71-f62f-b0b2-6fb7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2}
-                        ],
-                        "entryLinks": [
-                          {"name": "Weapon Modifications", "id": "c37c-703d-d18b-cd91", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Additional Big Shootas",
-                "id": "f472-2bc5-2a27-3000",
-                "hidden": false,
                 "entryLinks": [
                   {
-                    "name": "Big Shoota",
-                    "id": "59ae-5593-9b7c-2c73",
+                    "name": "Skorcha",
+                    "id": "a927-6517-791f-3d96",
+                    "collective": false,
+                    "defaultAmount": "1",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "d9d3-f0ca-f950-69b2",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "ae04-3f88-deed-3722", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                    "entryLinks": [
+                      {"name": "Weapon Modifications", "id": "c37c-703d-d18b-cd91", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                    ]
+                  },
+                  {
+                    "name": "Rokkit Launcha",
+                    "id": "f2d6-b5c8-52d4-ed95",
                     "collective": false,
                     "hidden": false,
                     "import": true,
-                    "targetId": "bab8-ecdc-4ff6-71d4",
+                    "targetId": "6318-d7d7-ea26-8302",
                     "type": "selectionEntry",
-                    "constraints": [{"id": "6549-c1e8-cfb3-a0ae", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                    "constraints": [{"id": "a196-526d-9239-8293", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
                     "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "59a2-3dfc-aa98-8cac", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                      {"name": "Weapon Modifications", "id": "ab58-7016-313d-3e67", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                    ]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Dual Big Shoota",
+                    "id": "1518-4c71-c79c-a42e",
+                    "defaultAmount": "1",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [{"id": "61a7-8a6c-35d4-a7fb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}],
+                    "entryLinks": [
+                      {"name": "Weapon Modifications", "id": "58cb-4ac5-09d1-f546", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                     ],
-                    "modifiers": [
+                    "infoLinks": [
+                      {"name": "Lethal Hits", "id": "de92-16f5-5f5f-390a", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
+                      {"name": "Rapid Fire", "id": "b55f-2e00-78c9-cae7", "hidden": false, "targetId": "c5c8-8b58-b8b6-7786", "type": "rule"}
+                    ],
+                    "profiles": [
                       {
-                        "field": "6549-c1e8-cfb3-a0ae",
-                        "type": "set",
-                        "value": 4,
-                        "conditionGroups": [
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "childId": "5113-76ee-1ef7-8ade",
-                                "childName": "2 Rokkit Launchas",
-                                "field": "selections",
-                                "includeChildSelections": true,
-                                "scope": "root-entry",
-                                "shared": true,
-                                "type": "atLeast",
-                                "value": 1
-                              },
-                              {
-                                "childId": "18dc-d4b9-d4a8-ddd0",
-                                "childName": "2 Skorchas",
-                                "field": "selections",
-                                "includeChildSelections": true,
-                                "scope": "root-entry",
-                                "shared": true,
-                                "type": "atLeast",
-                                "value": 1
-                              }
-                            ]
-                          }
+                        "name": "Dual Big Shoota",
+                        "id": "b4c6-bb6a-37e8-cb55",
+                        "hidden": false,
+                        "typeId": "f77d-b953-8fa4-b762",
+                        "typeName": "Ranged Weapons",
+                        "characteristics": [
+                          {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
+                          {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+                          {"name": "BS", "$text": "5+", "typeId": "94d-8a98-cf90-183e"},
+                          {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+                          {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+                          {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                          {"name": "Keywords", "$text": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 4", "typeId": "7f1b-8591-2fcf-d01c"}
                         ]
                       }
                     ]
@@ -25569,7 +25502,7 @@
                     ]
                   },
                   {
-                    "name": "Deff Rolla and 3 Zzap Guns",
+                    "name": "Deff Rolla and extra ranged weapons",
                     "id": "4324-c37e-742d-8457",
                     "hidden": false,
                     "import": true,
@@ -25610,9 +25543,8 @@
                     ],
                     "selectionEntryGroups": [
                       {
-                        "name": "Zzap Gun",
+                        "name": "Main Guns",
                         "id": "ecbc-806b-0554-7399",
-                        "defaultSelectionEntryId": "6725-2c36-f90b-a49d",
                         "hidden": false,
                         "constraints": [
                           {"id": "464d-8765-493e-6aad", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
@@ -25626,10 +25558,7 @@
                             "import": true,
                             "targetId": "d123-19a5-0863-875e",
                             "type": "selectionEntry",
-                            "constraints": [
-                              {"id": "d9b9-9a8e-46b5-e284", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2},
-                              {"id": "1770-d77b-9b7f-b686", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
-                            ],
+                            "constraints": [{"id": "1770-d77b-9b7f-b686", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
                             "entryLinks": [
                               {"name": "Weapon Modifications", "id": "7a07-6221-bb7b-77d7", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                             ]
@@ -25642,7 +25571,7 @@
                             "hidden": false,
                             "import": true,
                             "type": "upgrade",
-                            "constraints": [{"id": "bf29-1de1-5425-c748", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                            "constraints": [{"id": "bf29-1de1-5425-c748", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
                             "entryLinks": [
                               {"name": "Weapon Modifications", "id": "8c5d-4e79-d614-ab7a", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                             ],
@@ -25675,9 +25604,13 @@
                             "hidden": false,
                             "import": true,
                             "type": "upgrade",
-                            "constraints": [{"id": "f9a8-b9eb-935a-1da1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                            "constraints": [{"id": "f9a8-b9eb-935a-1da1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
                             "entryLinks": [
                               {"name": "Weapon Modifications", "id": "dc7d-9e2d-038d-838a", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
+                            ],
+                            "infoLinks": [
+                              {"name": "Heavy", "id": "1799-f481-b5a5-f170", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"},
+                              {"name": "Blast", "id": "89c6-47db-b4f6-50b3", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
                             ],
                             "profiles": [
                               {
@@ -25712,6 +25645,26 @@
                                   {"name": "Keywords", "$text": "BLAST 2", "typeId": "7f1b-8591-2fcf-d01c"}
                                 ]
                               }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Big Shootas",
+                        "id": "f472-2bc5-2a27-3000",
+                        "hidden": false,
+                        "entryLinks": [
+                          {
+                            "name": "Big Shoota",
+                            "id": "59ae-5593-9b7c-2c73",
+                            "collective": false,
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "bab8-ecdc-4ff6-71d4",
+                            "type": "selectionEntry",
+                            "constraints": [{"id": "6549-c1e8-cfb3-a0ae", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}],
+                            "entryLinks": [
+                              {"name": "Weapon Modifications", "id": "59a2-3dfc-aa98-8cac", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                             ]
                           }
                         ]
@@ -35665,6 +35618,10 @@
         "categoryLinks": [
           {"name": "Ranged Weapon", "id": "19af-3b64-ff78-034c", "hidden": false, "primary": false, "targetId": "eeda-8544-a2f3-3fab"},
           {"name": "Rapid Fire Weapon", "id": "140a-71de-76ba-45c2", "hidden": false, "primary": false, "targetId": "751c-b78a-45fa-cc5f"}
+        ],
+        "infoLinks": [
+          {"name": "Rapid Fire", "id": "a3d1-aa06-fbb0-b9d3", "hidden": false, "targetId": "c5c8-8b58-b8b6-7786", "type": "rule"},
+          {"name": "Lethal Hits", "id": "6208-4a86-a6fc-42a0", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}
         ],
         "profiles": [
           {
