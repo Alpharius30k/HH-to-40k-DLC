@@ -1,0 +1,26 @@
+{
+  "catalogue": {
+    "name": "Space Marine - Salamanders",
+    "id": "b94f-e7e7-a0f4-38c3",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "Space Marine - Standard", "id": "6cd7-aca1-ea2c-fd1e", "targetId": "ee94-5436-b6ea-2c77", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "9095-8068-4cf0-880e",
+        "hidden": false,
+        "import": true,
+        "targetId": "e9e8-ad7f-d6d1-9f74",
+        "type": "selectionEntry"
+      },
+      {"name": "Detachment", "id": "c024-50ef-b938-1adc", "hidden": false, "import": true, "targetId": "9ada-e8da-ee88-f334", "type": "selectionEntry"},
+      {"name": "Legion Rule", "id": "f878-75a2-ae5d-6698", "hidden": false, "import": true, "targetId": "b4a3-1392-2dd1-18af", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "76f8-58b6-3dfb-769a", "hidden": false, "import": true, "targetId": "d2f3-bec0-ce39-a6fe", "type": "selectionEntry"}
+    ]
+  }
+}

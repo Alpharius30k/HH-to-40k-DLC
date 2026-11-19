@@ -1,0 +1,39 @@
+{
+  "catalogue": {
+    "name": "Space Marine - Ultramarines",
+    "id": "d1c4-2447-5519-82d5",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "Space Marine - Standard", "id": "823d-ca95-5eab-a58a", "targetId": "ee94-5436-b6ea-2c77", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "a5b1-34a8-6739-714c",
+        "hidden": false,
+        "import": true,
+        "targetId": "e9e8-ad7f-d6d1-9f74",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Strength of Wisdom", "id": "ced8-9201-2598-6521", "hidden": false, "targetId": "56a7-a486-77e6-01b3", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3dc6-d243-9d6c-34b5"}]
+      },
+      {"name": "Detachment", "id": "6fef-47d7-34be-8b44", "hidden": false, "import": true, "targetId": "9ada-e8da-ee88-f334", "type": "selectionEntry"},
+      {"name": "Legion Rule", "id": "4876-ee74-053d-0a18", "hidden": false, "import": true, "targetId": "b4a3-1392-2dd1-18af", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "80a3-fbda-2b75-dec2", "hidden": false, "import": true, "targetId": "d2f3-bec0-ce39-a6fe", "type": "selectionEntry"},
+      {
+        "name": "Legion Praetor",
+        "id": "b574-7c84-9238-64e9",
+        "hidden": false,
+        "import": true,
+        "targetId": "f478-d629-d3e2-25cd",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Strength of Wisdom", "id": "d90f-7051-5360-4779", "hidden": false, "targetId": "56a7-a486-77e6-01b3", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "3dc6-d243-9d6c-34b5"}]
+      }
+    ],
+    "infoLinks": [{"name": "Strength of Wisdom", "id": "b2af-98ee-58ff-30af", "hidden": false, "targetId": "56a7-a486-77e6-01b3", "type": "rule"}]
+  }
+}

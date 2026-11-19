@@ -1,0 +1,26 @@
+{
+  "catalogue": {
+    "name": "Space Marine - Raven Guard",
+    "id": "da43-8460-f83d-faf3",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "Space Marine - Standard", "id": "eeff-8b3e-7c52-c2d4", "targetId": "ee94-5436-b6ea-2c77", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "da5d-2fe3-3e94-db8a",
+        "hidden": false,
+        "import": true,
+        "targetId": "e9e8-ad7f-d6d1-9f74",
+        "type": "selectionEntry"
+      },
+      {"name": "Detachment", "id": "66b4-3eab-2a0f-6a25", "hidden": false, "import": true, "targetId": "9ada-e8da-ee88-f334", "type": "selectionEntry"},
+      {"name": "Legion Rule", "id": "7d50-3fb2-bf21-2718", "hidden": false, "import": true, "targetId": "b4a3-1392-2dd1-18af", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "daab-aef4-a067-4574", "hidden": false, "import": true, "targetId": "d2f3-bec0-ce39-a6fe", "type": "selectionEntry"}
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "catalogue": {
+    "name": "Space Marine - Sons of Horus",
+    "id": "0bf5-dbb9-76f4-bfcf",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "Space Marine - Standard", "id": "203a-bf86-69db-400b", "targetId": "ee94-5436-b6ea-2c77", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "22d4-0751-b975-14cb",
+        "hidden": false,
+        "import": true,
+        "targetId": "e9e8-ad7f-d6d1-9f74",
+        "type": "selectionEntry"
+      },
+      {"name": "Detachment", "id": "1f07-92ce-d4fa-8b89", "hidden": false, "import": true, "targetId": "9ada-e8da-ee88-f334", "type": "selectionEntry"},
+      {"name": "Legion Rule", "id": "8329-3021-e62f-9127", "hidden": false, "import": true, "targetId": "b4a3-1392-2dd1-18af", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "2b9b-983c-c026-1929", "hidden": false, "import": true, "targetId": "d2f3-bec0-ce39-a6fe", "type": "selectionEntry"}
+    ]
+  }
+}

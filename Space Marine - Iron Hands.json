@@ -1,0 +1,153 @@
+{
+  "catalogue": {
+    "name": "Space Marine - Iron Hands",
+    "id": "ddbc-c726-429c-8e95",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "Space Marine - Standard", "id": "9680-0f67-f7a2-be03", "targetId": "ee94-5436-b6ea-2c77", "type": "catalogue"}],
+    "categoryEntries": [{"name": "Gorgon", "id": "2c18-6dec-8ad3-814a", "hidden": false}],
+    "entryLinks": [
+      {
+        "name": "Legion Apothecary",
+        "id": "6498-a365-ff38-e249",
+        "hidden": false,
+        "import": true,
+        "targetId": "2f29-c5a2-765b-8a1a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "e081-4f8d-c369-a0e6", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "412f-1cd4-6f80-e68b",
+        "hidden": false,
+        "import": true,
+        "targetId": "e9e8-ad7f-d6d1-9f74",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "196e-823a-45e6-a5b5", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {
+        "name": "Legion Cataphractii Praetor",
+        "id": "c5fb-a182-2142-11cd",
+        "hidden": false,
+        "import": true,
+        "targetId": "f943-d6e2-b697-e95a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "9819-e26b-f5e6-ded8", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {
+        "name": "Legion Centurion",
+        "id": "bce5-a406-ac01-722d",
+        "hidden": false,
+        "import": true,
+        "targetId": "4f95-a52b-db77-6a73",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "4f9a-30a0-2db6-0a4c", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {
+        "name": "Legion Damocles Command Rhino",
+        "id": "dda8-3216-0a8a-e21a",
+        "hidden": false,
+        "import": true,
+        "targetId": "b438-05e4-7b7b-f7f0",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {"name": "Medusa Scales", "id": "bdef-1b56-c20a-fda0", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"},
+          {"name": "Medusian Metal", "id": "541f-6c48-9cd8-9719", "hidden": false, "targetId": "f84c-fab3-22ca-ec25", "type": "profile"}
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {
+        "name": "Legion Praetor",
+        "id": "b3ae-1aa2-8f4f-f0b0",
+        "hidden": false,
+        "import": true,
+        "targetId": "f478-d629-d3e2-25cd",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "187e-4dc2-e462-f29e", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {
+        "name": "Legion Tartaros Centurion",
+        "id": "de5c-368a-5565-35fb",
+        "hidden": false,
+        "import": true,
+        "targetId": "ca3c-2efe-c86b-9f06",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "8e02-2fc1-6b37-446d", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {
+        "name": "Legion Tartaros Centurion",
+        "id": "e3a1-2bba-65b0-3844",
+        "hidden": false,
+        "import": true,
+        "targetId": "ca3c-2efe-c86b-9f06",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "155e-7607-cad3-aa52", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {"name": "Detachment", "id": "7943-40f9-08c5-a554", "hidden": false, "import": true, "targetId": "9ada-e8da-ee88-f334", "type": "selectionEntry"},
+      {"name": "Legion Rule", "id": "0781-32af-d03a-1adb", "hidden": false, "import": true, "targetId": "b4a3-1392-2dd1-18af", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "549d-e940-71e4-8c87", "hidden": false, "import": true, "targetId": "d2f3-bec0-ce39-a6fe", "type": "selectionEntry"},
+      {
+        "name": "Legion Destroyer Assault Squad",
+        "id": "674e-8d3f-2fb5-30a5",
+        "hidden": false,
+        "import": true,
+        "targetId": "2424-7054-7c49-d1bf",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "ee52-387e-44e8-577f", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {
+        "name": "Legion Cataphractii Command Squad",
+        "id": "8247-7829-ca0e-5f0a",
+        "hidden": false,
+        "import": true,
+        "targetId": "4613-c06d-eba3-d8ad",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "6921-a168-63a7-1783", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {
+        "name": "Legion Command Squad",
+        "id": "1085-414a-8799-103c",
+        "hidden": false,
+        "import": true,
+        "targetId": "d90b-05f5-7905-f20b",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "a5d3-5f43-6943-ee2e", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {
+        "name": "Legion Tartaros Command Squad",
+        "id": "23ef-e811-4732-1267",
+        "hidden": false,
+        "import": true,
+        "targetId": "e3a1-7811-3156-8722",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "f84f-50cf-9995-89e3", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      },
+      {
+        "name": "Legion Contempter Dreadnought Talon",
+        "id": "36ef-1b6e-7ec8-676d",
+        "hidden": false,
+        "import": true,
+        "targetId": "c059-2933-94ea-9d30",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Medusa Scales", "id": "9077-e3d8-f73f-8444", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "0f43-7982-b83d-0b83"}]
+      }
+    ],
+    "infoLinks": [{"name": "Medusa Scales", "id": "1807-46c7-fa7c-8fce", "hidden": false, "targetId": "12cf-d39f-67ae-038a", "type": "rule"}]
+  }
+}

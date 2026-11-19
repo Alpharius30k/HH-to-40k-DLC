@@ -1,0 +1,79 @@
+{
+  "catalogue": {
+    "name": "Space Marine - Emperor's Children",
+    "id": "e569-025c-cd33-9b8b",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "Space Marine - Standard", "id": "9f45-8bae-0f8e-b961", "targetId": "ee94-5436-b6ea-2c77", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "608d-a3e2-a908-f87c",
+        "hidden": false,
+        "import": true,
+        "targetId": "e9e8-ad7f-d6d1-9f74",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Flawless Execution", "id": "f0c4-928a-17fb-1081", "hidden": false, "targetId": "e1e6-46d7-d26b-d04c", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "dbe9-1730-a459-534c"}]
+      },
+      {"name": "Detachment", "id": "341a-a83f-d6e6-6541", "hidden": false, "import": true, "targetId": "9ada-e8da-ee88-f334", "type": "selectionEntry"},
+      {"name": "Legion Rule", "id": "fce0-f114-c4a5-9af1", "hidden": false, "import": true, "targetId": "b4a3-1392-2dd1-18af", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "5c79-1e96-46be-9bbc", "hidden": false, "import": true, "targetId": "d2f3-bec0-ce39-a6fe", "type": "selectionEntry"},
+      {
+        "name": "Legion Cataphractii Command Squad",
+        "id": "230d-5302-528a-6542",
+        "hidden": false,
+        "import": true,
+        "targetId": "4613-c06d-eba3-d8ad",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Flawless Execution", "id": "e097-71c6-9da2-6eb9", "hidden": false, "targetId": "e1e6-46d7-d26b-d04c", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "dbe9-1730-a459-534c"}]
+      },
+      {
+        "name": "Legion Apothecary",
+        "id": "ba4c-b09a-80fc-de06",
+        "hidden": false,
+        "import": true,
+        "targetId": "2f29-c5a2-765b-8a1a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Flawless Execution", "id": "82cb-904c-890f-26c3", "hidden": false, "targetId": "e1e6-46d7-d26b-d04c", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "dbe9-1730-a459-534c"}]
+      },
+      {
+        "name": "Legion Cataphractii Praetor",
+        "id": "9b78-af66-7362-6aca",
+        "hidden": false,
+        "import": true,
+        "targetId": "f943-d6e2-b697-e95a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Flawless Execution", "id": "a94b-9bd3-4a5c-a1b0", "hidden": false, "targetId": "e1e6-46d7-d26b-d04c", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "dbe9-1730-a459-534c"}]
+      },
+      {
+        "name": "Legion Damocles Command Rhino",
+        "id": "d4fe-98a2-2007-4983",
+        "hidden": false,
+        "import": true,
+        "targetId": "b438-05e4-7b7b-f7f0",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Flawless Execution", "id": "b9c4-6047-b282-cca9", "hidden": false, "targetId": "e1e6-46d7-d26b-d04c", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "dbe9-1730-a459-534c"}]
+      },
+      {
+        "name": "Legion Destroyer Assault Squad",
+        "id": "22e3-2d73-5e37-0c6b",
+        "hidden": false,
+        "import": true,
+        "targetId": "2424-7054-7c49-d1bf",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Flawless Execution", "id": "75c0-4f03-ed7a-da83", "hidden": false, "targetId": "e1e6-46d7-d26b-d04c", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "dbe9-1730-a459-534c"}]
+      }
+    ],
+    "infoLinks": [{"name": "Flawless Execution", "id": "fcae-5ed2-d44f-feab", "hidden": false, "targetId": "e1e6-46d7-d26b-d04c", "type": "rule"}]
+  }
+}

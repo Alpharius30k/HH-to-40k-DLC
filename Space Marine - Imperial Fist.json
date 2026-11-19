@@ -1,0 +1,62 @@
+{
+  "catalogue": {
+    "name": "Space Marine - Imperial Fist",
+    "id": "a096-2914-6162-c470",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "Space Marine - Standard", "id": "6f3c-0da4-b0ed-0820", "targetId": "ee94-5436-b6ea-2c77", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "9248-fd5d-ccd6-1263",
+        "hidden": false,
+        "import": true,
+        "targetId": "e9e8-ad7f-d6d1-9f74",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Discipline and Reslove", "id": "7e25-a953-be82-0edc", "hidden": false, "targetId": "f644-bf59-0d72-6a7d", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "98fe-589e-9ca5-e0c5"}]
+      },
+      {"name": "Detachment", "id": "c70f-9988-79dc-6fae", "hidden": false, "import": true, "targetId": "9ada-e8da-ee88-f334", "type": "selectionEntry"},
+      {"name": "Legion Rule", "id": "9c84-30b6-7535-5ff0", "hidden": false, "import": true, "targetId": "b4a3-1392-2dd1-18af", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "c7b8-bbca-4859-776c", "hidden": false, "import": true, "targetId": "d2f3-bec0-ce39-a6fe", "type": "selectionEntry"},
+      {
+        "name": "Legion Cataphractii Command Squad",
+        "id": "80c8-f7ce-c6ea-50db",
+        "hidden": false,
+        "import": true,
+        "targetId": "4613-c06d-eba3-d8ad",
+        "type": "selectionEntry",
+        "infoLinks": [
+          {"name": "Discipline and Reslove", "id": "ba11-c0c9-d023-8ed2", "hidden": false, "targetId": "f644-bf59-0d72-6a7d", "type": "rule"},
+          {"name": "Discipline and Reslove", "id": "4d49-ee93-f5d6-faa0", "hidden": false, "targetId": "f644-bf59-0d72-6a7d", "type": "rule"}
+        ],
+        "modifiers": [{"field": "category", "type": "add", "value": "98fe-589e-9ca5-e0c5"}, {"field": "category", "type": "add", "value": "98fe-589e-9ca5-e0c5"}]
+      },
+      {
+        "name": "Legion Cataphractii Praetor",
+        "id": "1b0b-b8db-408c-b740",
+        "hidden": false,
+        "import": true,
+        "targetId": "f943-d6e2-b697-e95a",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Discipline and Reslove", "id": "0393-f33e-992b-615e", "hidden": false, "targetId": "f644-bf59-0d72-6a7d", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "98fe-589e-9ca5-e0c5"}]
+      },
+      {
+        "name": "Legion Destroyer Assault Squad",
+        "id": "b287-bf1c-7384-9447",
+        "hidden": false,
+        "import": true,
+        "targetId": "2424-7054-7c49-d1bf",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Discipline and Reslove", "id": "327a-06a0-afdc-591a", "hidden": false, "targetId": "f644-bf59-0d72-6a7d", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "98fe-589e-9ca5-e0c5"}]
+      }
+    ],
+    "infoLinks": [{"name": "Discipline and Reslove", "id": "9138-0e54-3c38-74d5", "hidden": false, "targetId": "f644-bf59-0d72-6a7d", "type": "rule"}]
+  }
+}

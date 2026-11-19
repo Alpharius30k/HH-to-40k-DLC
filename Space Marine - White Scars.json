@@ -1,0 +1,32 @@
+{
+  "catalogue": {
+    "name": "Space Marine - White Scars",
+    "id": "11ed-9b74-0e22-23bd",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "Space Marine - Standard", "id": "bb56-038f-bdf6-70ab", "targetId": "ee94-5436-b6ea-2c77", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "ab45-8a06-d79f-ea23",
+        "hidden": false,
+        "import": true,
+        "targetId": "e9e8-ad7f-d6d1-9f74",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Swift of Action", "id": "f2e0-b62f-4cdb-056c", "hidden": false, "targetId": "d227-943c-0d9f-2193", "type": "rule"}],
+        "modifiers": [
+          {"field": "category", "type": "add", "value": "e7b3-9897-3713-b769"},
+          {"affects": "self.entries.recursive.profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "increment", "value": 1}
+        ]
+      },
+      {"name": "Detachment", "id": "7312-be0c-b9eb-60d2", "hidden": false, "import": true, "targetId": "9ada-e8da-ee88-f334", "type": "selectionEntry"},
+      {"name": "Legion Rule", "id": "b2a1-f04d-b196-caa2", "hidden": false, "import": true, "targetId": "b4a3-1392-2dd1-18af", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "68e8-0e56-6c58-b91b", "hidden": false, "import": true, "targetId": "d2f3-bec0-ce39-a6fe", "type": "selectionEntry"}
+    ],
+    "infoLinks": [{"name": "Swift of Action", "id": "b67d-8b90-9e10-3578", "hidden": false, "targetId": "d227-943c-0d9f-2193", "type": "rule"}]
+  }
+}

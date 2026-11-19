@@ -1,0 +1,29 @@
+{
+  "catalogue": {
+    "name": "Space Marine - Death Guard",
+    "id": "3de4-c173-4113-0691",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "Space Marine - Standard", "id": "56fa-3406-2710-f19f", "targetId": "ee94-5436-b6ea-2c77", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "e432-8516-0933-fc57",
+        "hidden": false,
+        "import": true,
+        "targetId": "e9e8-ad7f-d6d1-9f74",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Remorsless", "id": "b043-cd6a-f294-099d", "hidden": false, "targetId": "cc54-b1a6-90f9-ccbd", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "a57d-f155-e1d8-5af2"}]
+      },
+      {"name": "Detachment", "id": "9d0b-7cc9-27bc-adf2", "hidden": false, "import": true, "targetId": "9ada-e8da-ee88-f334", "type": "selectionEntry"},
+      {"name": "Legion Rule", "id": "f956-3b83-175a-3941", "hidden": false, "import": true, "targetId": "b4a3-1392-2dd1-18af", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "8300-d1b2-4f0e-2a5d", "hidden": false, "import": true, "targetId": "d2f3-bec0-ce39-a6fe", "type": "selectionEntry"}
+    ],
+    "infoLinks": [{"name": "Remorsless", "id": "dd9b-931e-1ffd-f18c", "hidden": false, "targetId": "cc54-b1a6-90f9-ccbd", "type": "rule"}]
+  }
+}

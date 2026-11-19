@@ -1,0 +1,39 @@
+{
+  "catalogue": {
+    "name": "Space Marine - Blood Angels",
+    "id": "3532-a39b-a5ee-3285",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [{"name": "Space Marine - Standard", "id": "5a18-580f-57bd-d7f0", "targetId": "ee94-5436-b6ea-2c77", "type": "catalogue"}],
+    "entryLinks": [
+      {
+        "name": "Legion Cataphractii Centurion",
+        "id": "31ca-9102-286a-b6fd",
+        "hidden": false,
+        "import": true,
+        "targetId": "e9e8-ad7f-d6d1-9f74",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Encarmine Fury", "id": "f0bc-ecb2-4726-fc0d", "hidden": false, "targetId": "a0d8-07a8-a2da-d9c2", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "1e05-108a-dac8-f771"}]
+      },
+      {"name": "Detachment", "id": "3e97-3e71-9247-ba75", "hidden": false, "import": true, "targetId": "9ada-e8da-ee88-f334", "type": "selectionEntry"},
+      {"name": "Legion Rule", "id": "7d2a-f34c-3a79-9d3c", "hidden": false, "import": true, "targetId": "b4a3-1392-2dd1-18af", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "7672-804e-4858-eeab", "hidden": false, "import": true, "targetId": "d2f3-bec0-ce39-a6fe", "type": "selectionEntry"},
+      {
+        "name": "Legion Damocles Command Rhino",
+        "id": "ec33-ff93-7515-98b5",
+        "hidden": false,
+        "import": true,
+        "targetId": "b438-05e4-7b7b-f7f0",
+        "type": "selectionEntry",
+        "infoLinks": [{"name": "Encarmine Fury", "id": "a5a4-8c48-163d-29d3", "hidden": false, "targetId": "a0d8-07a8-a2da-d9c2", "type": "rule"}],
+        "modifiers": [{"field": "category", "type": "add", "value": "1e05-108a-dac8-f771"}]
+      }
+    ],
+    "infoLinks": [{"name": "Encarmine Fury", "id": "556a-25d8-afb4-23f9", "hidden": false, "targetId": "a0d8-07a8-a2da-d9c2", "type": "rule"}]
+  }
+}

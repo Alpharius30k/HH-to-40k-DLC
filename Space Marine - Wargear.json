@@ -1,0 +1,4016 @@
+{
+  "catalogue": {
+    "name": "Space Marine - Wargear",
+    "id": "44d8-eab7-9966-7eb1",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": true,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [
+      {"name": "Space Marine - Abilties,Keywords,Rules", "id": "4bc3-28a5-f923-433c", "targetId": "be7b-b4f4-e8d0-1948", "type": "catalogue"},
+      {"name": "New Catalogue (link)", "id": "e5c3-c5f8-d1e4-630d", "importRootEntries": false, "targetId": "f691-a596-67e4-2d33", "type": "catalogue"}
+    ],
+    "sharedRules": [
+      {
+        "name": "Fights Last",
+        "id": "98f8-09c2-6654-c17e",
+        "description": "A unit with this can only preform a **fight** after all other units in combat that dont have *Fights Last** have.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Artificer Armour",
+        "id": "0624-3752-ca88-20f3",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "bb56-3e91-18d4-ba00", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "modifiers": [{"affects": "profiles.Unit", "field": "450-a17e-9d5e-29da", "scope": "parent", "type": "set", "value": "2+"}]
+      },
+      {
+        "name": "Augury Scanner",
+        "id": "5d06-a908-b985-1a33",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "289d-5dfa-4b2b-ace2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Augury Scanner",
+            "id": "35cf-e032-6097-a514",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "**Enemy units** can not be **deployed** withing 18\" of a model with this", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Cognis-signum",
+        "id": "f3d3-f57b-d9a2-13f2",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "52ff-ab29-4077-986b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "modifiers": [
+          {"affects": "self.entries.group.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "parent", "type": "decrement", "value": 1},
+          {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "unit-self", "type": "floor", "value": "2"}
+        ],
+        "profiles": [
+          {
+            "name": "Cognis-signum",
+            "id": "2896-5f34-3253-cb9b",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This unit gains +1BS", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Combat Sheild",
+        "id": "f2ae-7aca-28aa-377e",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "0ac1-ac4e-fce9-2d8b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "modifiers": [{"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "6+"}]
+      },
+      {
+        "name": "Boarding Sheild",
+        "id": "ac80-9527-3a9c-494b",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "4de0-71f8-5838-6757", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "modifiers": [
+          {"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "5+"},
+          {"field": "category", "scope": "parent", "type": "add", "value": "2a50-a99f-35d3-d8de"}
+        ]
+      },
+      {
+        "name": "Cortex Controller",
+        "id": "2c23-04dd-1f4c-07e2",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "abd3-e326-cbc0-caa3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Cortex Controller",
+            "id": "b164-e622-6d14-04fe",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "**Automaton** units withing 12\" can ignore modifiers to their **leadership roll** and **OC**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cyber-familiar",
+        "id": "8aac-724a-be85-0456",
+        "comment": "Unit has Invuln",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "d5fb-b8c6-cbc7-5745", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "modifiers": [
+          {"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "decrement", "value": 1},
+          {"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "floor", "value": "2"}
+        ]
+      },
+      {
+        "name": "Dozer Blade",
+        "id": "a64a-5b92-d868-2a1b",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "a8cc-417c-3359-3a61", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "modifiers": [
+          {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 2},
+          {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "41a0-1301-112a-e2f2", "scope": "parent", "type": "increment", "value": 1},
+          {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1},
+          {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "scope": "parent", "type": "decrement", "value": 1}
+        ]
+      },
+      {
+        "name": "Explorator Augury Web",
+        "id": "b952-c686-f065-1cc6",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "fab6-99f9-4785-1290", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Explorator Augury Web",
+            "id": "8ffd-199b-3810-9bd6",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the start of each **battle-round** you can select 1 of these to last till the end of the round:\n- Disruption: No **enemy unit** can deploy withing 18\" of this model\n- Relay: You can **deploy** an unit withing 4\" of **enemy units** if they are **deployed** withing 6\" of this model",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Flare Sheild",
+        "id": "5702-f1bb-6a96-1e83",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "ee17-91a7-cf8a-b93c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Flare Sheild",
+            "id": "fbaa-f9ed-0b0b-20bf",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Reduce incoming **ranged attacks** strength by 1 when targeting this model or by 2 if the **weapon** has **blast**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Geo-Locator Beacon",
+        "id": "eabf-8659-263d-e282",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "2f43-9841-eb43-b33c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Geo-Locator Beacon",
+            "id": "9235-24ca-b7ca-8429",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "You can **deploy** an unit withing 4\" of **enemy units** if they are **deployed** withing 6\" of this model",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Breacher Charge",
+        "id": "c58f-262c-2703-3f32",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "5aca-20d0-7754-cebe", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Breacher Charge",
+            "id": "ca6e-36e2-d098-ed8c",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Once per game per unit you can use this. While withing 2\" of atleast 1 **light terrian** peacie you can remove 1 of them.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rad Greanade",
+        "id": "4f45-db58-e3ec-06cd",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "46f9-a503-792a-85e0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "infoLinks": [{"name": "Rad-Phage", "id": "02a9-9ee4-b4a3-194b", "hidden": false, "targetId": "f1f0-993f-5ace-e539", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Rad Greanade",
+            "id": "6d13-6d26-386c-8103",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "When this unit charges the **target** of the charge is effected by **[Rad-Phage]**", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Helical Targeting Array",
+        "id": "776b-83b5-542d-9b6f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "955f-ead6-2a15-d8f1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Helical Targeting Array",
+            "id": "bc90-0668-51f6-bd36",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This models **ranged weapons** can ignore **[Feel No Pain]** if it specifically happens to **ranged attack's** only.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Standard",
+        "id": "7967-59e5-be51-58b0",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "8119-cafa-e55d-c879", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "infoLinks": [{"name": "Extra Attacks", "id": "77a9-28a9-7189-9c8e", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}],
+        "modifiers": [{"affects": "self.entries.forces.group.recursive.profiles.Unit", "field": "bef7-942a-1a23-59f8", "scope": "root-entry-self", "type": "increment", "value": 1}],
+        "profiles": [
+          {
+            "name": "Legion Standard",
+            "id": "b416-be0c-c3b2-49d2",
+            "hidden": false,
+            "typeId": "8a40-4aaa-c780-9046",
+            "typeName": "Melee Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+              {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+              {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+              {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
+              {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+              {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+              {"name": "Keywords", "$text": "Extra Attack", "typeId": "893f-9000-ccf7-648e"},
+              {"name": "Weapon Type", "$text": "Close-Combat", "typeId": "ac37-f66f-253c-2d41"}
+            ]
+          },
+          {
+            "name": "Legion Standard",
+            "id": "caf4-af93-f3cf-724b",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "While a model with this is in a unit improve that units **OC** by 1", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Legion Vexilla",
+        "id": "14c4-4f9b-44a3-ad79",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "4883-df10-8bd0-3b02", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Legion Vexilla",
+            "id": "16d6-b365-e960-7061",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When rolling for **Battle-shock** add 1 to this units roll while a model with this is part of the unit.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warhawk Jumpack",
+        "id": "74f4-d49a-f028-0bc7",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "2296-6475-36e2-0839", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "modifiers": [
+          {"affects": "profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "12\""},
+          {"field": "category", "scope": "parent", "type": "add", "value": "c619-2086-bbcf-69c9"},
+          {"field": "category", "scope": "parent", "type": "add", "value": "dda2-bb0a-215e-ad9c"},
+          {"affects": "profiles.Unit", "field": "066b-99aa-fbd6-9a44", "scope": "parent", "type": "increment", "value": 1},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "b158-674b-ef0d-ad03",
+                "childName": "Corvid Pattern Jump Pack",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "unit-self",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Melta Cutters",
+        "id": "74e7-d2bb-2d7c-8592",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "d419-7eeb-41e4-039d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Melta Cutters",
+            "id": "2d2c-7060-f5d5-47dd",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Improve models with this **melee strength** by  2 for the turn it **charges** a **vehicle** or **fortification**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nathecium",
+        "id": "f088-d3a2-b886-9ff0",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "02d4-d8b6-5dc5-0835", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "infoLinks": [{"name": "Feel No Pain 5+", "id": "2e75-6761-b166-bd25", "hidden": false, "targetId": "5e10-6d62-2624-80a8", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Nathecium",
+            "id": "e137-cd78-be49-f54b",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model and its unit have a **[Feel No Pain 5+]** while a model with this is alive", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Nuncio-Vox",
+        "id": "e00c-923e-0d7a-5fc0",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "62ac-4ac6-53b3-4c73", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Nuncio-Vox",
+            "id": "8204-9524-d7b4-57f3",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "A unit with a model with this can ignore 1 modifier to **leadership**", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Psychic Hood",
+        "id": "e56a-5018-0553-49d1",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "8b5c-f294-7147-e173", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Psychic Hood",
+            "id": "1c04-82ea-df35-fde4",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model and its unit have a **[Feel No Pain 5+]** against **psychic wounds** while a unit has this.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vox Disruption Array",
+        "id": "cfad-f5a4-7512-4776",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "35b4-30b4-2425-edf8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "profiles": [
+          {
+            "name": "Vox Disruption Array",
+            "id": "9624-b061-af41-4aaf",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "No **enemy unit** can deploy withing 18\" of this model", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Cyber-Hawk",
+        "id": "63bb-e98b-f924-f938",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 5,
+        "type": "upgrade",
+        "constraints": [{"id": "1a7f-3056-ed0c-a47a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "e7b3-9897-3713-b769",
+                "childName": "Faction: White Scars",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Cyber-Hawk",
+            "id": "6f1e-084c-7532-12b6",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the start of your turn you can select 1 **Prey** target for this model. This model and its unti can **re-roll ranged hit rolls** of 1 and +1\" to **charge roll** when targeting the **Prey**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Æther-rune armour",
+        "id": "04d0-d3d2-2912-e0be",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 6,
+        "type": "upgrade",
+        "constraints": [{"id": "8876-0785-9d31-c518", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [
+          {
+            "name": "Admantine Will (X+)",
+            "id": "8db1-94b3-26ee-b916",
+            "hidden": false,
+            "targetId": "bcbc-1dd7-fc05-8f0f",
+            "type": "profile",
+            "modifiers": [{"arg": "X", "field": "9b8f-694b-e5e-b573", "type": "replace", "value": "4"}, {"arg": "X", "field": "name", "type": "replace", "value": "4"}]
+          }
+        ],
+        "modifiers": [
+          {"affects": "self.entries.recursive.profiles.Unit", "field": "450-a17e-9d5e-29da", "scope": "parent", "type": "set", "value": "2+"},
+          {"affects": "profiles.Unit", "field": "750a-a2ec-90d3-21fe", "scope": "parent", "type": "increment", "value": 1}
+        ]
+      },
+      {
+        "name": "Jarl",
+        "id": "356e-4ff5-48dd-fb5b",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 6,
+        "type": "upgrade",
+        "constraints": [{"id": "13f3-78be-d392-3b77", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [
+          {"field": "name", "scope": "parent", "type": "set", "value": "Jarl"},
+          {"affects": "profiles.Unit", "field": "name", "scope": "parent", "type": "set", "value": "Jarl"}
+        ],
+        "profiles": [
+          {
+            "name": "Jarl's Wraith",
+            "id": "95c0-7689-2630-35dd",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "When this model is charged it gains +2 **melee attacks** for the rest of the turn.", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Vigil Storm Shield",
+        "id": "975e-6098-f579-bef8",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 7,
+        "type": "upgrade",
+        "constraints": [{"id": "70cc-b4c5-2f5f-f1c5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "modifiers": [
+          {"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "3+"},
+          {
+            "affects": "self.entries.recursive",
+            "field": "category",
+            "scope": "parent",
+            "type": "add",
+            "value": "7ae0-fa25-187d-a626",
+            "conditions": [{"childId": "740a-892c-8958-defa", "childName": "Terminator", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Teleporter Strike",
+        "id": "2653-2281-69d0-082c",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 7,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Deep Strike", "id": "77ee-9e12-3728-ab65", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Teleporter Strike",
+            "id": "f6d6-24fe-2f86-fb93",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This unit has a **[Feel No Pain 5+]** against **ranged attack**  when it **deep strikes** till the **start of your next turn**.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "bd89-be41-8410-6b0e",
+                    "childName": "Hammerfall strike force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "lessThan",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blessing Auto-Simulacra",
+        "id": "124c-19ea-84a9-adf8",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 10,
+        "type": "upgrade",
+        "constraints": [{"id": "20b6-a18c-d80d-f0f4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "profiles": [
+          {
+            "name": "Blessing Auto-Simulacra",
+            "id": "a330-3f65-867f-e19c",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the end of your turn if a model with this has less then **starting wounds** roll a D6 and on a 6+ restore 1 wound to this model",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gorgon Armour",
+        "id": "7ac8-982b-3307-388a",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 10,
+        "type": "upgrade",
+        "constraints": [
+          {"id": "caff-bf46-cbac-1746", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+          {"id": "380e-883c-5975-d539", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0}
+        ],
+        "infoLinks": [{"name": "Feel No Pain 5+", "id": "d3a7-6d26-ac6f-eeb0", "hidden": false, "targetId": "5e10-6d62-2624-80a8", "type": "rule"}],
+        "modifiers": [
+          {"affects": "self.entries.recursive", "arg": "Cataphractii", "field": "name", "scope": "parent", "type": "replace", "value": "Gorgon"},
+          {"affects": "self.entries.recursive.profiles.Unit", "arg": "Cataphractii", "field": "name", "scope": "parent", "type": "replace", "value": "Gorgon"},
+          {"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "5+"},
+          {"affects": "self.entries.recursive", "field": "category", "scope": "parent", "type": "remove", "value": "7009-36c4-b0ce-d93d"},
+          {
+            "field": "380e-883c-5975-d539",
+            "type": "set",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "7ac8-982b-3307-388a",
+                "childName": "Gorgon Armour",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "unit-self",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Armatus Necrotechnika",
+        "id": "8787-a84c-9782-9715",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 10,
+        "type": "upgrade",
+        "constraints": [{"id": "811e-bc4e-8ef0-5757", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 50},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "profiles": [
+          {
+            "name": "Armatus Necrotechnika",
+            "id": "01c6-759f-c4d3-bd9f",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When a model withing 9\" of this model is **removed** as a **casualty** roll 1D6 and on a 6 heal this model 1 wound.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Argyrum Pattern Boarding Sheild",
+        "id": "dc04-3e72-f90a-1dfa",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 13,
+        "type": "upgrade",
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [{"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "5+"}],
+        "profiles": [
+          {
+            "name": "Argyrum Pattern Boarding Sheild",
+            "id": "51e5-c357-1bd0-12a1",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model has a **Invulnerable Save 4+** against **melee attacks**", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Mantle of Ultramar",
+        "id": "4636-17e5-9624-de66",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 13,
+        "type": "upgrade",
+        "constraints": [{"id": "bc72-cf0f-b56e-4793", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [{"affects": "self.entries.recursive.profiles.Unit", "field": "450-a17e-9d5e-29da", "scope": "parent", "type": "set", "value": "2+"}],
+        "profiles": [
+          {
+            "name": "Mantle of Ultramar",
+            "id": "c07a-ab22-9f69-f8ff",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "Attacks targeting this model have -1 **damage** when going into this model.", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Artificer and Flame",
+        "id": "3ed4-132d-c3f9-6f73",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "selectionEntryGroups": [
+          {
+            "name": "Master-Crafted",
+            "id": "b539-8dc6-b44f-20d3",
+            "hidden": false,
+            "constraints": [{"id": "75be-bbcd-4c31-7933", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "selectionEntries": [
+              {
+                "name": "Melee",
+                "id": "d8ef-dbab-642b-6327",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [{"id": "6a03-410a-8897-6319", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "modifiers": [
+                  {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "3254-9fe6-d824-513e", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "name", "join": " ", "scope": "parent", "type": "prepend", "value": "Master-Crafted"},
+                  {
+                    "field": "6a03-410a-8897-6319",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [{"childId": "82dd-0e74-e099-8634", "childName": "Ranged", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}]
+                  }
+                ]
+              },
+              {
+                "name": "Ranged",
+                "id": "82dd-0e74-e099-8634",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [{"id": "2756-2469-6085-d869", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [
+                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "modifiers": [
+                  {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "2229-f494-25db-c5d3", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "a354-c1c8-a745-f9e3", "scope": "parent", "type": "increment", "value": 1},
+                  {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "name", "join": " ", "scope": "parent", "type": "prepend", "value": "Master-Crafted"},
+                  {
+                    "field": "2756-2469-6085-d869",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [{"childId": "d8ef-dbab-642b-6327", "childName": "Melee", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dragonscale Storm Sheild",
+        "id": "13bc-2816-b2a2-bfd8",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "modifiers": [{"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "decrement", "value": 1}]
+      },
+      {
+        "name": "Mantle of the elder Drake",
+        "id": "619b-db24-5f3f-94b6",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 35},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "profiles": [
+          {
+            "name": "Mantle of the elder Drake",
+            "id": "4a99-fba1-ebfe-b2d5",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "Attacks targeting this model have -1 **damage** when going into this model.", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Infravisor",
+        "id": "636b-f5ef-43be-3ac6",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 19,
+        "type": "upgrade",
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [{"name": "Night Vision", "id": "64d1-e1ed-3c22-18ea", "hidden": false, "targetId": "d6b3-7fe2-8b05-c89c", "type": "rule"}],
+        "modifiers": [
+          {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "parent", "type": "decrement", "value": 1},
+          {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "parent", "type": "floor", "value": "2"}
+        ]
+      },
+      {
+        "name": "Cameleoline",
+        "id": "6782-7b03-8a20-e6b5",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 19,
+        "type": "upgrade",
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "profiles": [
+          {
+            "name": "Cameleoline",
+            "id": "dfab-d409-9902-7bf4",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model gains a **[Feel No Pain 6+]** against **ranged attacks** or if it already has one of these [Not a normal **[Feel No Pain]** just one that happens due to **ranged attacks**] improve the value by 1",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Corvid Pattern Jump Pack",
+        "id": "b158-674b-ef0d-ad03",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 19,
+        "type": "upgrade",
+        "constraints": [{"id": "22ca-fcea-3afa-0199", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [
+          {"affects": "profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "scope": "parent", "type": "set", "value": "14\""},
+          {"field": "category", "scope": "parent", "type": "add", "value": "c619-2086-bbcf-69c9"},
+          {"field": "category", "scope": "parent", "type": "add", "value": "dda2-bb0a-215e-ad9c"},
+          {"affects": "profiles.Unit", "field": "066b-99aa-fbd6-9a44", "scope": "parent", "type": "increment", "value": 2},
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "db12-9883-625a-ac37",
+                "childName": "Faction: Raven Guard",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sonic Shriekers",
+        "id": "e62e-205e-9bf6-1b6a",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 2,
+        "type": "upgrade",
+        "constraints": [{"id": "9797-5a99-0b9e-b00d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "profiles": [
+          {
+            "name": "Sonic Shriekers",
+            "id": "0bd1-d269-bc11-3010",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "After a unit with atleast 1 of these **charges** select 1 **enemy unit** in **engagment range** of this unit. That unit has -1 to **hit** till the end of the turn.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sub-Sonic Pulser",
+        "id": "2cd0-74f7-ab32-caf4",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 2,
+        "type": "upgrade",
+        "constraints": [{"id": "35d7-00ca-2e80-311d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "profiles": [
+          {
+            "name": "Sub-Sonic Pulser",
+            "id": "736e-81d3-508b-7adc",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "A unit with this atleast 1 of these can ignore 1 modifier to **BS**", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Sonic Lance",
+        "id": "4d1f-90b6-0b4e-dc3b",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 2,
+        "type": "upgrade",
+        "constraints": [{"id": "7f6a-0355-2523-72a0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Assault", "id": "fafa-c609-0571-5b48", "hidden": false, "targetId": "fc8a-8c24-bae9-cc1c", "type": "rule"},
+          {"name": "Lethal Hits", "id": "6f33-7ff6-acdb-2e86", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
+          {"name": "Pinning", "id": "472d-2ac3-c880-4dfb", "hidden": false, "targetId": "4b2f-2df7-eeb3-7b12", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Sonic Lance",
+            "id": "a7c0-f8e7-edb1-b5a8",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+              {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+              {"name": "S", "$text": "2", "typeId": "2229-f494-25db-c5d3"},
+              {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+              {"name": "Keywords", "$text": "Assault, Lethal Hits, Pinning", "typeId": "7f1b-8591-2fcf-d01c"},
+              {"name": "Weapon Type", "$text": "Sonic", "typeId": "d9da-56f2-8362-c7d8"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lords of Murder",
+        "id": "8702-bc41-8e2a-b332",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 8,
+        "type": "upgrade",
+        "constraints": [{"id": "6988-9b32-da00-013d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "profiles": [
+          {
+            "name": "Bloody Murder",
+            "id": "f2f3-37a3-f63a-7493",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When a unit **charges** with atleast 1 model with this improve the **charge roll** by 1 and if the **enemy unit** this unit **charged** is **Battle-shocked** or **Pinned** add 1 to all **melee attacks** in this unit till the end of the turn.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Prey Sight",
+        "id": "e158-6e2a-d56b-cf17",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 8,
+        "type": "upgrade",
+        "constraints": [{"id": "01ca-03d9-d6e8-324e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [{"name": "Night Vision", "id": "2b6a-46b2-8733-2f06", "hidden": false, "targetId": "d6b3-7fe2-8b05-c89c", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Prey Sight",
+            "id": "1b00-edf9-cf2f-8add",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "All models in a unit which has atleast 1 model with this gain **Night Vision**", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      },
+      {
+        "name": "Trophies of Judgement",
+        "id": "618b-71df-df29-7ebe",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 8,
+        "type": "upgrade",
+        "constraints": [{"id": "b9c5-abf4-3f74-44fb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [
+          {
+            "name": "Fear(X)",
+            "id": "94af-37d8-a64f-0697",
+            "hidden": false,
+            "targetId": "bfca-d169-1fee-893c",
+            "type": "rule",
+            "modifiers": [{"field": "name", "join": "1", "type": "prepend", "value": "X"}, {"field": "description", "join": "1", "type": "prepend", "value": "X"}]
+          }
+        ]
+      },
+      {
+        "name": "World Eater Beserker",
+        "id": "dca7-dc46-244a-a305",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 12,
+        "type": "upgrade",
+        "constraints": [{"id": "d603-d1d0-2981-40c4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [{"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "scope": "parent", "type": "increment", "value": 1}],
+        "profiles": [
+          {
+            "name": "Ravening Madmen",
+            "id": "1839-30da-1bfa-58ab",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Reduce all incoming **melee attacks** into a model with this **strength** by 1 and this model ignores modifiers to its WS",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Toxin Bombs",
+        "id": "58ff-185e-8d98-307c",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 14,
+        "type": "upgrade",
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "profiles": [
+          {
+            "name": "Toxin Bombs",
+            "id": "74c3-1ec8-4828-bee5",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When a unit with this is **charged** roll a D6 for each model in the **charging unit**. For each 1 that unit suffers 1 **mortal wound**.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Channelling",
+        "id": "273d-893d-6b33-4915",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 17,
+        "type": "upgrade",
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [{"affects": "self.entries.recursive", "field": "category", "scope": "parent", "type": "add", "value": "fdbc-0964-ac46-3810"}]
+      },
+      {"name": "Cult Arcana", "id": "822e-d2ed-e1a8-60eb", "hidden": false, "import": true, "sortIndex": 15, "type": "upgrade"},
+      {
+        "name": "Command Vox relay",
+        "id": "d10f-574e-d37b-554d",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Command Vox relay",
+            "id": "efdf-153a-5d2d-18e1",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "While a **Charecter** model is **embarked** in this **transport** all models withing 18\" can use that models **leadership charecteristic**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cyber-familiar",
+        "id": "706f-448f-a90d-3d49",
+        "comment": "Unit has no Invul",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [{"id": "36aa-a20f-34b7-1a6f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "modifiers": [{"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "6+"}]
+      },
+      {
+        "name": "Watcher in the Dark",
+        "id": "27bf-b652-bd2b-23df",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "model",
+        "constraints": [{"id": "270d-5204-5b38-8ab7", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "profiles": [
+          {
+            "name": "Watcher in the Dark",
+            "id": "42f0-1c78-9291-3d9b",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Once per battle, in any phase, just after a **mortal wound** is allocated to an **Dark Angels** model in this unit, this unit can summon a **Watcher in the Dark**. When it does, until the end of the phase, models in this unit have the **[Feel No Pain 4+]** ability against **mortal wounds**.",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stasis Grenades",
+        "id": "4e94-85d4-b28b-34b1",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Stasis Grenades",
+            "id": "9d07-6baa-8617-522a",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "Once per battle per unit you can use this ability when a unit with this **charges**. After it **charges** select 1 **enemy unit** that is now in **engagment range** of a unit with this. It must take a **leadership test** and if it fails it gains **Fights Last**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cytheron pattern aegis",
+        "id": "4946-5f51-ca29-1702",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "upgrade",
+        "modifiers": [{"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "5+"}],
+        "profiles": [
+          {
+            "name": "Cytheron pattern aegis",
+            "id": "b8c4-bede-b61a-df38",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [{"name": "Description", "$text": "This model has a **Invulnerable Save 4+** against **shooting attacks**", "typeId": "9b8f-694b-e5e-b573"}]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Legion Wargear",
+        "id": "c9cb-1373-c8b7-96a1",
+        "hidden": false,
+        "sortIndex": 0,
+        "entryLinks": [
+          {
+            "name": "Dark Angels Wargear",
+            "id": "72ce-e6ad-ec4b-c8e1",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "a136-b1f3-509a-c510",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "4827-bb51-0781-40b0",
+                    "childName": "Faction: Dark Angels",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Emperor's Children Wargear",
+            "id": "dbda-2f8a-d37e-3906",
+            "hidden": false,
+            "sortIndex": 2,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "dbe9-1730-a459-534c",
+                    "childName": "Faction: Emperor's Children",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Surgical Augments",
+                "id": "a3ea-0022-8f4c-eca9",
+                "hidden": false,
+                "constraints": [{"id": "5a20-698a-0c56-3bd6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "entryLinks": [
+                  {
+                    "name": "Sonic Lance",
+                    "id": "38f2-c68d-85bd-a567",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "4d1f-90b6-0b4e-dc3b",
+                    "type": "selectionEntry",
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditionGroups": [
+                              {
+                                "type": "or",
+                                "conditions": [
+                                  {
+                                    "childId": "e62e-205e-9bf6-1b6a",
+                                    "childName": "Sonic Shriekers",
+                                    "field": "selections",
+                                    "includeChildSelections": true,
+                                    "scope": "unit-self",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "2cd0-74f7-ab32-caf4",
+                                    "childName": "Sub-Sonic Pulser",
+                                    "field": "selections",
+                                    "includeChildSelections": true,
+                                    "scope": "unit-self",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sonic Shriekers",
+                    "id": "5173-aa15-fae2-4f15",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "e62e-205e-9bf6-1b6a",
+                    "type": "selectionEntry",
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditionGroups": [
+                              {
+                                "type": "or",
+                                "conditions": [
+                                  {
+                                    "childId": "4d1f-90b6-0b4e-dc3b",
+                                    "childName": "Sonic Lance",
+                                    "field": "selections",
+                                    "includeChildSelections": true,
+                                    "scope": "unit-self",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "2cd0-74f7-ab32-caf4",
+                                    "childName": "Sub-Sonic Pulser",
+                                    "field": "selections",
+                                    "includeChildSelections": true,
+                                    "scope": "unit-self",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sub-Sonic Pulser",
+                    "id": "d7e0-7ca6-4717-0b51",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "2cd0-74f7-ab32-caf4",
+                    "type": "selectionEntry",
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditionGroups": [
+                              {
+                                "type": "or",
+                                "conditions": [
+                                  {
+                                    "childId": "e62e-205e-9bf6-1b6a",
+                                    "childName": "Sonic Shriekers",
+                                    "field": "selections",
+                                    "includeChildSelections": true,
+                                    "scope": "unit-self",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  },
+                                  {
+                                    "childId": "4d1f-90b6-0b4e-dc3b",
+                                    "childName": "Sonic Lance",
+                                    "field": "selections",
+                                    "includeChildSelections": true,
+                                    "scope": "unit-self",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  }
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                              {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                              {
+                                "childId": "1cda-9bee-2268-998c",
+                                "childName": "Illrd Company Elite",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "d4b8-2b6d-8f77-fed4",
+                            "childName": "Traitor",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          },
+                          {"childId": "cf47-a0d7-7207-29dc", "childName": "Infantry", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "affects": "self.entries.recursive",
+                    "field": "51b2-306e-1021-d207",
+                    "type": "increment",
+                    "value": 10,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                              {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [{"childId": "cf47-a0d7-7207-29dc", "childName": "Infantry", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Iron Warrors Wargear",
+            "id": "b0bb-3b5d-39cd-67f5",
+            "hidden": false,
+            "sortIndex": 4,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "adc0-9d98-1048-380f",
+                    "childName": "Faction: Iron Warriors",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "White Scares Wargear",
+            "id": "b6d7-2314-2170-a012",
+            "hidden": false,
+            "sortIndex": 5,
+            "entryLinks": [
+              {
+                "name": "Cyber-Hawk",
+                "id": "7123-7422-50c1-d97e",
+                "hidden": false,
+                "import": true,
+                "targetId": "63bb-e98b-f924-f938",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "e7b3-9897-3713-b769",
+                    "childName": "Faction: White Scars",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Space Wolves Wargear",
+            "id": "80fc-5799-3d5e-5c15",
+            "hidden": false,
+            "sortIndex": 6,
+            "entryLinks": [
+              {
+                "name": "Æther-rune armour",
+                "id": "8cac-852a-178c-b77a",
+                "hidden": false,
+                "import": true,
+                "targetId": "04d0-d3d2-2912-e0be",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "740a-892c-8958-defa", "childName": "Terminator", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Jarl",
+                "id": "d96b-2c03-e6ad-c4d9",
+                "hidden": false,
+                "import": true,
+                "targetId": "356e-4ff5-48dd-fb5b",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [{"childId": "7266-2c3d-9c47-9965", "childName": "Preator", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "29ef-671c-cd27-d137",
+                    "childName": "Faction: Space Wolves",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Imperial Fists Wargear",
+            "id": "d8c6-42fd-b9c1-1b76",
+            "hidden": false,
+            "sortIndex": 7,
+            "entryLinks": [
+              {
+                "name": "Teleporter Strike",
+                "id": "364b-9fad-5502-a1ef",
+                "hidden": false,
+                "import": true,
+                "targetId": "2653-2281-69d0-082c",
+                "type": "selectionEntry",
+                "constraints": [{"id": "a080-e42e-a570-f59c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditionGroups": [
+                              {
+                                "type": "or",
+                                "conditionGroups": [
+                                  {
+                                    "type": "and",
+                                    "conditions": [
+                                      {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                                    ]
+                                  }
+                                ],
+                                "conditions": [{"childId": "740a-892c-8958-defa", "childName": "Terminator", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                              }
+                            ],
+                            "conditions": [
+                              {
+                                "childId": "bd89-be41-8410-6b0e",
+                                "childName": "Hammerfall strike force",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "force",
+                                "shared": true,
+                                "type": "lessThan",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ],
+                        "conditions": [{"childId": "cf47-a0d7-7207-29dc", "childName": "Infantry", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vigil Storm Shield",
+                "id": "36e9-b09b-9dd9-ab08",
+                "hidden": false,
+                "import": true,
+                "targetId": "975e-6098-f579-bef8",
+                "type": "selectionEntry",
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "98fe-589e-9ca5-e0c5",
+                    "childName": "Faction: Imperial Fist",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Night Lord Wargear",
+            "id": "41f2-2312-bc63-dadc",
+            "hidden": false,
+            "sortIndex": 8,
+            "entryLinks": [
+              {
+                "name": "Lords of Murder",
+                "id": "3341-b855-4724-2d87",
+                "hidden": false,
+                "import": true,
+                "targetId": "8702-bc41-8e2a-b332",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                  }
+                ]
+              },
+              {"name": "Prey Sight", "id": "b403-ebea-d73c-baa9", "hidden": false, "import": true, "targetId": "e158-6e2a-d56b-cf17", "type": "selectionEntry"},
+              {
+                "name": "Trophies of Judgement",
+                "id": "66d0-909d-0935-88db",
+                "hidden": false,
+                "import": true,
+                "targetId": "618b-71df-df29-7ebe",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "6eb8-5333-b60b-34be",
+                    "childName": "Faction: Night Lords",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Iron Hands Wargear",
+            "id": "abf0-d25f-dd1d-dae0",
+            "hidden": false,
+            "sortIndex": 10,
+            "entryLinks": [
+              {
+                "name": "Blessing Auto-Simulacra",
+                "id": "36c6-1e7c-fcf4-1d33",
+                "hidden": false,
+                "import": true,
+                "targetId": "124c-19ea-84a9-adf8",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "dbd4-63-af05-998",
+                            "childName": "Vehicle",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c97c-376-e2e0-1dd2",
+                            "childName": "Dreadnought",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cyber-familiar",
+                "id": "652c-5ef8-c9f7-3c1f",
+                "hidden": false,
+                "import": true,
+                "targetId": "8aac-724a-be85-0456",
+                "type": "selectionEntry",
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                              {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "dbd4-63-af05-998",
+                            "childName": "Vehicle",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Gorgon Armour",
+                "id": "9ad7-c16c-6eba-fcff",
+                "hidden": false,
+                "import": true,
+                "targetId": "7ac8-982b-3307-388a",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "2c18-6dec-8ad3-814a", "childName": "Gorgon", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  },
+                  {"affects": "self.entries.recursive", "field": "category", "scope": "parent", "type": "add", "value": "2c18-6dec-8ad3-814a"}
+                ]
+              },
+              {
+                "name": "Armatus Necrotechnika",
+                "id": "8244-f8d8-3777-5250",
+                "hidden": false,
+                "import": true,
+                "targetId": "8787-a84c-9782-9715",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "dbd4-63-af05-998",
+                            "childName": "Vehicle",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "notInstanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c97c-376-e2e0-1dd2",
+                            "childName": "Dreadnought",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "c619-2086-bbcf-69c9",
+                            "childName": "Fly",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "0f43-7982-b83d-0b83",
+                    "childName": "Faction: Iron Hands",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "World Eaters Wargear",
+            "id": "768e-6150-0e85-5fd7",
+            "hidden": false,
+            "sortIndex": 12,
+            "entryLinks": [
+              {
+                "name": "World Eater Beserker",
+                "id": "47d4-3bfe-da38-6276",
+                "hidden": false,
+                "import": true,
+                "targetId": "dca7-dc46-244a-a305",
+                "type": "selectionEntry",
+                "constraints": [{"id": "2b1c-9d84-1143-9388", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                              {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "13bf-2bee-3ae0-b414",
+                            "childName": "Psyker",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a67c-c2de-dd59-f398",
+                    "childName": "Faction: World Eaters",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Ultramrines Wargear",
+            "id": "4ceb-cf8b-3d68-7d75",
+            "hidden": false,
+            "sortIndex": 13,
+            "entryLinks": [
+              {
+                "name": "Mantle of Ultramar",
+                "id": "51b8-981a-608e-78a4",
+                "hidden": false,
+                "import": true,
+                "targetId": "4636-17e5-9624-de66",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "7266-2c3d-9c47-9965", "childName": "Preator", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "740a-892c-8958-defa", "childName": "Terminator", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Argyrum Pattern Boarding Sheild",
+                "id": "bb95-2d74-ffa0-45bf",
+                "hidden": false,
+                "import": true,
+                "targetId": "dc04-3e72-f90a-1dfa",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "3dc6-d243-9d6c-34b5",
+                    "childName": "Faction: Ultramarines",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Death Gaurd Wargear",
+            "id": "8c1f-7ca6-77cf-8340",
+            "hidden": false,
+            "sortIndex": 14,
+            "entryLinks": [
+              {
+                "name": "Toxin Bombs",
+                "id": "c1b0-5c3f-da01-1125",
+                "hidden": false,
+                "import": true,
+                "targetId": "58ff-185e-8d98-307c",
+                "type": "selectionEntry",
+                "constraints": [{"id": "6b4f-11dd-e578-977e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                              {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "d4b8-2b6d-8f77-fed4",
+                            "childName": "Traitor",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "a57d-f155-e1d8-5af2",
+                    "childName": "Faction: Death Gaurd",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Thousand Sons Wargear",
+            "id": "74b7-8799-9bc5-e62c",
+            "hidden": false,
+            "sortIndex": 15,
+            "entryLinks": [
+              {
+                "name": "Cult Arcana",
+                "id": "6910-915d-49ae-fbd2",
+                "hidden": false,
+                "import": true,
+                "targetId": "822e-d2ed-e1a8-60eb",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "b083-9f8c-045b-2b7b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "1955-5d59-ed7a-b9cc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "6f5a-7263-7d8b-3598",
+                    "childName": "Faction: Thousand Sons",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Word Bearers Wargear",
+            "id": "8a86-5207-e441-2717",
+            "hidden": false,
+            "sortIndex": 17,
+            "entryLinks": [
+              {
+                "name": "Dark Channelling",
+                "id": "d20e-19b4-d126-4a89",
+                "hidden": false,
+                "import": true,
+                "targetId": "273d-893d-6b33-4915",
+                "type": "selectionEntry",
+                "constraints": [{"id": "023f-d3f4-fe8a-aac5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                              {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                              {"childId": "c97c-376-e2e0-1dd2", "childName": "Dreadnought", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "d4b8-2b6d-8f77-fed4",
+                            "childName": "Traitor",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "8579-eeb1-7fa8-616c",
+                    "childName": "Faction: Word Bearers",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Salamander Wargear",
+            "id": "df01-c22c-5ef3-a0e2",
+            "hidden": false,
+            "sortIndex": 8,
+            "entryLinks": [
+              {
+                "name": "Mantle of the elder Drake",
+                "id": "f904-529a-db9b-e038",
+                "hidden": false,
+                "import": true,
+                "targetId": "619b-db24-5f3f-94b6",
+                "type": "selectionEntry",
+                "constraints": [{"id": "8133-ccbc-1bd3-418d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [{"childId": "7266-2c3d-9c47-9965", "childName": "Preator", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                  }
+                ]
+              },
+              {
+                "name": "Dragonscale Storm Sheild",
+                "id": "0ccd-b6e5-16a1-a339",
+                "hidden": false,
+                "import": true,
+                "targetId": "13bc-2816-b2a2-bfd8",
+                "type": "selectionEntry",
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Artificer and Flame",
+                "id": "4606-18bf-628f-eb99",
+                "hidden": false,
+                "import": true,
+                "targetId": "3ed4-132d-c3f9-6f73",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "db12-9883-625a-ac37",
+                    "childName": "Faction: Raven Guard",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Raven Gaurd Wargear",
+            "id": "5139-59c0-6cd7-b674",
+            "hidden": false,
+            "sortIndex": 19,
+            "entryLinks": [
+              {
+                "name": "Cameleoline",
+                "id": "4648-88bb-3410-cf73",
+                "hidden": false,
+                "import": true,
+                "targetId": "6782-7b03-8a20-e6b5",
+                "type": "selectionEntry",
+                "constraints": [{"id": "9b7e-0dd4-4b7d-1e65", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                              {"childId": "7266-2c3d-9c47-9965", "childName": "Preator", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [{"childId": "740a-892c-8958-defa", "childName": "Terminator", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Infravisor",
+                "id": "de1b-6aae-91b3-ca54",
+                "hidden": false,
+                "import": true,
+                "targetId": "636b-f5ef-43be-3ac6",
+                "type": "selectionEntry",
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "db12-9883-625a-ac37",
+                    "childName": "Faction: Raven Guard",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Alpha Legion Wargear",
+            "id": "6e23-766e-57dd-1cb8",
+            "hidden": false,
+            "sortIndex": 20,
+            "entryLinks": [
+              {
+                "name": "Power Dagger",
+                "id": "7036-b0f2-f304-3cd0",
+                "hidden": false,
+                "import": true,
+                "targetId": "8a7e-71ba-a368-c3b7",
+                "type": "selectionEntry",
+                "constraints": [{"id": "baad-c4c4-a6d0-e3c1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Venom Sphere",
+                "id": "2678-24bc-9a6e-343f",
+                "hidden": false,
+                "import": true,
+                "targetId": "f1b2-b6f9-f9af-d438",
+                "type": "selectionEntry",
+                "constraints": [{"id": "026d-9bdf-6b47-6b1c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "6e7b-9fb7-e118-3d4c",
+                    "childName": "Faction: Alpha Legion",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "White Scares Wargear",
+        "id": "8c72-127a-74fe-ffa0",
+        "hidden": false,
+        "sortIndex": 5,
+        "entryLinks": [
+          {
+            "name": "Cyber-Hawk",
+            "id": "d550-9216-3c2d-01da",
+            "hidden": false,
+            "import": true,
+            "targetId": "63bb-e98b-f924-f938",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "e7b3-9897-3713-b769",
+                "childName": "Faction: White Scars",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Space Wolves Wargear",
+        "id": "fd04-8cd9-2dc5-599c",
+        "hidden": false,
+        "sortIndex": 6,
+        "entryLinks": [
+          {
+            "name": "Æther-rune armour",
+            "id": "2bd9-2a33-ec1f-584a",
+            "hidden": false,
+            "import": true,
+            "targetId": "04d0-d3d2-2912-e0be",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Jarl",
+            "id": "e00d-8c38-71a1-b097",
+            "hidden": false,
+            "import": true,
+            "targetId": "356e-4ff5-48dd-fb5b",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "7266-2c3d-9c47-9965", "childName": "Preator", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "e7b3-9897-3713-b769",
+                "childName": "Faction: White Scars",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Imperial Fists Wargear",
+        "id": "b8a2-dc0b-09f2-e916",
+        "hidden": false,
+        "sortIndex": 7,
+        "entryLinks": [
+          {
+            "name": "Teleporter Strike",
+            "id": "59f6-a94e-5e6f-deab",
+            "hidden": false,
+            "import": true,
+            "targetId": "2653-2281-69d0-082c",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "740a-892c-8958-defa", "childName": "Terminator", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Vigil Storm Shield",
+            "id": "33cb-9e0f-97bd-3f5e",
+            "hidden": false,
+            "import": true,
+            "targetId": "975e-6098-f579-bef8",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "98fe-589e-9ca5-e0c5",
+                "childName": "Faction: Imperial Fist",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Terminator Sheilds",
+        "id": "a623-954f-0438-f601",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "name": "Vigil Storm Shield",
+            "id": "c399-76de-c24e-466a",
+            "hidden": false,
+            "import": true,
+            "targetId": "975e-6098-f579-bef8",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "98fe-589e-9ca5-e0c5",
+                    "childName": "Faction: Imperial Fist",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "affects": "self.entries.recursive",
+                "field": "51b2-306e-1021-d207",
+                "type": "decrement",
+                "value": 5,
+                "conditions": [{"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Iron Hands Wargear",
+        "id": "240b-c9f1-5ab2-7c7a",
+        "hidden": false,
+        "sortIndex": 10,
+        "entryLinks": [
+          {
+            "name": "Blessing Auto-Simulacra",
+            "id": "c3f5-c844-033c-a5ec",
+            "hidden": false,
+            "import": true,
+            "targetId": "124c-19ea-84a9-adf8",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "dbd4-63-af05-998",
+                        "childName": "Vehicle",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c97c-376-e2e0-1dd2",
+                        "childName": "Dreadnought",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cyber-familiar",
+            "id": "9132-2bd0-284a-fe5b",
+            "hidden": false,
+            "import": true,
+            "targetId": "8aac-724a-be85-0456",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Gorgon Armour",
+            "id": "aada-5585-d963-e23f",
+            "hidden": false,
+            "import": true,
+            "targetId": "7ac8-982b-3307-388a",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Armatus Necrotechnika",
+            "id": "27c9-fa4a-44f9-8cac",
+            "hidden": false,
+            "import": true,
+            "targetId": "8787-a84c-9782-9715",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "dbd4-63-af05-998",
+                        "childName": "Vehicle",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "notInstanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c97c-376-e2e0-1dd2",
+                        "childName": "Dreadnought",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      },
+                      {
+                        "childId": "c619-2086-bbcf-69c9",
+                        "childName": "Fly",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "0f43-7982-b83d-0b83",
+                "childName": "Faction: Iron Hands",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ultramrines Wargear",
+        "id": "63d5-ea0b-f090-7daa",
+        "hidden": false,
+        "sortIndex": 13,
+        "entryLinks": [
+          {
+            "name": "Mantle of Ultramar",
+            "id": "04af-00f3-eebc-912f",
+            "hidden": false,
+            "import": true,
+            "targetId": "4636-17e5-9624-de66",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "7266-2c3d-9c47-9965", "childName": "Preator", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "740a-892c-8958-defa", "childName": "Terminator", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Argyrum Pattern Boarding Sheild",
+            "id": "cd17-e9d5-d75f-5538",
+            "hidden": false,
+            "import": true,
+            "targetId": "dc04-3e72-f90a-1dfa",
+            "type": "selectionEntry",
+            "constraints": [{"id": "05b7-5798-2966-e089", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "3dc6-d243-9d6c-34b5",
+                "childName": "Faction: Ultramarines",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Alpha Legion Wargear",
+        "id": "58f7-53af-20fb-1be0",
+        "hidden": false,
+        "sortIndex": 20,
+        "entryLinks": [
+          {
+            "name": "Power Dagger",
+            "id": "35d6-6fc7-5c5c-e7dc",
+            "hidden": false,
+            "import": true,
+            "targetId": "8a7e-71ba-a368-c3b7",
+            "type": "selectionEntry",
+            "constraints": [{"id": "7392-9ebf-e7a3-1c2f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Venom Sphere",
+            "id": "c439-d793-e82c-eba8",
+            "hidden": false,
+            "import": true,
+            "targetId": "f1b2-b6f9-f9af-d438",
+            "type": "selectionEntry",
+            "constraints": [{"id": "dea7-da23-4278-b0f3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6e7b-9fb7-e118-3d4c",
+                "childName": "Faction: Alpha Legion",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Word Bearers Wargear",
+        "id": "213b-48ce-0e29-febc",
+        "hidden": false,
+        "sortIndex": 17,
+        "entryLinks": [
+          {
+            "name": "Dark Channelling",
+            "id": "01b4-1f53-9162-7302",
+            "hidden": false,
+            "import": true,
+            "targetId": "273d-893d-6b33-4915",
+            "type": "selectionEntry",
+            "constraints": [{"id": "9866-7468-ddd9-8954", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 25}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "c97c-376-e2e0-1dd2", "childName": "Dreadnought", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "d4b8-2b6d-8f77-fed4",
+                        "childName": "Traitor",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8579-eeb1-7fa8-616c",
+                "childName": "Faction: Word Bearers",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thousand Sons Wargear",
+        "id": "afea-0b8f-24ac-bbd3",
+        "hidden": false,
+        "sortIndex": 15,
+        "entryLinks": [
+          {
+            "name": "Cult Arcana",
+            "id": "8acd-7684-f98c-1baf",
+            "hidden": false,
+            "import": true,
+            "targetId": "822e-d2ed-e1a8-60eb",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "7e33-8c36-a4f1-b9d7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+              {"id": "2d5f-7d37-2181-b817", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6f5a-7263-7d8b-3598",
+                "childName": "Faction: Thousand Sons",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Death Gaurd Wargear",
+        "id": "d18e-ae91-9aa8-a7b5",
+        "hidden": false,
+        "sortIndex": 14,
+        "entryLinks": [
+          {
+            "name": "Toxin Bombs",
+            "id": "31db-123b-020b-20ad",
+            "hidden": false,
+            "import": true,
+            "targetId": "58ff-185e-8d98-307c",
+            "type": "selectionEntry",
+            "constraints": [{"id": "ae58-5c63-c10d-3182", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "d4b8-2b6d-8f77-fed4",
+                        "childName": "Traitor",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a57d-f155-e1d8-5af2",
+                "childName": "Faction: Death Gaurd",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "World Eaters Wargear",
+        "id": "74fc-f1ca-4f2e-7a9a",
+        "hidden": false,
+        "sortIndex": 12,
+        "entryLinks": [
+          {
+            "name": "World Eater Beserker",
+            "id": "c147-90bc-417a-5f61",
+            "hidden": false,
+            "import": true,
+            "targetId": "dca7-dc46-244a-a305",
+            "type": "selectionEntry",
+            "constraints": [{"id": "114e-5716-0272-895f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "13bf-2bee-3ae0-b414",
+                        "childName": "Psyker",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a67c-c2de-dd59-f398",
+                "childName": "Faction: World Eaters",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Night Lord Wargear",
+        "id": "1b16-80db-b937-3ccc",
+        "hidden": false,
+        "sortIndex": 8,
+        "entryLinks": [
+          {
+            "name": "Lords of Murder",
+            "id": "9e80-ea7b-ff69-d3fd",
+            "hidden": false,
+            "import": true,
+            "targetId": "8702-bc41-8e2a-b332",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ]
+          },
+          {"name": "Prey Sight", "id": "53c4-195f-db32-b5e0", "hidden": false, "import": true, "targetId": "e158-6e2a-d56b-cf17", "type": "selectionEntry"},
+          {
+            "name": "Trophies of Judgement",
+            "id": "084b-a907-2db5-b207",
+            "hidden": false,
+            "import": true,
+            "targetId": "618b-71df-df29-7ebe",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "6eb8-5333-b60b-34be",
+                "childName": "Faction: Night Lords",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Iron Warrors Wargear",
+        "id": "2f4d-5fce-b6c1-0a14",
+        "hidden": false,
+        "sortIndex": 4,
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "adc0-9d98-1048-380f",
+                "childName": "Faction: Iron Warriors",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Emperor's Children Wargear",
+        "id": "3216-5a41-2a6d-9c62",
+        "hidden": false,
+        "sortIndex": 2,
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "dbe9-1730-a459-534c",
+                "childName": "Faction: Emperor's Children",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Surgical Augments",
+            "id": "4795-eba1-f638-236c",
+            "hidden": false,
+            "constraints": [{"id": "1c2c-e0f6-34e3-2c92", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "entryLinks": [
+              {"name": "Sonic Lance", "id": "c372-e439-edab-6155", "hidden": false, "import": true, "targetId": "4d1f-90b6-0b4e-dc3b", "type": "selectionEntry"},
+              {"name": "Sonic Shriekers", "id": "b68d-29f9-d654-e67f", "hidden": false, "import": true, "targetId": "e62e-205e-9bf6-1b6a", "type": "selectionEntry"},
+              {"name": "Sub-Sonic Pulser", "id": "19c3-87ff-2762-0ad5", "hidden": false, "import": true, "targetId": "2cd0-74f7-ab32-caf4", "type": "selectionEntry"}
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "d4b8-2b6d-8f77-fed4",
+                        "childName": "Traitor",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Raven Gaurd Wargear",
+        "id": "2059-6182-c4ca-da2d",
+        "hidden": false,
+        "sortIndex": 19,
+        "entryLinks": [
+          {
+            "name": "Cameleoline",
+            "id": "b5b9-03a3-df81-c618",
+            "hidden": false,
+            "import": true,
+            "targetId": "6782-7b03-8a20-e6b5",
+            "type": "selectionEntry",
+            "constraints": [{"id": "c1fd-c44a-268f-a3b8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "7266-2c3d-9c47-9965", "childName": "Preator", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [{"childId": "740a-892c-8958-defa", "childName": "Terminator", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Infravisor",
+            "id": "d17f-cdd7-3030-c3c8",
+            "hidden": false,
+            "import": true,
+            "targetId": "636b-f5ef-43be-3ac6",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "db12-9883-625a-ac37",
+                "childName": "Faction: Raven Guard",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Salamander Wargear",
+        "id": "813c-d923-47e9-3070",
+        "hidden": false,
+        "sortIndex": 18,
+        "entryLinks": [
+          {
+            "name": "Mantle of the elder Drake",
+            "id": "e3cd-4065-491d-e48d",
+            "hidden": false,
+            "import": true,
+            "targetId": "619b-db24-5f3f-94b6",
+            "type": "selectionEntry",
+            "constraints": [{"id": "1337-d4c5-499b-6b32", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "7266-2c3d-9c47-9965", "childName": "Preator", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+              }
+            ]
+          },
+          {
+            "name": "Dragonscale Storm Sheild",
+            "id": "f755-59da-5f1f-5e3e",
+            "hidden": false,
+            "import": true,
+            "targetId": "13bc-2816-b2a2-bfd8",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [{"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Artificer and Flame",
+            "id": "ac16-b789-aaa9-2a23",
+            "hidden": false,
+            "import": true,
+            "targetId": "3ed4-132d-c3f9-6f73",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "db12-9883-625a-ac37",
+                "childName": "Faction: Raven Guard",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Jump Pack",
+        "id": "6078-c360-71dd-9376",
+        "hidden": false,
+        "entryLinks": [
+          {"name": "Warhawk Jumpack", "id": "bf68-355f-b973-95b0", "hidden": false, "import": true, "targetId": "74f4-d49a-f028-0bc7", "type": "selectionEntry"},
+          {
+            "name": "Corvid Pattern Jump Pack",
+            "id": "a30b-767e-d0b7-419d",
+            "hidden": false,
+            "import": true,
+            "targetId": "b158-674b-ef0d-ad03",
+            "type": "selectionEntry",
+            "constraints": [{"id": "d739-1af5-cc4c-a299", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0}],
+            "modifiers": [
+              {
+                "field": "d739-1af5-cc4c-a299",
+                "type": "increment",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "74f4-d49a-f028-0bc7",
+                    "childName": "Warhawk Jumpack",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "7266-2c3d-9c47-9965",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mobility",
+        "id": "fc71-836d-1c7d-c6ac",
+        "hidden": false,
+        "constraints": [{"id": "f60b-0a50-56fa-5089", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "entryLinks": [{"name": "Jump Pack", "id": "6c41-871f-278c-6aa2", "hidden": false, "import": true, "targetId": "6078-c360-71dd-9376", "type": "selectionEntryGroup"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "2a50-a99f-35d3-d8de", "childName": "Heavy", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "Dark Angels Wargear",
+        "id": "a136-b1f3-509a-c510",
+        "hidden": false,
+        "sortIndex": 1,
+        "entryLinks": [
+          {
+            "name": "Watcher in the Dark",
+            "id": "7a4d-7414-4be5-5841",
+            "hidden": false,
+            "import": true,
+            "targetId": "27bf-b652-bd2b-23df",
+            "type": "selectionEntry",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "1b89-2a11-284b-ccaa", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      },
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "14a0-40c9-2748-ae6e", "childName": "Mounted", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "dbd4-63-af05-998", "childName": "Vehicle", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
